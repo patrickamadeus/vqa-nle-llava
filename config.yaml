@@ -1,0 +1,47 @@
+### Model Parameters
+seed: 42
+llava:
+    model_path: liuhaotian/llava-v1.5-7b
+    params:
+        pair_count: 10
+lav2:
+    model_path: ./LLaMa-7B/
+    model_type: LORA-BIAS-7B
+    params:
+        pair_count: 10
+
+### Prompting
+prompt:
+    lr:
+        parent: ../prompt/LR/
+        filename: base
+    qg:
+        parent: ../prompt/QG/
+        filename: 3W_split
+    eval:
+        factoid: ../prompt/eval/factoid.txt
+        reasoning: ../prompt/eval/reasoning.txt
+        complete: ../prompt/eval/complete.txt
+
+### Image
+image_path: ../dataset/003.jpg
+
+### Result
+result:
+    llava:
+        lr_path: ../result//LLaVa/LR/
+        qg_path: ../result/LLaVa/QG/
+        json_path: ../result/LLaVa/json/
+    lav2:
+        lr_path: ../result/LLaMa-Adapter-V2/LR/
+        qg_path: ../result/LLaMa-Adapter-V2/QG/
+        json_path: ../result/LLaVa/json/
+        
+        
+### Eval
+eval:
+    factoid_prompt_path: ../eval/
+    llava:
+        model: openai/clip-vit-base-patch32
+        json_path: ../result/LLaVa/json/
+    

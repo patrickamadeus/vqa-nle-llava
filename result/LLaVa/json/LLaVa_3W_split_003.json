@@ -1,0 +1,72 @@
+[
+  {
+    "id": "003_0",
+    "description": "A group of people are gathered around a food truck, with some of them standing in line to order food.",
+    "question": "What is the purpose of the gathering around the food truck?",
+    "short_answer": "People are ordering food.",
+    "reasoned_answer": "People are gathering around the food truck to order food, which is a popular and convenient way to enjoy a meal on the go."
+  },
+  {
+    "id": "003_1",
+    "description": "A man is pushing a stroller, with a child sitting in it.",
+    "question": "Where is the man pushing the stroller?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The man is pushing the stroller in front of the food truck, likely to ensure the child's safety while he orders food."
+  },
+  {
+    "id": "003_2",
+    "description": "A woman is walking with a backpack, likely carrying her belongings.",
+    "question": "Where is the woman walking with her backpack?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The woman is walking with her backpack in front of the food truck, possibly on her way to a nearby destination."
+  },
+  {
+    "id": "003_3",
+    "description": "A person is riding a bicycle, passing by the food truck.",
+    "question": "Where is the person riding the bicycle?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is riding the bicycle in front of the food truck, likely as a mode of transportation to the truck or to another destination."
+  },
+  {
+    "id": "003_4",
+    "description": "A person is holding a cell phone, possibly checking messages or taking a photo.",
+    "question": "Where is the person holding a cell phone?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is holding a cell phone in front of the food truck, possibly checking messages, browsing the internet, or taking a photo."
+  },
+  {
+    "id": "003_5",
+    "description": "A person is wearing a backpack, possibly carrying their belongings.",
+    "question": "Where is the person wearing a backpack?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is wearing a backpack in front of the food truck, likely carrying their belongings or personal items."
+  },
+  {
+    "id": "003_6",
+    "description": "A person is wearing a hat, possibly for sun protection.",
+    "question": "Where is the person wearing a hat?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is wearing a hat in front of the food truck, possibly for sun protection or as a fashion accessory."
+  },
+  {
+    "id": "003_7",
+    "description": "A person is wearing a shirt, possibly indicating their profession or personal preference.",
+    "question": "Where is the person wearing a shirt?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is wearing a shirt in front of the food truck, possibly indicating their profession or personal preference."
+  },
+  {
+    "id": "003_8",
+    "description": "A person is wearing a tie, possibly indicating a formal occasion or their profession.",
+    "question": "Where is the person wearing a tie?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is wearing a tie in front of the food truck, possibly indicating a formal occasion or their profession."
+  },
+  {
+    "id": "003_9",
+    "description": "A person is wearing a necklace, possibly as a fashion accessory or personal statement.",
+    "question": "Where is the person wearing a necklace?",
+    "short_answer": "In front of the food truck.",
+    "reasoned_answer": "The person is wearing a necklace in front of the food truck, possibly as a fashion accessory or personal statement."
+  }
+]

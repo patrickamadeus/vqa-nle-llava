@@ -1,0 +1,92 @@
+[
+  {
+    "id": "003_0",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 1
+  },
+  {
+    "id": "003_1",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  },
+  {
+    "id": "003_2",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  },
+  {
+    "id": "003_3",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  },
+  {
+    "id": "003_4",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  },
+  {
+    "id": "003_5",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  },
+  {
+    "id": "003_6",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 2
+  },
+  {
+    "id": "003_7",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 1
+  },
+  {
+    "id": "003_8",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 2
+  },
+  {
+    "id": "003_9",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 3,
+    "plausibility": 2
+  }
+]

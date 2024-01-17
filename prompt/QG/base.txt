@@ -1,0 +1,4 @@
+Descriptions:
+{desc}
+
+Create a {number} set of question-answer pairs based on the following descriptions. For each description, generate a question that involves complex reasoning, utilizing a mix of 'WHAT,' and 'WHERE' type questions equally. 

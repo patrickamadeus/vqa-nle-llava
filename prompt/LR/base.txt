@@ -1,0 +1,1 @@
+Provide {number} distinct and detailed descriptions of the image, ensuring that each description includes comprehensive explanations of the various elements within the image. Present the descriptions as a numbered list.

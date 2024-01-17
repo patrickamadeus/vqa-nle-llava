@@ -1,0 +1,6 @@
+dataset/
+.ipynb_checkpoints
+__pycache__/
+LAVIS/
+LLaMA-Adapter-V2/LLaMA-7B/
+*/ckpts/
