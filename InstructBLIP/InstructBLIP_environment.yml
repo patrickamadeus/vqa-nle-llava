@@ -1,4 +1,0 @@
-name: patrick_instruct_blip
-channels:
-  - conda-forge
-prefix: /opt/conda/envs/patrick_instruct_blip

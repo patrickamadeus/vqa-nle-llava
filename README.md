@@ -7,10 +7,14 @@
     ```
     conda env export > environment.yml
     ```
-    
 - Create environment
     ```
-    conda create env -f environment.yml -n llava_env
+    conda create --name my_env python=x.xx
+    ```
+    NB : ALWAYS SPECIFY PYTHON VERSION TO CREATE `PIP` AND TO AVOID GLOBAL PACKAGE INSTALLMENT
+- Create environment from file
+    ```
+    conda env create -f environment.yml -n llava_env
     ```
 
 - Create `ipykernel`

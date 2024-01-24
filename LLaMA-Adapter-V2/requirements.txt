@@ -1,8 +1,0 @@
-fairscale
-sentencepiece
-Pillow
-opencv-python
-gradio
-tqdm
-git+https://github.com/csuhan/timm_0_3_2.git
-git+https://github.com/openai/CLIP.git
