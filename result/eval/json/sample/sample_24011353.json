@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What time does the photo is taken?",
+    "short_answer": "Approximately at afternoon around 1 PM",
+    "reasoned_answer": "Because it is very sunny and there is no existence of cloud"
+  },
+  {
+    "id": 2.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "Why the man carrying a purple backpack?",
+    "short_answer": "Because he is carrying things for the baby",
+    "reasoned_answer": "The man is pushing a stroller, which indicates apparent existence of a baby then he carries the things to clean up the baby"
+  },
+  {
+    "id": 3.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "Why there is a lobster logo on the middle food truck?",
+    "short_answer": "Because it is selling a lobster",
+    "reasoned_answer": "Because there is a lobster logo on it."
+  },
+  {
+    "id": 4.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What thing is between the pillars?",
+    "short_answer": "A tree",
+    "reasoned_answer": "Because the shapes is like a tree with many leaves surrounding the thing"
+  },
+  {
+    "id": 5.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What is the object on top of the gate?",
+    "short_answer": "Black statues",
+    "reasoned_answer": "Because there is an abstract formation on the top of the building that is human-shaped"
+  },
+  {
+    "id": 6.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "How many car exists in the image?",
+    "short_answer": "Four cars",
+    "reasoned_answer": "There is one on the middle, one on the middle-left, one on the right side, and the last one is on the back of image"
+  },
+  {
+    "id": 7.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What is the tall thing on the leftside of the image?",
+    "short_answer": "A flag pole",
+    "reasoned_answer": "Because there is a flag attached on the top of it and the material is made of steel just like usual pole."
+  },
+  {
+    "id": 8.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "Where are the trucks parked?",
+    "short_answer": "On sidewalk",
+    "reasoned_answer": "There is a color different compared with the main road"
+  },
+  {
+    "id": 9.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What is the object on the left side of the gate?",
+    "short_answer": "A flag",
+    "reasoned_answer": "There are two fabrics that are attached to the flag pole similar with flag"
+  },
+  {
+    "id": 10.0,
+    "subject_id": 1.0,
+    "img_id": "sample_001",
+    "time": 538.0,
+    "question": "What is the object on the blue background of the image?",
+    "short_answer": "Clouds",
+    "reasoned_answer": "The object's shape are like clouds and it floats in the blue sky"
+  },
+  {
+    "id": 11.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "What is the brand of the laptop?",
+    "short_answer": "Apple",
+    "reasoned_answer": "The brand of the laptop is apple because there is an apple logo located on the laptop's lid"
+  },
+  {
+    "id": 12.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "How many perfume located on the tray?",
+    "short_answer": "Zero",
+    "reasoned_answer": "There is no perfume on the tray, instead there are other things such as calendar and box"
+  },
+  {
+    "id": 13.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "Why there is a calendar on the tray?",
+    "short_answer": "The calendar is used to show date",
+    "reasoned_answer": "The calendar is used to show date, possibly the person who owns the table is a student or employee."
+  },
+  {
+    "id": 14.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "How many pens are there on the stationery tray?",
+    "short_answer": "There are 3 pens",
+    "reasoned_answer": "There are 3 pens with other stuffs such as scissors, markers, and rulers."
+  },
+  {
+    "id": 15.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "What is the object on the pink chair?",
+    "short_answer": "There is a backpack on the pink chair",
+    "reasoned_answer": "There is a black backpack with logo on it on the pink chair"
+  },
+  {
+    "id": 16.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "What are the objects on the tray?",
+    "short_answer": "There are headset, boxes, calendar, and casette",
+    "reasoned_answer": "There is a calendar in the front of the tray, box behind, and headset on the leftside of the tray"
+  },
+  {
+    "id": 17.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "How many rulers are there inside the black stationery tray?",
+    "short_answer": "There are 4 rulers inside the stationery tray",
+    "reasoned_answer": "There are 4 rulers located on the back of the tray, middle side of the tray which is the triangle-shaped one, the flexible ruler with blue color, and the longest one behind the tray"
+  },
+  {
+    "id": 18.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "How many perfumes are there on the table?",
+    "short_answer": "There is 1 perfume",
+    "reasoned_answer": "There is one perfume bottle with black color between the green and black tray"
+  },
+  {
+    "id": 19.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "How many fans are there on the table?",
+    "short_answer": "There are 2 fans on the table",
+    "reasoned_answer": "There are 2 fans on the table, one is round-shaped and the other one is folded"
+  },
+  {
+    "id": 20.0,
+    "subject_id": 2.0,
+    "img_id": "sample_008",
+    "time": 547.0,
+    "question": "What is the color of the wall?",
+    "short_answer": "The color of the wall is light yellow",
+    "reasoned_answer": "The color of the wall is light yellow with several ornaments on it"
+  },
+  {
+    "id": 21.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "What is the season of the place?",
+    "short_answer": "The season is summer",
+    "reasoned_answer": "The season is summer because the weather is sunny and the sky is blue"
+  },
+  {
+    "id": 22.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "Is there any event going on in the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "Yes, there is an event because of the high volume of people attending the landmark"
+  },
+  {
+    "id": 23.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "Which country is the event going on?",
+    "short_answer": "Germany",
+    "reasoned_answer": "The image is located in Germany because there is the Berlin gate in the photo"
+  },
+  {
+    "id": 24.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "How civilized is the country inside the image?",
+    "short_answer": "The civilization is developed",
+    "reasoned_answer": "The civilization of the country inside the image is developed because of the cleanliness and the arrangement of pedestrian pavement"
+  },
+  {
+    "id": 25.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "Is there any statue in the image?",
+    "short_answer": "Yes, there are statues in the image",
+    "reasoned_answer": "There are horses and mans statues in the image, possibly to serve as a heroic symbolic"
+  },
+  {
+    "id": 26.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "How many workers there are in the red food truck?",
+    "short_answer": "There are 2 workers in the red food truck",
+    "reasoned_answer": "There are 2 workers in the red food truck, one of them is cooking the meal and the other one is serving people"
+  },
+  {
+    "id": 27.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "How many people that are lining up in front of food truck?",
+    "short_answer": "There are 7 people lining up in front of the food truck",
+    "reasoned_answer": "There are 7 people gathering together to line up in front of the food truck, possibly waiting for the food that they have ordered"
+  },
+  {
+    "id": 28.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "What is the object behind the sign?",
+    "short_answer": "The object behind the sign is a person",
+    "reasoned_answer": "The object behind the sign is a person because of the re is a cloth and color of the skin that forms a human"
+  },
+  {
+    "id": 29.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "What is the meaning of the sign on leftside of the photo?",
+    "short_answer": "The sign on the leftside of the photo is a bakery sign",
+    "reasoned_answer": "The sign on the photo is a bakery sign because there are several bakery menus written on the sign"
+  },
+  {
+    "id": 30.0,
+    "subject_id": 3.0,
+    "img_id": "sample_001",
+    "time": 450.0,
+    "question": "What is the purpose of truck that is located in the middle of the road?",
+    "short_answer": "Food truck",
+    "reasoned_answer": "The truck that is located in the middle of the road is a food truck, possibly serving food for people there"
+  },
+  {
+    "id": 31.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "In what continent does this event occur?",
+    "short_answer": "Europe",
+    "reasoned_answer": "The landmark that is shown in the image is similar to statues located in the Europe, hence the event occurs most likely in Europe"
+  },
+  {
+    "id": 32.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is the type of the middle truck?",
+    "short_answer": "A food truck",
+    "reasoned_answer": "It is a food truck because there is a lobster image on the truck and people are lining up for food."
+  },
+  {
+    "id": 33.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "How many trucks are there?",
+    "short_answer": "There are 4 trucks.",
+    "reasoned_answer": "There are 4 trucks located in the area, the first truck is on the bottom right of the image, the second one is on the right behind, the third one is in the middle, and the last one is on the left behind"
+  },
+  {
+    "id": 34.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is the text written on the sign?",
+    "short_answer": "It is about selling bakery products",
+    "reasoned_answer": "The sign on the photo is a bakery sign because there are several bakery menus written on the sign"
+  },
+  {
+    "id": 35.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is the man wearing?",
+    "short_answer": "The man is wearing white shirt",
+    "reasoned_answer": "The man is wearing white shirt and pushing a stroller, possibly he has a child and going somewhere"
+  },
+  {
+    "id": 36.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "Are there a lot of people in the photo?",
+    "short_answer": "There are a lot of people in the photo",
+    "reasoned_answer": "There are a lot of people in the photo enjoying the scenes and buying food in front of the truck"
+  },
+  {
+    "id": 37.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What Is the object in front of black and white food truck?",
+    "short_answer": "A flag pole",
+    "reasoned_answer": "There is a flag pole in front of the black and white food truck"
+  },
+  {
+    "id": 38.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is the object on the right side of the gate?",
+    "short_answer": "A building",
+    "reasoned_answer": "There is a building on the right side of the gate with many floors and windows"
+  },
+  {
+    "id": 39.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is the color of backpack the man with the stroller wear?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The man with the stroller wears purple backpack, possibly carrying stuffs to be used for the baby"
+  },
+  {
+    "id": 40.0,
+    "subject_id": 4.0,
+    "img_id": "sample_001",
+    "time": 512.0,
+    "question": "What is in front of the food truck?",
+    "short_answer": "A group of people",
+    "reasoned_answer": "There is a group of people in front of food truck ordering foods"
+  },
+  {
+    "id": 41.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "How many people that are leaning on the railing?",
+    "short_answer": "4",
+    "reasoned_answer": "There are 4 mans leaning on the railing on the second floor"
+  },
+  {
+    "id": 42.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the most apparent object in the middle of the image?",
+    "short_answer": "A doll",
+    "reasoned_answer": "There is one big doll that is like a cartoon doll in the middle of image"
+  },
+  {
+    "id": 43.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the tallest object in the image?",
+    "short_answer": "A tree",
+    "reasoned_answer": "There is a tree with ornament on it that is very tall."
+  },
+  {
+    "id": 44.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the situation of the place in the image?",
+    "short_answer": "There are a lot of people",
+    "reasoned_answer": "There are a lot of people in the scene, possibly attending an event"
+  },
+  {
+    "id": 45.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the text on the tallest object in the image?",
+    "short_answer": "PIK",
+    "reasoned_answer": "There is a PIK text on the top of the Christmas tree"
+  },
+  {
+    "id": 46.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "When is this photo taken?",
+    "short_answer": "The photo is taken in the afternoon",
+    "reasoned_answer": "The photo is taken in the afternoon because there is a clear sunray from the window"
+  },
+  {
+    "id": 47.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "How many floors are there in the building?",
+    "short_answer": "3 floors",
+    "reasoned_answer": "On the first floor there are a lot of people, on the second floor there are people leaning on the railing, on the third floor there is a platform that looks like a window. Hence, there are 3 floors in the building."
+  },
+  {
+    "id": 48.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the language of the text written on the yellow board?",
+    "short_answer": "Japanese",
+    "reasoned_answer": "Because of the text written in Japanese Kanji and referred to the cartoon"
+  },
+  {
+    "id": 49.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "What is the object that is used by the person on the face?",
+    "short_answer": "A mask",
+    "reasoned_answer": "The object that is used by the person is mask because of the shape that covers the face and is white-colored"
+  },
+  {
+    "id": 50.0,
+    "subject_id": 5.0,
+    "img_id": "sample_007",
+    "time": 145.0,
+    "question": "How many pillars are there on the second floor of the building?",
+    "short_answer": "4",
+    "reasoned_answer": "There are 4 cylinders on the second floor that holds the platforms"
+  },
+  {
+    "id": 51.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "What kind of thing is the owner of this place selling?",
+    "short_answer": "The owner of this place is selling Italian dish",
+    "reasoned_answer": "The owner of this place is selling italian dish because of the existence of pizza tray, tomato sauce, and other supporting utensils."
+  },
+  {
+    "id": 52.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "Who is the owner of the kitchen?",
+    "short_answer": "The owner of the kitchen is most likely a woman",
+    "reasoned_answer": "The owner of the kitchen is most likely a woman because there is a woman photo that hangs on the fridge"
+  },
+  {
+    "id": 53.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "What time does the photo is taken?",
+    "short_answer": "In the afternoon",
+    "reasoned_answer": "The photo is taken in the afternoon because there is a clear sunray from the window"
+  },
+  {
+    "id": 54.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "Is this photo taken lately?",
+    "short_answer": "No",
+    "reasoned_answer": "This photo is taken a while ago since the quality is not good and the objects inside the image are relatively old"
+  },
+  {
+    "id": 55.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "Which part of the kitchen is the most activity conducted in?",
+    "short_answer": "The busiest part of the kitchen is on the right side",
+    "reasoned_answer": "The busiest part of the kitchen is on the right side because the wall is dirtier compared with other parts of the kitchen"
+  },
+  {
+    "id": 56.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "What is the purpose of the black colored object with string?",
+    "short_answer": "A plate for snacks",
+    "reasoned_answer": "The black colored object with strings are plates for snack or small food."
+  },
+  {
+    "id": 57.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "Where people usually fry in this kitchen?",
+    "short_answer": "On the right side of the kitchen",
+    "reasoned_answer": "Because the wall is dirty and black as the result of the smoke and there is an exhaust void on the top of it"
+  },
+  {
+    "id": 58.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "What is this place?",
+    "short_answer": "This is a kitchen",
+    "reasoned_answer": "This is a kitchen because there are utensils and plates to serve food"
+  },
+  {
+    "id": 59.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "What is the material of the cabinet?",
+    "short_answer": "The material of the cabinet is wood",
+    "reasoned_answer": "The material of the cabiner is wood because the color is brown and we can see grain pattern on the top of it"
+  },
+  {
+    "id": 60.0,
+    "subject_id": 6.0,
+    "img_id": "sample_005",
+    "time": 296.0,
+    "question": "Is there any people in the kitchen?",
+    "short_answer": "No, there is no people",
+    "reasoned_answer": "There is no people in the picture, instead, there are kitchen utensils and appliances"
+  },
+  {
+    "id": 61.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What time does the photo is taken?",
+    "short_answer": "Approximately between morning and afternoon",
+    "reasoned_answer": "The photo is taken in between morning or afternoon because the window is bright"
+  },
+  {
+    "id": 62.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "Who is the owner of this space?",
+    "short_answer": "The owner of this space is most likely an elder",
+    "reasoned_answer": "The owner of this space is most likely an elder because of the antique stuffs and old metals"
+  },
+  {
+    "id": 63.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What kind of person does this room represent?",
+    "short_answer": "This room represents a creative person",
+    "reasoned_answer": "This room represents a creative person because the room is disorganized"
+  },
+  {
+    "id": 64.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What is the material of the table?",
+    "short_answer": "The material of the table is wood",
+    "reasoned_answer": "The material is wood because of the brown color and the grain pattern of the table"
+  },
+  {
+    "id": 65.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What is the exact time this photo was taken?",
+    "short_answer": "The photo is taken at 1 PM",
+    "reasoned_answer": "The photo is taken at 1 PM because there is a clock that shows the time at 1 PM"
+  },
+  {
+    "id": 66.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What is the material of the cabinet handle?",
+    "short_answer": "The material of the cabinet handle is metal",
+    "reasoned_answer": "The material is metal because it is shiny and glossy"
+  },
+  {
+    "id": 67.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "How many clocks are there in the photo?",
+    "short_answer": "There are 2 clocks",
+    "reasoned_answer": "There are 2 apparent clocks in the image"
+  },
+  {
+    "id": 68.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "Is it an apartment or a house?",
+    "short_answer": "An apartment",
+    "reasoned_answer": "This is an apartment because the view indicates that there are several tall buildings surrounding the space"
+  },
+  {
+    "id": 69.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "Are the books old?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The books are old because their colors have already degraded and looks vintage"
+  },
+  {
+    "id": 70.0,
+    "subject_id": 6.0,
+    "img_id": "sample_009",
+    "time": 358.0,
+    "question": "What object does the spot light from the lamp fall on?",
+    "short_answer": "A compass",
+    "reasoned_answer": "The lamp ray points to the compass object"
+  },
+  {
+    "id": 71.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the function of black object located on the top of the tray?",
+    "short_answer": "A filter",
+    "reasoned_answer": "It is a filter to filter a suspension or liquid with pores to hold the debris"
+  },
+  {
+    "id": 72.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What time does the photo is taken?",
+    "short_answer": "Between morning until afternoon",
+    "reasoned_answer": "The photo is taken between morning until afternoon because there is a sunray"
+  },
+  {
+    "id": 73.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "Where is the photo taken?",
+    "short_answer": "In a kitchen",
+    "reasoned_answer": "This is a kitchen because there are utensils and plates to serve food"
+  },
+  {
+    "id": 74.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is a green pole on the left side of the image?",
+    "short_answer": "A pipe",
+    "reasoned_answer": "It is a pipe because of the cylindric shape, possibly for water flow since it is a restaurant"
+  },
+  {
+    "id": 75.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the paper attached on the fridge door?",
+    "short_answer": "The paper is a menu",
+    "reasoned_answer": "There are menu on the fridge door, possibly as recipe reference for the cooker"
+  },
+  {
+    "id": 76.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the object behind the black plates?",
+    "short_answer": "A box",
+    "reasoned_answer": "The object behind the black plate is a box to store small objects and plastic container"
+  },
+  {
+    "id": 77.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the object that is hung beside the table?",
+    "short_answer": "It is a plastic bag",
+    "reasoned_answer": "The object that is hung beside the table is a plastic bag to keep beverages"
+  },
+  {
+    "id": 78.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the objects stored below the table?",
+    "short_answer": "Plates and bowls",
+    "reasoned_answer": "There are plates and bowls under the table, possibly used to serve guest food"
+  },
+  {
+    "id": 79.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the object inside round container?",
+    "short_answer": "Milk",
+    "reasoned_answer": "The round container is used to store milk because of the liquid form, possibly used as the ingredient to cook dishes"
+  },
+  {
+    "id": 80.0,
+    "subject_id": 7.0,
+    "img_id": "sample_005",
+    "time": 330.0,
+    "question": "What is the objects that floats and hung on the metalic frame?",
+    "short_answer": "US Dollar",
+    "reasoned_answer": "There are US Dollars on the middle of the frame, possibly those are the changes from restaurant transactions"
+  },
+  {
+    "id": 81.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "How many pies are there on the table?",
+    "short_answer": "4",
+    "reasoned_answer": "There are 4 pies on the table in the round aluminum trays on the left side of the table"
+  },
+  {
+    "id": 82.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "How many type of vegetables are there on the table?",
+    "short_answer": "2",
+    "reasoned_answer": "There are 2 types of vegetable, one is an assorted vegetable inside big black tray, and the other one is carrot with peas inside 2 transparent bowls"
+  },
+  {
+    "id": 83.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "How many plates of bread are there?",
+    "short_answer": "3",
+    "reasoned_answer": "There is 2 plates of bread on the table with one of them being only partially visible, and the other one is the furthest away on the table"
+  },
+  {
+    "id": 84.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "What is the shape of the table?",
+    "short_answer": "Oval",
+    "reasoned_answer": "The shape of the table is an oval because it has no edge and is determined by the distribution of the beverages "
+  },
+  {
+    "id": 85.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "What picture is on the transparent bowl located on the right bottom of the table?",
+    "short_answer": "A giraffe",
+    "reasoned_answer": "There is giraffe picture on the transparent bowl because it is a tall and yellow animal with brown spots on its body"
+  },
+  {
+    "id": 86.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "What is the dish on the top right of the table?",
+    "short_answer": "Ratatouille",
+    "reasoned_answer": "The dish is ratatouille because it is a bunch of vegetable slices with alternating colors"
+  },
+  {
+    "id": 87.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "What is inside the bowl with the gravy sauce?",
+    "short_answer": "A ladle",
+    "reasoned_answer": "There is a ladle inside the gravy sauce, possibly used to scoop a big portion of sauce"
+  },
+  {
+    "id": 88.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "How many bowls of corn are there?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one bowl of corn on the right side of the table"
+  },
+  {
+    "id": 89.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "Where is the photo taken?",
+    "short_answer": "The photo is taken inside a house",
+    "reasoned_answer": "The photo is taken inside a house surrounded by wall and cabinet on the back"
+  },
+  {
+    "id": 90.0,
+    "subject_id": 8.0,
+    "img_id": "sample_002",
+    "time": 466.0,
+    "question": "Is the scene indoor or outdoor?",
+    "short_answer": "Indoor",
+    "reasoned_answer": "The scene is likely to be indoor because of the lighting position and also the surrounding objects"
+  },
+  {
+    "id": 91.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the vegetable in the transparent bowl?",
+    "short_answer": "Carrot and beans",
+    "reasoned_answer": "There is an orange-colored vegetables and long green vegetable that is similar with beans"
+  },
+  {
+    "id": 92.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the dominant color of the food on the aluminum tray?",
+    "short_answer": "Green",
+    "reasoned_answer": "Most of the vegetables on the aluminum tray are green-colored with many leaves"
+  },
+  {
+    "id": 93.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "How many aluminum bowls are there on the wooden table?",
+    "short_answer": "4",
+    "reasoned_answer": "On the top left of the table, there are 4 aluminum bowls"
+  },
+  {
+    "id": 94.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the object behind the table?",
+    "short_answer": "A wooden door",
+    "reasoned_answer": "There are two doors surrounded by its frames"
+  },
+  {
+    "id": 95.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the food inside the white round bowl?",
+    "short_answer": "Corn",
+    "reasoned_answer": "There are small beans with yellow color inside the bowl"
+  },
+  {
+    "id": 96.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the food on the table that is yellow-colored?",
+    "short_answer": "Mashed Potato",
+    "reasoned_answer": "The mashed potato has soft edxture and the color is light yellow"
+  },
+  {
+    "id": 97.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the object on the wall?",
+    "short_answer": "A lamp switch",
+    "reasoned_answer": "The shape of the object is square and there is a button that can be pressed."
+  },
+  {
+    "id": 98.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the most apparent bowl on the table in terms of color?",
+    "short_answer": "A green bowl",
+    "reasoned_answer": "The green bowl has the most different color compared with other bowls"
+  },
+  {
+    "id": 99.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "How many kind of sauces on the table?",
+    "short_answer": "1",
+    "reasoned_answer": "There is one gravy sauce beside the mashed potato in the middle of the table"
+  },
+  {
+    "id": 100.0,
+    "subject_id": 1.0,
+    "img_id": "sample_002",
+    "time": 421.0,
+    "question": "What is the name of vegetable with round shape on the white plate?",
+    "short_answer": "Tomato",
+    "reasoned_answer": "The vegetable is tomato because the shape is circle and the color is red"
+  }
+]
