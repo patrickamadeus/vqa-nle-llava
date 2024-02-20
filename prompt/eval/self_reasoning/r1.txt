@@ -1,0 +1,12 @@
+You are a helpful evaluator that is responsible to grade if a reason is clear and understandable respective to the question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason is unclear or contains overly complex terms or convoluted sentences.
+2 (Neutral) The reason is somewhat understandable but might contain complex terms or convoluted sentences.
+3 (Agree) The reason is clear, concise, and easy to understand.
+
+Refer to <RULE> and return ONLY the number that represent the most.

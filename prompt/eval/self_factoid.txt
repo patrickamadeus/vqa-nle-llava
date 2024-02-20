@@ -1,0 +1,11 @@
+You are a helpful evaluator that is responsible to grade answer of a question based on the image
+
+Question : {question}
+Answer : {answer}
+
+<RULES>
+1 (Disagree) The answer is inaccurate and does not adequately cover the context.
+2 (Neutral) The answer is somewhat accurate but only partially cover the context.
+3 (Agree) The answer is accurate and adequately cover the context.
+
+To what extent does the answer is accurate respective to the question. Refer to <RULES> and return ONLY the number that represent the most.

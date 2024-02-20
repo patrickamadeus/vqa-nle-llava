@@ -1,18 +1,17 @@
 ### Model Parameters
-seed: 42
+seed: 32
 llava:
-    model_path: liuhaotian/llava-v1.5-7b
-    params:
-        pair_count: 10
-lav2:
-    model_path: ./model/LLaMa-7B/
-    model_type: LORA-BIAS-7B
-    params:
-        pair_count: 10
-bakllava:
-    model_path: llava-hf/bakLlava-v1-hf
-    params:
-        pair_count: 10
+    model_name: llava-1.5-13b-hf
+    model_path: llava-hf/llava-1.5-13b-hf
+    model_params:
+        pair_count: 15
+    result:
+        lr_path: ../result/inference/{model_name}/LR/
+        qg_path: ../result/inference/{model_name}/QG/
+        json_path: ../result/inference/{model_name}/json/
+        story_path: ../result/inference/{model_name}/story/
+        qgstory_path: ../result/inference/{model_name}/qgstory/
+        str8_path: ../result/inference/{model_name}/str8/
 
 
 ### Prompting (updated)
@@ -23,6 +22,13 @@ prompt:
     qg:
         parent: ../prompt/QG/
         filename: 3W_split.txt
+    str8:
+        parent: ../prompt/str8/
+        filename: base.txt
+    qgstory:
+        parent: ../prompt/qgstory/
+        story_filename: story_base.txt
+        qg_filename: gen_base.txt
     eval:
         parent: ../../prompt/eval/
         factoid: factoid.txt
@@ -31,30 +37,32 @@ prompt:
 
 ### Image
 image_path: ../dataset/sample/sample_001.jpg
-
-### Result
-result:
-    llava:
-        lr_path: ../result/inference/LLaVa/LR/
-        qg_path: ../result/inference/LLaVa/QG/
-        json_path: ../result/inference/LLaVa/json/
-    lav2:
-        lr_path: ../result/inference/LLaMa-Adapter-V2/LR/
-        qg_path: ../result/inference/LLaMa-Adapter-V2/QG/
-        json_path: ../result/inference/LLaMa-Adapter-V2/json/
-    bakllava:
-        lr_path: ../result/inference/BakLLaVa/LR/
-        qg_path: ../result//inference/BakLLaVa/QG/
-        json_path: ../result/inference/BakLLaVa/json/
+image_dataset: sample
         
         
 ### Eval
 eval:
-    factoid_prompt_path: ../eval/
-    sample:
-        json_parent: ./json/sample/
-        json_filename: sample_24011309.json
-    llava:
-        model: openai/clip-vit-base-patch32
-        json_path: ../result/LLaVa/json/
+    result_model_name: sample
+    result_json: sample_24011353.json
+    
+    img_dir: ../dataset/{image_dataset}/
+    result_dir: ../result/inference/{model_name}/json/{result_json}
+    
+    evaluator_model_path: llava-hf/llava-1.5-13b-hf
+    factoid_prompt: ../prompt/eval/self_factoid.txt
+    reasoning_prompt: ../prompt/eval/self_reasoning.txt
+    r0: ../prompt/eval/self_reasoning/r0.txt
+    r1: ../prompt/eval/self_reasoning/r1.txt
+    r2: ../prompt/eval/self_reasoning/r2.txt
+    r3: ../prompt/eval/self_reasoning/r3.txt
+    r4: ../prompt/eval/self_reasoning/r4.txt
+    eval_result_path: ../result/eval/
+    
+#     sample:
+#         img_parent: ./dataset/sample/
+#         json_parent: ./json/sample/
+#         json_filename: sample_24011309.json
+#     llava:
+#         model: openai/clip-vit-base-patch32
+#         json_path: ../result/LLaVa/json/
     

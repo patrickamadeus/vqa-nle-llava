@@ -1,0 +1,9 @@
+Generate questions that involves complex reasoning with an equal mix of 'WHAT,' 'WHERE', and 'WHO'. For each question, generate a short factoid answer and long answer that contains the reason of short answer pick.
+    
+What are {number} possible questions-answers about the image?
+
+Present the question-answer pairs in format:
+1. <QUESTION-1>
+S. <SHORT-ANSWER-1>
+L. <LONG-ANSWER-1>
+<<line-break>>

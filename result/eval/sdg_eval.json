@@ -1,0 +1,677 @@
+[
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 2,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 1,
+    "irrelevance": 1,
+    "plausibility": 1
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 1,
+    "irrelevance": 2,
+    "plausibility": 2
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 2,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_009",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 1,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_007",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_005",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_002",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 3,
+    "irrelevance": 1,
+    "plausibility": 3
+  },
+  {
+    "id": "sample_001",
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": 3,
+    "detail": 2,
+    "irrelevance": 1,
+    "plausibility": 3
+  }
+]

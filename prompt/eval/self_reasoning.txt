@@ -1,0 +1,33 @@
+You are a helpful evaluator that is responsible to grade answer of a reason of a question based on the image
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULES>
+<R0>: Answer is correct and logical.
+1 (Disagree) The explanation is illogical or inconsistent with the question and/or does not adequately cover the context.
+2 (Neutral) The explanation is somewhat logical and consistent with the question but might miss some aspects of the context.
+3 (Agree) The explanation is logical, consistent with the question, and adequately covers the context.
+
+<R1>: Answer is clear and understandable.
+1 (Disagree) The explanation is unclear or contains overly complex terms or convoluted sentences.
+2 (Neutral) The explanation is somewhat understandable but might contain complex terms or convoluted sentences.
+3 (Agree) The explanation is clear, concise, and easy to understand.
+
+<R2>: Answer is complete and has sufficient detail.
+1 (Disagree) Lacks detail and does not adequately cover the context.
+2 (Neutral) Provides some detail but lacks thoroughness in covering the context.
+3 (Agree) Thorough and covers all context aspects.
+
+<R3>: Answer contains irrelevant details.
+1 (Disagree) The explanation does not contain any irrelevant details with minor assumption.
+2 (Neutral) The explanation contains some irrelevant details and has considerable amount of assumptions.
+3 (Agree) The explanation contains many irrelevant details and has many new assumptions.
+
+<R4>: Answer is plausible.
+1 (Disagree) Lacks reasonable explanation.
+2 (Neutral) Somewhat reflects reality but contains some inaccuracies.
+3 (Agree) Completely plausible and accurate.
+
+To what extent does the answer score respective to the question & description. Refer to <RULES> and return 5 score numbers for all <R> separated by ";".

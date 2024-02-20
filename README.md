@@ -26,6 +26,7 @@
     - [LLaVa-7B](https://huggingface.co/liuhaotian/llava-v1.5-7b)
     - [LLaVa-7B-hf](https://huggingface.co/llava-hf/llava-1.5-7b-hf)
     - [bakLLaVa-v1-hf](https://huggingface.co/llava-hf/bakLlava-v1-hf)
+    - [Mixtral](https://huggingface.co/cloudyu/Mixtral_7Bx4_MOE_24B)
 ---
 ### MiniGPT4
 _(TO BE CONTINUED)_
