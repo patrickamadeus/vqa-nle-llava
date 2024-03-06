@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1.0,
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 3
+  },
+  {
+    "id": 2.0,
+    "accuracy": 3,
+    "logic": -1,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": -1,
+    "plausibility": -1
+  },
+  {
+    "id": 3.0,
+    "accuracy": 3,
+    "logic": -1,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": -1
+  },
+  {
+    "id": 4.0,
+    "accuracy": -1,
+    "logic": -1,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": -1,
+    "plausibility": -1
+  },
+  {
+    "id": 5.0,
+    "accuracy": -1,
+    "logic": -1,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": -1
+  },
+  {
+    "id": 6.0,
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 3
+  },
+  {
+    "id": 7.0,
+    "accuracy": -1,
+    "logic": -1,
+    "clarity": -1,
+    "detail": -1,
+    "irrelevance": -1,
+    "plausibility": -1
+  },
+  {
+    "id": 8.0,
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 3
+  },
+  {
+    "id": 9.0,
+    "accuracy": -1,
+    "logic": -1,
+    "clarity": -1,
+    "detail": -1,
+    "irrelevance": -1,
+    "plausibility": -1
+  },
+  {
+    "id": 10.0,
+    "accuracy": 3,
+    "logic": 3,
+    "clarity": -1,
+    "detail": 3,
+    "irrelevance": 2,
+    "plausibility": 3
+  }
+]

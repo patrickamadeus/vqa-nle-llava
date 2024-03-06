@@ -1,0 +1,26 @@
+test_name: test_restructure
+seed: 42
+dataset:
+    name: sample
+    count: 1
+
+model:
+    name: llava-hf/llava-1.5-13b-hf
+    path: llava-hf/llava-1.5-13b-hf
+    family: llava
+    params:
+        use_4_bit: 0
+        device: "cuda"
+        low_cpu: 1
+        
+
+prompt:
+    multistep: 0
+    primary: qg_story_limit
+    inter: story_long
+
+run_params:
+    num_per_inference: 3
+    use_nonvis: 0
+    use_img_ext: 1
+    

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "img_id": "CLEVR_test_000017-Copy1",
+    "question": "What is the shape of the objects in the image?",
+    "short_answer": "Square",
+    "reasoned_answer": "The objects in the image are square-shaped, which is a common shape for cubes."
+  },
+  {
+    "id": 2,
+    "img_id": "CLEVR_test_000017-Copy1",
+    "question": "What is the color of the objects in the image?",
+    "short_answer": "Blue, green, orange, and red",
+    "reasoned_answer": "The objects in the image are colored blue, green, orange, and red, which are the primary colors."
+  },
+  {
+    "id": 3,
+    "img_id": "CLEVR_test_000017-Copy1",
+    "question": "How many objects are in the image?",
+    "short_answer": "5",
+    "reasoned_answer": "There are five objects in the image, which is a prime number."
+  },
+  {
+    "id": 4,
+    "img_id": "CLEVR_test_000034-Copy1",
+    "question": "What is the color of the cube on the right?",
+    "short_answer": "Green",
+    "reasoned_answer": "The color of the cube on the right is green. This is because the other two cubes are brown, and the green cube stands out as the only one of its color in the scene. The contrast between the green cube and the brown cubes makes it easy to identify the green cube as the one on the right."
+  },
+  {
+    "id": 5,
+    "img_id": "CLEVR_test_000034-Copy1",
+    "question": "What is the shape of the objects in the image?",
+    "short_answer": "Square",
+    "reasoned_answer": "The objects in the image are square-shaped. This is evident from the fact that they are all cubes, which are typically square-shaped. The square shape of the cubes is consistent with the other cubes, making it easy to identify the shape of the objects in the image."
+  },
+  {
+    "id": 6,
+    "img_id": "CLEVR_test_000034-Copy1",
+    "question": "What is the arrangement of the cubes in the image?",
+    "short_answer": "Line",
+    "reasoned_answer": "The cubes are arranged in a line. This is because they are positioned next to each other, with the green cube on the right side of the line. The arrangement of the cubes in a line makes it easy to identify their positions and the order in which they are placed."
+  },
+  {
+    "id": 7,
+    "img_id": "CLEVR_test_000002-Copy1",
+    "question": "What is the color of the largest ball?",
+    "short_answer": "Gold",
+    "reasoned_answer": "The largest ball is gold in color, and it is located on the right side of the image. The other balls are of different colors, which adds visual interest to the scene. The arrangement of the balls and the cubes creates a visually appealing composition, with the gold ball standing out as the focal point."
+  },
+  {
+    "id": 8,
+    "img_id": "CLEVR_test_000002-Copy1",
+    "question": "What is the shape of the gray cube?",
+    "short_answer": "Square",
+    "reasoned_answer": "The gray cube is square-shaped, and it is positioned in the middle of the image. The other cubes are also square-shaped, creating a sense of symmetry and balance in the scene. The different colors of the cubes and the balls contribute to the overall aesthetic of the image."
+  },
+  {
+    "id": 9,
+    "img_id": "CLEVR_test_000002-Copy1",
+    "question": "What is the purpose of the cubes and balls in the image?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The cubes and balls in the image serve as decorative elements, creating an artistic and visually appealing composition. The different colors and shapes of the objects add variety and interest to the scene, making it an attractive display. The arrangement of the objects can also be interpreted as a representation of various shapes and colors coming together to form a cohesive whole."
+  },
+  {
+    "id": 10,
+    "img_id": "CLEVR_test_000031-Copy1",
+    "question": "What is the color of the largest ball?",
+    "short_answer": "Yellow",
+    "reasoned_answer": "The largest ball is yellow, and it is located in the top left corner of the image. The other balls are of different colors, and they are placed in various positions around the yellow ball. The arrangement of the balls creates a visually appealing and colorful scene."
+  },
+  {
+    "id": 11,
+    "img_id": "CLEVR_test_000031-Copy1",
+    "question": "What is the smallest ball in the image?",
+    "short_answer": "Blue",
+    "reasoned_answer": "The smallest ball in the image is blue, and it is located in the top right corner. The other balls are of different sizes and colors, and they are placed in various positions around the blue ball. The arrangement of the balls creates a sense of depth and variety in the image."
+  },
+  {
+    "id": 12,
+    "img_id": "CLEVR_test_000031-Copy1",
+    "question": "What is the shape of the smallest ball?",
+    "short_answer": "Round",
+    "reasoned_answer": "The smallest ball is round, and it is located in the top right corner of the image. The other balls are of different shapes and sizes, and they are placed in various positions around the round ball. The arrangement of the balls creates a sense of balance and harmony in the image."
+  },
+  {
+    "id": 13,
+    "img_id": "CLEVR_test_000021-Copy1",
+    "question": "What is the color of the largest ball?",
+    "short_answer": "Red",
+    "reasoned_answer": "The red ball is the largest among the four balls in the image. The other three balls are of different colors, making the red ball stand out as the largest."
+  },
+  {
+    "id": 14,
+    "img_id": "CLEVR_test_000021-Copy1",
+    "question": "What is the shape of the blue object?",
+    "short_answer": "Square",
+    "reasoned_answer": "The blue object is a square, which is one of the four different shapes of objects in the image. The other three objects have different shapes, making the blue square unique."
+  },
+  {
+    "id": 15,
+    "img_id": "CLEVR_test_000021-Copy1",
+    "question": "What is the arrangement of the objects in the image?",
+    "short_answer": "Random",
+    "reasoned_answer": "The objects in the image are arranged randomly, with no specific pattern or order. This creates a visually interesting and dynamic scene with the four different colored balls and the blue square."
+  }
+]

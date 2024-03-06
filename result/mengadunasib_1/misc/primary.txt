@@ -1,0 +1,28 @@
+CLEVR_test_000017-Copy1
+--------
+1. What is the color of the largest cube?
+S. Orange
+L. The largest cube is orange, and it is positioned in the middle of the other cubes.
+
+2. What is the smallest cube?
+S. Blue
+L. The smallest cube is blue, and it is positioned towards the right side of the other cubes.
+
+3. What is the shape of the cubes?
+S. Square
+L. The cubes are square-shaped, and they are arranged in a circular pattern.
+
+CLEVR_test_000034-Copy1
+--------
+1. What is the color of the cube on the right?
+S. Green
+L. The color of the cube on the right is green.
+
+2. What is the shape of the objects in the image?
+S. Square
+L. The objects in the image are square-shaped.
+
+3. What is the arrangement of the objects in the image?
+S. Line
+L. The objects are arranged in a line.
+

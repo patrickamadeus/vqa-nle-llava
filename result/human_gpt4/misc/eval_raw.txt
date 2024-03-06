@@ -1,0 +1,99 @@
+<PROMPTS>
+You are a helpful evaluator that is responsible to grade answer of a question based on the image
+
+Question : {question}
+Answer : {answer}
+
+<RULES>
+1 (Disagree) The answer is inaccurate and does not adequately cover the context.
+2 (Neutral) The answer is somewhat accurate but only partially cover the context.
+3 (Agree) The answer is accurate and adequately cover the context.
+
+To what extent does the answer is accurate respective to the question. Refer to <RULES> and return ONLY the number that represent the most.
+You are a helpful evaluator that is responsible to grade if a reason is clear and understandable respective to the question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason is unclear or contains overly complex terms or convoluted sentences.
+2 (Neutral) The reason is somewhat understandable but might contain complex terms or convoluted sentences.
+3 (Agree) The reason is clear, concise, and easy to understand.
+
+Refer to <RULE> and return ONLY the number that represent the most.
+
+You are a helpful evaluator that is responsible to grade if the reason is complete and has sufficient detail respective to a question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason lacks detail and does not adequately cover the context.
+2 (Neutral) The reason provides some detail but lacks thoroughness in covering the context.
+3 (Agree) The reason successfully covers all context.
+
+Refer to <RULE> and return ONLY the number that represent the most.
+
+You are a helpful evaluator that is responsible to grade if a reason is correct and logical respective to the question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason is illogical or inconsistent with the question and answer and/or does not adequately cover the context.
+2 (Neutral) The reason is somewhat logical and consistent with the question and answer but might miss some aspects of the context.
+3 (Agree) The reason is logical, consistent with the question and answer, and adequately covers the context.
+
+Refer to <RULE> and return ONLY the number that represent the most.
+
+You are a helpful evaluator that is responsible to grade if a reason contains irrelevant details respective to the question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason does not contain any irrelevant details with minor assumption.
+2 (Neutral) The reason contains some irrelevant details and has considerable amount of assumptions.
+3 (Agree) The reason contains many irrelevant details and has many new assumptions.
+
+Refer to <RULE> and return ONLY the number that represent the most.
+
+You are a helpful evaluator that is responsible to grade if a reason is plausible respective to the question & answer.
+
+Question : {question}
+Answer : {answer}
+Reason : {reason}
+
+<RULE>
+1 (Disagree) The reason lacks reasonable explanation.
+2 (Neutral) The reason is somewhat reflects reality but contains some inaccuracies.
+3 (Agree) The reason is completely plausible and accurate.
+
+Refer to <RULE> and return ONLY the number that represent the most.
+id
+1.0
+FACTOID
+2 
+
+R0
+3 
+
+R1
+1 
+
+R2
+1 
+
+R3
+1 
+
+R4
+3 (Agree) 
+
+
+
+

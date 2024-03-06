@@ -1,1 +1,0 @@
-conda env create -f ./conda/llava.yml

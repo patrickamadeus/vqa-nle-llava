@@ -1,0 +1,13 @@
+{
+  "test_name": "cobaduluu",
+  "dataset_name": "CLEVR_v1.0",
+  "total_data": 3,
+  "total_gen": 3,
+  "total_sec": 4.91652250289917,
+  "model_name": "llava-hf/llava-1.5-13b-hf",
+  "model_family": "llava",
+  "prompt_primary": "clevr_base",
+  "prompt_inter": "story_long",
+  "evaluator_model": "llava-hf/llava-1.5-13b-hf",
+  "evaluator_model_name": "llava-hf/vip-llava-13b-hf"
+}
