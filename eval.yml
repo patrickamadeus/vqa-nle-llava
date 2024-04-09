@@ -1,21 +1,7 @@
-test_name: human_mistral_7B
+test_name: llava-1.5-13b-hf_500
 seed: 42
-eval_amount: 10
-
-model: 
-    name: liuhaotian/llava-v1.6-mistral-7b
-    path: liuhaotian/llava-v1.6-mistral-7b
-    family: llava
-    params:
-        use_4_bit: 0
-        device: "cuda"
-        low_cpu: 1
-
-prompt:
-    factoid: self_factoid
-    reasoning: self_reasoning_split
 
 run_params:
-    a:
-    b:
-    openai_key: 
+    num_per_inference: 3
+    use_nonvis: 0
+    use_img_ext: 1

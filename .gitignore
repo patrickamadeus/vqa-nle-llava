@@ -1,4 +1,7 @@
 dataset/
+legacy/
+experimental/
+LLaVA/
 .ipynb_checkpoints
 __pycache__/
 model/

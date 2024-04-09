@@ -9,8 +9,8 @@
   "prompt_primary": "-",
   "prompt_inter": "-",
   "evaluator_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
-  "total_eval_time": 15.21043062210083,
+  "total_eval_time": 127.77295660972595,
   "eval_prompt_factoid": "self_factoid",
   "eval_prompt_reasoning": "self_reasoning_split",
-  "eval_success_rate": 0.92
+  "eval_success_rate": 0.89
 }

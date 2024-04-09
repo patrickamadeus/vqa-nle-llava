@@ -1,0 +1,16 @@
+{
+  "test_name": "human_vip",
+  "dataset_name": "sample",
+  "total_data": 100,
+  "total_gen": 100,
+  "total_sec": 542,
+  "model_name": "human",
+  "model_family": "human",
+  "prompt_primary": "-",
+  "prompt_inter": "-",
+  "evaluator_model_name": "llava-hf/vip-llava-13b-hf",
+  "total_eval_time": 110.61489748954773,
+  "eval_prompt_factoid": "self_factoid",
+  "eval_prompt_reasoning": "self_reasoning_split",
+  "eval_success_rate": 1.0
+}

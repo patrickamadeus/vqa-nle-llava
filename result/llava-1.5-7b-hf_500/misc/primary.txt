@@ -1,0 +1,2078 @@
+2353575.jpg
+--------
+1. What is the boy wearing?
+S. A red, white, and blue shirt
+L. The boy is wearing a patriotic shirt, which could be a celebration of a national holiday or a sports event.
+2. Where is the boy standing?
+S. In a grassy field
+L. The boy is standing in a grassy field, which is a common outdoor setting for recreational activities.
+3. Who is throwing the frisbee?
+S. A man
+L. The man is throwing the frisbee to the boy, which suggests a bonding activity between the two individuals.
+
+n478808.jpg
+--------
+1. What is the color of the fire truck?
+S. Red and white
+L. The fire truck is red and white, which is a common color scheme for fire trucks to make them easily visible and recognizable.
+2. Where is the fire truck parked?
+S. Dock
+L. The fire truck is parked at a dock, which is a location where boats and ships are typically docked for loading, unloading, or maintenance purposes.
+3. Who is the person in the image?
+S. Fireman
+L. The person in the image is a fireman, who is responsible for responding to emergencies and ensuring public safety.
+
+2384295.jpg
+--------
+1. What is the color of the boy's shirt?
+S. Brown
+L. The boy is wearing a brown shirt.
+<<line-break>>
+2. Where is the parking meter located?
+S. On the sidewalk
+L. The parking meter is located on the sidewalk next to a yellow bicycle.
+<<line-break>>
+3. Who is the boy standing next to the parking meter?
+S. Boy
+L. The boy is standing next to the parking meter, which is located on the sidewalk.
+
+2404643.jpg
+--------
+1. What is the man wearing?
+S. A white shirt and a green tie.
+L. The man is wearing a white shirt and a green tie, which is a common attire for business professionals.
+2. Where is the man sitting?
+S. On a set of stairs.
+L. The man is sitting on a set of stairs, which is an unconventional and potentially uncomfortable place to sit.
+3. Who is the man in the image?
+S. A businessman.
+L. The man in the image is a businessman, as indicated by his attire and the fact that he is sitting on a set of stairs.
+
+2347921.jpg
+--------
+1. What is the boy eating?
+S. A slice of pizza
+L. The boy is eating a slice of pizza, which is a popular Italian dish made from a yeast-leavened flatbread topped with tomato sauce, cheese, and various other ingredients.
+2. Where is the boy sitting?
+S. At a table
+L. The boy is sitting at a table, which is a piece of furniture typically used for dining or working.
+3. Who is the boy?
+S. A young boy
+L. The boy is a young child who is enjoying a slice of pizza.
+
+n483167.jpg
+--------
+1. What is the woman eating?
+S. A hot dog
+L. The woman is eating a hot dog, which is a popular fast food item.
+2. Where is the woman eating the hot dog?
+S. Outside
+L. The woman is eating the hot dog outside, which is a common setting for enjoying food.
+3. Who is the woman eating the hot dog in front of?
+S. A dog
+L. The woman is eating the hot dog in front of a dog, which is a common sight in many urban areas.
+
+2348986.jpg
+--------
+1. What is the baby holding?
+S. A cell phone
+L. The baby is holding a cell phone, which is an unusual object for a young child to be holding. The baby is sitting on a couch, and the cell phone is being held in the baby's hand. This scene might raise questions about the baby's age, the purpose of the cell phone, and the parent's decision to allow the baby to hold such an object.
+2. Where is the baby sitting?
+S. On a couch
+L. The baby is sitting on a couch, which is a common place for people to relax and spend time with their children. The couch provides a comfortable and safe environment for the baby to sit and explore their surroundings.
+3. Who is the baby?
+S. A young child
+L. The baby is a young child, possibly a toddler or a small child. The baby is holding a cell phone, which suggests that they might be curious about the device or that their parent is using it. The baby's age and the context of the image can provide clues about their interests and development.
+
+2333997.jpg
+--------
+1. What is the main dish on the plate?
+S. Eggs
+L. The main dish on the plate is a fried egg, accompanied by a variety of vegetables and potatoes.
+2. What is the type of bread on the plate?
+S. Bread
+L. The type of bread on the plate is a piece of toasted bread.
+3. Who is the person sitting at the table?
+S. Man
+L. The man sitting at the table is enjoying a meal consisting of eggs, potatoes, and toast.
+
+2321990.jpg
+--------
+1. What is the woman wearing?
+S. A red shirt
+L. The woman is wearing a red shirt and a hat.
+2. Where is the woman sitting?
+S. On a couch
+L. The woman is sitting on a couch, holding a cell phone and a laptop.
+3. Who is the woman talking to on the phone?
+S. Her husband
+L. The woman is talking to her husband on the phone while holding a laptop and a cat.
+
+n477323.jpg
+--------
+1. What is the boat's purpose?
+S. Fishing
+L. The boat is a fishing boat, as indicated by the presence of a fishing net and the fact that it is docked on the beach.
+2. Where is the boat located?
+S. Beach
+L. The boat is located on the beach, near the shoreline.
+3. Who is the boat's owner?
+S. Fisherman
+L. The boat's owner is a fisherman, as indicated by the presence of a fishing net and the fact that it is a fishing boat.
+
+n125455.jpg
+--------
+1. What is the man wearing?
+S. A green sweater
+L. The man is wearing a green sweater and a hat.
+2. Where is the man standing?
+S. On the sidewalk
+L. The man is standing on the sidewalk next to a fire hydrant.
+3. Who is the man with the dog?
+S. A man and a dog
+L. The man is with his dog, who is on a leash.
+
+n261198.jpg
+--------
+1. What is the dog doing in the image?
+S. The dog is standing in the water.
+L. The dog is standing in the water, possibly enjoying the coolness or playing in the waves.
+2. Where is the dog in the image?
+S. The dog is on the beach.
+L. The dog is on the beach, near the water's edge, and appears to be looking out at the ocean.
+3. Who is the dog in the image?
+S. The dog is a black and white dog.
+L. The dog is a black and white dog, possibly a breed like a Labrador Retriever or a Border Collie.
+
+2360023.jpg
+--------
+1. What is the train's destination?
+S. 176 2172
+L. The train is heading to Colchester Town Station.
+<<line-break>>
+2. Who is the train operator?
+S. Colchester Tours
+L. Colchester Tours operates the train.
+<<line-break>>
+3. What is the train's color scheme?
+S. Silver and yellow
+L. The train has a silver body with a yellow front.
+
+2342596.jpg
+--------
+1. What is the color of the umbrella the girls are holding?
+S. Green
+L. The girls are holding a green umbrella to protect themselves from the rain.
+<<line-break>>
+2. Where is the bus stop located?
+S. On the side of the road
+L. The bus stop is located on the side of the road, providing a convenient location for passengers to wait for the bus.
+<<line-break>>
+3. Who are the two girls walking down the street?
+S. Sisters
+L. The two girls walking down the street are sisters, and they are holding an umbrella to shield themselves from the rain.
+
+2385834.jpg
+--------
+1. What are the boats docked at?
+S. Dock
+L. The boats are docked at a pier, which is a structure built over water to provide a safe and convenient place for boats to be tied up.
+2. Who is the owner of the boats?
+S. Unknown
+L. The image does not provide enough information to determine the owner of the boats. However, it is possible that the boats belong to a private individual or a company that operates them for recreational or commercial purposes.
+3. Where are the boats docked?
+S. Marina
+L. The boats are docked at a marina, which is a large body of water with a harbor or docking facility for boats. Marinas typically offer various services and amenities for boat owners, such as fuel, maintenance, and storage.
+
+2338283.jpg
+--------
+1. What is the girl carrying in her backpack?
+S. A teddy bear
+L. The girl is carrying a stuffed teddy bear in her backpack, which is a common item for children to carry around for comfort and companionship.
+2. Where is the girl standing?
+S. In a hallway
+L. The girl is standing in a hallway, which is a common area in a home or school where people often walk around.
+3. Who is the girl?
+S. A young child
+L. The girl is a young child, possibly a little girl, who is wearing a backpack and carrying a teddy bear.
+
+2335580.jpg
+--------
+1. What is the girl wearing?
+S. A blue jacket
+L. The girl is wearing a blue jacket, which is a common choice for outdoor activities like playing baseball.
+2. Where is the girl swinging the bat?
+S. In a grassy field
+L. The girl is swinging the bat in a grassy field, which is a suitable location for playing baseball and provides ample space for her to run and hit the ball.
+3. Who is the girl playing baseball with?
+S. Herself
+L. The girl is playing baseball with herself, which is a common practice for individuals who want to practice their skills or enjoy the sport without the need for a teammate.
+
+n285974.jpg
+--------
+1. What is the man doing at the table?
+S. He is cutting a cake.
+L. The man is sitting at the table, cutting a cake with a knife, and there is a bottle of wine nearby.
+2. Where is the man sitting at the table?
+S. In the kitchen.
+L. The man is sitting at the kitchen table, surrounded by various items such as a cake, a knife, and a bottle of wine.
+3. Who is the man in the image?
+S. A bald man.
+L. The man in the image is a bald man who is sitting at the kitchen table and cutting a cake.
+
+2361750.jpg
+--------
+1. What is the animal in the image?
+S. A cow
+L. The image features a cow with long hair, horns, and a shaggy appearance, which is likely a Highland cow.
+2. Where is the cow in the image?
+S. In a field
+L. The cow is sitting in a grassy field, surrounded by a mountain in the background.
+3. Who is the person in the image?
+S. No person is visible in the image
+L. The image does not show a person, only a cow with long hair and horns.
+
+2341916.jpg
+--------
+1. What is the main dish being prepared in the image?
+S. Fish
+L. The image shows a stove with a pan of fish being cooked, indicating that the main dish being prepared is fish.
+2. Where is the image taken?
+S. Kitchen
+L. The image is taken in a kitchen, where various cooking activities are taking place.
+3. Who is preparing the meal in the image?
+S. Woman
+L. A woman is preparing the meal in the image, as evidenced by the presence of multiple pots and pans on the stove.
+
+2402093.jpg
+--------
+1. What is the skateboarder doing?
+S. The skateboarder is performing a trick in the air.
+L. The skateboarder is jumping over a set of stairs while riding the skateboard.
+2. Where is the skateboarder performing the trick?
+S. The skateboarder is performing the trick in the air.
+L. The skateboarder is performing the trick in a city setting, over a set of stairs.
+3. Who is the skateboarder?
+S. The skateboarder is a man.
+L. The skateboarder is a man wearing a black shirt and jeans, performing a trick in the air.
+
+2356501.jpg
+--------
+1. What is the woman holding?
+S. A tennis racket
+L. The woman is holding a tennis racket, which is a piece of sports equipment used for playing tennis.
+2. Who is the woman in the image?
+S. A tennis player
+L. The woman in the image is a tennis player, who is holding a tennis racket and standing on a tennis court.
+3. Where is the tennis court located?
+S. Outside
+L. The tennis court is located outside, which is a common setting for playing tennis.
+
+n116319.jpg
+--------
+1. What is the color of the pizza in the image?
+S. White
+L. The pizza in the image is white, which is unusual as most pizzas are red or have a tomato sauce base. The white pizza is topped with cheese and vegetables, making it a unique and interesting dish.
+2. Where is the pizza in the image?
+S. On a plate
+L. The pizza is on a plate, which is placed on a counter or table. The plate is white, and the pizza is sitting on top of it, ready to be eaten.
+3. Who is the person who prepared the pizza in the image?
+S. Chef
+L. The chef who prepared the pizza is likely a professional or experienced in making pizzas. They have carefully crafted the pizza with a unique white base and topped it with cheese and vegetables, showcasing their skill and creativity in the culinary arts.
+
+2374031.jpg
+--------
+1. What is the name of the boat in the image?
+S. Some Pleasure
+L. The boat is named "Some Pleasure" and is docked at the pier.
+<<line-break>>
+2. Where is the boat docked?
+S. Pier
+L. The boat is docked at the pier, near a body of water.
+<<line-break>>
+3. Who is the owner of the boat?
+S. Unknown
+L. The image does not provide enough information to determine the owner of the boat.
+
+n93240.jpg
+--------
+1. What is the color of the shirt in the suitcase?
+S. Green
+L. The shirt in the suitcase is a green t-shirt.
+2. Where is the suitcase located?
+S. On a bed
+L. The suitcase is sitting on a bed.
+3. Who is wearing the green shirt in the suitcase?
+S. Mickey Mouse
+L. Mickey Mouse is wearing a green shirt in the suitcase.
+
+2320807.jpg
+--------
+1. What is the color of the suitcase in the image?
+S. Black
+L. The black suitcase is sitting on the floor next to a green backpack.
+<<line-break>>
+2. Where is the man in the image?
+S. Airport
+L. The man is standing in the airport, possibly waiting for his luggage or preparing to check in for a flight.
+<<line-break>>
+3. Who is the man in the image?
+S. Traveler
+L. The man is a traveler, possibly on a business trip or vacation, and is waiting for his luggage at the airport.
+
+2349840.jpg
+--------
+1. What is the color of the train?
+S. Green and white
+L. The train is painted in a combination of green and white colors, which makes it visually appealing and easily identifiable.
+2. Where is the train going?
+S. Down the tracks
+L. The train is traveling down the tracks, likely transporting goods or passengers to a specific destination.
+3. Who is operating the train?
+S. Conductor
+L. The conductor is responsible for ensuring the safe and efficient operation of the train, including monitoring the train's speed, braking, and adherence to schedules.
+
+2403286.jpg
+--------
+1. What is the dish on the plate?
+S. A plate of Mexican food
+L. The plate contains a variety of Mexican food items, including a burrito, beans, and rice.
+<<line-break>>
+2. Where is the plate with the food?
+S. On a table
+L. The plate is placed on a wooden table, which is likely in a restaurant or a home setting.
+<<line-break>>
+3. Who prepared the food on the plate?
+S. A chef
+L. The chef likely prepared the food in a restaurant or a home kitchen, as the dish appears to be well-prepared and visually appealing.
+
+n24836.jpg
+--------
+1. What is the truck's destination?
+S. The truck is headed to a coffee shop.
+L. The truck is delivering coffee to a coffee shop, which is a common destination for such vehicles.
+2. Who is the person walking next to the truck?
+S. An elderly woman.
+L. The elderly woman is walking next to the truck, possibly as a customer or just passing by.
+3. Where is the truck parked?
+S. On the side of the road.
+L. The truck is parked on the side of the road, likely to make a delivery or pick up an order from the coffee shop.
+
+1159351.jpg
+--------
+1. What is the purpose of the rope barrier in the image?
+S. To keep people at a safe distance from the exhibit
+L. The rope barrier is used to protect the exhibit from potential damage or to prevent unauthorized access, ensuring that visitors can view the exhibit without interfering with its preservation or security.
+2. Where is the man holding a Wii remote in the image?
+S. In a museum
+L. The man is holding a Wii remote in a museum, likely participating in an interactive exhibit or event that combines technology and art.
+3. Who is the man in the image, and what is he holding?
+S. A man in a black jacket
+L. The man is a man in a black jacket, and he is holding a Wii remote.
+
+2358914.jpg
+--------
+1. What is the dog playing with?
+S. A stuffed animal
+L. The dog is playing with a stuffed animal, which is a toy designed to provide comfort and entertainment for pets.
+2. Where is the dog laying down?
+S. On a bed
+L. The dog is laying down on a bed, which is a piece of furniture typically used for sleeping or resting.
+3. Who is the dog's owner?
+S. Unknown
+L. The dog's owner is not visible in the image, but it can be inferred that the dog is well-cared for and comfortable in its environment.
+
+2380438.jpg
+--------
+1. What is the man wearing?
+S. Glasses
+L. The man is wearing glasses and a black shirt.
+2. Where is the man sitting?
+S. Table
+L. The man is sitting at a table with a pizza.
+3. Who is the man with glasses?
+S. Friend
+L. The man with glasses is a friend of the man sitting at the table.
+
+n446194.jpg
+--------
+1. What is the dog's breed?
+S. Husky
+L. The dog is a Husky, which is a breed known for its thick fur and friendly nature.
+2. Where is the man sitting on the motorcycle?
+S. On the side of the road
+L. The man is sitting on the side of the road, possibly taking a break or waiting for someone.
+3. Who is the man on the motorcycle?
+S. A biker
+L. The man on the motorcycle is a biker, who is likely enjoying a ride through the forest.
+
+2378845.jpg
+--------
+1. What is the color of the sink in the image?
+S. White
+L. The sink in the image is white.
+2. Where is the sink located in the image?
+S. Bathroom
+L. The sink is located in a bathroom, specifically in a room with a toilet.
+3. Who is the person responsible for the bathroom's design?
+S. Architect
+L. The architect is responsible for the bathroom's design, which includes the sink and toilet.
+
+2408290.jpg
+--------
+1. What is the rider's helmet color?
+S. Yellow
+L. The rider is wearing a yellow helmet.
+<<line-break>>
+2. What is the rider's shirt color?
+S. White
+L. The rider is wearing a white shirt.
+<<line-break>>
+3. What is the rider's glove color?
+S. Black
+L. The rider is wearing black gloves.
+
+2325255.jpg
+--------
+1. What is the main ingredient in the sandwich?
+S. Roast beef
+L. The main ingredient in the sandwich is roast beef, which is a type of meat that is often used in sandwiches.
+2. Where is the sandwich on the plate?
+S. On the plate
+L. The sandwich is on the plate, which is a flat, round, and usually white plate that is used for serving food.
+3. Who is the person who prepared the sandwich?
+S. Chef
+L. The person who prepared the sandwich is a chef, who is a professional cook who is skilled in preparing a variety of dishes, including sandwiches.
+
+n89035.jpg
+--------
+1. What is the stop sign in the image written in?
+S. Chinese
+L. The stop sign in the image is written in Chinese, indicating that the location is likely in a country where Chinese is spoken.
+2. Where is the stop sign located?
+S. On the side of the road
+L. The stop sign is located on the side of the road, near a building and a parking lot, which suggests that it is in an urban or suburban area.
+3. Who is responsible for maintaining the stop sign?
+S. City maintenance crew
+L. The city maintenance crew is responsible for maintaining the stop sign, ensuring that it remains visible and functional for drivers and pedestrians.
+
+2366289.jpg
+--------
+1. What is the purpose of the umbrellas on the beach?
+S. To provide shade and protection from the sun
+L. The umbrellas are placed on the beach to offer shade and protection from the sun for beachgoers, enhancing their comfort and enjoyment while spending time near the water.
+2. Where can one find a boat in the image?
+S. In the water
+L. One can find a boat in the water near the beach, as it is a common sight in coastal areas.
+3. Who is the person in the image?
+S. A woman
+L. The woman in the image is a beachgoer who is enjoying her time at the beach, possibly taking a break from swimming or sunbathing.
+
+2318932.jpg
+--------
+1. What is the pizza topping?
+S. Olives
+L. The pizza is topped with olives, which can be seen on the slices.
+2. Where is the pizza served?
+S. Plate
+L. The pizza is served on a plate, which is placed on a dining table.
+3. Who is the person who prepared the pizza?
+S. Chef
+L. The chef prepared the pizza, which is now sliced and ready to be eaten.
+
+n283804.jpg
+--------
+1. What is the woman wearing?
+S. A black and white striped shirt
+L. The woman is wearing a black and white striped shirt, which is a casual and comfortable choice for playing video games.
+2. Where is the woman sitting?
+S. On the floor
+L. The woman is sitting on the floor, which is a common and convenient place to sit while playing video games.
+3. Who is the woman playing with?
+S. Herself
+L. The woman is playing with herself, which is a common and solitary activity for many people when they engage in video games.
+
+2365876.jpg
+--------
+1. What is the tallest building in the image?
+S. The Willis Tower
+L. The Willis Tower is the tallest building in the image, standing at 1,451 feet tall.
+2. What is the purpose of the traffic light in the image?
+S. To control traffic flow
+L. The traffic light in the image serves to control the flow of traffic, ensuring that vehicles move safely and efficiently through the intersection.
+3. Who is the person standing under the traffic light in the image?
+S. A pedestrian
+L. A pedestrian is standing under the traffic light in the image, waiting for the signal to change before crossing the street.
+
+n272098.jpg
+--------
+1. What is the girl holding in her hand?
+S. A box of donuts
+L. The girl is holding a box of donuts, which contains a variety of flavors and toppings, including glazed, chocolate, and sprinkled donuts.
+2. Where is the girl standing?
+S. In a kitchen
+L. The girl is standing in a kitchen, which is a common place for preparing and enjoying food, such as donuts.
+3. Who is the girl smiling at the camera?
+S. A woman
+L. The girl is smiling at the camera, likely to show her happiness and excitement about the donuts she is holding.
+
+2341506.jpg
+--------
+1. What is the purpose of the model airplane on the desk?
+S. It is a model of a plane.
+L. The model airplane on the desk is a replica of a real airplane, likely used for educational or recreational purposes.
+2. Where is the desk located?
+S. In a room.
+L. The desk is located in a room, possibly a home office or a workspace.
+3. Who is the person working on the model airplane?
+S. A man.
+L. A man is working on the model airplane, possibly assembling or customizing it for a specific purpose or as a hobby.
+
+2335961.jpg
+--------
+1. What is the purpose of the police officers riding horses?
+S. They are patrolling the area
+L. The police officers are patrolling the area to ensure public safety and maintain order.
+2. Where are the police officers riding their horses?
+S. On a street
+L. The police officers are riding their horses on a street, which is a common area for patrolling and monitoring public safety.
+3. Who are the police officers riding with?
+S. Each other
+L. The police officers are riding with each other, which is a common practice among law enforcement officers to ensure safety and support during patrols.
+
+2417850.jpg
+--------
+1. What is the color of the train?
+S. Green
+L. The train is green and white.
+<<line-break>>
+2. Where is the train going?
+S. To the right
+L. The train is traveling down the tracks, likely heading towards its destination.
+<<line-break>>
+3. Who is driving the train?
+S. Conductor
+L. The conductor is responsible for operating the train and ensuring the safety of the passengers and crew.
+
+n531794.jpg
+--------
+1. What is the man doing in the image?
+S. He is jumping in the air with a frisbee.
+L. The man is playing frisbee on the beach, and he is jumping to catch or throw the frisbee.
+2. Where is the man playing frisbee?
+S. He is playing frisbee on the beach.
+L. The man is playing frisbee on the beach, which is a popular location for outdoor activities and recreation.
+3. Who is the man in the image?
+S. He is a shirtless man.
+L. The man in the image is a shirtless man, which suggests that he might be enjoying a warm day at the beach or engaging in physical activities that require less clothing.
+
+2338295.jpg
+--------
+1. What is the giraffe's favorite food?
+S. Leaves
+L. Giraffes are herbivores, and their favorite food is leaves, particularly from acacia trees. They have a long neck and a prehensile tongue, which allows them to reach high branches and strip leaves from trees.
+2. Where can we find giraffes in the wild?
+S. Africa
+L. Giraffes are native to Africa, specifically in the savannas, grasslands, and open woodlands of countries such as Kenya, Tanzania, and South Africa. They prefer habitats with plenty of acacia trees, which provide their primary food source.
+3. Who is the tallest mammal on Earth?
+S. Giraffe
+L. The giraffe is the tallest mammal on Earth, with adult males reaching heights of up to 18 feet and females up to 14 feet. Their long necks and legs, along with their unique body structure, enable them to reach high branches and access food sources that are out of reach for other herbivores.
+
+2375783.jpg
+--------
+1. What is the color of the ocean?
+S. Blue
+L. The ocean is blue due to the reflection of sunlight on the water and the scattering of light by the Earth's atmosphere.
+2. Where are the people in the image?
+S. Beach
+L. The people are standing on the beach, enjoying the ocean view and the waves.
+3. Who is in the image?
+S. People
+L. The image features a group of people, including surfers and spectators, who are gathered on the beach to watch and participate in the surfing activities.
+
+2324496.jpg
+--------
+1. What is the man sleeping on?
+S. A bed
+L. The man is sleeping on a bed with a yellow blanket and two cats on pillows.
+2. Where are the cats on the bed?
+S. On pillows
+L. The cats are on the bed, with one on the left side and the other on the right side.
+3. Who is the man in the image?
+S. A bearded man
+L. The man in the image is a bearded man who is sleeping on the bed with the two cats.
+
+2321389.jpg
+--------
+1. What is the man wearing?
+S. A black jacket
+L. The man is wearing a black jacket and a backpack while snowboarding down a hill.
+2. Where is the man snowboarding?
+S. On a hill
+L. The man is snowboarding on a hill near a forest, surrounded by trees.
+3. Who is the man snowboarding?
+S. A snowboarder
+L. The man snowboarding is a snowboarder, and he is wearing a black jacket and a backpack.
+
+n314268.jpg
+--------
+1. What is the color of the skateboarder's shirt?
+S. White
+L. The skateboarder is wearing a white shirt.
+<<line-break>>
+2. Where is the skateboarder performing his tricks?
+S. Under a bridge
+L. The skateboarder is performing his tricks under a bridge.
+<<line-break>>
+3. Who is the skateboarder?
+S. Man
+L. The skateboarder is a man.
+
+n56255.jpg
+--------
+1. What is the name of the boat in the mural?
+S. Sailboat
+L. The mural features a sailboat, which is a common symbol of freedom and adventure.
+<<line-break>>
+2. Where is the group of people riding their bikes?
+S. Street
+L. The group of people is riding their bikes down the street, enjoying the outdoors and the company of others.
+<<line-break>>
+3. Who is the person taking a picture of the mural?
+S. Woman
+L. The woman is capturing a moment of the mural, likely to share with friends or family or to remember the experience.
+
+n227287.jpg
+--------
+1. What is the pizza topping?
+S. Cheese
+L. The pizza is topped with cheese and spinach.
+<<line-break>>
+2. Where is the pizza served?
+S. Restaurant
+L. The pizza is served at a restaurant table.
+<<line-break>>
+3. Who is sitting at the table?
+S. People
+L. A group of people is sitting at the table, enjoying the pizza.
+
+2389464.jpg
+--------
+1. What is the color of the kite being flown by the woman in the blue shirt?
+S. Yellow
+L. The woman is flying a yellow kite.
+<<line-break>>
+2. Where is the woman in the blue shirt standing on the beach?
+S. Sand
+L. The woman is standing on the sandy beach.
+<<line-break>>
+3. Who is the woman in the blue shirt watching as she flies her kite?
+S. Child
+L. The woman is watching a child as she flies her kite.
+
+2340260.jpg
+--------
+1. What are the vegetables on the table?
+S. Tomatoes, carrots, and broccoli
+L. The table is filled with a variety of fresh vegetables, including tomatoes, carrots, and broccoli, all of which are displayed on a tablecloth.
+2. Where are the vegetables on the table?
+S. On a tablecloth
+L. The vegetables are arranged on a tablecloth, which is placed on a wooden table.
+3. Who is the person who prepared the vegetables?
+S. Chef
+L. The chef has prepared a delicious and colorful assortment of vegetables, including tomatoes, carrots, and broccoli, which are displayed on a tablecloth.
+
+2320752.jpg
+--------
+1. What is the clock on the building made of?
+S. Stone
+L. The clock is made of stone, which adds to its historical and architectural significance.
+2. Where is the clock located on the building?
+S. On the side
+L. The clock is located on the side of the building, making it easily visible to passersby.
+3. Who designed the clock on the building?
+S. Architect
+L. The architect designed the clock, incorporating it into the building's overall aesthetic and functionality.
+
+n543135.jpg
+--------
+1. What is the color of the bus?
+S. Blue
+L. The bus is blue and has a large advertisement on the side.
+2. Where is the bus parked?
+S. Street
+L. The bus is parked on the side of the street, near a building.
+3. Who is the driver of the bus?
+S. Man
+L. The man is the driver of the blue double-decker bus.
+
+n135009.jpg
+--------
+1. What is the man wearing?
+S. A black wetsuit
+L. The man is wearing a black wetsuit, which is designed to provide thermal insulation, buoyancy, and protection from abrasions and stings in the water.
+2. Where are the surfers standing?
+S. On the beach
+L. The surfers are standing on the beach, near their surfboards, and possibly discussing their surfing plans or sharing tips and experiences.
+3. Who are the surfers talking to?
+S. Each other
+L. The surfers are talking to each other, likely discussing their surfing experiences, techniques, or sharing advice on how to improve their skills.
+
+2402695.jpg
+--------
+1. What is the man wearing?
+S. A black jacket
+L. The man is wearing a black jacket, which is suitable for skiing and keeping warm in cold weather.
+2. Where is the man skiing?
+S. On a snowy mountain
+L. The man is skiing on a snowy mountain, which is a popular location for winter sports and recreational activities.
+3. Who is the man skiing with?
+S. Another skier
+L. The man is skiing with another skier, which suggests that they might be friends or part of a group enjoying the skiing experience together.
+
+n212821.jpg
+--------
+1. What is the purpose of the construction work?
+S. Road construction
+L. The image shows a road construction site with a road closed sign, indicating that the road is undergoing repairs or maintenance.
+<<line-break>>
+2. Where is the construction site located?
+S. Intersection
+L. The construction site is located at an intersection, as evidenced by the presence of traffic lights and the road closed sign.
+<<line-break>>
+3. Who is responsible for the construction work?
+S. City workers
+L. City workers are responsible for the construction work, as indicated by the presence of the road closed sign and the ongoing repairs.
+
+n261040.jpg
+--------
+1. What is the purpose of the yellow poles in the parking lot?
+S. To prevent vehicles from entering restricted areas
+L. The yellow poles serve as a visual barrier to indicate restricted access, ensuring the safety of pedestrians and preventing unauthorized vehicles from entering the area.
+2. Where is the man with the camera pointing?
+S. Upwards
+L. The man with the camera is pointing upwards, likely to capture a photo or record a video of something happening above him.
+3. Who is the man in the black shirt talking to?
+S. The man in the yellow shirt
+L. The man in the black shirt is talking to the man in the yellow shirt, possibly discussing a topic or sharing information.
+
+2353004.jpg
+--------
+1. What is the main activity in the image?
+S. Playing video games
+L. The image shows a group of people, including women and men, playing video games using Nintendo Wii controllers. They are standing in front of a large screen, which is likely displaying the game they are playing.
+2. Who are the people in the image?
+S. Women and men
+L. The people in the image are a diverse group of women and men, all gathered together to play video games.
+3. Where is the group of people playing video games?
+S. In a convention center
+L. The group of people is playing video games in a convention center, which is a suitable location for such events and gatherings.
+
+2329535.jpg
+--------
+1. What is the color of the vase holding the flowers?
+S. Purple
+L. The vase is purple in color.
+<<line-break>>
+2. Where is the vase with the flowers placed?
+S. On a table
+L. The vase with the flowers is placed on a table.
+<<line-break>>
+3. Who is the person who arranged the flowers in the vase?
+S. Florist
+L. The person who arranged the flowers in the vase is a florist.
+
+2387492.jpg
+--------
+1. What is the purpose of the fire hydrant?
+S. To provide water for firefighting
+L. The fire hydrant is a crucial component of the city's fire protection system, ensuring that firefighters have access to water in case of a fire.
+2. Where is the fire hydrant located?
+S. On the sidewalk
+L. The fire hydrant is located on the sidewalk, close to the parked police car, which is parked in front of a building.
+3. Who is the police officer in the image?
+S. A Chicago police officer
+L. The police officer in the image is a member of the Chicago Police Department, responsible for maintaining law and order in the city.
+
+2345458.jpg
+--------
+1. Who are the two women posing with the man in the image?
+S. They are friends
+L. The two women are posing with a man who is wearing a cowboy hat and a tie, and they are all standing on a mountain.
+2. What is the man wearing in the image?
+S. A cowboy hat and a tie
+L. The man is wearing a cowboy hat and a tie, and he is standing on a mountain with two women.
+3. Where is the man standing in the image?
+S. On a mountain
+L. The man is standing on a mountain with two women, and they are all posing for a picture.
+
+n544531.jpg
+--------
+1. What is the color of the teddy bear's nose?
+S. Brown
+L. The teddy bear's nose is brown, which is a common color for noses on stuffed animals.
+2. Where is the teddy bear located?
+S. On a bed
+L. The teddy bear is sitting on a bed, which is a common place for people to keep their stuffed animals.
+3. Who is the teddy bear's owner?
+S. Child
+L. The teddy bear's owner is a child, as it is a common toy for children to play with and enjoy.
+
+2417032.jpg
+--------
+1. What is the person wearing?
+S. A white jacket
+L. The person is wearing a white jacket while skiing down the snowy slope.
+2. Where is the person skiing?
+S. On a snowy mountain
+L. The person is skiing down a snowy mountain slope, surrounded by a beautiful mountain landscape.
+3. Who is the person skiing?
+S. A woman
+L. The person skiing is a woman, who is enjoying her time on the snowy mountain.
+
+n524116.jpg
+--------
+1. What is the man wearing?
+S. A black shirt
+L. The man is wearing a black shirt and a striped tie.
+2. Where is the man talking on the phone?
+S. In a room
+L. The man is talking on the phone in a room, possibly a living room or an office.
+3. Who is the man talking to on the phone?
+S. A friend
+L. The man is talking to a friend on the phone, possibly discussing personal or professional matters.
+
+2394235.jpg
+--------
+1. What is the path made of?
+S. Dirt
+L. The path is a dirt trail surrounded by trees and bushes, providing a natural and scenic environment for hikers and walkers.
+2. Where is the path located?
+S. Forest
+L. The path is located in a forest, surrounded by trees and bushes, and it leads to a bench.
+3. Who can use the path?
+S. Hikers and walkers
+L. The path is suitable for hikers and walkers who want to enjoy the natural surroundings and take a break at the bench.
+
+2387659.jpg
+--------
+1. What is the woman wearing?
+S. A white dress
+L. The woman is wearing a white dress while playing tennis on the court.
+2. Where is the man standing?
+S. On the tennis court
+L. The man is standing on the tennis court, watching the woman play tennis.
+3. Who is the woman playing tennis with?
+S. A man
+L. The woman is playing tennis with a man, who is standing on the court and observing her game.
+
+2393668.jpg
+--------
+1. What is the airplane doing?
+S. It is taking off.
+L. The airplane is taking off from the runway, as indicated by the presence of a person and a truck nearby.
+2. Where is the airplane taking off from?
+S. The airplane is taking off from an airport.
+L. The airplane is taking off from an airport, as evidenced by the presence of a person and a truck on the runway.
+3. Who is on the runway?
+S. A person and a truck are on the runway.
+L. The person and the truck are likely airport personnel, responsible for assisting the airplane during takeoff.
+
+2328035.jpg
+--------
+1. What is the man wearing?
+S. A vest and tie
+L. The man is wearing a vest and tie, which suggests a formal or semi-formal attire.
+2. Where is the man standing?
+S. In front of a mirror
+L. The man is standing in front of a mirror, which is a common place for people to check their appearance and style.
+3. Who is the man in the image?
+S. A man with glasses
+L. The man in the image is a man with glasses, which indicates that he may have a visual impairment or simply prefers wearing glasses as a fashion accessory.
+
+2395429.jpg
+--------
+1. What is the elephant doing in the water?
+S. The elephant is swimming in the water.
+L. The elephant is enjoying a refreshing swim in the water, which is a natural behavior for elephants to cool off and maintain their body temperature.
+2. Where is the elephant in the water?
+S. The elephant is in a river.
+L. The elephant is in a river, which is a common habitat for elephants and provides them with a source of water and a place to socialize with other elephants.
+3. Who is the elephant in the water?
+S. The elephant is a baby elephant.
+L. The baby elephant is in the water, which is a typical activity for young elephants to learn about their environment and develop their swimming skills.
+
+2337356.jpg
+--------
+1. What is the image of?
+S. A robot
+L. The image is of a robot, which is a character from the Star Wars franchise.
+2. Where is the toilet located?
+S. Bathroom
+L. The toilet is located in a bathroom, specifically in a stall.
+3. Who is the character in the image?
+S. R2-D2
+L. The character in the image is R2-D2, a popular robot from the Star Wars movies.
+
+2333942.jpg
+--------
+1. What is the purpose of the parking meter?
+S. It is used to collect money for parking in the designated area.
+L. The parking meter is designed to regulate the time a vehicle is parked in a specific spot, ensuring that multiple drivers have access to the limited parking spaces available.
+2. Where is the parking meter located?
+S. On a sidewalk near a bike rack.
+L. The parking meter is located on a sidewalk near a bike rack, which is a convenient spot for cyclists to park their bikes while they pay for their parking time.
+3. Who is the woman in the image?
+S. She is a parking meter attendant.
+L. The woman in the image is responsible for collecting money from drivers who park their vehicles in the designated area, ensuring that the parking meter is functioning properly and that the parking spaces are being used efficiently.
+
+2336569.jpg
+--------
+1. What is the name of the street sign that is hanging from the wire?
+S. Lion Gate Bridge
+L. The street sign is hanging from a wire and is located above the traffic lights.
+<<line-break>>
+2. Where is the traffic light located?
+S. On a pole
+L. The traffic light is located on a pole near the street sign.
+<<line-break>>
+3. Who is the person responsible for maintaining the traffic lights and street signs?
+S. Traffic engineer
+L. The traffic engineer is responsible for maintaining the traffic lights and street signs to ensure the safety and smooth flow of traffic in the area.
+
+2350196.jpg
+--------
+1. What are the people wearing?
+S. Coats
+L. The people in the image are wearing coats, which suggests that the weather is cold and they are dressed appropriately for skiing.
+2. Where are the people skiing?
+S. Snow
+L. The people are skiing on a snow-covered slope, which is a popular winter activity and a great way to enjoy the outdoors during the cold season.
+3. Who are the people in the image?
+S. Skiers
+L. The people in the image are skiers, who are enjoying a day on the slopes together, likely as a group or family.
+
+n122078.jpg
+--------
+1. What is the main activity in the image?
+S. Skiing
+L. The image shows a snowy mountain with people skiing, indicating that the main activity is skiing.
+<<line-break>>
+2. Where is the image taken?
+S. Mountain
+L. The image is taken on a snowy mountain, which is a popular location for skiing and other winter sports.
+<<line-break>>
+3. Who is skiing in the image?
+S. People
+L. The image shows a group of people skiing, which suggests that the activity is accessible to a wide range of individuals.
+
+n519658.jpg
+--------
+1. What is the color of the donut?
+S. Red
+L. The donut is red and covered in white sprinkles.
+<<line-break>>
+2. Where is the donut being held?
+S. Hand
+L. The donut is being held in a person's hand.
+<<line-break>>
+3. Who is holding the donut?
+S. Person
+L. A person is holding the donut in their hand.
+
+n362358.jpg
+--------
+1. What is the main activity in the image?
+S. People riding motorcycles and cars.
+L. The main activity in the image is people riding motorcycles and cars on a busy street.
+2. What is the purpose of the fence in the image?
+S. To separate the road from the sidewalk.
+L. The purpose of the fence in the image is to separate the road from the sidewalk, ensuring the safety of pedestrians and providing a clear path for vehicles.
+3. Who is the person in the image with a handbag?
+S. A woman.
+L. The person in the image with a handbag is a woman who is walking on the sidewalk.
+
+n229230.jpg
+--------
+1. What is the name of the street where the bus lane is located?
+S. Broadway
+L. Broadway is a well-known street in New York City, known for its theater district and bustling atmosphere.
+2. Who is the person in the image who is wearing a hat?
+S. A man
+L. The man is wearing a hat, which could be a sun hat or a hat for style or protection from the weather.
+3. What is the purpose of the traffic advisory sign in the image?
+S. To warn drivers of ongoing construction
+L. The traffic advisory sign is in place to inform drivers of the ongoing construction work, which may cause delays or detours, and to ensure the safety of both drivers and construction workers.
+
+n51491.jpg
+--------
+1. What is the player's name?
+S. Hee
+L. The player's name is Hee.
+<<line-break>>
+2. Where is the baseball game taking place?
+S. Field
+L. The baseball game is taking place on a field.
+<<line-break>>
+3. Who is the catcher?
+S. Player
+L. The catcher is a baseball player.
+
+4418.jpg
+--------
+1. What is the purpose of the beakers in the image?
+S. They are used for scientific experiments and measurements.
+L. The beakers are filled with various liquids, which are likely used for conducting experiments or measuring different properties of the liquids.
+2. Where are the people in the image?
+S. In a laboratory.
+L. The people are gathered around a table, working on scientific projects and collaborating with each other.
+3. Who are the people in the image?
+S. Students.
+L. The students are working together in a laboratory setting, likely conducting experiments or research projects.
+
+n498169.jpg
+--------
+1. What is the elephant doing in the image?
+S. The elephant is laying down on the ground.
+L. The elephant is resting or possibly sleeping, as it is laying down in a field with a tree nearby.
+2. Where is the elephant in the image?
+S. The elephant is in a field with a tree.
+L. The elephant is in a natural environment, possibly in a savannah or grassland habitat.
+3. Who is the elephant in the image?
+S. The elephant is a baby elephant.
+L. The baby elephant is laying down in the field, possibly indicating that it is young and still learning to navigate its environment.
+
+2347639.jpg
+--------
+1. What is the color of the vase?
+S. Green
+L. The vase is green in color.
+2. Where is the vase located?
+S. On a table
+L. The vase is placed on a table.
+3. Who is the artist of the vase?
+S. Unknown
+L. The artist of the vase is unknown.
+
+2369698.jpg
+--------
+1. What is the name of the bus company?
+S. Bus Lique
+L. Bus Lique is a bus company that operates in the city.
+<<line-break>>
+2. What is the name of the bus company's logo?
+S. Lique
+L. The logo of the bus company is Lique.
+<<line-break>>
+3. What is the name of the bus company's bus?
+S. Lique
+L. The bus company's bus is called Lique.
+
+2373085.jpg
+--------
+1. What is the color of the bus?
+S. Blue
+L. The bus is blue and white.
+2. Where is the bus parked?
+S. In front of a church
+L. The bus is parked in front of a large red brick church.
+3. Who is standing on the steps of the church?
+S. Two men
+L. Two men are standing on the steps of the church, possibly waiting to enter or exit the bus.
+
+n230430.jpg
+--------
+1. What is the dog's color?
+S. Brown
+L. The dog is brown in color.
+2. Where is the dog walking?
+S. Grass
+L. The dog is walking on the grass.
+3. Who is taking the photo?
+S. Man
+L. A man is taking the photo of the dog.
+
+2406064.jpg
+--------
+1. What is the color of the baby's shirt?
+S. White
+L. The baby is wearing a white shirt.
+<<line-break>>
+2. Where is the baby sitting?
+S. On a bed
+L. The baby is sitting on a bed between two men.
+<<line-break>>
+3. Who are the two men in the image?
+S. Brothers
+L. The two men in the image are brothers, and they are posing with their baby brother.
+
+2371480.jpg
+--------
+1. What is the dish made of?
+S. Chicken
+L. The dish is made of chicken, broccoli, and orange sauce.
+<<line-break>>
+2. Where is the dish served?
+S. Restaurant
+L. The dish is served in a restaurant, on a plate with a sauce.
+<<line-break>>
+3. Who prepared the dish?
+S. Chef
+L. The dish was prepared by a chef, who cooked the chicken, broccoli, and orange sauce.
+
+2377994.jpg
+--------
+1. What is the zebra eating?
+S. Grass
+L. The zebra is eating grass in the field.
+2. Where is the zebra standing?
+S. Field
+L. The zebra is standing in a grassy field.
+3. Who is the zebra?
+S. Zebra
+L. The zebra is a large, black and white striped animal, native to Africa.
+
+n205944.jpg
+--------
+1. What is the zebra's primary source of food?
+S. Grass
+L. The zebra is grazing on the tall grass in the field, which is its primary source of food.
+2. Where are the zebras in the image?
+S. Field
+L. The zebras are in a field, standing next to each other and grazing on the tall grass.
+3. Who are the zebras in the image?
+S. Mother and baby zebra
+L. The zebras in the image are a mother and baby zebra, with the baby zebra standing close to the mother zebra while they graze on the grass.
+
+2328856.jpg
+--------
+1. What is the man wearing?
+S. A helmet and a vest
+L. The man is wearing a helmet and a vest while riding a skateboard.
+2. Where is the man skateboarding?
+S. On a street
+L. The man is skateboarding on a street, possibly in a park or on a road.
+3. Who is the man skateboarding for?
+S. Himself
+L. The man is skateboarding for himself, possibly as a form of exercise or recreation.
+
+2381621.jpg
+--------
+1. What is the boy wearing?
+S. A red shirt
+L. The boy is wearing a red shirt and blue shorts.
+2. Where is the boy standing?
+S. On the grass
+L. The boy is standing on the grass in a park.
+3. Who is the boy playing with?
+S. Another boy
+L. The boy is playing with another boy, who is holding a frisbee.
+
+2383102.jpg
+--------
+1. What is the color of the train?
+S. Yellow
+L. The train is yellow and red, as it is a freight train with a red caboose.
+2. Where is the train located?
+S. On the tracks
+L. The train is located on the tracks in a city, near a building and a stop sign.
+3. Who is the train operator?
+S. Conductor
+L. The train operator is a conductor who is responsible for ensuring the safe and efficient operation of the train.
+
+n55622.jpg
+--------
+1. What is the color of the giraffes in the image?
+S. Brown and white
+L. The giraffes in the image are brown and white, which is a common color pattern for these animals.
+2. Where are the giraffes standing in the image?
+S. In front of a building
+L. The giraffes are standing in front of a building, which could be a zoo or a wildlife sanctuary.
+3. Who is the person in the image?
+S. Zookeeper
+L. The person in the image is a zookeeper, who is responsible for taking care of the giraffes and ensuring their well-being.
+
+2357307.jpg
+--------
+1. What is the woman holding?
+S. A Wii remote
+L. The woman is holding a Wii remote, which she is using to play a video game.
+2. Where is the man sitting?
+S. On a couch
+L. The man is sitting on a couch in the living room, watching the woman play the video game.
+3. Who is playing the video game?
+S. The woman
+L. The woman is playing the video game, while the man watches her.
+
+2381970.jpg
+--------
+1. What is the main ingredient of the pizza?
+S. Pepperoni
+L. The main ingredient of the pizza is pepperoni, which is a type of spicy sausage.
+2. Where is the pizza being served?
+S. In a restaurant
+L. The pizza is being served in a restaurant, which is a place where people can enjoy a variety of foods, including pizza.
+3. Who is the person who made the pizza?
+S. Chef
+L. The person who made the pizza is a chef, who is a professional cook who prepares and serves food in a restaurant or other establishment.
+
+2322221.jpg
+--------
+1. What is the color of the train?
+S. White
+L. The train is white, as seen in the image.
+2. Where is the train located?
+S. On tracks
+L. The train is located on the tracks, as it is traveling down the railroad.
+3. Who is the train operator?
+S. DB
+L. The train operator is DB, as indicated by the train's markings.
+
+n29249.jpg
+--------
+1. What is the color of the bus in the background?
+S. Blue
+L. The bus in the background is blue.
+<<line-break>>
+2. Who is riding the motorcycle?
+S. Woman
+L. A woman is riding the motorcycle.
+<<line-break>>
+3. What is the woman wearing on the motorcycle?
+S. Helmet
+L. The woman is wearing a helmet on the motorcycle.
+
+2396722.jpg
+--------
+1. What is the game being played in the image?
+S. Baseball
+L. The image shows a group of people playing baseball in a field, with a man holding a baseball bat and a woman wearing a baseball glove.
+2. Where is the baseball game taking place?
+S. Field
+L. The baseball game is taking place in a field, which is a suitable location for such an outdoor activity.
+3. Who is the man in the image?
+S. Player
+L. The man in the image is a baseball player, holding a bat and preparing to hit the ball.
+
+2416057.jpg
+--------
+1. What is the boy wearing?
+S. A helmet and knee pads
+L. The boy is wearing a helmet and knee pads while riding a skateboard down the street.
+2. Where is the boy riding the skateboard?
+S. On the street
+L. The boy is riding the skateboard on the street, possibly in a residential area.
+3. Who is the boy?
+S. A young boy
+L. The boy is a young boy who is wearing a helmet and knee pads while riding a skateboard down the street.
+
+2325198.jpg
+--------
+1. What is the color of the cupcake in the image?
+S. White
+L. The cupcake is white with red frosting.
+<<line-break>>
+2. Where is the cell phone in the image?
+S. On the table
+L. The cell phone is on the table next to the cupcake.
+<<line-break>>
+3. Who is sitting at the table with the cupcake and cell phone?
+S. A person
+L. A person is sitting at the table with a cupcake and a cell phone.
+
+2412796.jpg
+--------
+1. What is the polar bear doing in the image?
+S. The polar bear is standing on a rock in the water.
+L. The polar bear is standing on a rock in the water, possibly exploring its surroundings or searching for food.
+2. Where is the polar bear in the image?
+S. The polar bear is in the water, standing on a rock.
+L. The polar bear is in the water, standing on a rock, which is a natural habitat for polar bears, as they are known to swim and hunt in the Arctic waters.
+3. Who is the polar bear in the image?
+S. The polar bear is a young polar bear.
+L. The polar bear in the image is a young polar bear, which suggests that it is still growing and learning to adapt to its environment.
+
+1592546.jpg
+--------
+1. What is the girl holding in her hand?
+S. A flower
+L. The girl is holding a flower in her hand, which is a common decoration for special occasions or as a gift.
+2. Where is the girl sitting in the image?
+S. On a bed
+L. The girl is sitting on a bed in a bedroom, which is a common place for relaxation and rest.
+3. Who is taking the picture of the girl in the image?
+S. A man
+L. A man is taking the picture of the girl, which could be for a special occasion or to capture a memorable moment.
+
+2360137.jpg
+--------
+1. What is the color of the umbrella in the image?
+S. Green, blue, red, yellow, and white
+L. The umbrella in the image is a striped umbrella with colors of green, blue, red, yellow, and white.
+2. Where is the table with the umbrella in the image?
+S. Outside
+L. The table with the umbrella is located outside, possibly at a festival or a similar event.
+3. Who are the two women in the image?
+S. Vendors
+L. The two women in the image are vendors, selling items under the striped umbrella.
+
+2335189.jpg
+--------
+1. What is the color of the dog in the image?
+S. Black and white
+L. The dog is black and white, which is a common color pattern for Dalmatian dogs.
+2. Where is the man and woman walking the dog?
+S. Street
+L. The man and woman are walking the dog on a street, likely in a city or town.
+3. Who is the man and woman walking the dog with?
+S. Couple
+L. The man and woman are walking the dog together as a couple, enjoying their time together.
+
+61553.jpg
+--------
+1. What is the primary activity of the sheep in the image?
+S. Grazing
+L. The sheep are grazing on the lush green grass in the field.
+<<line-break>>
+2. Where are the sheep in the image?
+S. Field
+L. The sheep are in a field with mountains in the background.
+<<line-break>>
+3. Who is the shepherd of the sheep in the image?
+S. Unknown
+L. The shepherd of the sheep is not visible in the image, but they are responsible for taking care of the flock and ensuring their safety.
+
+n108146.jpg
+--------
+1. What is the baby elephant doing?
+S. The baby elephant is laying down.
+L. The baby elephant is laying down in the hay, possibly resting or sleeping.
+2. Where is the adult elephant in the image?
+S. The adult elephant is standing next to the baby elephant.
+L. The adult elephant is standing next to the baby elephant in a field, providing protection and guidance.
+3. Who is the baby elephant with?
+S. The baby elephant is with its mother.
+L. The baby elephant is with its mother, who is standing nearby and providing care and support.
+
+2362642.jpg
+--------
+1. What is the teddy bear holding?
+S. A crystal ball
+L. The teddy bear is holding a crystal ball, which is a decorative and possibly magical item. The bear is posed in a way that makes it appear as if it is holding the ball, creating an interesting and whimsical scene.
+2. Where is the teddy bear located?
+S. On a table
+L. The teddy bear is located on a table, which is a common place for displaying decorative items or toys. The table provides a stable surface for the bear and the crystal ball, allowing them to be easily seen and appreciated.
+3. Who is the teddy bear?
+S. A stuffed animal
+L. The teddy bear is a stuffed animal, which is a type of toy that is typically made of soft materials like fabric or plush. Stuffed animals are often given as gifts or used for decorative purposes, and they can evoke feelings of comfort, nostalgia, or playfulness. In this image, the teddy bear is posed with a crystal ball, adding an element of intrigue and magic to the scene.
+
+n436194.jpg
+--------
+1. What is the man holding in his hand?
+S. A water bottle
+L. The man is holding a water bottle while standing with a young boy on the grass.
+<<line-break>>
+2. Where is the man holding the water bottle?
+S. On the grass
+L. The man is holding the water bottle on the grass, with a young boy standing next to him.
+<<line-break>>
+3. Who is the man holding the water bottle with?
+S. A young boy
+L. The man is holding the water bottle with a young boy, who is standing next to him on the grass.
+
+n282436.jpg
+--------
+1. What is the dog doing?
+S. The dog is laying on a desk.
+L. The dog is laying on a desk, possibly taking a nap or resting.
+2. Where is the dog laying?
+S. The dog is laying on a desk.
+L. The dog is laying on a desk, which is a common place for people to work or relax.
+3. Who is the dog?
+S. The dog is a black and brown dog.
+L. The dog is a black and brown dog, possibly a breed like a Dachshund or a mixed breed.
+
+2345526.jpg
+--------
+1. What is the woman wearing?
+S. A red skirt
+L. The woman is wearing a red skirt and a brown purse.
+<<line-break>>
+2. Where is the train station?
+S. In the city
+L. The train station is located in the city, with a large group of people waiting for the train.
+<<line-break>>
+3. Who is waiting for the train?
+S. A woman
+L. A woman is waiting for the train, along with many other people.
+
+2338202.jpg
+--------
+1. What is the name of the city where the fire truck is parked?
+S. Salt Lake City
+L. Salt Lake City is the name of the city where the fire truck is parked.
+2. What is the color of the fire truck?
+S. Red
+L. The fire truck is red.
+3. Who is the person driving the car in front of the fire truck?
+S. A woman
+L. A woman is driving the car in front of the fire truck.
+
+2348169.jpg
+--------
+1. What is the bird's species?
+S. White bird
+L. The bird is a white crane.
+2. Where is the man taking a picture?
+S. Park
+L. The man is taking a picture in a park, capturing the bird in its natural habitat.
+3. Who is the person taking the picture?
+S. Photographer
+L. The person taking the picture is a photographer, possibly a professional or an enthusiast, capturing the bird's unique features and behavior.
+
+2394575.jpg
+--------
+1. What is the zebra's color?
+S. Black and white
+L. The zebra's color is black and white, which is a unique and easily recognizable pattern for this species.
+2. Where are the zebras standing?
+S. Zoo
+L. The zebras are standing in a zoo enclosure, which is a controlled environment designed to house and care for animals.
+3. Who is the zebra standing next to?
+S. Another zebra
+L. The zebra is standing next to another zebra, which is a common sight in the wild and in zoos.
+
+2336884.jpg
+--------
+1. What is the baby eating?
+S. A banana
+L. The baby is eating a banana while sitting on a wooden deck.
+2. Where is the baby sitting?
+S. On a wooden deck
+L. The baby is sitting on a wooden deck, possibly near a wooden pier.
+3. Who is holding the banana for the baby?
+S. A person
+L. A person is holding the banana for the baby, who is sitting on the deck and eating it.
+
+2336094.jpg
+--------
+1. What is the primary ingredient in the bowl?
+S. Carrots
+L. The bowl contains carrots, which are a popular vegetable used in various dishes and recipes.
+2. Where are the carrots in the image?
+S. On a table
+L. The carrots are arranged on a table, possibly for cooking or serving purposes.
+3. Who is the person in the image?
+S. Chef
+L. The person in the image is a chef, who is responsible for preparing and cooking meals for their customers or clients.
+
+2340329.jpg
+--------
+1. What is the girl wearing?
+S. A white shirt
+L. The girl is wearing a white shirt and blue jeans.
+2. Where is the girl sitting?
+S. In the grass
+L. The girl is sitting in the grass, possibly in a field.
+3. Who is the girl?
+S. A young girl
+L. The girl is a young child who is playing with a kite.
+
+2399456.jpg
+--------
+1. What is the color of the plane in the image?
+S. Red and white
+L. The plane in the image is red and white, which is a common color scheme for small aircraft. The red color is often used to indicate the plane's nationality or affiliation, while the white color is used for visibility and contrast.
+2. Where is the plane flying in the image?
+S. Over a field
+L. The plane is flying over a field, which is a common location for small aircraft to take off and land. The field provides ample space for the plane to maneuver and offers a relatively flat surface for takeoff and landing.
+3. Who is the pilot of the plane in the image?
+S. Man
+L. The man is the pilot of the plane, and he is responsible for operating the aircraft and ensuring its safe flight. He is likely experienced in flying small aircraft and has the necessary skills and knowledge to navigate the plane through the air.
+
+2336504.jpg
+--------
+1. What is the name of the train in the image?
+S. Steam Locomotive
+L. The image features a black steam locomotive, which is a type of train powered by steam engines. Steam locomotives were widely used in the 19th and early 20th centuries before being replaced by diesel and electric trains.
+2. Where is the train located?
+S. On tracks
+L. The train is located on tracks, which are a series of parallel rails that allow trains to move along them. The tracks are typically made of steel and are laid down on sleepers, also known as railroad ties, to provide support and stability.
+3. Who is the engineer of the train?
+S. Unknown
+L. The engineer of the train is not visible in the image, so their identity cannot be determined. However, the engineer is responsible for operating the train, ensuring its safe and efficient movement along the tracks.
+
+2340386.jpg
+--------
+1. What is the color of the motorcycle?
+S. Red
+L. The motorcycle is red and parked on the street.
+<<line-break>>
+2. Who is riding the motorcycle?
+S. Two people
+L. Two people, a man and a woman, are riding the motorcycle.
+<<line-break>>
+3. Where is the motorcycle parked?
+S. Street
+L. The motorcycle is parked on the street, near a building.
+
+2384046.jpg
+--------
+1. What is the purpose of the benches in the image?
+S. They are for people to sit and relax.
+L. The benches are placed along the sidewalk to provide a comfortable spot for pedestrians to rest, socialize, or enjoy the surroundings.
+2. Where is the image taken?
+S. A city street.
+L. The image is taken in a city setting, specifically on a tree-lined sidewalk, where people are walking and sitting on benches.
+3. Who is sitting on the bench in the image?
+S. A woman.
+L. A woman is sitting on a bench, possibly enjoying the view or waiting for someone.
+
+2329288.jpg
+--------
+1. What is the boy flying in the park?
+S. A kite
+L. The boy is flying a kite in the park, enjoying the outdoor activity and the windy weather.
+2. Where is the boy in the image?
+S. In a park
+L. The boy is standing in a grassy field in the park, surrounded by trees and open space.
+3. Who is the boy in the image?
+S. A young boy
+L. The boy in the image is a young child, possibly a sibling or a friend of the child flying the kite.
+
+2351307.jpg
+--------
+1. What is the skateboarder performing?
+S. A trick on a ramp
+L. The skateboarder is performing a trick on a ramp, showcasing their skills and balance.
+2. Where is the skateboarder performing the trick?
+S. On a ramp
+L. The skateboarder is performing the trick on a ramp, which is a common location for skateboarding events and competitions.
+3. Who is watching the skateboarder perform the trick?
+S. Spectators
+L. Spectators are watching the skateboarder perform the trick, likely enjoying the display of skill and athleticism.
+
+n89161.jpg
+--------
+1. What is the color of the toilet in the image?
+S. White
+L. The toilet is white, which is a common color for bathroom fixtures.
+2. Where is the bathroom located?
+S. In a house
+L. The bathroom is located in a house, which is a typical setting for a residential bathroom.
+3. Who is the person who took the photo of the bathroom?
+S. Photographer
+L. The photographer is a person who captured the image of the bathroom, likely to showcase the design or layout of the space.
+
+2385125.jpg
+--------
+1. What is the name of the bus company?
+S. Trusty
+L. Trusty is the name of the bus company operating the red double-decker bus in the image.
+2. What is the purpose of the bus?
+S. Sightseeing
+L. The bus is designed for sightseeing, providing tourists with an elevated view of the city and its attractions.
+3. What is the significance of the bus being red?
+S. Iconic
+L. The red color of the bus is iconic and instantly recognizable, making it a symbol of London and its public transportation system.
+
+2377658.jpg
+--------
+1. What is the purpose of the clock on the wall?
+S. It tells time.
+L. The clock on the wall serves as a functional and decorative element, providing the time to those in the room.
+2. Where is the pizza on the desk?
+S. On a plate.
+L. The pizza is on a plate on the desk, likely indicating a meal or snack time for the person working at the desk.
+3. Who is the person working at the desk?
+S. A man.
+L. The man working at the desk is likely a computer user or someone who spends time at the desk for work or personal tasks.
+
+2395663.jpg
+--------
+1. What is the purpose of the white cart with the word "espace" on it?
+S. It is a mobile advertisement for a company.
+L. The cart is being used as a mobile advertisement for a company, likely to attract attention and promote their products or services.
+2. Where is the cart parked in the image?
+S. On a brick walkway.
+L. The cart is parked on a brick walkway, which is a common location for outdoor events and markets.
+3. Who is the person in the image?
+S. A man.
+L. The man is standing next to the white cart, possibly working for the company or managing the cart's operation.
+
+2336625.jpg
+--------
+1. What is the color of the bus in the image?
+S. White
+L. The bus in the image is white.
+<<line-break>>
+2. Where is the bus driving on the street?
+S. Downtown
+L. The bus is driving down a street in downtown.
+<<line-break>>
+3. Who is the driver of the bus in the image?
+S. Bus driver
+L. The bus driver is a man.
+
+2395359.jpg
+--------
+1. What is the color of the toilet seat?
+S. Black
+L. The toilet seat is black, which is a common color for toilet seats to blend in with the bathroom's design and provide a sense of cleanliness.
+2. Where is the toilet located?
+S. Bathroom
+L. The toilet is located in a bathroom, which is a common place for toilets to be found due to the need for a private space for personal hygiene.
+3. Who is the manufacturer of the toilet paper?
+S. Scott
+L. The toilet paper is manufactured by Scott, a well-known company that specializes in producing toilet paper and other bathroom essentials.
+
+2409526.jpg
+--------
+1. What is the color of the horse's mane?
+S. White
+L. The horse has a white mane, which is a distinctive feature of its appearance.
+<<line-break>>
+2. Where is the horse standing in the image?
+S. Grass
+L. The horse is standing in a grassy field, which is a common environment for horses to graze and roam.
+<<line-break>>
+3. Who is the person in the image?
+S. Farmer
+L. The farmer is responsible for taking care of the horse, ensuring its well-being and providing it with a suitable environment.
+
+2364865.jpg
+--------
+1. What is the man wearing?
+S. A white shirt and black shorts
+L. The man is wearing a white shirt and black shorts while playing tennis.
+2. Where is the tennis ball?
+S. In the air
+L. The tennis ball is in the air, and the man is swinging his racket to hit it.
+3. Who is the man playing tennis with?
+S. Opponent
+L. The man is playing tennis with his opponent, and he is in the middle of a swing to hit the ball.
+
+2353948.jpg
+--------
+1. What is the dog wearing?
+S. A white shirt
+L. The dog is wearing a white shirt, which is likely a part of a costume or a special event.
+2. Where is the dog skateboarding?
+S. On a street
+L. The dog is skateboarding on a street, possibly during a parade or a special event.
+3. Who is the boy riding the skateboard with the dog?
+S. A boy in a red shirt
+L. The boy in the red shirt is riding the skateboard with the dog, which suggests that they might be participating in a fun activity or event together.
+
+n120610.jpg
+--------
+1. What is the cat's color?
+S. White and black
+L. The cat is white and black, with a mix of black and white fur.
+2. Where is the cat standing?
+S. On the ground
+L. The cat is standing on the ground, next to a bicycle.
+3. Who is the person riding the bicycle?
+S. No one
+L. The bicycle is unattended, and there is no person riding it in the image.
+
+2335089.jpg
+--------
+1. What is the tallest building in the image?
+S. The tallest building in the image is the Petronas Twin Towers.
+L. The Petronas Twin Towers are the tallest buildings in the image, standing at 451 meters (1,483 feet) tall. They are located in Kuala Lumpur, Malaysia, and are known for their iconic design and impressive height.
+2. Where is the image taken from?
+S. The image is taken from a street view in a city.
+L. The image is taken from a street view in a city, showcasing the tall buildings and the busy urban environment. The perspective suggests that the viewer is looking towards the tallest building in the scene, the Petronas Twin Towers.
+3. Who is the architect of the Petronas Twin Towers?
+S. The architect of the Petronas Twin Towers is Cesar Pelli.
+L. The Petronas Twin Towers were designed by the renowned architect Cesar Pelli, who is known for his iconic and innovative designs. The towers were completed in 1998 and have since become a symbol of Kuala Lumpur and a major tourist attraction.
+
+1592305.jpg
+--------
+1. What is the name of the street where the cars are parked?
+S. Grover Street
+L. Grover Street is a street in the city where the cars are parked, and it is located near a tall building.
+2. Who is the person walking across the street?
+S. A man
+L. The man walking across the street is a traffic officer, and he is wearing a safety vest.
+3. Where is the traffic officer walking?
+S. Across the street
+L. The traffic officer is walking across the street in front of a tall building.
+
+2342429.jpg
+--------
+1. What is the image of?
+S. A group of dogs playing in the water.
+L. The image shows a group of dogs playing in the water, with some of them running and others swimming. The dogs are of various sizes and are spread across the scene, creating a lively and energetic atmosphere.
+2. Where is the image taken?
+S. In a river.
+L. The image is taken in a river, where the dogs are enjoying themselves as they play and swim in the water. The river provides a natural and refreshing environment for the dogs to engage in their activities.
+3. Who are the dogs in the image?
+S. A pack of dogs.
+L. The dogs in the image are a pack of dogs, which suggests that they are likely part of a larger group or community. They are of various sizes and breeds, indicating that they might be a diverse group of dogs living together or coming together for a shared activity.
+
+2385401.jpg
+--------
+1. What is the cow's color?
+S. Brown
+L. The cow is brown in color.
+2. Where is the cow standing?
+S. Field
+L. The cow is standing in a field.
+3. Who is the cow's owner?
+S. Farmer
+L. The cow's owner is a farmer.
+
+2354998.jpg
+--------
+1. What is the boy wearing?
+S. A black jacket
+L. The boy is wearing a black jacket, which is likely made of a waterproof material to protect him from the cold and wet weather conditions.
+2. Where is the boy standing?
+S. In the snow
+L. The boy is standing in the snow, which suggests that the image was taken during the winter season.
+3. Who is the boy talking to on the phone?
+S. His mother
+L. The boy is talking to his mother on the phone, which indicates that he might be discussing his day or seeking her advice or support.
+
+2387420.jpg
+--------
+1. What is the drink in the glass?
+S. Martini
+L. The martini is made with chocolate and is served in a glass.
+<<line-break>>
+2. Where is the cake on the plate?
+S. On a plate
+L. The cake is on a plate, which is on a table.
+<<line-break>>
+3. Who is the person who is sitting at the table?
+S. Woman
+L. A woman is sitting at the table, enjoying her martini and cake.
+
+2362921.jpg
+--------
+1. What is the man sleeping on?
+S. A bench
+L. The man is sleeping on a bench in a public area, surrounded by people and chairs.
+2. Who is the man sleeping next to?
+S. A woman
+L. The man is sleeping next to a woman on the bench.
+3. Where is the bench located?
+S. Outside
+L. The bench is located outside, in a public area where people are walking around and sitting on chairs.
+
+2383227.jpg
+--------
+1. What is the dog playing with?
+S. A frisbee
+L. The dog is playing with a frisbee, which is a popular toy for dogs to fetch and play with.
+2. Where is the dog located?
+S. In the snow
+L. The dog is located in the snow, which is an unusual setting for playing with a frisbee.
+3. Who is the dog's owner?
+S. Unknown
+L. The dog's owner is unknown, but the dog is enjoying the activity and having fun.
+
+n474631.jpg
+--------
+1. What is the man wearing?
+S. A white shirt and black shorts
+L. The man is wearing a white shirt and black shorts, which are appropriate attire for playing tennis.
+2. Where is the man playing tennis?
+S. On a tennis court
+L. The man is playing tennis on a tennis court, which is a designated area for the sport.
+3. Who is the man playing tennis with?
+S. Another person
+L. The man is playing tennis with another person, which is a common practice in the sport.
+
+n474445.jpg
+--------
+1. What is the pizza in the box?
+S. A large pizza with various toppings.
+L. The pizza is in a box, and it appears to be a homemade pizza with a variety of toppings, including peppers and onions.
+2. Where is the pizza box?
+S. On a table.
+L. The pizza box is on a table, and it is open, revealing the pizza inside.
+3. Who is the person in the image?
+S. A man.
+L. The man in the image is sitting at the table with the pizza box, and he is likely the one who prepared the pizza.
+
+2355470.jpg
+--------
+1. What is the image of?
+S. Two bears in a body of water.
+L. The image shows two bears in a body of water, possibly a lake or a river, interacting with each other. One bear is biting the other bear's ear, which indicates a playful or aggressive behavior between the two animals. The scene captures the natural behavior of bears in their habitat, showcasing their social interactions and the importance of water sources for their survival.
+
+1. Where is the image taken?
+S. In a body of water.
+L. The image is taken in a body of water, which could be a lake or a river. The presence of water is essential for the bears, as it provides them with a habitat, food sources, and opportunities for social interactions. The specific location of the image cannot be determined, but it is clear that the bears are in a natural environment.
+
+1. Who are the bears in the image?
+S. Two bears.
+L. The bears in the image are two brown bears, which are a common species found in North America and parts of Europe. They are known for their large size, strength, and diverse diet, which includes fish, berries, and other plant-based foods. The bears in the image are likely engaging in a playful or aggressive interaction, which is a natural part of their behavior and social dynamics.
+
+2385962.jpg
+--------
+1. What is the surfer wearing?
+S. Wetsuit
+L. The surfer is wearing a wetsuit, which is designed to provide thermal insulation, buoyancy, and protection from abrasions and stings in the water.
+2. Where is the surfer in the water?
+S. Ocean
+L. The surfer is riding a wave in the ocean, showcasing their skill and balance on the surfboard.
+3. Who is the surfer in the image?
+S. Man
+L. The surfer in the image is a man, who is skillfully navigating the waves on his surfboard.
+
+2357633.jpg
+--------
+1. What is the dish made of?
+S. Vegetables
+L. The dish is made of a variety of vegetables, including broccoli, potatoes, and peppers, all arranged on a white plate.
+2. Where is the dish placed?
+S. Table
+L. The dish is placed on a table, ready to be eaten.
+3. Who prepared the dish?
+S. Chef
+L. The dish was prepared by a chef, who carefully arranged the vegetables on the plate to create an appetizing presentation.
+
+2325709.jpg
+--------
+1. What is the baby wearing?
+S. A brown shirt
+L. The baby is wearing a brown shirt and a hat.
+2. Where is the baby sitting?
+S. At a table
+L. The baby is sitting at a table with a plate of food in front of him.
+3. Who is the baby?
+S. A young child
+L. The baby is a young child wearing a hat and sitting at a table with a plate of food.
+
+n70377.jpg
+--------
+1. What is the man doing in the image?
+S. He is playing tennis.
+L. The man is swinging a tennis racket at a ball, attempting to hit it during a match.
+<<line-break>>
+2. Where is the tennis match taking place?
+S. On a tennis court.
+L. The tennis match is taking place on a clay court, which is a type of tennis court surface.
+<<line-break>>
+3. Who is the man playing tennis against?
+S. An opponent.
+L. The man is playing tennis against another player, who is also trying to hit the ball during the match.
+
+n170196.jpg
+--------
+1. What is the man wearing?
+S. A gray shirt
+L. The man is wearing a gray shirt and jeans while playing a video game.
+2. Where is the woman standing?
+S. Next to the man
+L. The woman is standing next to the man in a living room while they play a video game.
+3. Who is playing the video game?
+S. A man and a woman
+L. A man and a woman are playing a video game together in a living room.
+
+2372106.jpg
+--------
+1. What is the name of the building in the background?
+S. A church
+L. The building in the background is a church.
+2. Where is the boat going?
+S. Down the river
+L. The boat is heading down the river, possibly to a nearby city.
+3. Who is on the boat?
+S. A group of people
+L. A group of people, including a man and a woman, are on the boat.
+
+n551857.jpg
+--------
+1. What is the color of the umbrella held by the man in the red shirt?
+S. Black
+L. The man in the red shirt is holding a black umbrella to protect himself from the rain.
+<<line-break>>
+2. Where is the man in the red shirt standing?
+S. Sidewalk
+L. The man in the red shirt is standing on the sidewalk next to a store window.
+<<line-break>>
+3. Who is the man in the red shirt?
+S. Student
+L. The man in the red shirt is a student who is using an umbrella to shield himself from the rain.
+
+2402571.jpg
+--------
+1. What is the color of the bench the couple is sitting on?
+S. Brown
+L. The couple is sitting on a brown wooden bench.
+<<line-break>>
+2. Where is the couple sitting on the bench?
+S. Park
+L. The couple is sitting on a bench in a park.
+<<line-break>>
+3. Who is sitting on the bench with the couple?
+S. Woman
+L. A woman is sitting on the bench with the couple.
+
+n458590.jpg
+--------
+1. What is the main ingredient in the bowl of food?
+S. Carrots
+L. The main ingredient in the bowl of food is carrots, which are being prepared for a meal.
+2. Where is the knife in the image?
+S. On cutting board
+L. The knife is on a cutting board, which is placed on a countertop.
+3. Who is the person who prepared the food in the image?
+S. Chef
+L. The chef who prepared the food is likely a professional or an experienced home cook.
+
+2358661.jpg
+--------
+1. What is the color of the boat in the water?
+S. Blue
+L. The boat is blue and white.
+2. Where is the man standing on the boat?
+S. Front
+L. The man is standing on the front of the boat.
+3. Who is the man in the image?
+S. Boat owner
+L. The man is the boat owner, who is standing on the front of the boat.
+
+n144401.jpg
+--------
+1. What is the main dish on the plate?
+S. Fish
+L. The main dish on the plate is fish, which is accompanied by broccoli and potatoes.
+2. Where is the wine glass located?
+S. On the table
+L. The wine glass is located on the table, next to the plate of food.
+3. Who prepared the meal?
+S. Chef
+L. The meal was prepared by a chef, who carefully arranged the fish, broccoli, and potatoes on the plate.
+
+2332474.jpg
+--------
+1. What is the color of the bus?
+S. Purple
+L. The bus is purple in color.
+2. Where is the bus parked?
+S. Bus stop
+L. The bus is parked at a bus stop.
+3. Who is waiting at the bus stop?
+S. Woman
+L. A woman is waiting at the bus stop.
+
+2392939.jpg
+--------
+1. What is the purpose of the sign in the airport?
+S. It is a sign for the baggage claim.
+L. The sign is informing passengers that they have arrived at the baggage claim area, where they can collect their luggage.
+2. Who is waiting in the airport?
+S. A group of people.
+L. The group consists of travelers who are waiting for their luggage at the baggage claim area.
+3. Where is the group of people in the airport?
+S. In the baggage claim area.
+L. The group of people is standing in the baggage claim area, waiting for their luggage to arrive.
+
+2353025.jpg
+--------
+1. What is the man wearing?
+S. A white shirt
+L. The man is wearing a white shirt and a headband.
+2. Where is the man throwing the frisbee?
+S. In a park
+L. The man is throwing the frisbee in a park, specifically in a grassy area.
+3. Who is the man throwing the frisbee to?
+S. A woman
+L. The man is throwing the frisbee to a woman, who is not visible in the image.
+
+1592308.jpg
+--------
+1. What is the man wearing?
+S. Apron
+L. The man is wearing an apron while working in the kitchen.
+<<line-break>>
+2. Who is watching the man in the kitchen?
+S. People
+L. A group of people is watching the man as he works in the kitchen.
+<<line-break>>
+3. Where is the man in the kitchen?
+S. Behind the glass
+L. The man is working in the kitchen behind a glass window, allowing people to observe him.
+
+2375001.jpg
+--------
+1. What is the color of the sheep in the image?
+S. White
+L. The sheep in the image are white.
+2. Where are the sheep in the image?
+S. Field
+L. The sheep are in a field.
+3. Who is the person in the image?
+S. Shepherd
+L. The person in the image is a shepherd.
+
+n19562.jpg
+--------
+1. What is the color of the table?
+S. Brown
+L. The table is made of wood and has a brown color.
+<<line-break>>
+2. Where is the person sitting?
+S. Restaurant
+L. The person is sitting at a table in a restaurant.
+<<line-break>>
+3. Who is the person in the image?
+S. Woman
+L. The woman is sitting at the table, enjoying her meal.
+
+2325014.jpg
+--------
+1. What is the name of the snowboard in the image?
+S. Holy of Holies
+L. The snowboard in the image is called Holy of Holies.
+<<line-break>>
+2. Where is the snowboard located in the image?
+S. On a table
+L. The snowboard is located on a table in the image.
+<<line-break>>
+3. Who is the person in the image?
+S. Snowboarder
+L. The person in the image is a snowboarder.
+
+n244829.jpg
+--------
+1. What is the color of the train?
+S. Silver
+L. The train is silver in color.
+2. Where is the train located?
+S. Station
+L. The train is located at a station.
+3. Who is the train operator?
+S. Ice
+L. The train operator is Ice.
+
+2367942.jpg
+--------
+1. What is the airplane flying in?
+S. A blue sky
+L. The airplane is flying in a blue sky, which is a clear and sunny day, perfect for flying.
+2. Where is the airplane flying from?
+S. From the sky
+L. The airplane is flying from the sky, which is a common location for airplanes to take off and land.
+3. Who is flying the airplane?
+S. Pilot
+L. The pilot is flying the airplane, which is a trained professional responsible for operating the aircraft and ensuring the safety of the passengers and crew.
+
+2376574.jpg
+--------
+1. What is the man wearing?
+S. A gray shirt
+L. The man is wearing a gray shirt and glasses.
+2. Where is the man sitting?
+S. At a desk
+L. The man is sitting at a desk in a room.
+3. Who is the man?
+S. A man
+L. The man is a man with glasses who is sitting at a desk in a room.
+

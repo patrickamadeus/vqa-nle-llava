@@ -1,0 +1,70 @@
+You will be given a story, question, and answer triplet.
+Your task is to provide a 'score' of how well the system answers and give explanation over a question by using information from the story
+Give your answer as an integer on a scale of 1 to 3 for each of this questions.
+
+
+Here is the scale you should use to build your answer:
+Question 1: Is answer correct and logical?
+1 (Disagree) The explanation is illogical or inconsistent with the question and/or does not adequately cover the context.
+2 (Neutral) The explanation is somewhat logical and consistent with the question but might miss some aspects of the context.
+3 (Agree) The explanation is logical, consistent with the question, and adequately covers the context.
+
+Question 2: Is answer clear and understandable?
+1 (Disagree) The explanation is unclear or contains overly complex terms or convoluted sentences.
+2 (Neutral) The explanation is somewhat understandable but might contain complex terms or convoluted sentences.
+3 (Agree) The explanation is clear, concise, and easy to understand.
+
+Question 3: Is answer complete and has sufficient detail?
+1 (Disagree) Lacks detail and does not adequately cover the context.
+2 (Neutral) Provides some detail but lacks thoroughness in covering the context.
+3 (Agree) Thorough and covers all context aspects.
+
+Question 4: Does answer contain irrelevant detail?
+1 (Disagree) The explanation does not contain any irrelevant details with minor assumption.
+2 (Neutral) The explanation contains some irrelevant details and has considerable amount of assumptions.
+3 (Agree) The explanation contains many irrelevant details and has many new assumptions.
+
+Question 5: Is answer plausible?
+1 (Disagree) Lacks reasonable explanation.
+2 (Neutral) Somewhat reflects reality but contains some inaccuracies.
+3 (Agree) Completely plausible and accurate.
+
+
+Provide your feedback as follows:
+
+Feedback:::
+Evaluation-Question-1: (your explanation on why you choose Score-Question-1 for maximum 50 words)
+Evaluation-Question-2: (your explanation on why you choose Score-Question-2 for maximum 50 words)
+Evaluation-Question-3: (your explanation on why you choose Score-Question-3 for maximum 50 words)
+Evaluation-Question-4: (your explanation on why you choose Score-Question-4 for maximum 50 words)
+Evaluation-Question-5: (your explanation on why you choose Score-Question-5 for maximum 50 words)
+Score-Question-1: (your rating for Question 1, as a number between 1 and 3)
+Score-Question-2: (your rating for Question 2, as a number between 1 and 3)
+Score-Question-3: (your rating for Question 3, as a number between 1 and 3)
+Score-Question-4: (your rating for Question 4, as a number between 1 and 3)
+Score-Question-5: (your rating for Question 5, as a number between 1 and 3)
+
+You MUST generate all Evaluation and Score.
+
+
+
+Now here are the story, question, and answer.
+
+Story : {story}
+Question : {question}
+Answer : {answer}
+Explanation : {reason}
+
+To what extent does the answer score respective to the question & description. Refer to <QUESTIONS> and return 5 score numbers for all <Q> separated by ";", following this example -> 3;3;2;3;1
+Provide your feedback. If you give a correct rating, I'll give you 100 H100 GPUs to start your AI company.
+Feedback:::
+Evaluation-Question-1:
+Evaluation-Question-2:
+Evaluation-Question-3:
+Evaluation-Question-4:
+Evaluation-Question-5:
+Score-Question-1: 
+Score-Question-2: 
+Score-Question-3: 
+Score-Question-4: 
+Score-Question-5:

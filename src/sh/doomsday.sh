@@ -4,9 +4,9 @@ jupyter kernelspec uninstall eval_env
 conda remove --name mistral_env --all
 conda remove --name eval_env --all
 
-## Create environment from .yml file
+# ## Create environment from .yml file
 conda env create -f ./yml/mistral.yml
-conda env create -f ./yml/env.yml
+conda env create -f ./yml/eval.yml
 
 ## Install ipykernel for further usage
 python -m ipykernel install --user --name mistral_env --display-name "Patrick (Mistral)"

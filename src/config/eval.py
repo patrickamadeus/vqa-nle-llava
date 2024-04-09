@@ -9,11 +9,12 @@ PROMPT_DICT = {
     "self_reasoning" : "./prompt/eval/self_reasoning.txt",
     "self_reasoning_split": "./prompt/eval/self_reasoning/",
     "self_factoid_bakllava" : "./prompt/eval/self_factoid_bakllava.txt",
-    "self_reasoning_bakllava_split": "./prompt/eval/self_reasoning_bakllava/"
+    "self_reasoning_bakllava_split": "./prompt/eval/self_reasoning_bakllava/",
+    "openai_story": "./prompt/eval/openai_story.txt"
 }
 
 
-try: 
+if 1:
     # Load from YAML
     # Load from dictionary
     eval_cfg                 = load_config("./", "eval.yml")
@@ -50,15 +51,21 @@ try:
 
     
     # Gather Output
+    INTER_JSON = {}
     RESULT_JSON = unpack_json(f"./result/{TEST_NAME}/res.json")[:EVAL_NUM]
+    if PROMPT_EVAL_REASONING_KEY == "openai_story":
+        INTER_JSON = unpack_json(f"./result/{TEST_NAME}/misc/inter.json")
     
     # Gather Prompts
-    PROMPT_EVAL_REASONING_PATHS, _ = get_all_filepaths(PROMPT_EVAL_REASONING_PATH)
-    
     PROMPT_EVAL_REASONING_LIST = []
-    
-    for path in PROMPT_EVAL_REASONING_PATHS:
-        with open(path, 'r') as f:
+    if '.txt' not in PROMPT_EVAL_REASONING_PATH:
+        PROMPT_EVAL_REASONING_PATHS, _ = get_all_filepaths(PROMPT_EVAL_REASONING_PATH)
+
+        for path in PROMPT_EVAL_REASONING_PATHS:
+            with open(path, 'r') as f:
+                PROMPT_EVAL_REASONING_LIST.append(f.read())
+    else:
+        with open(PROMPT_EVAL_REASONING_PATH, 'r') as f:
             PROMPT_EVAL_REASONING_LIST.append(f.read())
     
     PROMPT_EVAL_FACTOID = ""
@@ -67,8 +74,8 @@ try:
         PROMPT_EVAL_FACTOID = f.read()    
             
 
-except Exception as e:
-    print(f"Evaluation Config loading error!\n{e}")
+# except Exception as e:
+#     print(f"Evaluation Config loading error!\n{e}")
 
 
 

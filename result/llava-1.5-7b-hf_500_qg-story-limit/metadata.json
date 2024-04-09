@@ -1,0 +1,11 @@
+{
+  "test_name": "llava-1.5-7b-hf_500_qg-story-limit",
+  "dataset_name": "GQA",
+  "total_data": 501,
+  "total_gen": 487,
+  "total_sec": 1299.5019104480743,
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "model_family": "llava",
+  "prompt_primary": "qg_story_limit",
+  "prompt_inter": "story_long"
+}

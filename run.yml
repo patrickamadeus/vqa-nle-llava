@@ -1,12 +1,12 @@
-test_name: test_restructure
+test_name: llava-1.5-7b-hf_500_qg-story-limit
 seed: 42
 dataset:
-    name: sample
-    count: 1
+    name: GQA
+    count: 167
 
 model:
-    name: llava-hf/llava-1.5-13b-hf
-    path: llava-hf/llava-1.5-13b-hf
+    name: llava-hf/llava-1.5-7b-hf
+    path: llava-hf/llava-1.5-7b-hf
     family: llava
     params:
         use_4_bit: 0
@@ -15,7 +15,7 @@ model:
         
 
 prompt:
-    multistep: 0
+    multistep: 1
     primary: qg_story_limit
     inter: story_long
 
@@ -23,4 +23,3 @@ run_params:
     num_per_inference: 3
     use_nonvis: 0
     use_img_ext: 1
-    

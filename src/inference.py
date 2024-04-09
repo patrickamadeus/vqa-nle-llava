@@ -9,7 +9,7 @@ import random
 import numpy as np
 import torch
 import requests
-from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoModel, AutoProcessor, AutoModelForCausalLM
+from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoModel, AutoProcessor, AutoModelForCausalLM, AutoModelForPreTraining
 from .base import set_seed, encode_image
 
 
@@ -19,7 +19,8 @@ def load_model(model_path, model_family, low_cpu_mem_usage, device = "cuda", see
         "llava" : LlavaForConditionalGeneration,
         "vip_llava": VipLlavaForConditionalGeneration,
         "auto": AutoModel,
-        "llama": AutoModelForCausalLM
+        "llama": AutoModelForCausalLM,
+        "llava-1.6": AutoModelForPreTraining
     }
     
     model, processor = None, None
@@ -78,8 +79,6 @@ def inference_OpenAI(model, processor, prompt, img_path, api_key=None, data_type
     
     return res, t
 
-        
-    
 
 # Inference helpers
 def inference_hf(

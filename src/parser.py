@@ -3,7 +3,7 @@ import os
 import json
 
 
-def parse_output(input_text: str, img_id: str, prev_i: int = 0) -> list[dict[str, str]]:
+def parse_output(input_text: str, img_id: str, prev_i: int = 0, type_out = "openai") -> list[dict[str, str]]:
     """
     Parse output text and extract question, short answer, and long answer.
 
@@ -42,7 +42,8 @@ def export_result(
     model_name: str,
     model_family: str,
     prompt_primary: str,
-    prompt_inter: str
+    prompt_inter: str,
+    inter_dict: dict
 ):
 
     # Create a new folder named "result" with a numbered identifier if it exists
@@ -78,6 +79,11 @@ def export_result(
     res_path = os.path.join(result_folder, "res.json")
     with open(res_path, "w") as res_file:
         json.dump(data, res_file, indent=2)
+        
+    # Export inter_dict to inter.json
+    inter_dict_path = os.path.join(misc_folder, "inter.json")
+    with open(inter_dict_path, "w") as res_file:
+        json.dump(inter_dict, res_file, indent=2)
 
     # Export primary_raw_out to primary.txt
     primary_path = os.path.join(misc_folder, "primary.txt")
@@ -95,7 +101,6 @@ def verif_digit(s: str):
         return int(s)
     return -1
         
-        
 def export_eval(
     test_name: str, 
     eval_model: str, ids: [int],  
@@ -103,6 +108,8 @@ def export_eval(
     reasoning_scores: [str],
     raw_output: str,
     total_eval_time: int,
+    in_token: int,
+    out_token: int,
     eval_prompt_factoid: str,
     eval_prompt_reasoning: str
 ) -> None:
