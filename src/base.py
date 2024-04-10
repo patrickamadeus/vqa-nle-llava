@@ -223,3 +223,16 @@ def raw_output_splitter(out_id, out_content):
     if out_content != "":
         return f"{out_id}\n-------------------------------\n{out_content}\n"
     return ""
+
+
+def expand_prefix_stratify(prefixes, props, total_length):
+    props = [(total_length * prop) // sum(props) for prop in props]
+
+    expanded_list = []
+    for i, prop in enumerate(props):
+        expanded_list += [prefixes[i]] * prop
+
+    expanded_list += [prefixes[0]] * (total_length - sum(props))
+    random.shuffle(expanded_list)
+
+    return expanded_list

@@ -16,7 +16,13 @@ from transformers import (
     VipLlavaForConditionalGeneration,
 )
 
-from src.base import annotate_images, encode_image, get_filename, set_seed
+from src.base import (
+    annotate_images,
+    encode_image,
+    expand_prefix_stratify,
+    get_filename,
+    set_seed,
+)
 
 
 def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=42):
@@ -84,7 +90,6 @@ def inference_OpenAI(
     return res, t
 
 
-# Inference helpers
 def inference_hf(
     model,
     processor,
@@ -256,14 +261,16 @@ def nonvis_inference_runner(
 
     outs = []
     total_sec = 0
-    
-    prefices = ["what", "is/am/are", "which/whose/whom"]
+
+    prefixes = ["what", "is/am/are", "which/whose/whom"]
+    props = [2, 1, 1]
+    prefixes = expand_prefix_stratify(prefixes, props, runner_config["pair_num"])
 
     for i, obj in enumerate(raw_objs):
         out, sec = inference_hf(
             model,
             processor,
-            prompt_primary.format(number=i + 1, name=obj[0], prefix=runner_config["prefix"]),
+            prompt_primary.format(number=i + 1, name=obj[0], prefix=prefixes[i]),
             img_raw=obj[1],
         )
         outs.append(out)

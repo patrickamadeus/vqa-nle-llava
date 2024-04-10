@@ -10,11 +10,13 @@ PROMPT_DICT = {
     "story_long": "./prompt/qg_story/story_long.txt",
     "qg_story": "./prompt/qg_story/gen_base.txt",
     "qg_story_limit": "./prompt/qg_story/gen_limit.txt",
+    "qg_story_optim": "./prompt/qg_story/gen_optim.txt",
     "naive": "./prompt/naive/base.txt",
+    "naive_optim": "./prompt/naive/optim.txt",
     "clevr_base": "./prompt/CLEVR/base.txt",
     "vlm_korika": "./prompt/vlm_korika.txt",
     "nonvis_base": "./prompt/nonvis/base.txt",
-    "nonvis_optim": "./prompt/nonvis/optim.txt"
+    "nonvis_optim": "./prompt/nonvis/optim.txt",
 }
 
 

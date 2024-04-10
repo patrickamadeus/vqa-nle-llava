@@ -26,8 +26,8 @@ def parse_output(
     if mode == "optim":
         pattern_question = re.compile(r"Question:\s(.+?)\n")
         pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
-        pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")   
-    
+        pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")
+
     # Find matches using regular expressions
     questions = pattern_question.findall(input_text)
     short_answers = pattern_short_answer.findall(input_text)
