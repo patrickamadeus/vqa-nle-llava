@@ -1,12 +1,13 @@
-import torch
-import json
-import numpy as np
-import random
-import os
-from yaml import safe_load
 import base64
-import torchvision
+import json
 import logging
+import os
+import random
+
+import numpy as np
+import torch
+import torchvision
+from yaml import safe_load
 
 
 def load_config(config_path: str, config_name: str) -> dict:
@@ -126,7 +127,9 @@ def get_filename(long_path: str) -> str:
     return filename, raw_filename
 
 
-def get_all_valid_filepaths(folder_path: str, scene_graph: dict, n=99999999) -> tuple[list[str], int]:
+def get_all_valid_filepaths(
+    folder_path: str, scene_graph: dict, n=99999999
+) -> tuple[list[str], int]:
     """
     Get all file paths from the specified folder.
 
@@ -142,7 +145,8 @@ def get_all_valid_filepaths(folder_path: str, scene_graph: dict, n=99999999) -> 
         os.path.join(root, file)
         for root, dirs, files in os.walk(folder_path)
         for file in files
-        if (os.path.basename(root) == os.path.basename(folder_path)) and (get_filename(file)[-1] in keys)
+        if (os.path.basename(root) == os.path.basename(folder_path))
+        and (get_filename(file)[-1] in keys)
     ][:n]
 
     return file_paths, len(file_paths)
@@ -161,22 +165,23 @@ def unpack_json(json_file_path):
         print(f"An unexpected error occurred: {e}")
 
 
-def annotate_images(img_path, graph, num_obj = 5 ,min_area_div = 100):
+def annotate_images(img_path, graph, num_obj=5, min_area_div=100):
     img = torchvision.io.read_image(img_path)
 
     img_area = img.size()[-1] * img.size()[-2]
     annotated_imgs = []
 
-    for v in list(graph['objects'].values())[:num_obj]:
-        
-        x,y,w,h = v["x"], v["y"], v["w"], v["h"]
+    for v in list(graph["objects"].values())[:num_obj]:
+        x, y, w, h = v["x"], v["y"], v["w"], v["h"]
         if w * h * min_area_div < img_area:
             continue
 
-        bbox = torch.tensor([[x,y,x+w,y+h]])
-        img_tensor = torchvision.utils.draw_bounding_boxes(img, bbox, width = 3, colors = ['red'])
+        bbox = torch.tensor([[x, y, x + w, y + h]])
+        img_tensor = torchvision.utils.draw_bounding_boxes(
+            img, bbox, width=3, colors=["red"]
+        )
         img_pil = torchvision.transforms.ToPILImage()(img_tensor)
-        
+
         name = v["name"]
         annotated_imgs.append((name, img_pil))
 

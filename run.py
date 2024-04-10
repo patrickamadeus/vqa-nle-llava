@@ -1,38 +1,35 @@
 # Methods
-from src.parser import parse_output, export_result
-from src.inference import (
-    inference_hf,
-    base_inference_runner,
-    nonvis_inference_runner
-)
+import logging
+
 from src.base import (
-    get_all_filepaths,
     get_all_valid_filepaths,
     get_filename,
     init_logging,
-    raw_output_splitter
+    raw_output_splitter,
 )
-from tqdm import tqdm
-import logging
-
 from src.config.run import (
-    TEST_NAME,
-    DATASET_IMG_PATH,
     DATASET_DATA_COUNT,
+    DATASET_IMG_PATH,
     DATASET_NAME,
-    MODEL_NAME,
-    MODEL_FAMILY,
     MODEL,
-    PROCESSOR,
-    PROMPT_PRIMARY,
-    PROMPT_INTER,
-    PROMPT_IS_MULTISTEP,
-    PROMPT_PRIMARY_KEY,
-    PROMPT_INTER_KEY,
+    MODEL_FAMILY,
+    MODEL_NAME,
     PARAM_USE_NONVIS,
+    PROCESSOR,
+    PROMPT_INTER,
+    PROMPT_INTER_KEY,
+    PROMPT_IS_MULTISTEP,
+    PROMPT_PRIMARY,
+    PROMPT_PRIMARY_KEY,
     SCENE_GRAPH,
+    TEST_NAME,
+)
+from src.config.run import (
     PARAM_NUM_PER_INFERENCE as NUM,
 )
+from src.inference import base_inference_runner, nonvis_inference_runner
+from src.parser import export_result, parse_output
+from tqdm import tqdm
 
 init_logging()
 
@@ -40,15 +37,12 @@ total_data, total_sec, prev_i = [], 0, 0
 primary_raw_out, inter_raw_out, total_inter_data = "", "", {}
 
 img_paths, real_data_count = get_all_valid_filepaths(
-    folder_path=DATASET_IMG_PATH, 
-    scene_graph=SCENE_GRAPH,
-    n=DATASET_DATA_COUNT
+    folder_path=DATASET_IMG_PATH, scene_graph=SCENE_GRAPH, n=DATASET_DATA_COUNT
 )
 
 logging.info("Starting Generation...")
 
 for img_path in tqdm(img_paths):
-
     img_id_ext, img_id = get_filename(img_path)
     runner_config = {
         "pair_num": NUM,
@@ -67,7 +61,7 @@ for img_path in tqdm(img_paths):
         prompt_inter=PROMPT_INTER,
         img_path=img_path,
         scene_graph=SCENE_GRAPH,
-        runner_config=runner_config
+        runner_config=runner_config,
     )
 
     primary_raw_out += raw_output_splitter(img_id_ext, primary_out)
@@ -79,7 +73,9 @@ for img_path in tqdm(img_paths):
     prev_i += len(parsed_data)
     total_data += parsed_data
 
-    logging.info(f"[{img_id_ext}] - success generated {len(parsed_data)} synthetic data(s)")
+    logging.info(
+        f"[{img_id_ext}] - success generated {len(parsed_data)} synthetic data(s)"
+    )
 
 
 export_result(

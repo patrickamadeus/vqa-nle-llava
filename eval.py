@@ -1,15 +1,15 @@
-from src.eval_helper import (
-    gwet_AC2,
-    gen_size_hist,
-    gen_question_prefix,
-    export_eval,
-    TEST_NAME,
-)
-from src.base import init_logging
-
-from tqdm import tqdm
 import logging
 import warnings
+
+from src.base import init_logging
+from src.eval_helper import (
+    TEST_NAME,
+    export_eval,
+    gen_question_prefix,
+    gen_size_hist,
+    gwet_AC2,
+)
+from tqdm import tqdm
 
 warnings.filterwarnings("ignore")
 

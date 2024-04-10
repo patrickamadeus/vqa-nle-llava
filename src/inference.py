@@ -1,20 +1,23 @@
 # Importing built-in package
+import logging
+from math import ceil
+from time import time
+
+import requests
 import torch
 from PIL import Image
-from math import ceil
 from tqdm import tqdm
-from time import time
-import requests
 from transformers import (
-    LlavaForConditionalGeneration,
-    VipLlavaForConditionalGeneration,
     AutoModel,
-    AutoProcessor,
     AutoModelForCausalLM,
     AutoModelForPreTraining,
+    AutoProcessor,
+    LlavaForConditionalGeneration,
+    VipLlavaForConditionalGeneration,
 )
-from src.base import set_seed, encode_image, get_filename, annotate_images
-import logging
+
+from src.base import annotate_images, encode_image, get_filename, set_seed
+
 
 def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=42):
     MODEL_LOADER_DICT = {
@@ -219,18 +222,15 @@ def base_inference_runner(
             model,
             processor,
             prompt_inter.format(number=runner_config["pair_num"]),
-            img_path=img_path
+            img_path=img_path,
         )
         logging.info(f"[{img_id_ext}] - Inter Inference finished ({inter_sec}s)")
-    
+
     primary_out, primary_sec = inference_hf(
         model,
         processor,
-        prompt_primary.format(
-            number=runner_config["pair_num"],
-            intermediary=inter_out
-        ),
-        img_path=img_path
+        prompt_primary.format(number=runner_config["pair_num"], intermediary=inter_out),
+        img_path=img_path,
     )
     logging.info(f"[{img_id_ext}] - Primary Inference finished ({primary_sec}s)")
 
@@ -238,40 +238,34 @@ def base_inference_runner(
 
 
 def nonvis_inference_runner(
-    model, 
-    processor, 
+    model,
+    processor,
     prompt_primary,
     img_path,
     scene_graph,
     runner_config: dict,
-    prompt_inter=""
+    prompt_inter="",
 ):
     img_id_ext, img_id = get_filename(img_path)
     raw_objs = annotate_images(
-        img_path, 
-        scene_graph[img_id], 
-        num_obj = runner_config["pair_num"]
+        img_path, scene_graph[img_id], num_obj=runner_config["pair_num"]
     )
 
     logging.info(f"[{img_id_ext}] - Nonvis Inference started...")
-    
+
     outs = []
     total_sec = 0
-    
+
     for i, obj in enumerate(raw_objs):
         out, sec = inference_hf(
             model,
             processor,
-            prompt_primary.format(
-                number=i+1,
-                name=obj[0]
-            ),
-            img_raw=obj[1]
+            prompt_primary.format(number=i + 1, name=obj[0]),
+            img_raw=obj[1],
         )
         outs.append(out)
         total_sec += sec
 
     logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
 
-    return '\n'.join(outs), total_sec, "", 0
-
+    return "\n".join(outs), total_sec, "", 0

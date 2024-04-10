@@ -1,6 +1,5 @@
-from src.base import load_config, unpack_json, get_all_filepaths
+from src.base import get_all_filepaths, load_config, unpack_json
 from src.inference import load_model
-
 
 PROMPT_DICT = {
     "self_factoid": "./prompt/eval/self_factoid.txt",

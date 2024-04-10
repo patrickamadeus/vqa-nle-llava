@@ -1,10 +1,11 @@
+import gc
+
+import torch
 from transformers import (
+    AutoProcessor,
     LlavaForConditionalGeneration,
     VipLlavaForConditionalGeneration,
-    AutoProcessor,
 )
-import torch
-import gc
 
 runner = [
     LlavaForConditionalGeneration,

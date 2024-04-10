@@ -1,14 +1,16 @@
-from src.base import load_config, unpack_json
-from irrCAC.raw import CAC
+import base64
+import io
 import json
 import os
-import io
-import base64
-from PIL import Image
-import pandas as pd
-import numpy as np
-import seaborn as sns
+
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from irrCAC.raw import CAC
+from PIL import Image
+
+from src.base import load_config, unpack_json
 
 METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance", "plausibility"]
 

@@ -1,3 +1,4 @@
+import torch
 from transformers import AutoProcessor, LlavaForConditionalGeneration
 
 models = ["llava-hf/llava-1.5-13b-hf"]
