@@ -1,80 +1,79 @@
 # Methods
 from src.parser import parse_output, export_result
-from src.inference import inference_hf
+from src.inference import (
+    inference_hf,
+    base_inference_runner,
+    nonvis_inference_runner
+)
 from src.base import (
     get_all_filepaths,
     get_filename,
     init_logging,
+    raw_output_splitter
 )
 from tqdm import tqdm
 import logging
 
 from src.config.run import (
-    # test folder result name
     TEST_NAME,
-    # Dataset
     DATASET_IMG_PATH,
     DATASET_DATA_COUNT,
     DATASET_NAME,
-    # Model
     MODEL_NAME,
     MODEL_FAMILY,
     MODEL,
     PROCESSOR,
-    # Prompts
     PROMPT_PRIMARY,
     PROMPT_INTER,
     PROMPT_IS_MULTISTEP,
     PROMPT_PRIMARY_KEY,
     PROMPT_INTER_KEY,
-    # Params
+    PARAM_USE_NONVIS,
+    SCENE_GRAPH,
     PARAM_NUM_PER_INFERENCE as NUM,
 )
 
 init_logging()
 
 total_data, total_sec, prev_i = [], 0, 0
-primary_raw_out = ""
-
-total_inter_data = {}
-inter_raw_out = ""
+raw_primary_out, raw_inter_out, total_inter_data = "", "", {}
 
 img_paths, real_data_count = get_all_filepaths(DATASET_IMG_PATH, DATASET_DATA_COUNT)
 
 logging.info("Starting Generation...")
+
 for img_path in tqdm(img_paths):
-    # prepare image
-    img_id = get_filename(img_path, extension=True)
-    logging.info(f"[{img_id}] - Inference started...")
 
-    # Multistep / single-step inference
-    inter_output = ""
-    inter_sec = 0
-    if PROMPT_IS_MULTISTEP:
-        inter_output, inter_sec = inference_hf(
-            MODEL, PROCESSOR, PROMPT_INTER.format(number=NUM), img_path=img_path
-        )
-        inter_raw_out += f"{img_id}\n--------\n{inter_output}\n"
-        total_inter_data[img_id] = inter_output
-        logging.info(f"[{img_id}] - Inter Inference finished ({inter_sec}s)")
+    img_id_ext, img_id = get_filename(img_path)
+    runner_config = {
+        "pair_num": NUM,
+        "is_multistep": PROMPT_IS_MULTISTEP,
+    }
 
-    primary_output, primary_sec = inference_hf(
-        MODEL,
-        PROCESSOR,
-        PROMPT_PRIMARY.format(number=NUM, intermediary=inter_output),
-        img_path=img_path,
+    if PARAM_USE_NONVIS:
+        inference_runner = nonvis_inference_runner
+    else:
+        inference_runner = base_inference_runner
+
+    primary_out, primary_sec, inter_out, inter_sec = inference_runner(
+        model=MODEL,
+        processor=PROCESSOR,
+        prompt_primary=PROMPT_PRIMARY,
+        prompt_inter=PROMPT_INTER
+        img_path=img_path
+        runner_config=runner_config
     )
-    logging.info(f"[{img_id}] - Primary Inference finished ({primary_sec}s)")
 
-    # Parsing & stat update
-    primary_raw_out += f"{img_id}\n--------\n{primary_output}\n"
-    parsed_data = parse_output(primary_output, img_id, prev_i)
-
-    total_data += parsed_data
-    prev_i += len(parsed_data)
+    raw_primary_out += raw_output_splitter(img_id_ext, primary_out)
+    inter_primary_out += raw_output_splitter(img_id_ext, inter_out)
     total_sec += primary_sec + inter_sec
 
-    logging.info(f"[{img_id}] - success generated {len(parsed_data)} synthetic data(s)")
+    parsed_data = parse_output(primary_output, img_id_ext, prev_i)
+
+    prev_i += len(parsed_data)
+    total_data += parsed_data
+
+    logging.info(f"[{img_id_ext}] - success generated {len(parsed_data)} synthetic data(s)")
 
 
 export_result(

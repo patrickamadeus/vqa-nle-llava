@@ -1,0 +1,7 @@
+Generate {number} questions that involves complex reasoning using about {name} object in the bounding box. 
+For each question, generate a short factoid answer and long answer that contains the reason of short answer pick.
+
+Present the question-answer-reasons in format:
+1. <your-question>
+S. <your-short-answer>
+L. <your-long-answer>

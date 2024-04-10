@@ -5,7 +5,7 @@ import random
 import os
 from yaml import safe_load
 import base64
-
+import torchvision
 import logging
 
 
@@ -109,7 +109,7 @@ def get_filepaths_iterator(folder_path: str, n: int):
     return limited_file_paths
 
 
-def get_filename(long_path: str, extension=False) -> str:
+def get_filename(long_path: str) -> str:
     """
     Get the filename from a long path.
 
@@ -121,10 +121,9 @@ def get_filename(long_path: str, extension=False) -> str:
     - str: The filename.
     """
     filename = os.path.basename(long_path)
-    if not extension:
-        filename = os.path.splitext(filename)[0]
+    raw_filename = os.path.splitext(filename)[0]
 
-    return filename
+    return filename, raw_filename
 
 
 def unpack_json(json_file_path):
@@ -138,3 +137,31 @@ def unpack_json(json_file_path):
         print(f"Error decoding JSON in '{json_file_path}': {e}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+
+def annotate_images(img_path, graph, num_obj = 5 ,min_area_div = 100):
+    img = torchvision.io.read_image(img_path)
+
+    img_area = img.size()[-1] * img.size()[-2]
+    annotated_imgs = []
+
+    for v in list(graph['objects'].values())[:num_obj]:
+        
+        x,y,w,h = v["x"], v["y"], v["w"], v["h"]
+        if w * h * min_area_div < img_area:
+            continue
+
+        bbox = torch.tensor([[x,y,x+w,y+h]])
+        img_tensor = torchvision.utils.draw_bounding_boxes(img, bbox, width = 3, colors = ['red'])
+        img_pil = torchvision.transforms.ToPILImage()(img_tensor)
+        
+        name = v["name"]
+        annotated_imgs.append((name, img_pil))
+
+    return annotated_imgs
+
+
+def raw_output_splitter(out_id, out_content):
+    if out_content != ""
+        return f"{out_id}\n-------------------------------\n{out_content}\n"
+    return ""

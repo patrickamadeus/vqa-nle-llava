@@ -13,8 +13,8 @@ from transformers import (
     AutoModelForCausalLM,
     AutoModelForPreTraining,
 )
-from .base import set_seed, encode_image
-
+from src.base import set_seed, encode_image, get_filename, annotate_images
+import logging
 
 def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=42):
     MODEL_LOADER_DICT = {
@@ -198,3 +198,68 @@ def batch_inference_hf(
     set_seed(initial_seed)
 
     return total_output, total_seconds
+
+
+def base_inference_runner(
+    model,
+    processor,
+    prompt_primary,
+    prompt_inter,
+    img_path,
+    runner_config: dict
+):
+    img_id_ext, img_id = get_filename(img_path)
+
+    logging.info(f"[{img_id_ext}] - Inference started...")
+
+    inter_out, inter_sec = "", 0
+    if runner_config["is_multistep"]:
+        inter_out, inter_sec = inference_hf(
+            model,
+            processor,
+            prompt_inter.format(number=runner_config["pair_num"]),
+            img_path=img_path
+        )
+        logging.info(f"[{img_id_ext}] - Inter Inference finished ({inter_sec}s)")
+    
+    primary_out, primary_sec = inference_hf(
+        model,
+        processor,
+        prompt_primary.format(
+            number=runner_config["pair_num"],
+            intermediary=inter_out
+        ),
+        img_path=img_path
+    )
+    logging.info(f"[{img_id_ext}] - Primary Inference finished ({primary_sec}s)")
+
+    return primary_out, primary_sec, inter_out, inter_sec
+
+
+def nonvis_inference_runner(
+    model, 
+    processor, 
+    prompt_primary,
+    img_path,
+    scene_graph,
+    runner_config: dict,
+    prompt_inter=""
+):
+    img_id_ext, img_id = get_filename(img_path)
+    img_raw = annotate_images(img_path, scene_graph[img_id])
+
+    logging.info(f"[{img_id_ext}] - Nonvis Inference started...")
+
+    out, sec = inference_hf(
+        model,
+        processor,
+        prompt_primary.format(
+            number=runner_config["pair_num"],
+        ),
+        img_raw=img_raw
+    )
+
+    logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
+
+    return out, sec, "", 0
+

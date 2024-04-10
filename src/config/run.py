@@ -1,5 +1,6 @@
 from src.base import load_config
 from src.inference import load_model
+import json
 
 PROMPT_DICT = {
     "qg_lr": "./prompt/qg_lr/",
@@ -11,6 +12,7 @@ PROMPT_DICT = {
     "naive": "./prompt/naive/base.txt",
     "clevr_base": "./prompt/CLEVR/base.txt",
     "vlm_korika": "./prompt/vlm_korika.txt",
+    "nonvis": "./prompt/nonvis/base.txt"
 }
 
 
@@ -22,6 +24,7 @@ SEED = run_cfg["seed"]
 
 DATASET_NAME = run_cfg["dataset"]["name"]
 DATASET_DATA_COUNT = int(run_cfg["dataset"]["count"])
+SCENE_GRAPH_PATH = "./dataset/feat/sceneGraphs.json"
 
 MODEL_NAME = run_cfg["model"]["name"]
 MODEL_PATH = run_cfg["model"]["path"]
@@ -44,6 +47,10 @@ if PROMPT_IS_MULTISTEP:
 TEST_NAME = run_cfg["test_name"]
 PARAM_NUM_PER_INFERENCE = int(run_cfg["run_params"]["num_per_inference"])
 PARAM_USE_NONVIS = int(run_cfg["run_params"]["use_nonvis"])
+SCENE_GRAPH = None
+if PARAM_USE_NONVIS:
+    with open(SCENE_GRAPH_PATH) as json_file:
+        SCENE_GRAPH = json.load(json_file)
 PARAM_USE_EXTS = run_cfg["run_params"]["use_img_ext"]
 
 
