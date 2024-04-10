@@ -1,0 +1,11 @@
+{
+  "test_name": "sample_test",
+  "dataset_name": "GQA",
+  "total_data": 0,
+  "total_gen": 0,
+  "total_sec": 0,
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "model_family": "llava",
+  "prompt_primary": "qg_story_limit",
+  "prompt_inter": "story_long"
+}

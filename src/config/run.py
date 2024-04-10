@@ -12,7 +12,7 @@ PROMPT_DICT = {
     "naive": "./prompt/naive/base.txt",
     "clevr_base": "./prompt/CLEVR/base.txt",
     "vlm_korika": "./prompt/vlm_korika.txt",
-    "nonvis": "./prompt/nonvis/base.txt"
+    "nonvis_base": "./prompt/nonvis/base.txt"
 }
 
 
@@ -56,8 +56,8 @@ PARAM_USE_EXTS = run_cfg["run_params"]["use_img_ext"]
 
 # Derived config constants
 # DATASET
-DATASET_IMG_PATH = f"./dataset/{DATASET_NAME}/img"
-DATASET_FEAT_PATH = f"./dataset/{DATASET_NAME}/feat"
+DATASET_IMG_PATH = f"./dataset/img"
+DATASET_FEAT_PATH = f"./dataset/feat"
 
 # PROMPT
 PROMPT_PRIMARY = ""

@@ -206,7 +206,8 @@ def base_inference_runner(
     prompt_primary,
     prompt_inter,
     img_path,
-    runner_config: dict
+    runner_config: dict,
+    scene_graph=None,
 ):
     img_id_ext, img_id = get_filename(img_path)
 
@@ -246,20 +247,31 @@ def nonvis_inference_runner(
     prompt_inter=""
 ):
     img_id_ext, img_id = get_filename(img_path)
-    img_raw = annotate_images(img_path, scene_graph[img_id])
+    raw_objs = annotate_images(
+        img_path, 
+        scene_graph[img_id], 
+        num_obj = runner_config["pair_num"]
+    )
 
     logging.info(f"[{img_id_ext}] - Nonvis Inference started...")
-
-    out, sec = inference_hf(
-        model,
-        processor,
-        prompt_primary.format(
-            number=runner_config["pair_num"],
-        ),
-        img_raw=img_raw
-    )
+    
+    outs = []
+    total_sec = 0
+    
+    for i, obj in enumerate(raw_objs):
+        out, sec = inference_hf(
+            model,
+            processor,
+            prompt_primary.format(
+                number=i+1,
+                name=obj[0]
+            ),
+            img_raw=obj[1]
+        )
+        outs.append(out)
+        total_sec += sec
 
     logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
 
-    return out, sec, "", 0
+    return '\n'.join(outs), total_sec, "", 0
 

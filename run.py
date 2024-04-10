@@ -7,6 +7,7 @@ from src.inference import (
 )
 from src.base import (
     get_all_filepaths,
+    get_all_valid_filepaths,
     get_filename,
     init_logging,
     raw_output_splitter
@@ -36,9 +37,13 @@ from src.config.run import (
 init_logging()
 
 total_data, total_sec, prev_i = [], 0, 0
-raw_primary_out, raw_inter_out, total_inter_data = "", "", {}
+primary_raw_out, inter_raw_out, total_inter_data = "", "", {}
 
-img_paths, real_data_count = get_all_filepaths(DATASET_IMG_PATH, DATASET_DATA_COUNT)
+img_paths, real_data_count = get_all_valid_filepaths(
+    folder_path=DATASET_IMG_PATH, 
+    scene_graph=SCENE_GRAPH,
+    n=DATASET_DATA_COUNT
+)
 
 logging.info("Starting Generation...")
 
@@ -59,16 +64,17 @@ for img_path in tqdm(img_paths):
         model=MODEL,
         processor=PROCESSOR,
         prompt_primary=PROMPT_PRIMARY,
-        prompt_inter=PROMPT_INTER
-        img_path=img_path
+        prompt_inter=PROMPT_INTER,
+        img_path=img_path,
+        scene_graph=SCENE_GRAPH,
         runner_config=runner_config
     )
 
-    raw_primary_out += raw_output_splitter(img_id_ext, primary_out)
-    inter_primary_out += raw_output_splitter(img_id_ext, inter_out)
+    primary_raw_out += raw_output_splitter(img_id_ext, primary_out)
+    inter_raw_out += raw_output_splitter(img_id_ext, inter_out)
     total_sec += primary_sec + inter_sec
 
-    parsed_data = parse_output(primary_output, img_id_ext, prev_i)
+    parsed_data = parse_output(primary_out, img_id_ext, prev_i)
 
     prev_i += len(parsed_data)
     total_data += parsed_data

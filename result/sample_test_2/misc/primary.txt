@@ -1,0 +1,80 @@
+2353575.jpg
+-------------------------------
+1. What is the boy within the red rectangle holding in his hand?
+S. A frisbee.
+L. The boy within the red rectangle is holding a yellow frisbee, which is a popular outdoor toy used for recreational activities such as catch and throw games.
+
+1. What is the color of the shorts the child is wearing?
+S. Blue
+L. The child is wearing blue shorts.
+
+2384295.jpg
+-------------------------------
+1. What is the hair object in the bounding box?
+S. Hair
+L. The hair object in the bounding box is the boy's hair. It appears to be short and dark, possibly black or brown.
+
+2404643.jpg
+-------------------------------
+1. What is the purpose of the door within the red rectangle?
+S. To provide access to the building.
+L. The door within the red rectangle is a physical barrier that allows people to enter and exit the building. It is typically made of a sturdy material like wood or metal and is designed to be closed and locked to secure the interior of the building.
+
+1. What is the purpose of the potted plant in the background?
+S. Decoration
+L. The potted plant in the background is likely used for decorative purposes, such as adding aesthetic appeal to the outdoor space. It can also provide a natural element to the environment and may help in purifying the air.
+
+2347921.jpg
+-------------------------------
+1. What is the plate object in the bounding box made of?
+S. Ceramic
+L. The plate object in the bounding box is made of ceramic, which is a common material for plates due to its durability and ease of cleaning.
+
+1. What is the purpose of the sign with the red mask contour?
+S. To inform people that smoking is not allowed in the area.
+L. The sign with the red mask contour is placed to remind individuals that smoking is prohibited in the vicinity, likely to maintain a clean and healthy environment for everyone.
+
+2321990.jpg
+-------------------------------
+1. What is the cat's reaction to the woman's phone call?
+S. The cat seems indifferent.
+L. The cat is lying down and not showing any signs of distress or interest in the phone call. This could indicate that the cat is used to the woman being on the phone and is not bothered by the noise or the woman's attention being divided.
+
+1. What is the purpose of the bandana on the cat within red rectangle?
+S. To keep the cat within red rectangle warm.
+L. The bandana is likely being used to keep the cat within red rectangle warm, as it is a common practice to dress pets in warm clothing during colder weather to maintain their body temperature and comfort.
+
+2360023.jpg
+-------------------------------
+1. What is the purpose of the windshield object in the bounding box?
+S. It provides visibility for the train driver.
+L. The windshield object in the bounding box is a crucial component of the train's design, as it allows the train driver to see the tracks ahead and any obstacles or signals. It is made of a transparent material that is designed to withstand the impact of small debris or insects while still providing a clear view. The placement of the windshield object in the bounding box is strategic, as it is located directly in front of the driver's seat to ensure maximum visibility.
+
+2342596.jpg
+-------------------------------
+1. What is the purpose of the yellow tape in the image?
+S. To caution pedestrians and drivers.
+L. The yellow tape is used to indicate a hazardous area, such as a construction zone or an accident, to alert people to be cautious and to prevent them from entering the area.
+
+2335580.jpg
+-------------------------------
+1. What is the girl's hair color?
+S. Brown
+L. The girl's hair color is brown, which is evident from the color and texture of the hair in the image.
+
+2361750.jpg
+-------------------------------
+1. What is the purpose of the hair on the animal's head within red rectangle?
+S. Insulation
+L. The hair on the animal's head within red rectangle serves as insulation, helping to retain body heat and protect the animal from cold weather.
+
+1. What is the weather like in the sky within the red rectangle?
+S. Cloudy.
+L. The sky within the red rectangle appears to be overcast with a mix of clouds and blue sky, which suggests it might be a cool and possibly breezy day.
+
+2341916.jpg
+-------------------------------
+1. What is the purpose of cooking the onions in the pot within red rectangle?
+S. To soften and sweeten them.
+L. Cooking onions in a pot of water helps to soften their texture and bring out their natural sweetness, which is essential for many recipes.
+

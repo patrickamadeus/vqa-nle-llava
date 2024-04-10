@@ -126,6 +126,28 @@ def get_filename(long_path: str) -> str:
     return filename, raw_filename
 
 
+def get_all_valid_filepaths(folder_path: str, scene_graph: dict, n=99999999) -> tuple[list[str], int]:
+    """
+    Get all file paths from the specified folder.
+
+    Args:
+    - folder_path (str): The path to the folder.
+    - n (int): Maximum number of file paths to retrieve (default is 99999999).
+
+    Returns:
+    - tuple[list[str], int]: A tuple containing a list of file paths and the size of the list.
+    """
+    keys = set(scene_graph.keys())
+    file_paths = [
+        os.path.join(root, file)
+        for root, dirs, files in os.walk(folder_path)
+        for file in files
+        if (os.path.basename(root) == os.path.basename(folder_path)) and (get_filename(file)[-1] in keys)
+    ][:n]
+
+    return file_paths, len(file_paths)
+
+
 def unpack_json(json_file_path):
     try:
         with open(json_file_path, "r") as file:
@@ -162,6 +184,6 @@ def annotate_images(img_path, graph, num_obj = 5 ,min_area_div = 100):
 
 
 def raw_output_splitter(out_id, out_content):
-    if out_content != ""
+    if out_content != "":
         return f"{out_id}\n-------------------------------\n{out_content}\n"
     return ""
