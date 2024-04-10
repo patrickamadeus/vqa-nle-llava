@@ -234,7 +234,7 @@ def base_inference_runner(
     )
     logging.info(f"[{img_id_ext}] - Primary Inference finished ({primary_sec}s)")
 
-    return primary_out, primary_sec, inter_out, inter_sec
+    return primary_out, primary_sec, inter_out, inter_sec, None
 
 
 def nonvis_inference_runner(
@@ -246,8 +246,9 @@ def nonvis_inference_runner(
     runner_config: dict,
     prompt_inter="",
 ):
+    print("nonvis_inference_runner", runner_config["pair_num"])
     img_id_ext, img_id = get_filename(img_path)
-    raw_objs = annotate_images(
+    raw_objs, complete_annot_tensor = annotate_images(
         img_path, scene_graph[img_id], num_obj=runner_config["pair_num"]
     )
 
@@ -268,4 +269,10 @@ def nonvis_inference_runner(
 
     logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
 
-    return "\n".join(outs), total_sec, "", 0
+    return (
+        "\n".join(outs),
+        total_sec,
+        "",
+        0,
+        {"id": img_id, "complete_tensor": complete_annot_tensor},
+    )

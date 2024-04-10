@@ -42,6 +42,7 @@ img_paths, real_data_count = get_all_valid_filepaths(
 
 logging.info("Starting Generation...")
 
+annot_metadatas = []
 for img_path in tqdm(img_paths):
     img_id_ext, img_id = get_filename(img_path)
     runner_config = {
@@ -54,7 +55,7 @@ for img_path in tqdm(img_paths):
     else:
         inference_runner = base_inference_runner
 
-    primary_out, primary_sec, inter_out, inter_sec = inference_runner(
+    primary_out, primary_sec, inter_out, inter_sec, metadata = inference_runner(
         model=MODEL,
         processor=PROCESSOR,
         prompt_primary=PROMPT_PRIMARY,
@@ -64,19 +65,19 @@ for img_path in tqdm(img_paths):
         runner_config=runner_config,
     )
 
+    parsed_data = parse_output(primary_out, img_id_ext, prev_i)
+
     primary_raw_out += raw_output_splitter(img_id_ext, primary_out)
     inter_raw_out += raw_output_splitter(img_id_ext, inter_out)
     total_sec += primary_sec + inter_sec
-
-    parsed_data = parse_output(primary_out, img_id_ext, prev_i)
-
     prev_i += len(parsed_data)
     total_data += parsed_data
+    if PARAM_USE_NONVIS:
+        annot_metadatas.append(metadata)
 
     logging.info(
         f"[{img_id_ext}] - success generated {len(parsed_data)} synthetic data(s)"
     )
-
 
 export_result(
     data=total_data,
@@ -92,5 +93,6 @@ export_result(
     prompt_primary=PROMPT_PRIMARY_KEY,
     prompt_inter=PROMPT_INTER_KEY,
     inter_dict=total_inter_data,
+    annot_metadatas=annot_metadatas,
 )
 logging.info("Program exited.")

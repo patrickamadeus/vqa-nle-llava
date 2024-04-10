@@ -2,6 +2,8 @@ import json
 import os
 import re
 
+from src.base import save_annotated_img
+
 
 def parse_output(
     input_text: str, img_id: str, prev_i: int = 0, type_out="openai"
@@ -56,6 +58,7 @@ def export_result(
     prompt_primary: str,
     prompt_inter: str,
     inter_dict: dict,
+    annot_metadatas: list[dict],
 ):
     # Create a new folder named "result" with a numbered identifier if it exists
     result_folder = f"./result/{test_name}"
@@ -105,6 +108,16 @@ def export_result(
     inter_path = os.path.join(misc_folder, "inter.txt")
     with open(inter_path, "w") as inter_file:
         inter_file.write(inter_raw_out)
+
+    # If annot_metadatas is not empty, get every image using save_annotated_img to the misc/annot_img folder with name {id}_annot.jpg
+    if annot_metadatas:
+        annot_img_folder = os.path.join(misc_folder, "annot_img")
+        os.makedirs(annot_img_folder)
+        for metadata in annot_metadatas:
+            save_annotated_img(
+                metadata["complete_tensor"],
+                os.path.join(annot_img_folder, f"{metadata['id']}_annot.jpg"),
+            )
 
 
 def verif_digit(s: str):

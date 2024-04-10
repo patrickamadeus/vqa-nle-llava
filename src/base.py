@@ -165,18 +165,35 @@ def unpack_json(json_file_path):
         print(f"An unexpected error occurred: {e}")
 
 
-def annotate_images(img_path, graph, num_obj=5, min_area_div=100):
+def annotate_images(img_path, graph, num_obj=5, min_area_div=100):  # TODO: Changing
+    COLORS = [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "purple",
+        "orange",
+        "brown",
+        "pink",
+        "gray",
+        "cyan",
+    ]
     img = torchvision.io.read_image(img_path)
 
     img_area = img.size()[-1] * img.size()[-2]
     annotated_imgs = []
+    bboxs = []
 
-    for v in list(graph["objects"].values())[:num_obj]:
+    # Create num_obj images with only one annotation
+    for v in list(graph["objects"].values()):
         x, y, w, h = v["x"], v["y"], v["w"], v["h"]
         if w * h * min_area_div < img_area:
             continue
 
-        bbox = torch.tensor([[x, y, x + w, y + h]])
+        bbox = [x, y, x + w, y + h]
+        bboxs.append(bbox)
+        bbox = torch.tensor([bbox])
+
         img_tensor = torchvision.utils.draw_bounding_boxes(
             img, bbox, width=3, colors=["red"]
         )
@@ -185,7 +202,21 @@ def annotate_images(img_path, graph, num_obj=5, min_area_div=100):
         name = v["name"]
         annotated_imgs.append((name, img_pil))
 
-    return annotated_imgs
+        num_obj -= 1
+        if num_obj == 0:
+            break
+
+    # Draw all annotations on the image
+    complete_annot_img_tensor = torchvision.utils.draw_bounding_boxes(
+        img, torch.tensor(bboxs), width=3, colors=COLORS[: len(bboxs)]
+    )
+
+    return annotated_imgs, complete_annot_img_tensor
+
+
+def save_annotated_img(tensor, path):
+    img_pil = torchvision.transforms.ToPILImage()(tensor)
+    img_pil.save(path)
 
 
 def raw_output_splitter(out_id, out_content):
