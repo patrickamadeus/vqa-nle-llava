@@ -1,0 +1,11 @@
+{
+  "test_name": "sample_test",
+  "dataset_name": "GQA",
+  "total_data": 6,
+  "total_gen": 6,
+  "total_sec": 12.802646398544312,
+  "model_name": "llava-hf/vip-llava-13b-hf",
+  "model_family": "vip_llava",
+  "prompt_primary": "nonvis_optim",
+  "prompt_inter": "story_long"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "What is the boy's reaction to the frisbee?",
+    "short_answer": "The boy is watching the frisbee with interest.",
+    "reasoned_answer": "The boy's gaze is directed towards the frisbee, and his body language suggests he is focused on it."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "What are the shorts that the child is wearing?",
+    "short_answer": "The child is wearing camouflage shorts.",
+    "reasoned_answer": "The shorts have a pattern that is designed to blend in with natural surroundings, which is typical of camouflage clothing."
+  },
+  {
+    "id": 3,
+    "img_id": "2384295.jpg",
+    "question": "What is the color of the hair on the boy's head?",
+    "short_answer": "The hair on the boy's head is black.",
+    "reasoned_answer": "The hair appears to be dark in color, which is commonly associated with black hair."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy doing?",
+    "short_answer": "The boy is eating.",
+    "reasoned_answer": "The boy has something in his mouth and his hand is up to his face, which is a common gesture when eating."
+  },
+  {
+    "id": 5,
+    "img_id": "2404643.jpg",
+    "question": "What is the material of the door?",
+    "short_answer": "Wood",
+    "reasoned_answer": "The door has a wooden frame and is made of wood."
+  },
+  {
+    "id": 6,
+    "img_id": "2404643.jpg",
+    "question": "What is the purpose of the pot in the image?",
+    "short_answer": "The pot is used for plants.",
+    "reasoned_answer": "The pot is placed outside on the steps, which suggests it is used for plants to be placed in, allowing them to receive sunlight and water."
+  }
+]

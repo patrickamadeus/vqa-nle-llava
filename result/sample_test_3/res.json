@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "What is the boy within the red rectangle holding in his hand?",
+    "short_answer": "A frisbee.",
+    "reasoned_answer": "The boy within the red rectangle is holding a yellow frisbee, which is a popular outdoor toy used for recreational activities such as catch and throw games."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "What is the color of the shorts the child is wearing?",
+    "short_answer": "Blue",
+    "reasoned_answer": "The child is wearing blue shorts."
+  },
+  {
+    "id": 3,
+    "img_id": "2384295.jpg",
+    "question": "What is the hair object in the bounding box?",
+    "short_answer": "Hair",
+    "reasoned_answer": "The hair object in the bounding box is the boy's hair. It appears to be short and dark, possibly black or brown."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy within the red rectangle doing?",
+    "short_answer": "The boy within the red rectangle is eating.",
+    "reasoned_answer": "The boy within the red rectangle is holding a snack to his mouth, indicating that he is eating."
+  },
+  {
+    "id": 5,
+    "img_id": "2404643.jpg",
+    "question": "What is the purpose of the door within the red rectangle?",
+    "short_answer": "To provide access to the building.",
+    "reasoned_answer": "The door within the red rectangle is a physical barrier that allows people to enter and exit the building. It is typically made of a sturdy material like wood or metal and is designed to be closed and locked to secure the interior of the building."
+  },
+  {
+    "id": 6,
+    "img_id": "2404643.jpg",
+    "question": "What is the purpose of the potted plant in the background?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The potted plant in the background is likely used for decorative purposes, such as adding aesthetic appeal to the outdoor space. It can also provide a natural element to the environment and may help in purifying the air."
+  }
+]

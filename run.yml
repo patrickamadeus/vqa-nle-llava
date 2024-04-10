@@ -2,7 +2,7 @@ test_name: sample_test
 seed: 42
 dataset:
     name: GQA
-    count: 10
+    count: 3
 
 model:
     name: llava-hf/vip-llava-13b-hf

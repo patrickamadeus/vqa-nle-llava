@@ -4,7 +4,7 @@ Your task is to provide a question, answer, and reasoning related to the given c
 Provide your feedback as follows:
 
 Feedback:::
-Question: (your question that involves complex reasoning with {prefix} prefix)
+Question: (your question that involves complex reasoning with either 'what', 'which' 'where', 'is/am/are' prefix)
 Short Answer: (your brief answer related to the question)
 Reason: (your rationale for the short answer you choose respective to the question in maximum 30 words)
 

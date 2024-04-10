@@ -256,12 +256,14 @@ def nonvis_inference_runner(
 
     outs = []
     total_sec = 0
+    
+    prefices = ["what", "is/am/are", "which/whose/whom"]
 
     for i, obj in enumerate(raw_objs):
         out, sec = inference_hf(
             model,
             processor,
-            prompt_primary.format(number=i + 1, name=obj[0]),
+            prompt_primary.format(number=i + 1, name=obj[0], prefix=runner_config["prefix"]),
             img_raw=obj[1],
         )
         outs.append(out)

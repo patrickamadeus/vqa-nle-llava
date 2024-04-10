@@ -6,7 +6,7 @@ from src.base import save_annotated_img
 
 
 def parse_output(
-    input_text: str, img_id: str, prev_i: int = 0, type_out="openai"
+    input_text: str, img_id: str, prev_i: int = 0, type_out="openai", mode="optim"
 ) -> list[dict[str, str]]:
     """
     Parse output text and extract question, short answer, and long answer.
@@ -23,13 +23,17 @@ def parse_output(
     pattern_question = re.compile(r"\d+\.\s(.+?)\n")
     pattern_short_answer = re.compile(r"S\.\s(.+?)\n")
     pattern_long_answer = re.compile(r"L\.\s(.+?)\n")
-
+    if mode == "optim":
+        pattern_question = re.compile(r"Question:\s(.+?)\n")
+        pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
+        pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")   
+    
     # Find matches using regular expressions
     questions = pattern_question.findall(input_text)
     short_answers = pattern_short_answer.findall(input_text)
     long_answers = pattern_long_answer.findall(input_text)
     ids = [i + prev_i for i in range(1, len(questions) + 1)]
-
+    print(len(questions))
     data = [
         {
             "id": i,

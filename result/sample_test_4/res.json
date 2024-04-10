@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "Question: What is the boy's reaction to the frisbee?",
+    "short_answer": "Short Answer: The boy is watching the frisbee.",
+    "reasoned_answer": "Reason: The boy's gaze is directed towards the frisbee, indicating interest or focus."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "Question: What are the shorts that the child is wearing?",
+    "short_answer": "Short Answer: The child is wearing camouflage shorts.",
+    "reasoned_answer": "Reason: The shorts have a pattern that is designed to blend in with natural surroundings, which is typical of camouflage clothing."
+  },
+  {
+    "id": 3,
+    "img_id": "2384295.jpg",
+    "question": "Question: What is the hair color of the boy in the image?",
+    "short_answer": "Short Answer: The boy has black hair.",
+    "reasoned_answer": "Reason: The hair color appears to be dark and straight, which is commonly associated with black hair."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "Question: What is the boy standing next to?",
+    "short_answer": "Short Answer: A bicycle.",
+    "reasoned_answer": "Reason: The boy is standing next to a yellow bicycle with a visible wheel and frame."
+  },
+  {
+    "id": 5,
+    "img_id": "2404643.jpg",
+    "question": "Question: What is the material of the door?",
+    "short_answer": "Short Answer: Wood",
+    "reasoned_answer": "Reason: The door has a wooden frame and is made of wood."
+  },
+  {
+    "id": 6,
+    "img_id": "2404643.jpg",
+    "question": "Question: What is the purpose of the pot in the image?",
+    "short_answer": "Short Answer: To hold plants.",
+    "reasoned_answer": "Reason: The pot is typically used to house plants and can be seen with a plant inside it."
+  }
+]

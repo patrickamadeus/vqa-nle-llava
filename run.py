@@ -47,6 +47,7 @@ for img_path in tqdm(img_paths):
     img_id_ext, img_id = get_filename(img_path)
     runner_config = {
         "pair_num": NUM,
+        "prefix": "what",
         "is_multistep": PROMPT_IS_MULTISTEP,
     }
 

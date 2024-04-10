@@ -14,6 +14,7 @@ PROMPT_DICT = {
     "clevr_base": "./prompt/CLEVR/base.txt",
     "vlm_korika": "./prompt/vlm_korika.txt",
     "nonvis_base": "./prompt/nonvis/base.txt",
+    "nonvis_optim": "./prompt/nonvis/optim.txt"
 }
 
 
