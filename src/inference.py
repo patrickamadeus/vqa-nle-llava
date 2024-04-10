@@ -19,7 +19,6 @@ from transformers import (
 from src.base import (
     annotate_images,
     encode_image,
-    expand_prefix_stratify,
     get_filename,
     set_seed,
 )
@@ -217,7 +216,7 @@ def base_inference_runner(
     runner_config: dict,
     scene_graph=None,
 ):
-    img_id_ext, img_id = get_filename(img_path)
+    img_id_ext, _ = get_filename(img_path)
 
     logging.info(f"[{img_id_ext}] - Inference started...")
 
@@ -234,7 +233,11 @@ def base_inference_runner(
     primary_out, primary_sec = inference_hf(
         model,
         processor,
-        prompt_primary.format(number=runner_config["pair_num"], intermediary=inter_out),
+        prompt_primary.format(
+            number=runner_config["pair_num"],
+            intermediary=inter_out,
+            prefixes=str(runner_config["prefixes"]),
+        ),
         img_path=img_path,
     )
     logging.info(f"[{img_id_ext}] - Primary Inference finished ({primary_sec}s)")
@@ -251,7 +254,6 @@ def nonvis_inference_runner(
     runner_config: dict,
     prompt_inter="",
 ):
-    print("nonvis_inference_runner", runner_config["pair_num"])
     img_id_ext, img_id = get_filename(img_path)
     raw_objs, complete_annot_tensor = annotate_images(
         img_path, scene_graph[img_id], num_obj=runner_config["pair_num"]
@@ -262,15 +264,13 @@ def nonvis_inference_runner(
     outs = []
     total_sec = 0
 
-    prefixes = ["what", "is/am/are", "which/whose/whom"]
-    props = [2, 1, 1]
-    prefixes = expand_prefix_stratify(prefixes, props, runner_config["pair_num"])
-
     for i, obj in enumerate(raw_objs):
         out, sec = inference_hf(
             model,
             processor,
-            prompt_primary.format(number=i + 1, name=obj[0], prefix=prefixes[i]),
+            prompt_primary.format(
+                number=i + 1, name=obj[0], prefixes=runner_config["prefixes"][0]
+            ),
             img_raw=obj[1],
         )
         outs.append(out)

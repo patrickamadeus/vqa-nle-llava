@@ -2,6 +2,7 @@
 import logging
 
 from src.base import (
+    expand_prefix_stratify,
     get_all_valid_filepaths,
     get_filename,
     init_logging,
@@ -40,6 +41,11 @@ img_paths, real_data_count = get_all_valid_filepaths(
     folder_path=DATASET_IMG_PATH, scene_graph=SCENE_GRAPH, n=DATASET_DATA_COUNT
 )
 
+prefix = ["what", "is/am/are", "which", "whose/whom", "how many", "where/when", "who"]
+proportions = [2, 2, 2, 1, 1, 2, 1]
+prefixes = expand_prefix_stratify(prefix, proportions, DATASET_DATA_COUNT * NUM)
+i_prefix = 0
+
 logging.info("Starting Generation...")
 
 annot_metadatas = []
@@ -47,7 +53,7 @@ for img_path in tqdm(img_paths):
     img_id_ext, img_id = get_filename(img_path)
     runner_config = {
         "pair_num": NUM,
-        "prefix": "what",
+        "prefixes": prefixes[i_prefix : i_prefix + NUM],
         "is_multistep": PROMPT_IS_MULTISTEP,
     }
 
@@ -73,6 +79,7 @@ for img_path in tqdm(img_paths):
     total_sec += primary_sec + inter_sec
     prev_i += len(parsed_data)
     total_data += parsed_data
+    i_prefix += NUM
     if PARAM_USE_NONVIS:
         annot_metadatas.append(metadata)
 
