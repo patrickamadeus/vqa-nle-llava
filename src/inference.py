@@ -230,19 +230,24 @@ def base_inference_runner(
         )
         logging.info(f"[{img_id_ext}] - Inter Inference finished ({inter_sec}s)")
 
-    primary_out, primary_sec = inference_hf(
-        model,
-        processor,
-        prompt_primary.format(
-            number=runner_config["pair_num"],
-            intermediary=inter_out,
-            prefixes=str(runner_config["prefixes"]),
-        ),
-        img_path=img_path,
-    )
-    logging.info(f"[{img_id_ext}] - Primary Inference finished ({primary_sec}s)")
+    outs = []
+    total_sec = 0
+    for prefix in runner_config["prefixes"]:
+        primary_out, primary_sec = inference_hf(
+            model,
+            processor,
+            prompt_primary.format(
+                intermediary=inter_out,
+                prefix=prefix,
+            ),
+            img_path=img_path,
+        )
+        outs.append(primary_out)
+        total_sec += primary_sec
 
-    return primary_out, primary_sec, inter_out, inter_sec, None
+    logging.info(f"[{img_id_ext}] - Primary Inference finished ({total_sec}s)")
+
+    return "\n".join(outs), total_sec, inter_out, inter_sec, None
 
 
 def nonvis_inference_runner(
@@ -265,9 +270,6 @@ def nonvis_inference_runner(
     total_sec = 0
 
     for i, obj in enumerate(raw_objs):
-        print(runner_config["prefixes"])
-        print(runner_config["prefixes"][i])
-        
         out, sec = inference_hf(
             model,
             processor,

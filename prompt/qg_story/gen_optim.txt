@@ -1,19 +1,17 @@
-You are given an image, a descriptive passage, and a set of question prefix.
-Your task is to provide {number} question, answer, and reasoning triplet related to the given context. Make the question using the given prefix in order.
+You are given an image, a descriptive passage, and a question prefix.
+Your task is to provide question, answer, and reasoning triplet related to the given context.
 
 Provide your feedback as follows:
 
 Feedback:::
-Question: (your question that involves complex reasoning with given prefix)
+Question: (your question that involves complex reasoning with {prefix} prefix)
 Short Answer: (your brief answer related to the question)
 Reason: (your rationale for the short answer you choose respective to the question in maximum 30 words)
 
 You MUST provide values for 'Question', 'Short Answer', and 'Reason' in your answer.
 
-Now here is the prefixes, the number of triplet, and the passage.
+Now here is the the passage.
 
-Prefixes: {prefixes}
-Number of triplet: {number}
 Passage: {intermediary}
 
 Provide your feedback separated by line break if there is more than 1 triplet. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.
