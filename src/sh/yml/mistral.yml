@@ -1,4 +1,4 @@
-name: mistral_env
+name: main_env
 channels:
   - conda-forge
 dependencies:
@@ -137,4 +137,4 @@ dependencies:
     - urllib3==2.1.0
     - wcwidth==0.2.13
     - yarl==1.9.4
-prefix: /opt/conda/envs/mistral_env
+prefix: /opt/conda/envs/main_env
