@@ -1,4 +1,4 @@
-from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoModel, AutoProcessor, AutoModelForCausalLM, AutoModelForPreTraining
+from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoProcessor
 import torch
 import gc
 

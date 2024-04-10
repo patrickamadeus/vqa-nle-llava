@@ -1,7 +1,5 @@
 from src.base import load_config, unpack_json, get_all_filepaths
 from src.inference import load_model
-import json
-import os
 
 
 PROMPT_DICT = {

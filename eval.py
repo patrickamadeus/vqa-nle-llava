@@ -10,7 +10,6 @@ from src.base import init_logging
 from tqdm import tqdm
 import logging
 import warnings
-import json
 warnings.filterwarnings('ignore')
 
 

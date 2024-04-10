@@ -1,7 +1,5 @@
 from src.base import load_config
 from src.inference import load_model
-import json
-import os
 
 PROMPT_DICT = {
     "qg_lr": "./prompt/qg_lr/",

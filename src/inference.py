@@ -3,11 +3,7 @@ import torch
 from PIL import Image
 from math import ceil
 from tqdm import tqdm
-from datetime import datetime
 from time import time
-import random
-import numpy as np
-import torch
 import requests
 from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoModel, AutoProcessor, AutoModelForCausalLM, AutoModelForPreTraining
 from .base import set_seed, encode_image
