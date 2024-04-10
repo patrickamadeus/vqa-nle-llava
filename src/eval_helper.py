@@ -46,29 +46,6 @@ def export_eval(name, data, mode="json", RESULT_PATH=RESULT_PATH):
         image.save(image_path)
 
 
-def describe_groups(*groups, columns):
-    data = []
-
-    for i, group in enumerate(groups):
-        group_name = f"GROUP_{i + 1}"
-        group_concatenated = pd.concat(group, ignore_index=True)
-
-        for column in columns:
-            mean_value = round(group_concatenated[column].mean(skipna=True), 2)
-            max_value = group_concatenated[column].max(skipna=True)
-            min_value = group_concatenated[column].min(skipna=True)
-            mode_value = group_concatenated[column].mode().tolist()[0] if not group_concatenated[column].isnull().all() else np.nan
-            skewness_value = round(skew(group_concatenated[column].dropna()), 2)
-            completeness_value = round(group_concatenated[column].count() / len(group_concatenated[column]) * 100, 2)
-
-            data.append([group_name, column, mean_value, max_value, min_value, mode_value, skewness_value, completeness_value])
-
-    # Create DataFrame with multi-level index
-    df = pd.DataFrame(data, columns=['Group', 'Column', 'Mean', 'Max', 'Min', 'Mode', 'Skewness', 'Completeness'])
-    df.set_index(['Group', 'Column'], inplace=True)
-    return df
-
-
 def transform_list_to_dfs(test_name, mode='csv', sep=';'):
     # Define the directory where the CSV files are located
     directory = f"./result/{test_name}/misc/"
