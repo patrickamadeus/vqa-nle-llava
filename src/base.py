@@ -15,12 +15,16 @@ def load_config(config_path: str, config_name: str) -> dict:
     return config
 
 
-def init_logging(level = logging.INFO, save_to_file = False, formatter = '%(asctime)s-%(levelname)s-%(message)s'):
+def init_logging(
+    level=logging.INFO,
+    save_to_file=False,
+    formatter="%(asctime)s-%(levelname)s-%(message)s",
+):
     logging.basicConfig(
-#         filename = "test.log", 
-        level = level,
-        format = formatter,
-        datefmt='%d-%b-%y %H:%M:%S'
+        #         filename = "test.log",
+        level=level,
+        format=formatter,
+        datefmt="%d-%b-%y %H:%M:%S",
     )
 
 
@@ -35,12 +39,15 @@ def set_seed(seed: int) -> None:
     np.random.seed(seed)
     torch.manual_seed(seed)
 
+
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
-    
-def format_timediff(seconds: int, format_str: str = "{hours}h{minutes}m{seconds}") -> str:
+
+def format_timediff(
+    seconds: int, format_str: str = "{hours}h{minutes}m{seconds}"
+) -> str:
     """
     Format the time difference in seconds into a readable string.
 
@@ -54,8 +61,10 @@ def format_timediff(seconds: int, format_str: str = "{hours}h{minutes}m{seconds}
     hours, remainder = divmod(seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
 
-    formatted_timediff = format_str.format(hours=hours, minutes=minutes, seconds=seconds)
-    
+    formatted_timediff = format_str.format(
+        hours=hours, minutes=minutes, seconds=seconds
+    )
+
     return formatted_timediff
 
 
@@ -70,7 +79,12 @@ def get_all_filepaths(folder_path: str, n=99999999) -> tuple[list[str], int]:
     Returns:
     - tuple[list[str], int]: A tuple containing a list of file paths and the size of the list.
     """
-    file_paths = [os.path.join(root, file) for root, dirs, files in os.walk(folder_path) for file in files if os.path.basename(root) == os.path.basename(folder_path)][:n]
+    file_paths = [
+        os.path.join(root, file)
+        for root, dirs, files in os.walk(folder_path)
+        for file in files
+        if os.path.basename(root) == os.path.basename(folder_path)
+    ][:n]
 
     return file_paths, len(file_paths)
 
@@ -86,11 +100,16 @@ def get_filepaths_iterator(folder_path: str, n: int):
     Returns:
     - Iterator[str]: An iterator of file paths.
     """
-    file_paths = (os.path.join(root, file) for root, dirs, files in os.walk(folder_path) for file in files)
+    file_paths = (
+        os.path.join(root, file)
+        for root, dirs, files in os.walk(folder_path)
+        for file in files
+    )
     limited_file_paths = (file_path for _, file_path in zip(range(n), file_paths))
     return limited_file_paths
 
-def get_filename(long_path: str, extension = False) -> str:
+
+def get_filename(long_path: str, extension=False) -> str:
     """
     Get the filename from a long path.
 
@@ -103,13 +122,14 @@ def get_filename(long_path: str, extension = False) -> str:
     """
     filename = os.path.basename(long_path)
     if not extension:
-        filename  = os.path.splitext(filename)[0]
-        
+        filename = os.path.splitext(filename)[0]
+
     return filename
+
 
 def unpack_json(json_file_path):
     try:
-        with open(json_file_path, 'r') as file:
+        with open(json_file_path, "r") as file:
             data = json.load(file)
         return data
     except FileNotFoundError:

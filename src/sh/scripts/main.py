@@ -1,4 +1,8 @@
-from transformers import LlavaForConditionalGeneration, VipLlavaForConditionalGeneration, AutoProcessor
+from transformers import (
+    LlavaForConditionalGeneration,
+    VipLlavaForConditionalGeneration,
+    AutoProcessor,
+)
 import torch
 import gc
 
@@ -16,13 +20,17 @@ models = [
 
 for i in range(len(runner)):
     # Download model
-    model = runner[i].from_pretrained(
-        models[i], 
-        torch_dtype=torch.float16, 
-        low_cpu_mem_usage=True, 
-    ).to(0)
+    model = (
+        runner[i]
+        .from_pretrained(
+            models[i],
+            torch_dtype=torch.float16,
+            low_cpu_mem_usage=True,
+        )
+        .to(0)
+    )
     processor = AutoProcessor.from_pretrained(models[i])
-    
+
     # Free CUDA memory
     del model
     del processor

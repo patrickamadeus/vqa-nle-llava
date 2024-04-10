@@ -10,7 +10,8 @@ from src.base import init_logging
 from tqdm import tqdm
 import logging
 import warnings
-warnings.filterwarnings('ignore')
+
+warnings.filterwarnings("ignore")
 
 
 init_logging()
@@ -31,4 +32,3 @@ for name, func, mode in tqdm(pipeline):
     except Exception as e:
         logging.error(f"Error occurred while processing '{name}': {str(e)}")
         continue
-

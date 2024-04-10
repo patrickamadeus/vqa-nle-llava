@@ -3,7 +3,9 @@ import os
 import json
 
 
-def parse_output(input_text: str, img_id: str, prev_i: int = 0, type_out = "openai") -> list[dict[str, str]]:
+def parse_output(
+    input_text: str, img_id: str, prev_i: int = 0, type_out="openai"
+) -> list[dict[str, str]]:
     """
     Parse output text and extract question, short answer, and long answer.
 
@@ -16,36 +18,45 @@ def parse_output(input_text: str, img_id: str, prev_i: int = 0, type_out = "open
     - list[dict[str, str]]: A list of dictionaries containing parsed data.
     """
     # Define regular expression patterns
-    pattern_question = re.compile(r'\d+\.\s(.+?)\n')
-    pattern_short_answer = re.compile(r'S\.\s(.+?)\n')
-    pattern_long_answer = re.compile(r'L\.\s(.+?)\n')
-    
+    pattern_question = re.compile(r"\d+\.\s(.+?)\n")
+    pattern_short_answer = re.compile(r"S\.\s(.+?)\n")
+    pattern_long_answer = re.compile(r"L\.\s(.+?)\n")
+
     # Find matches using regular expressions
     questions = pattern_question.findall(input_text)
     short_answers = pattern_short_answer.findall(input_text)
     long_answers = pattern_long_answer.findall(input_text)
     ids = [i + prev_i for i in range(1, len(questions) + 1)]
-    
+
     data = [
-        {"id": i, "img_id": img_id, "question": q, "short_answer": sa, "reasoned_answer": la}
+        {
+            "id": i,
+            "img_id": img_id,
+            "question": q,
+            "short_answer": sa,
+            "reasoned_answer": la,
+        }
         for i, q, sa, la in zip(ids, questions, short_answers, long_answers)
     ]
-    
+
     return data
+
 
 def export_result(
     data: list[dict],
-    total_data: int, total_gen: int, total_sec: int,
-    primary_raw_out: str, inter_raw_out: str,
+    total_data: int,
+    total_gen: int,
+    total_sec: int,
+    primary_raw_out: str,
+    inter_raw_out: str,
     test_name: str,
     dataset_name: str,
     model_name: str,
     model_family: str,
     prompt_primary: str,
     prompt_inter: str,
-    inter_dict: dict
+    inter_dict: dict,
 ):
-
     # Create a new folder named "result" with a numbered identifier if it exists
     result_folder = f"./result/{test_name}"
     identifier = 1
@@ -56,7 +67,7 @@ def export_result(
     os.makedirs(result_folder)
     misc_folder = os.path.join(result_folder, "misc")
     os.makedirs(misc_folder)
-    
+
     # Construct metadata dictionary
     metadata = {
         "test_name": test_name,
@@ -79,7 +90,7 @@ def export_result(
     res_path = os.path.join(result_folder, "res.json")
     with open(res_path, "w") as res_file:
         json.dump(data, res_file, indent=2)
-        
+
     # Export inter_dict to inter.json
     inter_dict_path = os.path.join(misc_folder, "inter.json")
     with open(inter_dict_path, "w") as res_file:
@@ -95,77 +106,83 @@ def export_result(
     with open(inter_path, "w") as inter_file:
         inter_file.write(inter_raw_out)
 
+
 def verif_digit(s: str):
     s = s.strip()
     if s.isnumeric():
         return int(s)
     return -1
-        
+
+
 def export_eval(
-    test_name: str, 
-    eval_model: str, ids: [int],  
-    factoid_scores: [str], 
+    test_name: str,
+    eval_model: str,
+    ids: [int],
+    factoid_scores: [str],
     reasoning_scores: [str],
     raw_output: str,
     total_eval_time: int,
     in_token: int,
     out_token: int,
     eval_prompt_factoid: str,
-    eval_prompt_reasoning: str
+    eval_prompt_reasoning: str,
 ) -> None:
-    accs,logics,clears,details,irrels,plauss=[],[],[],[],[],[]
-    
+    accs, logics, clears, details, irrels, plauss = [], [], [], [], [], []
+
     total_bad_tc = 0
-    for ID, fs, rs in zip(ids,factoid_scores, reasoning_scores):
-        
-        fs, logic, clear, detail, irrel, plaus = (verif_digit(s) for s in [fs] + rs.split(";"))
+    for ID, fs, rs in zip(ids, factoid_scores, reasoning_scores):
+        fs, logic, clear, detail, irrel, plaus = (
+            verif_digit(s) for s in [fs] + rs.split(";")
+        )
         accs.append(fs)
         logics.append(logic)
         clears.append(clear)
         details.append(detail)
         irrels.append(irrel)
         plauss.append(plaus)
-        
+
         count_bad_tc = sum(x == -1 for x in [fs, logic, clear, detail, irrel, plaus])
         if count_bad_tc:
             print(f"{count_bad_tc} bad metrics exist for id: {ID}")
             total_bad_tc += count_bad_tc
-    
+
     data = [
         {
-            "id" : i,
+            "id": i,
             "accuracy": a,
-            "logic" : l,
-            "clarity" : c,
-            "detail" : d,
-            "irrelevance" : ir,
-            "plausibility" : p
+            "logic": l,
+            "clarity": c,
+            "detail": d,
+            "irrelevance": ir,
+            "plausibility": p,
         }
-        for i,a,l,c,d,ir,p in zip(ids,accs,logics,clears,details,irrels,plauss)
+        for i, a, l, c, d, ir, p in zip(
+            ids, accs, logics, clears, details, irrels, plauss
+        )
     ]
-    
+
     result_folder = f"./result/{test_name}"
     misc_folder = f"./result/{test_name}/misc"
-    
+
     misc_path = os.path.join(misc_folder, "eval_raw.txt")
-    with open(misc_path, 'w') as raw_eval_file:
+    with open(misc_path, "w") as raw_eval_file:
         raw_eval_file.write(raw_output)
-    
+
     eval_res_path = os.path.join(result_folder, "eval.json")
-    with open(eval_res_path, 'w') as json_file:
+    with open(eval_res_path, "w") as json_file:
         json.dump(data, json_file, indent=2)
-    
+
     metadata_path = os.path.join(result_folder, "metadata.json")
     data = ""
-    with open(metadata_path,'r') as metadata_file:
+    with open(metadata_path, "r") as metadata_file:
         data = json.load(metadata_file)
         data["evaluator_model_name"] = eval_model
         data["total_eval_time"] = total_eval_time
         data["eval_prompt_factoid"] = eval_prompt_factoid
         data["eval_prompt_reasoning"] = eval_prompt_reasoning
-        data["eval_success_rate"] = round(1 - total_bad_tc/(len(ids) * 6), 2)
-    
-    with open(metadata_path,'w') as metadata_file:
-        json.dump(data, metadata_file, indent = 2)
-    
+        data["eval_success_rate"] = round(1 - total_bad_tc / (len(ids) * 6), 2)
+
+    with open(metadata_path, "w") as metadata_file:
+        json.dump(data, metadata_file, indent=2)
+
     print(f"Total bad TC metrics {total_bad_tc}/{len(ids) * 6}")
