@@ -1,6 +1,6 @@
 import json
 
-from src.base import load_config
+from src.base import load_config, expand_prefix_stratify
 from src.inference import load_model
 
 PROMPT_DICT = {
@@ -51,10 +51,8 @@ if PROMPT_IS_MULTISTEP:
 TEST_NAME = run_cfg["test_name"]
 PARAM_NUM_PER_INFERENCE = int(run_cfg["run_params"]["num_per_inference"])
 PARAM_USE_NONVIS = int(run_cfg["run_params"]["use_nonvis"])
-SCENE_GRAPH = None
-if PARAM_USE_NONVIS:
-    with open(SCENE_GRAPH_PATH) as json_file:
-        SCENE_GRAPH = json.load(json_file)
+with open(SCENE_GRAPH_PATH) as json_file:
+    SCENE_GRAPH = json.load(json_file)
 PARAM_USE_EXTS = run_cfg["run_params"]["use_img_ext"]
 
 
@@ -72,3 +70,13 @@ with open(PROMPT_PRIMARY_PATH) as f:
 if PROMPT_IS_MULTISTEP:
     with open(PROMPT_INTER_PATH) as f:
         PROMPT_INTER = f.read()
+
+# QUESTION PREFIXES
+PREFIXES = ["what", "is/am/are", "which", "how many", "where/when", "who", "whose/whom"]
+PREFIXES_PROPORTIONS = [2,2,2,2,1,1,1]
+
+if PARAM_USE_NONVIS:
+    PREFIXES = PREFIXES[:5]
+    PREFIXES_PROPORTIONS = PREFIXES_PROPORTIONS[:5]
+
+PREFIX_LIST = expand_prefix_stratify(PREFIXES, PREFIXES_PROPORTIONS, DATASET_DATA_COUNT * PARAM_NUM_PER_INFERENCE)

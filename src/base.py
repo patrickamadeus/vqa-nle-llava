@@ -235,4 +235,4 @@ def expand_prefix_stratify(prefixes, props, total_length):
     expanded_list += [prefixes[0]] * (total_length - sum(props))
     random.shuffle(expanded_list)
 
-    return expanded_list
+    return expanded_list[:total_length]

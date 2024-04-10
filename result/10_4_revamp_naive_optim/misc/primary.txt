@@ -1,0 +1,104 @@
+2353575.jpg
+-------------------------------
+['how many', 'which', 'which']
+
+Question: How many boats are visible in the image?
+Short Answer: There are two boats visible in the image.
+Reason: The image shows a lake with two boats floating on the water.
+
+2384295.jpg
+-------------------------------
+['what', 'who', 'is/am/are']
+
+Question: What is the boy standing next to?
+Short Answer: A bicycle
+Reason: The boy is standing next to a yellow bicycle that is leaning against a wall.
+
+2404643.jpg
+-------------------------------
+['is/am/are', 'which', 'which']
+
+Question: What is the man's attire?
+Short Answer: The man is wearing a white shirt and a green tie.
+Reason: The man is dressed in a formal attire, which includes a white shirt and a green tie.
+
+Question: Which stairs does the man sit on?
+Short Answer: The man sits on the second step from the top.
+Reason: The man is seated on the second step from the top, as indicated by the visible steps and his position.
+
+Question: Which potted plant is next to the man?
+Short Answer: There is a potted plant to the right of the man.
+Reason: The potted plant is located to the right of the man, as seen in the image.
+
+2347921.jpg
+-------------------------------
+['how many', 'is/am/are', 'whose/whom']
+
+Question: How many slices of pizza are on the plate in front of the boy?
+Short Answer: There are three slices of pizza on the plate.
+Reason: The plate is full of pizza, and there are three distinct slices visible.
+
+2321990.jpg
+-------------------------------
+['what', 'where/when', 'how many']
+
+Question: What is the woman doing while sitting on the couch?
+Short Answer: The woman is talking on her phone.
+Reason: She is holding the phone up to her ear.
+
+Question: Where is the cat while the woman is on the phone?
+Short Answer: The cat is on the woman's lap.
+Reason: The cat is comfortably resting on the woman's lap.
+
+Question: How many books are visible on the table next to the couch?
+Short Answer: There are two books visible on the table.
+Reason: There are two books stacked on top of each other on the table.
+
+2360023.jpg
+-------------------------------
+['what', 'what', 'which']
+
+Question: What is the color scheme of the train in the image?
+Short Answer: The train has a silver and yellow color scheme.
+Reason: The train has a predominantly silver body with yellow accents on the front and sides.
+
+2342596.jpg
+-------------------------------
+['how many', 'what', 'how many']
+
+Question: How many people are standing under the umbrella?
+Short Answer: 2
+Reason: There are two individuals standing under the umbrella.
+
+2335580.jpg
+-------------------------------
+['what', 'what', 'whose/whom']
+
+Question: What is the girl swinging?
+Short Answer: A bat.
+Reason: The girl is swinging a bat, which is a tool used in the sport of baseball.
+
+2361750.jpg
+-------------------------------
+['is/am/are', 'is/am/are', 'who']
+
+Question: What is the animal in the image?
+Short Answer: It is a yak.
+Reason: The animal has long hair and large horns, which are characteristic features of a yak.
+
+Question: Is the yak sitting or standing?
+Short Answer: The yak is sitting.
+Reason: The yak is positioned in a way that suggests it is sitting on the ground.
+
+Question: Who is the owner of the yak?
+Short Answer: The owner is not visible in the image.
+Reason: The image only shows the yak and its surroundings, but does not provide any information about the owner.
+
+2341916.jpg
+-------------------------------
+['what', 'what', 'where/when']
+
+Question: What is being cooked in the pot on the stove?
+Short Answer: Rice
+Reason: The pot is filled with a mixture of grains that resemble rice, and it is a common staple that is cooked in a pot on a stove.
+

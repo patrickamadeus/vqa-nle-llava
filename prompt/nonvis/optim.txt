@@ -4,7 +4,7 @@ Your task is to provide a question using the given prefix, answer, and reasoning
 Provide your feedback as follows:
 
 Feedback:::
-Question: (your question that involves complex reasoning with either 'what', 'which' 'where', 'is/am/are' prefix)
+Question: (your question that involves complex reasoning with {prefixes} prefix)
 Short Answer: (your brief answer related to the question)
 Reason: (your rationale for the short answer you choose respective to the question in maximum 30 words)
 

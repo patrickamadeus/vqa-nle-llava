@@ -24,6 +24,7 @@ from src.config.run import (
     PROMPT_PRIMARY_KEY,
     SCENE_GRAPH,
     TEST_NAME,
+    PREFIX_LIST
 )
 from src.config.run import (
     PARAM_NUM_PER_INFERENCE as NUM,
@@ -41,9 +42,6 @@ img_paths, real_data_count = get_all_valid_filepaths(
     folder_path=DATASET_IMG_PATH, scene_graph=SCENE_GRAPH, n=DATASET_DATA_COUNT
 )
 
-prefix = ["what", "is/am/are", "which", "whose/whom", "how many", "where/when", "who"]
-proportions = [2, 2, 2, 1, 1, 2, 1]
-prefixes = expand_prefix_stratify(prefix, proportions, DATASET_DATA_COUNT * NUM)
 i_prefix = 0
 
 logging.info("Starting Generation...")
@@ -53,7 +51,7 @@ for img_path in tqdm(img_paths):
     img_id_ext, img_id = get_filename(img_path)
     runner_config = {
         "pair_num": NUM,
-        "prefixes": prefixes[i_prefix : i_prefix + NUM],
+        "prefixes": PREFIX_LIST[i_prefix : i_prefix + NUM],
         "is_multistep": PROMPT_IS_MULTISTEP,
     }
 
@@ -74,7 +72,7 @@ for img_path in tqdm(img_paths):
 
     parsed_data = parse_output(primary_out, img_id_ext, prev_i)
 
-    primary_raw_out += raw_output_splitter(img_id_ext, primary_out)
+    primary_raw_out += raw_output_splitter(img_id_ext, f"{PREFIX_LIST[i_prefix : i_prefix + NUM]}\n\n" + primary_out)
     inter_raw_out += raw_output_splitter(img_id_ext, inter_out)
     total_sec += primary_sec + inter_sec
     prev_i += len(parsed_data)

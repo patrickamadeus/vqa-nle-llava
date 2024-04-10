@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "How many boats are visible in the image?",
+    "short_answer": "There are two boats visible in the image.",
+    "reasoned_answer": "The image shows a lake with two boats floating on the water."
+  },
+  {
+    "id": 2,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy standing next to?",
+    "short_answer": "A bicycle",
+    "reasoned_answer": "The boy is standing next to a yellow bicycle that is leaning against a wall."
+  },
+  {
+    "id": 3,
+    "img_id": "2404643.jpg",
+    "question": "What is the man's attire?",
+    "short_answer": "The man is wearing a white shirt and a green tie.",
+    "reasoned_answer": "The man is dressed in a formal attire, which includes a white shirt and a green tie."
+  },
+  {
+    "id": 4,
+    "img_id": "2404643.jpg",
+    "question": "Which stairs does the man sit on?",
+    "short_answer": "The man sits on the second step from the top.",
+    "reasoned_answer": "The man is seated on the second step from the top, as indicated by the visible steps and his position."
+  },
+  {
+    "id": 5,
+    "img_id": "2404643.jpg",
+    "question": "Which potted plant is next to the man?",
+    "short_answer": "There is a potted plant to the right of the man.",
+    "reasoned_answer": "The potted plant is located to the right of the man, as seen in the image."
+  },
+  {
+    "id": 6,
+    "img_id": "2347921.jpg",
+    "question": "How many slices of pizza are on the plate in front of the boy?",
+    "short_answer": "There are three slices of pizza on the plate.",
+    "reasoned_answer": "The plate is full of pizza, and there are three distinct slices visible."
+  },
+  {
+    "id": 7,
+    "img_id": "2321990.jpg",
+    "question": "What is the woman doing while sitting on the couch?",
+    "short_answer": "The woman is talking on her phone.",
+    "reasoned_answer": "She is holding the phone up to her ear."
+  },
+  {
+    "id": 8,
+    "img_id": "2321990.jpg",
+    "question": "Where is the cat while the woman is on the phone?",
+    "short_answer": "The cat is on the woman's lap.",
+    "reasoned_answer": "The cat is comfortably resting on the woman's lap."
+  },
+  {
+    "id": 9,
+    "img_id": "2321990.jpg",
+    "question": "How many books are visible on the table next to the couch?",
+    "short_answer": "There are two books visible on the table.",
+    "reasoned_answer": "There are two books stacked on top of each other on the table."
+  },
+  {
+    "id": 10,
+    "img_id": "2360023.jpg",
+    "question": "What is the color scheme of the train in the image?",
+    "short_answer": "The train has a silver and yellow color scheme.",
+    "reasoned_answer": "The train has a predominantly silver body with yellow accents on the front and sides."
+  },
+  {
+    "id": 11,
+    "img_id": "2342596.jpg",
+    "question": "How many people are standing under the umbrella?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two individuals standing under the umbrella."
+  },
+  {
+    "id": 12,
+    "img_id": "2335580.jpg",
+    "question": "What is the girl swinging?",
+    "short_answer": "A bat.",
+    "reasoned_answer": "The girl is swinging a bat, which is a tool used in the sport of baseball."
+  },
+  {
+    "id": 13,
+    "img_id": "2361750.jpg",
+    "question": "What is the animal in the image?",
+    "short_answer": "It is a yak.",
+    "reasoned_answer": "The animal has long hair and large horns, which are characteristic features of a yak."
+  },
+  {
+    "id": 14,
+    "img_id": "2361750.jpg",
+    "question": "Is the yak sitting or standing?",
+    "short_answer": "The yak is sitting.",
+    "reasoned_answer": "The yak is positioned in a way that suggests it is sitting on the ground."
+  },
+  {
+    "id": 15,
+    "img_id": "2361750.jpg",
+    "question": "Who is the owner of the yak?",
+    "short_answer": "The owner is not visible in the image.",
+    "reasoned_answer": "The image only shows the yak and its surroundings, but does not provide any information about the owner."
+  },
+  {
+    "id": 16,
+    "img_id": "2341916.jpg",
+    "question": "What is being cooked in the pot on the stove?",
+    "short_answer": "Rice",
+    "reasoned_answer": "The pot is filled with a mixture of grains that resemble rice, and it is a common staple that is cooked in a pot on a stove."
+  }
+]

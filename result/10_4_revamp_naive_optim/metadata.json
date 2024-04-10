@@ -1,0 +1,11 @@
+{
+  "test_name": "10_4_revamp_naive_optim",
+  "dataset_name": "GQA",
+  "total_data": 30,
+  "total_gen": 16,
+  "total_sec": 29.760600566864014,
+  "model_name": "llava-hf/vip-llava-13b-hf",
+  "model_family": "vip_llava",
+  "prompt_primary": "naive_optim",
+  "prompt_inter": "story_long"
+}

@@ -1,10 +1,10 @@
 You are given an image.
-Your task is to provide a question, answer, and reasoning related to the given context. Make the question using the given prefix in order.
+Your task is to provide {number} question, answer, and reasoning related to the given context. Make the question using the given prefix in order.
 
 Provide your feedback as follows:
 
 Feedback:::
-Question: (your question that involves complex reasoning with {prefix} prefix)
+Question: (your question that involves complex reasoning with given prefix)
 Short Answer: (your brief answer related to the question)
 Reason: (your rationale for the short answer you choose respective to the question in maximum 30 words)
 
@@ -12,6 +12,7 @@ You MUST provide values for 'Question', 'Short Answer', and 'Reason' in your ans
 
 Now here is the prefixes:
 
+Number of triplet: {number}
 Prefixes: {prefixes}
 
 Provide your feedback. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.

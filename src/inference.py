@@ -265,11 +265,14 @@ def nonvis_inference_runner(
     total_sec = 0
 
     for i, obj in enumerate(raw_objs):
+        print(runner_config["prefixes"])
+        print(runner_config["prefixes"][i])
+        
         out, sec = inference_hf(
             model,
             processor,
             prompt_primary.format(
-                number=i + 1, name=obj[0], prefixes=runner_config["prefixes"][0]
+                number=i + 1, name=obj[0], prefixes=runner_config["prefixes"][i]
             ),
             img_raw=obj[1],
         )
