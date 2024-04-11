@@ -1,4 +1,4 @@
-test_name: llava-1.5-13b-hf_500
+test_name: 10-4_vicuna13_naive-optim_500
 seed: 42
 
 run_params:

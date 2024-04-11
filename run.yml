@@ -1,12 +1,12 @@
-test_name: 10-4_vicuna13_naive-optim
+test_name: 10-4_vicuna7_naive-optim_500
 seed: 42
 dataset:
     name: GQA
-    count: 10
+    count: 167
 
 model:
-    name: llava-hf/llava-1.5-13b-hf
-    path: llava-hf/llava-1.5-13b-hf
+    name: llava-hf/llava-1.5-7b-hf
+    path: llava-hf/llava-1.5-7b-hf
     family: llava
     params:
         use_4_bit: 0
