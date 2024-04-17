@@ -2,6 +2,7 @@ import base64
 import io
 import json
 import os
+from typing import List, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -49,18 +50,17 @@ def export_eval(name, data, mode="json", RESULT_PATH=RESULT_PATH):
 
         image_path = os.path.join(RESULT_PATH, f"{name}.jpg")
         image.save(image_path)
-    
+
     elif mode == "xlsx":
-        with open(RULES_PATH, 'r') as rule_f:
+        with open(RULES_PATH, "r") as rule_f:
             rule_list = rule_f.readlines()
-        
-        rules = pd.DataFrame({'rules': rule_list})
-        
-        writer = pd.ExcelWriter(RESULT_PATH + f"{XLSX_NAME}.xlsx", engine = 'xlsxwriter')
-        rules.to_excel(writer, sheet_name = 'rules')
-        data.to_excel(writer, sheet_name = 'scoresheet')
+
+        rules = pd.DataFrame({"rules": rule_list})
+
+        writer = pd.ExcelWriter(RESULT_PATH + f"{XLSX_NAME}.xlsx", engine="xlsxwriter")
+        rules.to_excel(writer, sheet_name="rules")
+        data.to_excel(writer, sheet_name="scoresheet")
         writer.close()
-#         data.to_excel(RESULT_PATH + f"{XLSX_NAME}.xlsx")
 
 
 def transform_list_to_dfs(test_name, mode="csv", sep=";"):
@@ -137,7 +137,7 @@ def common_ids(dfs):
 
 
 def dfs_to_CAC(dfs):
-    METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance", "plausibility"]
+    METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance"]
     CACs = {}
 
     common_ids_set = common_ids(dfs)
@@ -150,9 +150,8 @@ def dfs_to_CAC(dfs):
     return CACs
 
 
-def gwet_AC2(TEST_NAME, weights="ordinal"):
-    dfs = transform_list_to_dfs(TEST_NAME)
-    transformed_dfs = bulk_transform_dfs(dfs)
+def gwet_AC2(test_name, weights="ordinal"):
+    transformed_dfs = transform_raw_to_dfs(test_name)
 
     cac_by_metric_dict = dfs_to_CAC(transformed_dfs)
     gwet_by_metric_dict = {}
@@ -170,8 +169,8 @@ def gwet_AC2(TEST_NAME, weights="ordinal"):
     return gwet_by_metric_dict
 
 
-def gen_size_hist(TEST_NAME):
-    data = unpack_json(f"./result/{TEST_NAME}/res.json")
+def gen_size_hist(test_name):
+    data = unpack_json(f"./result/{test_name}/res.json")
     question_lengths = [len(item["question"].split()) for item in data]
     short_answer_lengths = [len(item["short_answer"].split()) for item in data]
     reasoned_answer_lengths = [len(item["reasoned_answer"].split()) for item in data]
@@ -193,7 +192,7 @@ def gen_size_hist(TEST_NAME):
     fig.text(0.04, 0.5, "Frequency", va="center", rotation="vertical")
 
     # Set common suptitle
-    fig.suptitle(f"Word Length Histograms - {TEST_NAME}", fontsize=16)
+    fig.suptitle(f"Word Length Histograms - {test_name}", fontsize=16)
 
     # Adjust layout
     plt.tight_layout()
@@ -212,8 +211,8 @@ def gen_size_hist(TEST_NAME):
     return image_base64
 
 
-def gen_question_prefix(TEST_NAME):
-    data = unpack_json(f"./result/{TEST_NAME}/res.json")
+def gen_question_prefix(test_name):
+    data = unpack_json(f"./result/{test_name}/res.json")
     question_prefixes = {}
 
     # Count occurrences of question prefixes
@@ -231,7 +230,7 @@ def gen_question_prefix(TEST_NAME):
     )
 
     # Set title
-    plt.title(f"Question Prefix Distribution - {TEST_NAME}")
+    plt.title(f"Question Prefix Distribution - {test_name}")
 
     # Save plot as bytes in memory
     buf = io.BytesIO()
@@ -246,19 +245,145 @@ def gen_question_prefix(TEST_NAME):
 
     return image_base64
 
-def gen_subjective_xlsx(TEST_NAME):
-    
-    data = unpack_json(f"./result/{TEST_NAME}/res.json")
-    cols = ['id', 'img_id', 'question', 'short_answer', 'reasoned_answer']
+
+def gen_subjective_xlsx(test_name):
+    data = unpack_json(f"./result/{test_name}/res.json")
+    cols = ["id", "img_id", "question", "short_answer", "reasoned_answer"]
     df = pd.DataFrame(data, columns=cols)
-    
-    evaluation_criteria = ['accuracy', 'logical', 'clarity', 'detail', 'irrelevancy', 'plausibility']
+
+    evaluation_criteria = [
+        "accuracy",
+        "logical",
+        "clarity",
+        "detail",
+        "irrelevancy",
+        "plausibility",
+    ]
     for criterion in evaluation_criteria:
-        df[criterion] = ''
+        df[criterion] = ""
 
     df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)
     sample_df = df.head(100)
-    
+
     return sample_df[cols[0:1] + evaluation_criteria + cols[1:]]
-    
-    
+
+
+# Subjective Evaluation Helper Data Preprocessing Function
+def transform_raw_to_dfs(
+    test_name: str, sheet_name: str = "scoresheet"
+) -> List[pd.DataFrame]:
+    xlsx_dir = f"./result/{test_name}/eval/xlsx/"
+    dfs = []
+
+    for file in os.listdir(xlsx_dir):
+        filename, ext = os.path.splitext(file)
+        evaluator = filename.split("_")[-1]
+
+        if ext == "xlsx":
+            df = pd.read_excel(xlsx_dir + file, sheet_name=sheet_name)[
+                [
+                    "id",
+                    "img_id",
+                    "accuracy",
+                    "logical",
+                    "clarity",
+                    "detail",
+                    "irrelevancy",
+                ]
+            ]
+        elif ext == "csv":
+            df = pd.read_csv(xlsx_dir + file)[
+                [
+                    "id",
+                    "img_id",
+                    "accuracy",
+                    "logical",
+                    "clarity",
+                    "detail",
+                    "irrelevancy",
+                ]
+            ]
+
+        df["evaluator"] = evaluator
+        dfs.append(df)
+
+    return dfs
+
+
+def get_clean_df(df: pd.DataFrame, sample_size: int = 50) -> Tuple[pd.DataFrame, float]:
+    clean_df = df[(df != -1.0).all(axis=1) & (df.notnull().all(axis=1))]
+    clean_rate = len(clean_df) / sample_size
+
+    return clean_df, clean_rate
+
+
+def gen_subjective_quant_analysis(test_names: List[str]) -> dict:
+    res = {}
+
+    for test in test_names:
+        transformed_dfs = transform_raw_to_dfs(test)
+        cleaned_transformed_dfs = [get_clean_df(df) for df in transformed_dfs]
+
+        cleaned_dfs = [df for df, _ in cleaned_transformed_dfs]
+        clean_rate = [rate for _, rate in cleaned_transformed_dfs]
+
+        common_ids_set = common_ids(cleaned_dfs)
+        mutual_dfs = [df[df["id"].isin(common_ids_set)] for df in cleaned_dfs]
+
+        metric = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
+        mean_scores = [df[metric].mean() for df in mutual_dfs]
+        ovr_mean_scores = pd.concat(mean_scores, axis=1).mean(axis=1)
+        ovr_std_scores = pd.concat(mean_scores, axis=1).std(axis=1)
+
+        mean_scores = [mean_scores[i].to_dict() for i in range(len(mean_scores))]
+
+        res[test] = {
+            "amount": len(common_ids_set),
+            "clean_rate": np.mean(clean_rate),
+            "mean_scores_per_sample": mean_scores,
+            "ovr_mean_scores": ovr_mean_scores.to_dict(),
+            "ovr_std_scores": ovr_std_scores.to_dict(),
+        }
+
+    return res
+
+
+def gen_quant_subj_df(
+    test_names: List[str], export_detail: bool = False
+) -> pd.DataFrame:
+    quant_subj_res = gen_subjective_quant_analysis(test_names)
+
+    res = {}
+    for test_name, data in quant_subj_res.items():
+        if export_detail:
+            with open(f"./result/{test_name}/eval/quant_subj.json", "w") as f:
+                json.dump(quant_subj_res[test_name], f)
+
+        res[test_name] = {
+            "amount": data["amount"],
+            "clean_rate": data["clean_rate"],
+            **{
+                f"avg_{metric}": data["ovr_mean_scores"][metric]
+                for metric in data["ovr_mean_scores"].keys()
+            },
+            **{
+                f"std_{metric}": data["ovr_std_scores"][metric]
+                for metric in data["ovr_std_scores"].keys()
+            },
+        }
+
+    return round(pd.DataFrame(res).T, 2)
+
+
+def gen_subj_rank(test_names: List[str]) -> pd.DataFrame:
+    quant_subj_res = gen_subjective_quant_analysis(test_names)
+
+    res = {}
+    for test_name, data in quant_subj_res.items():
+        res[test_name] = data["ovr_mean_scores"]
+
+    df = pd.DataFrame(res).T
+    df["rank"] = df.rank(axis=0, ascending=False).mean(axis=1)
+    df = df.sort_values(by="rank")
+
+    return df
