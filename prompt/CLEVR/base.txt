@@ -1,9 +1,0 @@
-Generate questions that involves complex reasoning about positioning and attributes of the objects inside the image. For each question, generate a short factoid answer and long answer that contains the reason of short answer pick. Limit long answer to 20 words.
-
-What are {number} possible questions-answers about the image?
-
-Present the question-answer pairs in format:
-1. <QUESTION-1>
-S. <SHORT-ANSWER-1>
-L. <LONG-ANSWER-1>
-<<line-break>>
