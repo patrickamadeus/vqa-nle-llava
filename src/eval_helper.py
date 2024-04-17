@@ -15,8 +15,11 @@ from src.base import load_config, unpack_json
 METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance", "plausibility"]
 
 cfg = load_config("./", "eval.yml")
+SEED = cfg["seed"]
 TEST_NAME = cfg["test_name"]
+XLSX_NAME = cfg["xlsx_name"]
 RESULT_PATH = f"./result/{TEST_NAME}/eval/"
+RULES_PATH = "./prompt/eval/rules.txt"
 
 
 def load_eval_res(path, mode="csv", sep=","):
@@ -46,6 +49,18 @@ def export_eval(name, data, mode="json", RESULT_PATH=RESULT_PATH):
 
         image_path = os.path.join(RESULT_PATH, f"{name}.jpg")
         image.save(image_path)
+    
+    elif mode == "xlsx":
+        with open(RULES_PATH, 'r') as rule_f:
+            rule_list = rule_f.readlines()
+        
+        rules = pd.DataFrame({'rules': rule_list})
+        
+        writer = pd.ExcelWriter(RESULT_PATH + f"{XLSX_NAME}.xlsx", engine = 'xlsxwriter')
+        rules.to_excel(writer, sheet_name = 'rules')
+        data.to_excel(writer, sheet_name = 'scoresheet')
+        writer.close()
+#         data.to_excel(RESULT_PATH + f"{XLSX_NAME}.xlsx")
 
 
 def transform_list_to_dfs(test_name, mode="csv", sep=";"):
@@ -230,3 +245,20 @@ def gen_question_prefix(TEST_NAME):
     plt.close()
 
     return image_base64
+
+def gen_subjective_xlsx(TEST_NAME):
+    
+    data = unpack_json(f"./result/{TEST_NAME}/res.json")
+    cols = ['id', 'img_id', 'question', 'short_answer', 'reasoned_answer']
+    df = pd.DataFrame(data, columns=cols)
+    
+    evaluation_criteria = ['accuracy', 'logical', 'clarity', 'detail', 'irrelevancy', 'plausibility']
+    for criterion in evaluation_criteria:
+        df[criterion] = ''
+
+    df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)
+    sample_df = df.head(100)
+    
+    return sample_df[cols[0:1] + evaluation_criteria + cols[1:]]
+    
+    

@@ -1,0 +1,11 @@
+{
+  "test_name": "10-4_vicuna7_naive-optim_500",
+  "dataset_name": "GQA",
+  "total_data": 501,
+  "total_gen": 379,
+  "total_sec": 1084.9300231933594,
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "model_family": "llava",
+  "prompt_primary": "naive_optim",
+  "prompt_inter": "story_long"
+}

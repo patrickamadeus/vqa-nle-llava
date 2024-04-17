@@ -1,4 +1,4 @@
-test_name: 10-4_vicuna7_naive-optim_500
+test_name: 10-4_vicuna7_qg-story-optim_500
 seed: 42
 dataset:
     name: GQA
@@ -15,8 +15,8 @@ model:
         
 
 prompt:
-    multistep: 0
-    primary: naive_optim
+    multistep: 1
+    primary: qg_story_optim
     inter: story_long
 
 run_params:

@@ -259,29 +259,34 @@ def nonvis_inference_runner(
     runner_config: dict,
     prompt_inter="",
 ):
-    img_id_ext, img_id = get_filename(img_path)
-    raw_objs, complete_annot_tensor = annotate_images(
-        img_path, scene_graph[img_id], num_obj=runner_config["pair_num"]
-    )
-
-    logging.info(f"[{img_id_ext}] - Nonvis Inference started...")
-
     outs = []
     total_sec = 0
-
-    for i, obj in enumerate(raw_objs):
-        out, sec = inference_hf(
-            model,
-            processor,
-            prompt_primary.format(
-                number=i + 1, name=obj[0], prefixes=runner_config["prefixes"][i]
-            ),
-            img_raw=obj[1],
+    img_id, complete_annot_tensor = None, None
+    
+    img_id_ext, img_id = get_filename(img_path)
+    
+    try:
+        raw_objs, complete_annot_tensor = annotate_images(
+            img_path, scene_graph[img_id], num_obj=runner_config["pair_num"]
         )
-        outs.append(out)
-        total_sec += sec
 
-    logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
+        logging.info(f"[{img_id_ext}] - Nonvis Inference started...")
+
+        for i, obj in enumerate(raw_objs):
+            out, sec = inference_hf(
+                model,
+                processor,
+                prompt_primary.format(
+                    number=i + 1, name=obj[0], prefix=runner_config["prefixes"][i]
+                ),
+                img_raw=obj[1],
+            )
+            outs.append(out)
+            total_sec += sec
+
+        logging.info(f"[{img_id_ext}] - Nonvis Inference finished ({sec}s)")
+    except Exception as e:
+        logging.error(f"[{img_id_ext}] - An unexpected error occurred: {str(e)}")
 
     return (
         "\n".join(outs),

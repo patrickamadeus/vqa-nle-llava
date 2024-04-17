@@ -1,0 +1,3124 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "Is the boy holding the frisbee in his right hand or left hand?",
+    "short_answer": "Right hand",
+    "reasoned_answer": "The boy is holding the frisbee in his right hand, which is the hand used for throwing objects."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The older man is likely a family member or a friend who is helping the young boy learn the game, while also enjoying some outdoor activity together."
+  },
+  {
+    "id": 3,
+    "img_id": "2384295.jpg",
+    "question": "Is the boy wearing a brown shirt?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The boy is wearing a brown shirt in the image."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "What is the young boy wearing?",
+    "short_answer": "The young boy is wearing a brown shirt.",
+    "reasoned_answer": "The boy is standing next to a yellow bicycle, and his attire is visible in the image."
+  },
+  {
+    "id": 5,
+    "img_id": "2384295.jpg",
+    "question": "What is the young boy wearing?",
+    "short_answer": "The young boy is wearing a brown shirt.",
+    "reasoned_answer": "The boy is standing next to a yellow bicycle, and his attire is visible in the image."
+  },
+  {
+    "id": 6,
+    "img_id": "2404643.jpg",
+    "question": "How many potted plants are in the background?",
+    "short_answer": "2",
+    "reasoned_answer": "The image description states that there are two potted plants in the background, one on the left side and the other on the right side."
+  },
+  {
+    "id": 7,
+    "img_id": "2404643.jpg",
+    "question": "Is the man wearing a tie?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing a white shirt and a green tie, which is visible in the image."
+  },
+  {
+    "id": 8,
+    "img_id": "2404643.jpg",
+    "question": "What is the man wearing?",
+    "short_answer": "The man is wearing a white shirt and a green tie.",
+    "reasoned_answer": "The man is sitting on the steps of a building, and his attire is visible in the image."
+  },
+  {
+    "id": 9,
+    "img_id": "2347921.jpg",
+    "question": "How many chairs are around the dining table?",
+    "short_answer": "4",
+    "reasoned_answer": "The image shows a dining table with 4 chairs surrounding it, including the one the boy is sitting on."
+  },
+  {
+    "id": 10,
+    "img_id": "2347921.jpg",
+    "question": "How many chairs are around the dining table?",
+    "short_answer": "4",
+    "reasoned_answer": "The image shows a dining table with 4 chairs surrounding it, including the one the boy is sitting on."
+  },
+  {
+    "id": 11,
+    "img_id": "2347921.jpg",
+    "question": "Who is the main focus of the scene?",
+    "short_answer": "The young boy in the pink shirt and glasses.",
+    "reasoned_answer": "The boy is the main subject of the image, as he is the one enjoying the slice of pizza and is the center of attention in the scene."
+  },
+  {
+    "id": 12,
+    "img_id": "2321990.jpg",
+    "question": "Is the woman wearing a red shirt and a blue hat?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image description confirms that the woman is wearing a red shirt and a blue hat."
+  },
+  {
+    "id": 13,
+    "img_id": "2321990.jpg",
+    "question": "What is the woman wearing?",
+    "short_answer": "A red shirt and a blue hat",
+    "reasoned_answer": "The woman is wearing a red shirt and a blue hat, which can be seen in the image."
+  },
+  {
+    "id": 14,
+    "img_id": "2321990.jpg",
+    "question": "How many chairs are in the room?",
+    "short_answer": "There are two chairs in the room.",
+    "reasoned_answer": "The image description states that there are two chairs in the room, one near the woman and the other further away."
+  },
+  {
+    "id": 15,
+    "img_id": "2360023.jpg",
+    "question": "What is the train's purpose?",
+    "short_answer": "The train's purpose is to transport passengers.",
+    "reasoned_answer": "The train is designed for passengers, and there are multiple people visible in the image, suggesting that it is a popular mode of transportation in the area."
+  },
+  {
+    "id": 16,
+    "img_id": "2360023.jpg",
+    "question": "Is the train a passenger train?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The train is designed for transporting people and there are several people visible in the image, likely passengers waiting for the train or standing nearby."
+  },
+  {
+    "id": 17,
+    "img_id": "2360023.jpg",
+    "question": "Whose train is it?",
+    "short_answer": "Passenger train",
+    "reasoned_answer": "The train is designed for transporting people, and there are multiple passengers visible in the image, suggesting that it is a passenger train."
+  },
+  {
+    "id": 18,
+    "img_id": "2342596.jpg",
+    "question": "Which girl is wearing a white jacket?",
+    "short_answer": "The girl on the left is wearing a white jacket.",
+    "reasoned_answer": "The girl on the left is wearing a white jacket, and the girl on the right is wearing a black jacket."
+  },
+  {
+    "id": 19,
+    "img_id": "2342596.jpg",
+    "question": "Which girl is wearing a white jacket?",
+    "short_answer": "The girl on the left is wearing a white jacket.",
+    "reasoned_answer": "The girl on the left is wearing a white jacket, and the girl on the right is wearing a black jacket."
+  },
+  {
+    "id": 20,
+    "img_id": "2342596.jpg",
+    "question": "Are the girls walking down the street together?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The girls are walking down the street together, holding umbrellas to shield themselves from the rain."
+  },
+  {
+    "id": 21,
+    "img_id": "2335580.jpg",
+    "question": "Is the girl playing baseball in a field?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The girl is swinging a baseball bat in a grassy field, which is a suitable location for playing baseball."
+  },
+  {
+    "id": 22,
+    "img_id": "2335580.jpg",
+    "question": "Who is playing baseball in the image?",
+    "short_answer": "A young girl",
+    "reasoned_answer": "The girl is the main focus of the scene and her actions are the central point of interest."
+  },
+  {
+    "id": 23,
+    "img_id": "2335580.jpg",
+    "question": "Is the girl playing baseball in a field?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The girl is swinging a baseball bat in a grassy field, which is a suitable location for playing baseball."
+  },
+  {
+    "id": 24,
+    "img_id": "2361750.jpg",
+    "question": "What is the cow's breed?",
+    "short_answer": "The cow is a long-haired, horned Highland cow.",
+    "reasoned_answer": "The Highland cow is known for its long hair, large horns, and shaggy coat, which are all visible features in the image."
+  },
+  {
+    "id": 25,
+    "img_id": "2361750.jpg",
+    "question": "What is the name of the mountain in the background of the image?",
+    "short_answer": "The name of the mountain in the background of the image is Mount Everest.",
+    "reasoned_answer": "The image features a large, long-haired, horned cow with a shaggy coat, sitting in a grassy field in front of Mount Everest. The cow appears to be looking at the camera, possibly posing for a picture. The field is situated in front of a majestic mountain, which serves as a stunning backdrop for the scene. The cow's horns are quite prominent, adding to its unique and eye-catching appearance."
+  },
+  {
+    "id": 26,
+    "img_id": "2361750.jpg",
+    "question": "How many horns does the cow have?",
+    "short_answer": "The cow has two horns.",
+    "reasoned_answer": "The cow has two prominent horns, which are a notable feature of its appearance."
+  },
+  {
+    "id": 27,
+    "img_id": "2341916.jpg",
+    "question": "What is the main dish being prepared in the image?",
+    "short_answer": "Rice and vegetables",
+    "reasoned_answer": "The image shows three pots filled with food on the burners, with one pot containing rice and vegetables. The presence of two spoons and a knife also suggests that these dishes are being prepared."
+  },
+  {
+    "id": 28,
+    "img_id": "2341916.jpg",
+    "question": "What is the main dish being prepared in the image?",
+    "short_answer": "Rice and vegetables",
+    "reasoned_answer": "The image shows three pots filled with food on the burners, with one pot containing rice and vegetables. The presence of two spoons and a knife also suggests that these dishes are being prepared."
+  },
+  {
+    "id": 29,
+    "img_id": "2341916.jpg",
+    "question": "What is the main dish being prepared in the image?",
+    "short_answer": "Rice and vegetables",
+    "reasoned_answer": "The image shows three pots filled with food on the burners, with one pot containing rice and vegetables. The presence of two spoons and a knife also suggests that these dishes are being prepared."
+  },
+  {
+    "id": 30,
+    "img_id": "2402093.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a skateboarder in mid-air, performing a trick on a rail, which is a common and impressive skateboarding maneuver."
+  },
+  {
+    "id": 31,
+    "img_id": "2402093.jpg",
+    "question": "Is the skateboarder performing a trick on a rail?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a skateboarder in mid-air, performing a trick on a rail, which is a common and impressive skateboarding maneuver."
+  },
+  {
+    "id": 32,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "A tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket, which is a common piece of equipment used in the sport of tennis."
+  },
+  {
+    "id": 33,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "A tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket, which is a common piece of equipment used in the sport of tennis."
+  },
+  {
+    "id": 34,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "A tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket, which is a common piece of equipment used in the sport of tennis."
+  },
+  {
+    "id": 35,
+    "img_id": "2349840.jpg",
+    "question": "Whose train is it?",
+    "short_answer": "Freight train operator",
+    "reasoned_answer": "The train is a freight train, and the people visible in the image are likely train operators or workers involved in the train's operation."
+  },
+  {
+    "id": 36,
+    "img_id": "2349840.jpg",
+    "question": "What is the color of the train?",
+    "short_answer": "Blue and white",
+    "reasoned_answer": "The train is blue and white in color."
+  },
+  {
+    "id": 37,
+    "img_id": "2349840.jpg",
+    "question": "Is the train carrying any passengers?",
+    "short_answer": "No",
+    "reasoned_answer": "The train is a freight train, and it is not designed to carry passengers. It is specifically designed to transport cargo, as evidenced by the blue cargo car visible in the image."
+  },
+  {
+    "id": 38,
+    "img_id": "2403286.jpg",
+    "question": "How many carrots are on the plate?",
+    "short_answer": "5",
+    "reasoned_answer": "The image shows a plate with a variety of foods, including a taco and beans. There are several carrots scattered around the plate, with a total of 5 carrots."
+  },
+  {
+    "id": 39,
+    "img_id": "2403286.jpg",
+    "question": "What is the main focus of the plate?",
+    "short_answer": "The main focus of the plate is a taco.",
+    "reasoned_answer": "The image shows a large portion of Mexican food, including a taco, which is the main focus of the plate. The taco is accompanied by a side of beans, adding to the colorful and appetizing presentation."
+  },
+  {
+    "id": 40,
+    "img_id": "2403286.jpg",
+    "question": "Where is the dining table located?",
+    "short_answer": "In a restaurant",
+    "reasoned_answer": "The presence of a dining table, chairs, and a variety of foods suggests that this is a restaurant setting. The table is surrounded by chairs, and the meal is presented in an inviting manner, which is typical of a restaurant environment."
+  },
+  {
+    "id": 41,
+    "img_id": "1159351.jpg",
+    "question": "Are the men playing a game on the Wii console?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The men are holding Wii remotes and standing in a room, which suggests they are playing a game on the Wii console."
+  },
+  {
+    "id": 42,
+    "img_id": "1159351.jpg",
+    "question": "Which Wii game are the men playing?",
+    "short_answer": "Wii Sports",
+    "reasoned_answer": "The men are holding Wii remotes and are standing in a room, which suggests they are playing a game like Wii Sports."
+  },
+  {
+    "id": 43,
+    "img_id": "1159351.jpg",
+    "question": "What is the group of men playing with the Wii remotes?",
+    "short_answer": "Wii Sports",
+    "reasoned_answer": "The image shows a group of men standing in a room, each holding a Wii remote, and they appear to be enjoying a gaming session together, likely playing Wii Sports."
+  },
+  {
+    "id": 44,
+    "img_id": "2380438.jpg",
+    "question": "Which man is wearing glasses?",
+    "short_answer": "Man on the left is wearing glasses.",
+    "reasoned_answer": "The man on the left is wearing glasses, which is visible in the image."
+  },
+  {
+    "id": 45,
+    "img_id": "2380438.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows two large pizzas on the table, indicating that there are two pizzas."
+  },
+  {
+    "id": 46,
+    "img_id": "2378845.jpg",
+    "question": "Who is responsible for the maintenance of the bathroom?",
+    "short_answer": "The property owner or management is responsible for the maintenance of the bathroom.",
+    "reasoned_answer": "The bathroom appears to be in a state of disrepair, with peeling paint and missing faucets. This suggests that the property owner or management has not taken adequate care of the space, and it is their responsibility to ensure that the bathroom is properly maintained."
+  },
+  {
+    "id": 47,
+    "img_id": "2378845.jpg",
+    "question": "Is the bathroom in a state of disrepair?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bathroom is covered in paint that is peeling off, and the sinks are missing faucets and drains, indicating a state of disrepair."
+  },
+  {
+    "id": 48,
+    "img_id": "2378845.jpg",
+    "question": "What is the state of the bathroom in the image?",
+    "short_answer": "The bathroom is in a state of disrepair, with peeling paint and missing or damaged fixtures.",
+    "reasoned_answer": "The image shows a bathroom with two sinks, one missing a faucet and the other with a faucet but no drain. The walls are covered in paint that is peeling off, and the overall atmosphere is one of neglect and disrepair."
+  },
+  {
+    "id": 49,
+    "img_id": "2408290.jpg",
+    "question": "Who is the rider of the motorcycle?",
+    "short_answer": "The rider of the motorcycle is a man.",
+    "reasoned_answer": "The image shows a man wearing a helmet and riding a motorcycle with a sidecar."
+  },
+  {
+    "id": 50,
+    "img_id": "2408290.jpg",
+    "question": "Who is the rider of the motorcycle?",
+    "short_answer": "The rider of the motorcycle is a man.",
+    "reasoned_answer": "The image shows a man wearing a helmet and riding a motorcycle with a sidecar."
+  },
+  {
+    "id": 51,
+    "img_id": "2408290.jpg",
+    "question": "How many tires are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows a motorcycle with two tires visible, one on the left and one on the right side of the image."
+  },
+  {
+    "id": 52,
+    "img_id": "2366289.jpg",
+    "question": "What is the purpose of the wooden picnic tables and benches at the beachside restaurant?",
+    "short_answer": "The wooden picnic tables and benches at the beachside restaurant serve as seating arrangements for guests to enjoy their meals while taking in the beautiful beach view.",
+    "reasoned_answer": "The neatly arranged tables and benches provide a comfortable and inviting outdoor dining area for guests to relax and savor their food in the coastal atmosphere."
+  },
+  {
+    "id": 53,
+    "img_id": "2366289.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image description states that there is a row of wooden picnic tables, and it is described as a \"neat line\" of tables. Additionally, the image shows a \"row\" of tables, which implies that there are multiple tables arranged in a straight line."
+  },
+  {
+    "id": 54,
+    "img_id": "2335961.jpg",
+    "question": "Are the police officers on horseback?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a group of police officers riding horses down a street, and each officer is sitting on top of their respective horse."
+  },
+  {
+    "id": 55,
+    "img_id": "2417850.jpg",
+    "question": "Is the train moving at a fast or slow speed?",
+    "short_answer": "Slow",
+    "reasoned_answer": "The train is described as moving at a moderate speed, which suggests that it is not traveling at a fast or slow pace."
+  },
+  {
+    "id": 56,
+    "img_id": "2417850.jpg",
+    "question": "Whose train is it?",
+    "short_answer": "It is the train of the railway company.",
+    "reasoned_answer": "The train is a part of the railway company's fleet, and it is being used for transportation purposes."
+  },
+  {
+    "id": 57,
+    "img_id": "2417850.jpg",
+    "question": "What is the train's color?",
+    "short_answer": "Green and red",
+    "reasoned_answer": "The train is green and red, as seen in the image."
+  },
+  {
+    "id": 58,
+    "img_id": "2338295.jpg",
+    "question": "Who are the giraffes in the image?",
+    "short_answer": "The giraffes in the image are a family, consisting of a mother and her two offspring.",
+    "reasoned_answer": "The image shows a mother giraffe and her two young ones walking together on a dirt road, indicating a close family bond. The presence of the mother and her offspring suggests that they are a family unit, which is a common social structure among giraffes."
+  },
+  {
+    "id": 59,
+    "img_id": "2338295.jpg",
+    "question": "What is the purpose of the dirt road in the grassy field?",
+    "short_answer": "The dirt road in the grassy field serves as a path for the giraffes to walk together and explore their surroundings.",
+    "reasoned_answer": "The dirt road provides a convenient and accessible route for the giraffes to move around the field, allowing them to travel together and interact with each other. It also offers a clear view of the surrounding environment, which can be helpful for the giraffes to spot potential threats or locate food sources."
+  },
+  {
+    "id": 60,
+    "img_id": "2338295.jpg",
+    "question": "Are the giraffes walking together?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The giraffes are positioned in a line and appear to be moving to a different location, suggesting that they are walking together."
+  },
+  {
+    "id": 61,
+    "img_id": "2324496.jpg",
+    "question": "How many cats are there in the image?",
+    "short_answer": "There are two cats in the image.",
+    "reasoned_answer": "The image description states that there are two cats in the image, one on the left side and one on the right side of the bed."
+  },
+  {
+    "id": 62,
+    "img_id": "2324496.jpg",
+    "question": "Who is sleeping on the bed?",
+    "short_answer": "Man",
+    "reasoned_answer": "The man is sleeping on the bed, surrounded by two cats."
+  },
+  {
+    "id": 63,
+    "img_id": "2324496.jpg",
+    "question": "Whose bed is it?",
+    "short_answer": "Man's",
+    "reasoned_answer": "The man is sleeping on the bed, and the cats are resting on either side of him, indicating that it is his bed."
+  },
+  {
+    "id": 64,
+    "img_id": "2321389.jpg",
+    "question": "Whose snowboard is it?",
+    "short_answer": "The snowboarder's",
+    "reasoned_answer": "The snowboarder is wearing a black jacket and is positioned in the center of the scene, riding down the snow-covered slope on their snowboard. The snowboard is visible beneath the snowboarder, indicating that it belongs to them."
+  },
+  {
+    "id": 65,
+    "img_id": "2321389.jpg",
+    "question": "Is the snowboarder wearing a black jacket?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The snowboarder is wearing a black jacket, which is visible in the image."
+  },
+  {
+    "id": 66,
+    "img_id": "2340260.jpg",
+    "question": "Is the table covered with a variety of fresh vegetables?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a dining table covered with a variety of fresh vegetables, including carrots, broccoli, apples, and oranges."
+  },
+  {
+    "id": 67,
+    "img_id": "2340260.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a variety of fresh vegetables on the table, and among them, there are 5 carrots scattered across the table."
+  },
+  {
+    "id": 68,
+    "img_id": "2320752.jpg",
+    "question": "What is the clock's face made of?",
+    "short_answer": "Roman numerals",
+    "reasoned_answer": "The clock's face is adorned with Roman numerals, giving it a classic and elegant appearance."
+  },
+  {
+    "id": 69,
+    "img_id": "2320752.jpg",
+    "question": "What is the clock's face made of?",
+    "short_answer": "Roman numerals",
+    "reasoned_answer": "The clock's face is adorned with Roman numerals, giving it a classic and elegant appearance."
+  },
+  {
+    "id": 70,
+    "img_id": "2402695.jpg",
+    "question": "Which skier is closer to the left side of the image?",
+    "short_answer": "The skier on the left.",
+    "reasoned_answer": "The skier on the left is closer to the left side of the image, while the skier on the right is closer to the right side."
+  },
+  {
+    "id": 71,
+    "img_id": "2402695.jpg",
+    "question": "Whose skis are more prominent in the image?",
+    "short_answer": "The skis of the skier on the right are more prominent in the image.",
+    "reasoned_answer": "The skier on the right is wearing a larger backpack, which makes their skis more visible in the image."
+  },
+  {
+    "id": 72,
+    "img_id": "2402695.jpg",
+    "question": "What is the main activity depicted in the image?",
+    "short_answer": "Skiing",
+    "reasoned_answer": "The image shows two people skiing down a snowy mountain slope, with both skiers wearing backpacks and holding ski poles. The presence of multiple people in the background also suggests that skiing is a popular activity in this area."
+  },
+  {
+    "id": 73,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the vase?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The vase is described as purple in the passage."
+  },
+  {
+    "id": 74,
+    "img_id": "2329535.jpg",
+    "question": "How many flowers are in the vase?",
+    "short_answer": "There are 10 flowers in the vase.",
+    "reasoned_answer": "The image shows a vase filled with 10 different colored flowers, creating a visually appealing arrangement."
+  },
+  {
+    "id": 75,
+    "img_id": "2387492.jpg",
+    "question": "How many vehicles are parked on the street?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows a white Chicago Police car, a truck, and another car parked on the street."
+  },
+  {
+    "id": 76,
+    "img_id": "2387492.jpg",
+    "question": "What is the purpose of the fire hydrant?",
+    "short_answer": "The fire hydrant is used to provide water for firefighting purposes.",
+    "reasoned_answer": "Fire hydrants are an essential part of a city's fire protection infrastructure, providing a readily available source of water for firefighters to use in extinguishing fires."
+  },
+  {
+    "id": 77,
+    "img_id": "2387492.jpg",
+    "question": "Whose/whom car is the white Chicago Police car?",
+    "short_answer": "The white Chicago Police car belongs to the Chicago Police Department.",
+    "reasoned_answer": "The car is marked with the department's logo and is parked on the side of the street, indicating its affiliation with the police department."
+  },
+  {
+    "id": 78,
+    "img_id": "2345458.jpg",
+    "question": "Where/when was the photo taken?",
+    "short_answer": "Outdoor setting with a mountain in the background",
+    "reasoned_answer": "The presence of a mountain in the background and the outdoor setting suggests that the photo was taken in a natural environment, possibly during a leisurely day or a special event. The clock in the background could indicate the time of the photo, but it is not possible to determine the exact location or time from the image alone."
+  },
+  {
+    "id": 79,
+    "img_id": "2345458.jpg",
+    "question": "What is the man wearing in the image?",
+    "short_answer": "Cowboy hat and tie",
+    "reasoned_answer": "The man is dressed as a cowboy, wearing a cowboy hat and tie, and standing between two women."
+  },
+  {
+    "id": 80,
+    "img_id": "2345458.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows a man and two women, making a total of three people."
+  },
+  {
+    "id": 81,
+    "img_id": "2417032.jpg",
+    "question": "What is the person skiing down the hill wearing?",
+    "short_answer": "The person skiing down the hill is wearing a white jacket.",
+    "reasoned_answer": "The person is wearing a white jacket, which is visible in the image."
+  },
+  {
+    "id": 82,
+    "img_id": "2417032.jpg",
+    "question": "What is the person skiing down the hill wearing?",
+    "short_answer": "The person skiing down the hill is wearing a white jacket.",
+    "reasoned_answer": "The person is wearing a white jacket, which is visible in the image."
+  },
+  {
+    "id": 83,
+    "img_id": "2394235.jpg",
+    "question": "Which of the three benches is the closest to the left side of the path?",
+    "short_answer": "The first bench on the left side of the path.",
+    "reasoned_answer": "The image shows a total of three benches, with one on the left, one in the middle, and one on the right side of the path. The first bench is the closest to the left side of the path."
+  },
+  {
+    "id": 84,
+    "img_id": "2394235.jpg",
+    "question": "Which of the three benches is the closest to the left side of the path?",
+    "short_answer": "The first bench on the left side of the path.",
+    "reasoned_answer": "The image shows a total of three benches, with one on the left, one in the middle, and one on the right side of the path. The first bench is the closest to the left side of the path."
+  },
+  {
+    "id": 85,
+    "img_id": "2394235.jpg",
+    "question": "Where is the path located?",
+    "short_answer": "The path is located in a wooded area.",
+    "reasoned_answer": "The image shows a dirt path surrounded by trees and bushes, indicating that it is situated in a wooded area."
+  },
+  {
+    "id": 86,
+    "img_id": "2387659.jpg",
+    "question": "Is the woman wearing a white dress?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman is wearing a white dress, which is a common attire for tennis players."
+  },
+  {
+    "id": 87,
+    "img_id": "2387659.jpg",
+    "question": "How many clocks are visible in the scene?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two clocks on the left and right sides of the tennis court, which help the players keep track of time during the match."
+  },
+  {
+    "id": 88,
+    "img_id": "2387659.jpg",
+    "question": "Is the woman wearing a white dress?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman is wearing a white dress, which is a common attire for tennis players."
+  },
+  {
+    "id": 89,
+    "img_id": "2393668.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "The fence serves as a security measure to restrict unauthorized access to the airport.",
+    "reasoned_answer": "The fence in the image is likely part of the airport's security measures to ensure the safety of passengers, staff, and the aircraft. It helps to prevent unauthorized access to the airport and its facilities, reducing the risk of accidents or security threats."
+  },
+  {
+    "id": 90,
+    "img_id": "2393668.jpg",
+    "question": "Is the airplane in the process of landing?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The airplane is flying low over the runway with its landing gear down, indicating that it is in the process of landing."
+  },
+  {
+    "id": 91,
+    "img_id": "2328035.jpg",
+    "question": "How many potted plants are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image features a man standing in front of a mirror, wearing a vest and a tie. In the background, there is a potted plant located to the right of the man."
+  },
+  {
+    "id": 92,
+    "img_id": "2328035.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image features a man standing in front of a mirror, wearing a vest and a tie. In the background, there is a potted plant located to the right of the man."
+  },
+  {
+    "id": 93,
+    "img_id": "2395429.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The elephant is using the water to cool off, bathe, or simply enjoy the water in its natural habitat."
+  },
+  {
+    "id": 94,
+    "img_id": "2395429.jpg",
+    "question": "What is the elephant doing in the water?",
+    "short_answer": "The elephant is standing in the water and has its trunk partially submerged.",
+    "reasoned_answer": "The image only shows one elephant in the water."
+  },
+  {
+    "id": 95,
+    "img_id": "2337356.jpg",
+    "question": "Is the robot cutout a Star Wars character?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The robot cutout is a unique and interesting decoration that adds a touch of creativity and fun to the bathroom's atmosphere. It is possible that it is a Star Wars character, but without more information, it is not possible to confirm this with certainty."
+  },
+  {
+    "id": 96,
+    "img_id": "2337356.jpg",
+    "question": "Where/when was the bathroom decorated with the robot cutout?",
+    "short_answer": "The bathroom was decorated with the robot cutout in a Star Wars themed setting.",
+    "reasoned_answer": "The presence of a Star Wars character as a decoration suggests that the bathroom was decorated in a themed setting, possibly during a special event or celebration related to the Star Wars franchise."
+  },
+  {
+    "id": 97,
+    "img_id": "2337356.jpg",
+    "question": "Is the robot cutout a Star Wars character?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The robot cutout is a unique and interesting decoration that adds a touch of creativity and fun to the bathroom's atmosphere. It is possible that it is a Star Wars character, but without more information, it is not possible to confirm this with certainty."
+  },
+  {
+    "id": 98,
+    "img_id": "2336569.jpg",
+    "question": "How many traffic lights are visible in the image?",
+    "short_answer": "There are at least five traffic lights visible in the image.",
+    "reasoned_answer": "The image description states that there are at least five traffic lights visible in the scene, with some closer to the foreground and others further away."
+  },
+  {
+    "id": 99,
+    "img_id": "2336569.jpg",
+    "question": "What is the purpose of the traffic lights and street signs in the image?",
+    "short_answer": "The traffic lights and street signs in the image serve to regulate traffic flow, provide directions, and ensure the safety of drivers and pedestrians.",
+    "reasoned_answer": "The traffic lights control the movement of vehicles and pedestrians by indicating when it is safe to proceed or when they must stop. The street signs provide essential information such as street names, directions to nearby locations, and any relevant regulations or restrictions. By hanging from a wire, these signs and lights are easily visible to drivers and pedestrians, ensuring that everyone can navigate the area safely and efficiently."
+  },
+  {
+    "id": 100,
+    "img_id": "2336569.jpg",
+    "question": "Which traffic light is closest to the camera?",
+    "short_answer": "The traffic light closest to the camera is the one on the left.",
+    "reasoned_answer": "The traffic light on the left is the most prominent in the image, and it is also the closest to the camera."
+  },
+  {
+    "id": 101,
+    "img_id": "4418.jpg",
+    "question": "What is the purpose of the people gathered in the room?",
+    "short_answer": "They are working on a project or experiment.",
+    "reasoned_answer": "The presence of the table filled with various items, including numerous bottles and vases, suggests that they are engaged in a collaborative activity. The microscope in the background further supports the idea that they are involved in some form of scientific research or experimentation."
+  },
+  {
+    "id": 102,
+    "img_id": "4418.jpg",
+    "question": "Are the people in the room working on a project or experiment?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The presence of the table filled with various items, including numerous bottles and vases, suggests that the people in the room are engaged in a collaborative activity, possibly working on a project or experiment."
+  },
+  {
+    "id": 103,
+    "img_id": "4418.jpg",
+    "question": "Where/when is this image taken?",
+    "short_answer": "Laboratory",
+    "reasoned_answer": "The presence of numerous bottles and vases, along with the microscope, suggests that this image is taken in a laboratory setting. The people in the room are likely working on a project or experiment, which is a common activity in a laboratory environment."
+  },
+  {
+    "id": 104,
+    "img_id": "2369698.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a total of 3 buses parked in the lot, including the large green and yellow bus and the other buses nearby."
+  },
+  {
+    "id": 105,
+    "img_id": "2369698.jpg",
+    "question": "How many buses are parked in the lot?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows a total of 3 buses parked in the lot, including the large green and yellow bus and the other buses nearby."
+  },
+  {
+    "id": 106,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the bus parked in front of the church?",
+    "short_answer": "The bus is parked in front of the church to transport people to and from the event or gathering taking place at the church.",
+    "reasoned_answer": "The presence of the bus and the two people standing near it suggest that it is being used to facilitate transportation for the attendees of the event or gathering at the church."
+  },
+  {
+    "id": 107,
+    "img_id": "2373085.jpg",
+    "question": "Where is the bus parked in front of the church?",
+    "short_answer": "The bus is parked on the left side of the church, extending from the left edge of the image to the center.",
+    "reasoned_answer": "The bus is parked in front of the church, and its position is visible in the image."
+  },
+  {
+    "id": 108,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the bus parked in front of the church?",
+    "short_answer": "The bus is parked in front of the church to transport people to and from the event or gathering taking place at the church.",
+    "reasoned_answer": "The presence of the bus and the two people standing near it suggest that it is being used to facilitate transportation for the attendees of the event or gathering at the church."
+  },
+  {
+    "id": 109,
+    "img_id": "2406064.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The man is wearing a red tie, and the baby is sitting on his lap, indicating a close relationship between them."
+  },
+  {
+    "id": 110,
+    "img_id": "2406064.jpg",
+    "question": "Whose child is the baby in the image?",
+    "short_answer": "The baby is the child of the man in the image.",
+    "reasoned_answer": "The man is wearing a red tie, which is a common accessory for men, and the boy is sitting next to him. Additionally, they are posing for a picture together, which is a common activity for family members."
+  },
+  {
+    "id": 111,
+    "img_id": "2371480.jpg",
+    "question": "Which dish is more nutritious?",
+    "short_answer": "Chicken and broccoli",
+    "reasoned_answer": "Chicken and broccoli are both nutritious dishes, but chicken is a good source of protein and essential amino acids, while broccoli is a rich source of vitamins, minerals, and dietary fiber. The combination of these two dishes provides a balanced meal with a variety of nutrients."
+  },
+  {
+    "id": 112,
+    "img_id": "2371480.jpg",
+    "question": "Is the chicken cooked?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The chicken is cooked and served with a brown sauce, making it a delicious and appetizing dish."
+  },
+  {
+    "id": 113,
+    "img_id": "2371480.jpg",
+    "question": "Who prepared this delicious meal of chicken and broccoli with a brown sauce and carrots?",
+    "short_answer": "Chef",
+    "reasoned_answer": "The image shows a dining table with a plate of chicken and broccoli, along with carrots, and a brown sauce. The presentation and arrangement of the food suggest that it was prepared by a chef, who is responsible for creating visually appealing and appetizing meals."
+  },
+  {
+    "id": 114,
+    "img_id": "2377994.jpg",
+    "question": "Whose/whom car is parked in the background?",
+    "short_answer": "The car belongs to someone observing the zebra in its natural habitat.",
+    "reasoned_answer": "The car is parked on the right side of the image, slightly behind the zebra, indicating that it likely belongs to someone who came to observe the zebra grazing in the open field."
+  },
+  {
+    "id": 115,
+    "img_id": "2377994.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The zebra is the main focus of the scene, with its distinctive black and white stripes visible. Its head is down, as it eats the grass, and its body is positioned towards the left side of the image."
+  },
+  {
+    "id": 116,
+    "img_id": "2328856.jpg",
+    "question": "What is the man wearing while skateboarding?",
+    "short_answer": "The man is wearing a helmet and a vest while skateboarding.",
+    "reasoned_answer": "The man is wearing a helmet and a vest for safety and protection while skateboarding on the street."
+  },
+  {
+    "id": 117,
+    "img_id": "2328856.jpg",
+    "question": "What is the man wearing while skateboarding?",
+    "short_answer": "The man is wearing a helmet and a vest while skateboarding.",
+    "reasoned_answer": "The man is wearing a helmet and a vest for safety and protection while skateboarding on the street."
+  },
+  {
+    "id": 118,
+    "img_id": "2328856.jpg",
+    "question": "Is the skateboarder wearing a helmet?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The skateboarder is wearing a helmet for safety while riding down the street."
+  },
+  {
+    "id": 119,
+    "img_id": "2381621.jpg",
+    "question": "How many cars are parked in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows three cars parked in the background, one on the left side, another on the right side, and a third car further back."
+  },
+  {
+    "id": 120,
+    "img_id": "2381621.jpg",
+    "question": "What is the frisbee made of?",
+    "short_answer": "Plastic",
+    "reasoned_answer": "The frisbee is a plastic disc, which is a common material used for flying discs or toys."
+  },
+  {
+    "id": 121,
+    "img_id": "2383102.jpg",
+    "question": "How many people are in the scene?",
+    "short_answer": "4",
+    "reasoned_answer": "There are 4 people in the scene, including the person standing near the left side of the image, the two people located closer to the center, and the person standing near the right side of the image."
+  },
+  {
+    "id": 122,
+    "img_id": "2383102.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "There are 4 people in the scene, including the person standing near the left side of the image, the two people located closer to the center, and the person standing near the right side of the image."
+  },
+  {
+    "id": 123,
+    "img_id": "2357307.jpg",
+    "question": "Which person is playing the video game?",
+    "short_answer": "The woman in the center of the room.",
+    "reasoned_answer": "The woman is holding a Wii remote and actively engaged in the game, while the other person is watching from the couch."
+  },
+  {
+    "id": 124,
+    "img_id": "2357307.jpg",
+    "question": "Who is playing the video game in the living room?",
+    "short_answer": "A woman is playing the video game in the living room.",
+    "reasoned_answer": "The image shows a woman holding a Wii remote and actively engaged in the game, while another person is watching from the couch."
+  },
+  {
+    "id": 125,
+    "img_id": "2357307.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "A Wii remote",
+    "reasoned_answer": "The woman is actively engaged in playing a video game, and she is holding a Wii remote in her hand."
+  },
+  {
+    "id": 126,
+    "img_id": "2381970.jpg",
+    "question": "Is the pizza topped with a variety of ingredients?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pizza is topped with pepperoni, tomatoes, and sausage, providing a diverse range of flavors and textures."
+  },
+  {
+    "id": 127,
+    "img_id": "2381970.jpg",
+    "question": "Is the pizza topped with a variety of ingredients?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pizza is topped with pepperoni, tomatoes, and sausage, providing a diverse range of flavors and textures."
+  },
+  {
+    "id": 128,
+    "img_id": "2381970.jpg",
+    "question": "Is the pizza topped with a variety of ingredients?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pizza is topped with pepperoni, tomatoes, and sausage, providing a diverse range of flavors and textures."
+  },
+  {
+    "id": 129,
+    "img_id": "2322221.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The train is positioned in the middle of the scene, occupying a significant portion of the image."
+  },
+  {
+    "id": 130,
+    "img_id": "2322221.jpg",
+    "question": "Is the train traveling down the tracks in the middle of the scene?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a group of people scattered throughout the scene, and there are a total of 7 individuals visible in the image."
+  },
+  {
+    "id": 131,
+    "img_id": "2396722.jpg",
+    "question": "How many cars are parked in the background?",
+    "short_answer": "5",
+    "reasoned_answer": "The image shows at least 5 cars parked in the background, indicating that the area might be a public space or a recreational area."
+  },
+  {
+    "id": 132,
+    "img_id": "2396722.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The presence of several cars parked in the background indicates that the area is likely a public space or a recreational area where people gather to play games like frisbee."
+  },
+  {
+    "id": 133,
+    "img_id": "2416057.jpg",
+    "question": "What is the boy wearing?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The boy is wearing a helmet and knee pads for safety while skateboarding."
+  },
+  {
+    "id": 134,
+    "img_id": "2416057.jpg",
+    "question": "What is the boy wearing?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The boy is wearing a helmet and knee pads for safety while skateboarding."
+  },
+  {
+    "id": 135,
+    "img_id": "2416057.jpg",
+    "question": "What is the boy wearing?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The boy is wearing a helmet and knee pads for safety while skateboarding."
+  },
+  {
+    "id": 136,
+    "img_id": "2325198.jpg",
+    "question": "Is the cupcake on the left side of the plate closer to the cell phone or the right side of the plate?",
+    "short_answer": "The cupcake on the left side of the plate is closer to the cell phone.",
+    "reasoned_answer": "The cell phone is positioned near the left edge of the table, and the cupcake on the left side of the plate is closer to it."
+  },
+  {
+    "id": 137,
+    "img_id": "2325198.jpg",
+    "question": "How many cupcakes are on the plate?",
+    "short_answer": "There are two cupcakes on the plate.",
+    "reasoned_answer": "The image shows two cupcakes on the plate, one closer to the left side and the other towards the right side."
+  },
+  {
+    "id": 138,
+    "img_id": "2325198.jpg",
+    "question": "What is the color of the cupcake on the right side of the table?",
+    "short_answer": "White",
+    "reasoned_answer": "The cupcake on the right side of the table is white, while the cupcake on the left side is red."
+  },
+  {
+    "id": 139,
+    "img_id": "2412796.jpg",
+    "question": "Who is the main focus of the scene in the image?",
+    "short_answer": "The white polar bear is the main focus of the scene in the image.",
+    "reasoned_answer": "The white polar bear is the main subject of the image, occupying a significant portion of the image and standing out against the deep blue water."
+  },
+  {
+    "id": 140,
+    "img_id": "2412796.jpg",
+    "question": "What is the polar bear standing on?",
+    "short_answer": "Rock",
+    "reasoned_answer": "The polar bear is standing on a rock in the middle of a body of water."
+  },
+  {
+    "id": 141,
+    "img_id": "2412796.jpg",
+    "question": "Is the polar bear walking across the rock or standing still?",
+    "short_answer": "The polar bear is walking across the rock.",
+    "reasoned_answer": "The polar bear's body is stretching from the left to the right side, indicating that it is in motion."
+  },
+  {
+    "id": 142,
+    "img_id": "2335189.jpg",
+    "question": "Are the man and woman walking their dog together?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man and woman are walking their dog together, and they are both holding the leash of the large black and white dog."
+  },
+  {
+    "id": 143,
+    "img_id": "2335189.jpg",
+    "question": "How many cars are parked or driving along the street in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three cars in the background, one on the left side, another on the right side, and a third car in the middle of the scene."
+  },
+  {
+    "id": 144,
+    "img_id": "2335189.jpg",
+    "question": "How many cars are parked or driving along the street in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three cars in the background, one on the left side, another on the right side, and a third car in the middle of the scene."
+  },
+  {
+    "id": 145,
+    "img_id": "61553.jpg",
+    "question": "How many sheep are grazing in the field?",
+    "short_answer": "13",
+    "reasoned_answer": "The image shows a herd of 13 sheep grazing on the lush green field."
+  },
+  {
+    "id": 146,
+    "img_id": "61553.jpg",
+    "question": "Whose/whom are the sheep in the image?",
+    "short_answer": "The sheep in the image belong to a farmer.",
+    "reasoned_answer": "The image shows a herd of sheep grazing on a lush green field, which suggests that they are owned by a farmer who allows them to graze in this picturesque setting."
+  },
+  {
+    "id": 147,
+    "img_id": "61553.jpg",
+    "question": "Are the sheep grazing in a field or a pasture?",
+    "short_answer": "The sheep are grazing in a field.",
+    "reasoned_answer": "The image description refers to the field as a lush green field, and the presence of a herd of sheep grazing in it suggests that it is a field rather than a pasture."
+  },
+  {
+    "id": 148,
+    "img_id": "2345526.jpg",
+    "question": "What is the woman wearing in the red skirt holding?",
+    "short_answer": "A suitcase and a handbag",
+    "reasoned_answer": "The woman is holding a suitcase and a handbag, which are likely her belongings for traveling."
+  },
+  {
+    "id": 149,
+    "img_id": "2345526.jpg",
+    "question": "How many people are waiting at the train station?",
+    "short_answer": "15",
+    "reasoned_answer": "The image shows a crowd of people waiting for their trains, but the exact number cannot be determined. However, it is clear that there are multiple individuals present in the scene."
+  },
+  {
+    "id": 150,
+    "img_id": "2345526.jpg",
+    "question": "How many people are waiting at the train station?",
+    "short_answer": "15",
+    "reasoned_answer": "The image shows a crowd of people waiting for their trains, but the exact number cannot be determined. However, it is clear that there are multiple individuals present in the scene."
+  },
+  {
+    "id": 151,
+    "img_id": "2348169.jpg",
+    "question": "Whose backpack is visible in the image?",
+    "short_answer": "The person in the background is wearing a backpack.",
+    "reasoned_answer": "The person in the background is wearing a backpack, which is visible in the image."
+  },
+  {
+    "id": 152,
+    "img_id": "2348169.jpg",
+    "question": "When was the photo taken?",
+    "short_answer": "The photo was taken during the day.",
+    "reasoned_answer": "The image shows a well-lit scene, with the bird and people clearly visible. The presence of a backpack and handbags also suggests that the people might have been outdoors for some time, which is more likely during daylight hours."
+  },
+  {
+    "id": 153,
+    "img_id": "2348169.jpg",
+    "question": "Who is the person in the background wearing a backpack?",
+    "short_answer": "The person in the background is wearing a backpack.",
+    "reasoned_answer": "The person in the background is wearing a backpack, which suggests that they might be on a hike or a trip, and they are observing the bird in the field."
+  },
+  {
+    "id": 154,
+    "img_id": "2394575.jpg",
+    "question": "What is the purpose of the fence surrounding the enclosure?",
+    "short_answer": "The purpose of the fence is to keep the zebras contained within the designated area and to provide a secure environment for them.",
+    "reasoned_answer": "The fence ensures that the zebras are protected from potential threats and allows caretakers to monitor their well-being easily."
+  },
+  {
+    "id": 155,
+    "img_id": "2394575.jpg",
+    "question": "What is the purpose of the fence surrounding the enclosure?",
+    "short_answer": "The purpose of the fence is to keep the zebras contained within the designated area and to provide a secure environment for them.",
+    "reasoned_answer": "The fence ensures that the zebras are protected from potential threats and allows caretakers to monitor their well-being easily."
+  },
+  {
+    "id": 156,
+    "img_id": "2394575.jpg",
+    "question": "What is the purpose of the fence surrounding the enclosure?",
+    "short_answer": "The purpose of the fence is to keep the zebras contained within the designated area and to provide a secure environment for them.",
+    "reasoned_answer": "The fence ensures that the zebras are protected from potential threats and allows caretakers to monitor their well-being easily."
+  },
+  {
+    "id": 157,
+    "img_id": "2336094.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The wooden spoon is a versatile kitchen utensil that can be used for various cooking tasks, such as stirring, mixing, or even serving food. In the image, the spoon is placed on the dining table alongside the carrots, suggesting that it might be used for preparing a meal or a dish that includes the carrots."
+  },
+  {
+    "id": 158,
+    "img_id": "2336094.jpg",
+    "question": "What is the purpose of the wooden spoon in the image?",
+    "short_answer": "The wooden spoon is used for stirring or mixing ingredients in a dish.",
+    "reasoned_answer": "The image shows a variety of carrots arranged in different positions on the dining table, with at least 13 carrots visible in the scene."
+  },
+  {
+    "id": 159,
+    "img_id": "2340329.jpg",
+    "question": "What is the girl holding in her hand?",
+    "short_answer": "A kite",
+    "reasoned_answer": "The girl is holding a kite in her hand, which is located near the center of the image."
+  },
+  {
+    "id": 160,
+    "img_id": "2340329.jpg",
+    "question": "Whose kite is it?",
+    "short_answer": "The girl's",
+    "reasoned_answer": "The girl is holding the kite and is sitting on the ground in the grassy field, which suggests that she is the one flying the kite."
+  },
+  {
+    "id": 161,
+    "img_id": "2340329.jpg",
+    "question": "Is the girl wearing a white shirt?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The girl is wearing a white shirt, which is visible in the image."
+  },
+  {
+    "id": 162,
+    "img_id": "2399456.jpg",
+    "question": "Whose/whom is the small airplane flying low over the grassy field?",
+    "short_answer": "The small airplane is flying low over the grassy field, possibly belonging to the two people standing in the background.",
+    "reasoned_answer": "The two people standing in the background seem to be observing the airplane, and it is likely that the airplane belongs to them or someone they know."
+  },
+  {
+    "id": 163,
+    "img_id": "2399456.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a single-engine aircraft, possibly a glider, flying low over a grassy field. The pilot is responsible for controlling the aircraft and navigating it through the air."
+  },
+  {
+    "id": 164,
+    "img_id": "2336504.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The train is described as a Santa Fe train, and it is parked on the side of the road, which is a common location for Santa Fe trains."
+  },
+  {
+    "id": 165,
+    "img_id": "2336504.jpg",
+    "question": "Is the train a Santa Fe train?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The Santa Fe Railroad was a major American freight and passenger railroad company, founded in 1859. It was one of the largest and most financially successful railroad companies in the United States, operating in 19 states and serving 28 states, the District of Columbia, and three provinces in Canada. The company was known for its distinctive red and yellow livery and its iconic \"Santa Fe\" logo. The Santa Fe train in the image is likely a vintage locomotive from the company's history."
+  },
+  {
+    "id": 166,
+    "img_id": "2340386.jpg",
+    "question": "Are the people on the motorcycle wearing helmets?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows the man and woman wearing helmets while riding the red motorcycle, ensuring their safety."
+  },
+  {
+    "id": 167,
+    "img_id": "2340386.jpg",
+    "question": "How many people are in the scene?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three people in the scene, including the man and woman on the motorcycle and another person standing in the background."
+  },
+  {
+    "id": 168,
+    "img_id": "2384046.jpg",
+    "question": "Whose handbags are visible in the image?",
+    "short_answer": "The handbags belong to the people sitting on the benches.",
+    "reasoned_answer": "The people are carrying handbags, which are visible in the image, indicating that they are likely the owners of the handbags."
+  },
+  {
+    "id": 169,
+    "img_id": "2384046.jpg",
+    "question": "How many people are sitting on the benches in the image?",
+    "short_answer": "10",
+    "reasoned_answer": "The image shows a group of people sitting on benches, and there are at least 10 individuals visible in the scene."
+  },
+  {
+    "id": 170,
+    "img_id": "2384046.jpg",
+    "question": "Who is sitting on the bench in the image?",
+    "short_answer": "A woman is sitting on the bench in the image.",
+    "reasoned_answer": "The image shows a woman sitting on a bench, along with other people standing nearby and engaging in various activities."
+  },
+  {
+    "id": 171,
+    "img_id": "2329288.jpg",
+    "question": "Is the boy flying the kite alone?",
+    "short_answer": "No",
+    "reasoned_answer": "The image shows several other people scattered throughout the park, indicating that the boy is not alone in flying the kite."
+  },
+  {
+    "id": 172,
+    "img_id": "2329288.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a young boy flying a kite in the sky, and the kite is visible in the upper right corner of the image."
+  },
+  {
+    "id": 173,
+    "img_id": "2329288.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a young boy flying a kite in the sky, which is a common outdoor activity enjoyed by people of all ages. The kite is visible in the upper right corner of the image, soaring above the boy. The overall scene is a snapshot of a typical day at the park, with people of all ages participating in various leisurely pursuits."
+  },
+  {
+    "id": 174,
+    "img_id": "2351307.jpg",
+    "question": "What is the skateboarder performing in mid-air?",
+    "short_answer": "The skateboarder is performing a trick in mid-air.",
+    "reasoned_answer": "The skateboarder is in the center of the scene, showcasing their skill and athleticism."
+  },
+  {
+    "id": 175,
+    "img_id": "2351307.jpg",
+    "question": "Which skateboarder is performing the trick in mid-air?",
+    "short_answer": "The skateboarder in the center of the scene.",
+    "reasoned_answer": "The skateboarder is the main focus of the image and is performing the trick in mid-air, making them the most likely candidate for the trick performer."
+  },
+  {
+    "id": 176,
+    "img_id": "2351307.jpg",
+    "question": "Who is performing the trick in mid-air?",
+    "short_answer": "The skateboarder",
+    "reasoned_answer": "The skateboarder is in the center of the scene, showcasing their skill and athleticism."
+  },
+  {
+    "id": 177,
+    "img_id": "2385125.jpg",
+    "question": "What is the purpose of the double-decker bus in the image?",
+    "short_answer": "The double-decker bus in the image is used for public transportation in the city.",
+    "reasoned_answer": "The bus is parked on a street near a lamp post, and there are several cars and a person in the background, indicating a busy urban area. The presence of the bus and cars suggests that the city relies on public transportation to move its residents and visitors around, and the double-decker bus is a popular and efficient mode of transportation in such areas."
+  },
+  {
+    "id": 178,
+    "img_id": "2385125.jpg",
+    "question": "Where/when is the image taken?",
+    "short_answer": "London",
+    "reasoned_answer": "The image features a large red double-decker bus, which is iconic to London, and there are cars and a lamp post in the background, all of which are common elements of a city environment."
+  },
+  {
+    "id": 179,
+    "img_id": "2385125.jpg",
+    "question": "Where/when is the image taken?",
+    "short_answer": "London",
+    "reasoned_answer": "The image features a large red double-decker bus, which is iconic to London, and there are cars and a lamp post in the background, all of which are common elements of a city environment."
+  },
+  {
+    "id": 180,
+    "img_id": "2395663.jpg",
+    "question": "Whose bicycle cart is parked in the middle of the scene?",
+    "short_answer": "Man sitting in the back of the bicycle cart",
+    "reasoned_answer": "The man is sitting in the back of the bicycle cart, which is parked in the middle of the scene, indicating that it belongs to him."
+  },
+  {
+    "id": 181,
+    "img_id": "2395663.jpg",
+    "question": "Which bicycle cart is the man sitting in?",
+    "short_answer": "The man is sitting in the back of the bicycle cart in the middle of the scene.",
+    "reasoned_answer": "The image clearly shows the man sitting in the back of the bicycle cart in the middle of the scene, making it the most prominent and easily identifiable cart."
+  },
+  {
+    "id": 182,
+    "img_id": "2395663.jpg",
+    "question": "Whose bicycle cart is parked in the middle of the scene?",
+    "short_answer": "Man sitting in the back of the bicycle cart",
+    "reasoned_answer": "The man is sitting in the back of the bicycle cart, which is parked in the middle of the scene, indicating that it belongs to him."
+  },
+  {
+    "id": 183,
+    "img_id": "2336625.jpg",
+    "question": "Which bus is driving down the road?",
+    "short_answer": "The double-decker bus",
+    "reasoned_answer": "The double-decker bus is the main focus of the image and is driving down the road."
+  },
+  {
+    "id": 184,
+    "img_id": "2336625.jpg",
+    "question": "Is the bus driving down the road?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bus is positioned in the center of the scene and appears to be the main focus of the image, driving down the road with other vehicles and people around."
+  },
+  {
+    "id": 185,
+    "img_id": "2336625.jpg",
+    "question": "What is the main focus of the image?",
+    "short_answer": "A double-decker bus driving down the road.",
+    "reasoned_answer": "The bus is the largest vehicle in the scene and is positioned in the center of the image, making it the main focus."
+  },
+  {
+    "id": 186,
+    "img_id": "2395359.jpg",
+    "question": "Who is responsible for keeping the bathroom clean and organized?",
+    "short_answer": "The bathroom's occupant or maintenance staff.",
+    "reasoned_answer": "The bathroom appears to be in a somewhat disorganized state, with the toilet paper rolls scattered around the toilet. It is likely that the occupant or maintenance staff is responsible for keeping the bathroom clean and organized."
+  },
+  {
+    "id": 187,
+    "img_id": "2395359.jpg",
+    "question": "Is the toilet paper in a package?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The toilet paper is in a package, which is placed on top of the toilet tank."
+  },
+  {
+    "id": 188,
+    "img_id": "2395359.jpg",
+    "question": "Where is the toilet paper roll placed on the toilet?",
+    "short_answer": "On top of the tank",
+    "reasoned_answer": "The toilet paper roll is placed on top of the toilet tank, making it easily accessible for use."
+  },
+  {
+    "id": 189,
+    "img_id": "2409526.jpg",
+    "question": "How many people are in the scene?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two people in the scene, one standing closer to the left side of the image and the other person is located towards the right side, both observing the horse as it grazes."
+  },
+  {
+    "id": 190,
+    "img_id": "2409526.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows two people in the scene, one standing closer to the left side of the image and the other person is located towards the right side, both observing the horse as it grazes."
+  },
+  {
+    "id": 191,
+    "img_id": "2364865.jpg",
+    "question": "Whose tennis racket is it?",
+    "short_answer": "The man's tennis racket",
+    "reasoned_answer": "The man is holding the tennis racket and swinging it to hit the ball, so it is his tennis racket."
+  },
+  {
+    "id": 192,
+    "img_id": "2364865.jpg",
+    "question": "Whose tennis racket is it?",
+    "short_answer": "The man's tennis racket",
+    "reasoned_answer": "The man is holding the tennis racket and swinging it to hit the ball, so it is his tennis racket."
+  },
+  {
+    "id": 193,
+    "img_id": "2364865.jpg",
+    "question": "How many people are in the image besides the man with the tennis racket?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four other people in the image, including the man with the tennis racket, making a total of five people in the scene."
+  },
+  {
+    "id": 194,
+    "img_id": "2353948.jpg",
+    "question": "Who is riding the skateboard?",
+    "short_answer": "The dog is riding the skateboard.",
+    "reasoned_answer": "The image shows a small white dog riding on a skateboard with a young boy sitting on the dog's back, so the dog is the one riding the skateboard."
+  },
+  {
+    "id": 195,
+    "img_id": "2353948.jpg",
+    "question": "Who is riding the skateboard?",
+    "short_answer": "The dog is riding the skateboard.",
+    "reasoned_answer": "The image shows a small white dog riding on a skateboard with a young boy sitting on the dog's back, so the dog is the one riding the skateboard."
+  },
+  {
+    "id": 196,
+    "img_id": "2353948.jpg",
+    "question": "What is the dog riding on?",
+    "short_answer": "Skateboard",
+    "reasoned_answer": "The dog is riding on a skateboard with a young boy sitting on its back, creating a fun and unique scene."
+  },
+  {
+    "id": 197,
+    "img_id": "2335089.jpg",
+    "question": "Which traffic light is closest to the skyscraper?",
+    "short_answer": "The traffic light closest to the skyscraper is on the left side of the image.",
+    "reasoned_answer": "The traffic light is located on the left side of the image, and it is positioned in front of the large skyscraper, making it the most visible traffic light in the scene."
+  },
+  {
+    "id": 198,
+    "img_id": "2335089.jpg",
+    "question": "How many traffic lights are visible in the image?",
+    "short_answer": "5",
+    "reasoned_answer": "The image shows a total of 5 traffic lights, which are positioned at various points along the street to ensure the smooth flow of traffic."
+  },
+  {
+    "id": 199,
+    "img_id": "2335089.jpg",
+    "question": "What is the time of day in the image?",
+    "short_answer": "Dusk",
+    "reasoned_answer": "The image is described as being taken at dusk, which is the time of day when the sun is just below the horizon and the sky is transitioning from day to night. This can be inferred from the presence of the large skyscraper towering over the surrounding buildings and the overall atmosphere of the scene."
+  },
+  {
+    "id": 200,
+    "img_id": "1592305.jpg",
+    "question": "Which building is the tallest in the image?",
+    "short_answer": "The tallest building in the image is the large brick building.",
+    "reasoned_answer": "The large brick building stands out among the others due to its height and architectural features."
+  },
+  {
+    "id": 201,
+    "img_id": "1592305.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The person crossing the street is standing near the car, and it is reasonable to assume that the car belongs to them."
+  },
+  {
+    "id": 202,
+    "img_id": "2385401.jpg",
+    "question": "What is the cow standing in?",
+    "short_answer": "Grassy field",
+    "reasoned_answer": "The cow is standing in a grassy field, which is filled with tall grass and has a lush green landscape in the background."
+  },
+  {
+    "id": 203,
+    "img_id": "2385401.jpg",
+    "question": "How many power lines are visible in the image?",
+    "short_answer": "5",
+    "reasoned_answer": "The image shows a cow standing in a grassy field with several power lines running across the sky. There are at least 5 power lines visible in the image, with some closer to the cow and others further away."
+  },
+  {
+    "id": 204,
+    "img_id": "2385401.jpg",
+    "question": "Is the cow standing in a field of tall grass?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The cow is standing in a grassy field filled with tall grass, creating a serene and peaceful atmosphere."
+  },
+  {
+    "id": 205,
+    "img_id": "2354998.jpg",
+    "question": "Who is the young man talking to on his cell phone?",
+    "short_answer": "The young man is talking to his friend.",
+    "reasoned_answer": "The young man is wearing a helmet and a black jacket, which suggests that he might be participating in winter sports or simply enjoying the snowy weather. His friend is likely someone he shares his interests with or someone he is comfortable talking to in such conditions."
+  },
+  {
+    "id": 206,
+    "img_id": "2354998.jpg",
+    "question": "Whose/whom is the man talking to on his cell phone?",
+    "short_answer": "The man is talking to his friend.",
+    "reasoned_answer": "The man is wearing a helmet and a black jacket, which suggests that he might be participating in winter sports or simply enjoying the snowy weather. His friend is likely someone he shares these activities with or someone he is comfortable talking to in this setting."
+  },
+  {
+    "id": 207,
+    "img_id": "2354998.jpg",
+    "question": "Who is the young man talking to on his cell phone?",
+    "short_answer": "The young man is talking to his friend.",
+    "reasoned_answer": "The young man is wearing a helmet and a black jacket, which suggests that he might be participating in winter sports or simply enjoying the snowy weather. His friend is likely someone he shares his interests with or someone he is comfortable talking to in such conditions."
+  },
+  {
+    "id": 208,
+    "img_id": "2387420.jpg",
+    "question": "What is the dessert on the table?",
+    "short_answer": "Red velvet cake",
+    "reasoned_answer": "The image shows a slice of red velvet cake on a white plate, and a glass of chocolate milk beside it."
+  },
+  {
+    "id": 209,
+    "img_id": "2387420.jpg",
+    "question": "Who is the person who is going to enjoy the red velvet cake and chocolate milk?",
+    "short_answer": "The person who is sitting at the table.",
+    "reasoned_answer": "The image shows a slice of red velvet cake and a glass of chocolate milk on the table, and a fork is also present, indicating that someone is going to enjoy the dessert. The person is not visible in the image, but they are implied to be sitting at the table."
+  },
+  {
+    "id": 210,
+    "img_id": "2387420.jpg",
+    "question": "Is the cake on the plate?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The cake is on the plate, which is on the table."
+  },
+  {
+    "id": 211,
+    "img_id": "2383227.jpg",
+    "question": "How many dogs are playing in the snow?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one dog playing in the snow with a frisbee."
+  },
+  {
+    "id": 212,
+    "img_id": "2383227.jpg",
+    "question": "What is the dog playing with in the snow?",
+    "short_answer": "The dog is playing with a frisbee in the snow.",
+    "reasoned_answer": "The dog is holding a frisbee in its mouth, which suggests that it is playing with the frisbee in the snow. The presence of the frisbee and the dog's playful demeanor indicate that it might be a game of fetch or a simple playtime activity."
+  },
+  {
+    "id": 213,
+    "img_id": "2383227.jpg",
+    "question": "Who is playing with the frisbee in the snow?",
+    "short_answer": "The dog",
+    "reasoned_answer": "The dog is standing in the snow and holding a frisbee in its mouth, indicating that it is playing with the frisbee."
+  },
+  {
+    "id": 214,
+    "img_id": "2355470.jpg",
+    "question": "Are the bears playing or fighting?",
+    "short_answer": "Playing",
+    "reasoned_answer": "The bears are interacting in a playful manner, with one bear biting the other bear's nose. This behavior is common among bears and is not indicative of a fight."
+  },
+  {
+    "id": 215,
+    "img_id": "2385962.jpg",
+    "question": "What is the surfer's position on the surfboard?",
+    "short_answer": "The surfer's feet are firmly planted on the surfboard.",
+    "reasoned_answer": "The surfer's body is leaning forward, maintaining balance and control as they navigate the wave. The surfboard is slightly angled, allowing the surfer to maintain their position on the wave."
+  },
+  {
+    "id": 216,
+    "img_id": "2385962.jpg",
+    "question": "Is the surfer wearing a wetsuit?",
+    "short_answer": "No",
+    "reasoned_answer": "The surfer is not wearing a wetsuit, which is typically worn to provide thermal insulation and protection from the elements while surfing. The surfer's attire in the image suggests that they are focused on the wave and maintaining balance on the surfboard."
+  },
+  {
+    "id": 217,
+    "img_id": "2357633.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The dish is primarily composed of broccoli, which is a nutritious and versatile vegetable. It is often used in salads, stir-fries, and other dishes due to its flavor and health benefits. The presence of multiple pieces of broccoli on the plate indicates that it is a central component of the meal."
+  },
+  {
+    "id": 218,
+    "img_id": "2325709.jpg",
+    "question": "How many forks and knives are on the table?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two forks and two knives on the table, which is consistent with the number of utensils present in the scene."
+  },
+  {
+    "id": 219,
+    "img_id": "2325709.jpg",
+    "question": "Is the child wearing a hat?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The child is wearing a brown shirt and a hat while eating the cake."
+  },
+  {
+    "id": 220,
+    "img_id": "2325709.jpg",
+    "question": "Is the child wearing a hat?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The child is wearing a brown shirt and a hat while eating the cake."
+  },
+  {
+    "id": 221,
+    "img_id": "2372106.jpg",
+    "question": "Which gondola is carrying the most passengers?",
+    "short_answer": "The gondola in the middle of the canal is carrying the most passengers.",
+    "reasoned_answer": "The gondola in the middle of the canal has the most passengers visible in the image, making it the most likely choice for the answer."
+  },
+  {
+    "id": 222,
+    "img_id": "2372106.jpg",
+    "question": "How many boats are visible in the image?",
+    "short_answer": "There are at least six boats visible in the image.",
+    "reasoned_answer": "The image shows a canal in Venice with several boats floating along the water, and at least six boats are clearly visible in the scene."
+  },
+  {
+    "id": 223,
+    "img_id": "2372106.jpg",
+    "question": "How many boats are visible in the image?",
+    "short_answer": "There are at least six boats visible in the image.",
+    "reasoned_answer": "The image shows a canal in Venice with several boats floating along the water, and at least six boats are clearly visible in the scene."
+  },
+  {
+    "id": 224,
+    "img_id": "2402571.jpg",
+    "question": "What is the older couple reading in their books?",
+    "short_answer": "They are reading a newspaper.",
+    "reasoned_answer": "The image shows the couple holding a newspaper, which suggests that they are reading the news in their books."
+  },
+  {
+    "id": 225,
+    "img_id": "2402571.jpg",
+    "question": "Are the couple sitting on a bench?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows the couple sitting on a bench, and there is a bench in the scene."
+  },
+  {
+    "id": 226,
+    "img_id": "2402571.jpg",
+    "question": "Who is sitting on the bench?",
+    "short_answer": "An older couple",
+    "reasoned_answer": "The image description states that an older couple is sitting on the bench, and there are no other individuals described as sitting on the bench. Therefore, it can be inferred that the couple is sitting on the bench."
+  },
+  {
+    "id": 227,
+    "img_id": "2358661.jpg",
+    "question": "Whose boat is the blue and white boat in the foreground?",
+    "short_answer": "The man standing on the back of the blue and white boat is the owner.",
+    "reasoned_answer": "The man standing on the back of the boat is visible and has a direct connection to the boat, making it likely that he is the owner."
+  },
+  {
+    "id": 228,
+    "img_id": "2358661.jpg",
+    "question": "Are the people on the boats enjoying their time?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The people are standing on the boats and the boats are floating on the water, indicating that they are enjoying their time on the water."
+  },
+  {
+    "id": 229,
+    "img_id": "2358661.jpg",
+    "question": "Which boat is the man standing on the back of?",
+    "short_answer": "The blue and white boat.",
+    "reasoned_answer": "The man is standing on the back of the blue and white boat, which is a fishing boat."
+  },
+  {
+    "id": 230,
+    "img_id": "2332474.jpg",
+    "question": "Is the woman waiting to board the bus?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman is standing close to the bus stop, and it is likely that she is waiting to board the bus."
+  },
+  {
+    "id": 231,
+    "img_id": "2332474.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The bus is large and has a distinctive pink and blue color scheme, making it easily identifiable in the image."
+  },
+  {
+    "id": 232,
+    "img_id": "2392939.jpg",
+    "question": "Which airport terminal is shown in the image?",
+    "short_answer": "The busy airport terminal shown in the image is the one with the most people and the most luggage.",
+    "reasoned_answer": "The image shows a large group of people walking around with their luggage, indicating that the airport terminal is bustling and lively. The presence of numerous suitcases and backpacks suggests that many travelers are either arriving or departing, and the overall scene conveys a sense of excitement and anticipation."
+  },
+  {
+    "id": 233,
+    "img_id": "2392939.jpg",
+    "question": "What is the main activity in the image?",
+    "short_answer": "People are walking around with their luggage.",
+    "reasoned_answer": "The image shows a busy airport terminal with a large group of people carrying their luggage, indicating that the main activity is traveling."
+  },
+  {
+    "id": 234,
+    "img_id": "2392939.jpg",
+    "question": "Where is the airport terminal located?",
+    "short_answer": "The airport terminal is located in an unidentified city.",
+    "reasoned_answer": "The image does not provide enough information to determine the exact location of the airport terminal."
+  },
+  {
+    "id": 235,
+    "img_id": "2353025.jpg",
+    "question": "Whose frisbee is it?",
+    "short_answer": "The man's",
+    "reasoned_answer": "The man is holding the frisbee and is the main focus of the image, so it is reasonable to assume that the frisbee belongs to him."
+  },
+  {
+    "id": 236,
+    "img_id": "2353025.jpg",
+    "question": "How many benches are there in the image?",
+    "short_answer": "There are three benches in the image.",
+    "reasoned_answer": "The image description states that there are three benches in the field, and the image itself shows three benches."
+  },
+  {
+    "id": 237,
+    "img_id": "1592308.jpg",
+    "question": "What is the chef preparing in the bakery?",
+    "short_answer": "The chef is preparing food in the bakery.",
+    "reasoned_answer": "The chef is wearing an apron and surrounded by people who are watching him work, indicating that he is likely preparing a dish or dessert for the customers. The presence of multiple bowls and a spoon on the counter further supports this conclusion."
+  },
+  {
+    "id": 238,
+    "img_id": "1592308.jpg",
+    "question": "Are the people in the bakery watching the chef prepare food?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The people in the bakery are observing the chef as he works, indicating their interest in his culinary skills."
+  },
+  {
+    "id": 239,
+    "img_id": "1592308.jpg",
+    "question": "Where is the bakery located?",
+    "short_answer": "The bakery is located in a kitchen.",
+    "reasoned_answer": "The presence of a refrigerator in the background and the kitchen setting indicate that the bakery is situated in a kitchen."
+  },
+  {
+    "id": 240,
+    "img_id": "2375001.jpg",
+    "question": "Are the sheep in the field?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a group of sheep standing in a grassy field, indicating that they are in the field."
+  },
+  {
+    "id": 241,
+    "img_id": "2375001.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "Sheep's wool is a natural and renewable resource that helps regulate the animal's body temperature, keeping them warm in cold weather and cool in hot weather. Additionally, wool is a versatile and durable material that can be used to create a variety of products, such as clothing, blankets, and carpets, making it a valuable resource for humans."
+  },
+  {
+    "id": 242,
+    "img_id": "2325014.jpg",
+    "question": "What is the main focus of the image?",
+    "short_answer": "The main focus of the image is the table filled with bananas and jars.",
+    "reasoned_answer": "The image is a close-up of a table with a variety of bananas and jars, showcasing the different sizes and shapes of the bananas and the various positions of the jars."
+  },
+  {
+    "id": 243,
+    "img_id": "2325014.jpg",
+    "question": "What is the main focus of the image?",
+    "short_answer": "The main focus of the image is the table filled with bananas and jars.",
+    "reasoned_answer": "The image is a close-up of a table with a variety of bananas and jars, showcasing the different sizes and shapes of the bananas and the various positions of the jars."
+  },
+  {
+    "id": 244,
+    "img_id": "2325014.jpg",
+    "question": "What is the main focus of the image?",
+    "short_answer": "The main focus of the image is the table filled with bananas and jars.",
+    "reasoned_answer": "The image is a close-up of a table with a variety of bananas and jars, showcasing the different sizes and shapes of the bananas and the various positions of the jars."
+  },
+  {
+    "id": 245,
+    "img_id": "2367942.jpg",
+    "question": "How many wings does the airplane have?",
+    "short_answer": "The airplane has four wings.",
+    "reasoned_answer": "The airplane has two wings on each side, making a total of four wings."
+  },
+  {
+    "id": 246,
+    "img_id": "2367942.jpg",
+    "question": "Whose/whom is the vintage airplane in the image?",
+    "short_answer": "The vintage airplane in the image is the property of the military.",
+    "reasoned_answer": "The airplane is described as a warplane, which suggests that it belongs to the military and is used for combat or military purposes."
+  },
+  {
+    "id": 247,
+    "img_id": "2367942.jpg",
+    "question": "Is the airplane flying high in the sky?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The airplane is positioned towards the center of the scene, with its wings spread wide, and it appears to be flying high in the sky."
+  },
+  {
+    "id": 248,
+    "img_id": "2376574.jpg",
+    "question": "Is the man working on his laptop in a comfortable and functional workspace?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is sitting on a chair in front of a wooden desk, which is cluttered with various items such as a keyboard, mouse, cell phone, and books. The presence of a couch, TV, and clock in the background suggests a cozy and functional living space."
+  },
+  {
+    "id": 249,
+    "img_id": "2376574.jpg",
+    "question": "Who is the man working on his laptop?",
+    "short_answer": "The man is a student.",
+    "reasoned_answer": "The presence of multiple books and a laptop suggests that the man is engaged in academic work, which is typical for students."
+  },
+  {
+    "id": 250,
+    "img_id": "2376574.jpg",
+    "question": "Where/when is the man working on his laptop?",
+    "short_answer": "The man is working on his laptop in his living space.",
+    "reasoned_answer": "The image shows a man sitting at a wooden desk in a living space, which suggests that he is working on his laptop in a comfortable and familiar environment."
+  },
+  {
+    "id": 251,
+    "img_id": "2414742.jpg",
+    "question": "How many tennis courts are there in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one tennis court, and the man is standing on it."
+  },
+  {
+    "id": 252,
+    "img_id": "2414742.jpg",
+    "question": "Who is the man in the blue Lacoste shirt?",
+    "short_answer": "The man in the blue Lacoste shirt is a tennis player.",
+    "reasoned_answer": "The man is holding a tennis racket and is standing on a tennis court, which suggests that he is a tennis player."
+  },
+  {
+    "id": 253,
+    "img_id": "2414742.jpg",
+    "question": "Whose shirt is blue?",
+    "short_answer": "Man's",
+    "reasoned_answer": "The man is wearing a blue Lacoste shirt."
+  },
+  {
+    "id": 254,
+    "img_id": "2363769.jpg",
+    "question": "What is the stuffed panda bear reading in the image?",
+    "short_answer": "A book",
+    "reasoned_answer": "The image shows a cozy scene with a white stuffed panda bear sitting on top of a book, creating a warm and inviting atmosphere. The panda bear appears to be reading the book, which is placed on a surface, possibly a table or a bed, and the panda bear is positioned in the center of the scene."
+  },
+  {
+    "id": 255,
+    "img_id": "2363769.jpg",
+    "question": "How many books are there in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one book with the panda bear sitting on top of it."
+  },
+  {
+    "id": 256,
+    "img_id": "2363769.jpg",
+    "question": "What is the stuffed panda bear reading?",
+    "short_answer": "A book",
+    "reasoned_answer": "The image shows a cozy scene with a white stuffed panda bear sitting on top of a book, creating a warm and inviting atmosphere. The panda bear appears to be reading the book, which is placed on a surface, possibly a table or a bed, and the panda bear is positioned in the center of the scene."
+  },
+  {
+    "id": 257,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on the wall?",
+    "short_answer": "To display and organize ties for easy access.",
+    "reasoned_answer": "Hanging ties on the wall is a practical way to store and showcase them, making it easy for people to choose and access the desired tie without having to search through a drawer or closet."
+  },
+  {
+    "id": 258,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on the wall?",
+    "short_answer": "To display and organize ties for easy access.",
+    "reasoned_answer": "Hanging ties on the wall is a practical way to store and showcase them, making it easy for people to choose and access the desired tie without having to search through a drawer or closet."
+  },
+  {
+    "id": 259,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on the wall?",
+    "short_answer": "To display and organize ties for easy access.",
+    "reasoned_answer": "Hanging ties on the wall is a practical way to store and showcase them, making it easy for people to choose and access the desired tie without having to search through a drawer or closet."
+  },
+  {
+    "id": 260,
+    "img_id": "3046.jpg",
+    "question": "Who is gathered outside the pub?",
+    "short_answer": "A large group of people",
+    "reasoned_answer": "The image shows a diverse crowd consisting of both men and women, all engaged in conversations and enjoying their time together."
+  },
+  {
+    "id": 261,
+    "img_id": "3046.jpg",
+    "question": "Which city street is depicted in the image?",
+    "short_answer": "The image shows a city street in London.",
+    "reasoned_answer": "The presence of a pub, diverse crowd, and bustling atmosphere are all indicative of a London street scene."
+  },
+  {
+    "id": 262,
+    "img_id": "3046.jpg",
+    "question": "What is the purpose of the gathering in the image?",
+    "short_answer": "The purpose of the gathering is for people to socialize and enjoy their time together in a lively and bustling urban environment.",
+    "reasoned_answer": "The image shows a large group of people gathered outside a pub, engaging in conversations and carrying handbags, which suggests that they might be out for a day of shopping or running errands. The atmosphere appears to be relaxed and friendly, indicating that the gathering is for leisure and social interaction."
+  },
+  {
+    "id": 263,
+    "img_id": "2356613.jpg",
+    "question": "Who is the man talking to on his cell phone?",
+    "short_answer": "The man is talking to his boss.",
+    "reasoned_answer": "The man is wearing a white shirt and is standing outside, which suggests a casual and relaxed atmosphere. Additionally, he is engaged in a conversation, which implies that he is discussing work-related matters. It is likely that he is talking to his boss, as they are typically the person he would discuss work-related matters with."
+  },
+  {
+    "id": 264,
+    "img_id": "2356613.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The man is wearing a white shirt, which adds to the casual and relaxed atmosphere of the scene."
+  },
+  {
+    "id": 265,
+    "img_id": "2358937.jpg",
+    "question": "What is the man doing in the kitchen?",
+    "short_answer": "The man is preparing a meal.",
+    "reasoned_answer": "The presence of multiple bottles, bowls, and the sink suggests that the man is in the process of cooking or preparing food."
+  },
+  {
+    "id": 266,
+    "img_id": "2358937.jpg",
+    "question": "Are there any apples in the kitchen?",
+    "short_answer": "No",
+    "reasoned_answer": "The image does not show any apples in the kitchen."
+  },
+  {
+    "id": 267,
+    "img_id": "2358937.jpg",
+    "question": "Are there any apples in the kitchen?",
+    "short_answer": "No",
+    "reasoned_answer": "The image does not show any apples in the kitchen."
+  },
+  {
+    "id": 268,
+    "img_id": "2364094.jpg",
+    "question": "How many items are present in the bathroom?",
+    "short_answer": "5",
+    "reasoned_answer": "The image shows a toilet, a sink, a bottle, a cup, and a toilet paper roll, making a total of 5 items in the bathroom."
+  },
+  {
+    "id": 269,
+    "img_id": "2364094.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The toilet in the image is white, which contrasts with the green wall in the bathroom."
+  },
+  {
+    "id": 270,
+    "img_id": "2326805.jpg",
+    "question": "Which washing machine is in the bathroom?",
+    "short_answer": "The one next to the bathtub.",
+    "reasoned_answer": "The washing machine is placed in the corner of the room, and the bathtub is positioned towards the right side of the room."
+  },
+  {
+    "id": 271,
+    "img_id": "2326805.jpg",
+    "question": "Is the washing machine in the corner of the room?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The washing machine is placed in the corner of the room, making efficient use of the available space."
+  },
+  {
+    "id": 272,
+    "img_id": "2326805.jpg",
+    "question": "Is the bathtub positioned towards the right side of the room?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bathtub is positioned towards the right side of the room, providing a convenient location for bathing and relaxation."
+  },
+  {
+    "id": 273,
+    "img_id": "2326805.jpg",
+    "question": "Is there a vase in the bathroom?",
+    "short_answer": "Yes",
+    "reasoned_answer": "Yes, there is a vase in the bathroom, which can be used for holding flowers or other decorative items."
+  },
+  {
+    "id": 274,
+    "img_id": "2326805.jpg",
+    "question": "How many teddy bears are in the bathroom?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two teddy bears in the bathroom, one near the center and the other towards the right side."
+  },
+  {
+    "id": 275,
+    "img_id": "2363482.jpg",
+    "question": "What is the color of the train?",
+    "short_answer": "The train is orange and blue.",
+    "reasoned_answer": "The train's vibrant colors make it stand out against the lush green forest in the background."
+  },
+  {
+    "id": 276,
+    "img_id": "2363482.jpg",
+    "question": "Which train is depicted in the image?",
+    "short_answer": "The image features a large orange and blue train.",
+    "reasoned_answer": "The train's vibrant colors and the surrounding greenery create a visually appealing scene, showcasing the beauty of nature and the marvel of modern transportation."
+  },
+  {
+    "id": 277,
+    "img_id": "2363482.jpg",
+    "question": "How many cars are attached to the train?",
+    "short_answer": "10",
+    "reasoned_answer": "The image shows a long train with multiple cars attached to it, indicating a significant number of cars. However, without an exact count, I can only provide a rough estimate of 10 cars."
+  },
+  {
+    "id": 278,
+    "img_id": "2346925.jpg",
+    "question": "What is the man and woman sitting at the bar?",
+    "short_answer": "They are posing for a picture.",
+    "reasoned_answer": "The image shows a man and a woman sitting together at a bar, smiling and enjoying their time. They are posing for a picture, which suggests that they are socializing and having a good time at the bar."
+  },
+  {
+    "id": 279,
+    "img_id": "2346925.jpg",
+    "question": "Which bar is this?",
+    "short_answer": "This is a bar in a restaurant.",
+    "reasoned_answer": "The presence of numerous bottles, wine glasses, cups, bowls, and books on the counter suggests that this is a bar within a restaurant, providing a relaxed and enjoyable social gathering for customers."
+  },
+  {
+    "id": 280,
+    "img_id": "2346925.jpg",
+    "question": "How many bottles are on the counter?",
+    "short_answer": "There are 12 bottles on the counter.",
+    "reasoned_answer": "The image shows a well-stocked bar with numerous bottles of various sizes and shapes."
+  },
+  {
+    "id": 281,
+    "img_id": "2414333.jpg",
+    "question": "Whose bathroom is this?",
+    "short_answer": "The bathroom belongs to the person who uses the toilet and sinks.",
+    "reasoned_answer": "The bathroom is well-used and functional, indicating that it is frequently used by someone. The presence of a toilet and sinks suggests that it is designed for personal hygiene and comfort, which is typical of a private residence or a shared living space."
+  },
+  {
+    "id": 282,
+    "img_id": "2414333.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows only one toilet paper roll on the left side of the toilet."
+  },
+  {
+    "id": 283,
+    "img_id": "2367754.jpg",
+    "question": "Is the tree in the yard a unique and odd shape?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The tree has a distinct and unconventional shape, which sets it apart from other trees in the yard."
+  },
+  {
+    "id": 284,
+    "img_id": "2367754.jpg",
+    "question": "What is the unique shape of the tree in the yard?",
+    "short_answer": "The tree has a strange, odd shape.",
+    "reasoned_answer": "The tree's shape is not typical for a tree, making it stand out in the yard."
+  },
+  {
+    "id": 285,
+    "img_id": "2367754.jpg",
+    "question": "What is the unique shape of the tree in the yard?",
+    "short_answer": "The tree has an odd shape, making it stand out in the yard.",
+    "reasoned_answer": "The tree's unique shape, along with its location surrounded by potted plants and benches, adds to the overall aesthetic of the yard."
+  },
+  {
+    "id": 286,
+    "img_id": "2410168.jpg",
+    "question": "Is the young man flying the kite?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The young man is holding the kite and appears to be engaging in the outdoor activity, which suggests that he is flying the kite."
+  },
+  {
+    "id": 287,
+    "img_id": "2410168.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image only shows one kite being held by the young man on the beach."
+  },
+  {
+    "id": 288,
+    "img_id": "2336615.jpg",
+    "question": "What is the man wearing in the image?",
+    "short_answer": "The man is wearing a red shirt.",
+    "reasoned_answer": "The man is wearing a red shirt, which is visible in the image."
+  },
+  {
+    "id": 289,
+    "img_id": "2336615.jpg",
+    "question": "Who is the man in the image?",
+    "short_answer": "The man in the image is a surfer.",
+    "reasoned_answer": "The man is wearing a red shirt and riding a wave on a surfboard, which are typical characteristics of a surfer."
+  },
+  {
+    "id": 290,
+    "img_id": "2336615.jpg",
+    "question": "What is the man wearing in the image?",
+    "short_answer": "The man is wearing a red shirt.",
+    "reasoned_answer": "The man is wearing a red shirt, which is visible in the image."
+  },
+  {
+    "id": 291,
+    "img_id": "2403185.jpg",
+    "question": "What is the man talking about on his cell phone?",
+    "short_answer": "It is not possible to determine the exact topic of the man's conversation from the image.",
+    "reasoned_answer": "The image only shows the man talking on his cell phone and does not provide any context or information about the content of his conversation."
+  },
+  {
+    "id": 292,
+    "img_id": "2403185.jpg",
+    "question": "Who is the man talking to on his cell phone?",
+    "short_answer": "The man is talking to a friend or family member.",
+    "reasoned_answer": "The man is smiling while talking on the phone, which suggests that he is engaged in a pleasant conversation with someone he knows."
+  },
+  {
+    "id": 293,
+    "img_id": "2403185.jpg",
+    "question": "What is the man talking about on his cell phone?",
+    "short_answer": "It is not possible to determine the exact topic of the man's conversation from the image.",
+    "reasoned_answer": "The image only shows the man talking on his cell phone and does not provide any context or information about the content of his conversation."
+  },
+  {
+    "id": 294,
+    "img_id": "2340412.jpg",
+    "question": "Whose/whom is the large black bear in the image?",
+    "short_answer": "The large black bear in the image is the property of the zoo or wildlife sanctuary where it is located.",
+    "reasoned_answer": "The bear's relaxed posture and position on the concrete block suggest that it feels safe and secure in its environment, which is typically provided by professionals in a zoo or wildlife sanctuary."
+  },
+  {
+    "id": 295,
+    "img_id": "2340412.jpg",
+    "question": "How many bears are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one bear resting on the concrete block."
+  },
+  {
+    "id": 296,
+    "img_id": "2340412.jpg",
+    "question": "Where/when was the image taken?",
+    "short_answer": "Outdoor setting",
+    "reasoned_answer": "The image shows a concrete block with a bear on it, and a brick wall in the background. The presence of a concrete block and a brick wall suggests that the image was taken in an outdoor setting, possibly a zoo or a wildlife sanctuary."
+  },
+  {
+    "id": 297,
+    "img_id": "2370561.jpg",
+    "question": "Who is the man in the suit and tie smiling at?",
+    "short_answer": "The man in the suit and tie is smiling at the camera.",
+    "reasoned_answer": "The man is posing for a picture, so he is likely smiling at the person taking the photograph."
+  },
+  {
+    "id": 298,
+    "img_id": "2370561.jpg",
+    "question": "What is the man wearing in the image?",
+    "short_answer": "The man is wearing a suit and tie.",
+    "reasoned_answer": "The man is dressed formally, which is appropriate for a gathering or a formal event."
+  },
+  {
+    "id": 299,
+    "img_id": "2370561.jpg",
+    "question": "What is the man wearing in the image?",
+    "short_answer": "The man is wearing a suit and tie.",
+    "reasoned_answer": "The man is dressed formally, which is appropriate for a gathering or a formal event."
+  },
+  {
+    "id": 300,
+    "img_id": "2318936.jpg",
+    "question": "How many people are on the beach?",
+    "short_answer": "There are at least 13 people on the beach.",
+    "reasoned_answer": "The image shows a large crowd of people enjoying their time at the beach, and there are at least 13 people visible in the scene."
+  },
+  {
+    "id": 301,
+    "img_id": "2318936.jpg",
+    "question": "Are there many people at the beach?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a large crowd of people enjoying their time at the beach, with numerous umbrellas and seating options available for them."
+  },
+  {
+    "id": 302,
+    "img_id": "2318936.jpg",
+    "question": "Which umbrella is the largest?",
+    "short_answer": "The umbrella in the center of the scene is the largest.",
+    "reasoned_answer": "The umbrella in the center of the scene is the largest, as it covers a significant portion of the sand and provides shade for a larger area."
+  },
+  {
+    "id": 303,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion being celebrated by the elderly women in the image?",
+    "short_answer": "The elderly women are celebrating Christmas.",
+    "reasoned_answer": "The women are wearing festive hats, and the table is set with Christmas decorations, such as a Christmas tree and a bowl of fruit. Additionally, there are books on the table, which are often associated with gift-giving during the holiday season."
+  },
+  {
+    "id": 304,
+    "img_id": "713640.jpg",
+    "question": "How many women are in the group?",
+    "short_answer": "12",
+    "reasoned_answer": "The image shows a group of 12 elderly women sitting around the dining table, all wearing festive hats."
+  },
+  {
+    "id": 305,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion being celebrated by the elderly women in the image?",
+    "short_answer": "The elderly women are celebrating Christmas.",
+    "reasoned_answer": "The women are wearing festive hats, and the table is set with Christmas decorations, such as a Christmas tree and a bowl of fruit. Additionally, there are books on the table, which are often associated with gift-giving during the holiday season."
+  },
+  {
+    "id": 306,
+    "img_id": "2365717.jpg",
+    "question": "Which man is wearing glasses?",
+    "short_answer": "The man on the left is wearing glasses.",
+    "reasoned_answer": "The man on the left is wearing glasses, which is visible in the image."
+  },
+  {
+    "id": 307,
+    "img_id": "2365717.jpg",
+    "question": "What is the main focus of the image?",
+    "short_answer": "The main focus of the image is the two men standing in the room and holding Nintendo Wii controllers.",
+    "reasoned_answer": "The image is a close-up of the two men playing a video game, so the main focus is on their interaction with the controllers and their engagement in the game."
+  },
+  {
+    "id": 308,
+    "img_id": "2365717.jpg",
+    "question": "How many chairs are in the room?",
+    "short_answer": "There are two chairs in the room.",
+    "reasoned_answer": "The image description states that there are two chairs in the room, and I can see two chairs in the image."
+  },
+  {
+    "id": 309,
+    "img_id": "2398013.jpg",
+    "question": "Whose/whom is the large passenger jet flying high in the sky?",
+    "short_answer": "Passenger",
+    "reasoned_answer": "The jet is designed to transport passengers, so it belongs to the passengers who are traveling on board."
+  },
+  {
+    "id": 310,
+    "img_id": "2398013.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The jet is designed to transport passengers, so it belongs to the passengers who are traveling on board."
+  },
+  {
+    "id": 311,
+    "img_id": "2398013.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The airplane is a Boeing 747, which is a large passenger jet known for its impressive size and long-range capabilities."
+  },
+  {
+    "id": 312,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the bear and the cat in the image?",
+    "short_answer": "The bear is carrying the cat on its back, creating a unique and heartwarming scene.",
+    "reasoned_answer": "The image shows a black bear walking down a dirt road with a small black cat on its back, indicating a sense of balance and harmony between the two animals. This interaction suggests that the bear and the cat might have a friendly relationship or that the cat is comfortable riding on the bear's back."
+  },
+  {
+    "id": 313,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the bear and the cat in the image?",
+    "short_answer": "The bear is carrying the cat on its back, creating a unique and heartwarming scene.",
+    "reasoned_answer": "The image shows a black bear walking down a dirt road with a small black cat on its back, indicating a sense of balance and harmony between the two animals. This interaction suggests that the bear and the cat might have a friendly relationship or that the cat is comfortable riding on the bear's back."
+  },
+  {
+    "id": 314,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the bear and the cat in the image?",
+    "short_answer": "The bear is carrying the cat on its back, creating a unique and heartwarming scene.",
+    "reasoned_answer": "The image shows a black bear walking down a dirt road with a small black cat on its back, indicating a sense of balance and harmony between the two animals. This interaction suggests that the bear and the cat might have a friendly relationship or that the cat is comfortable riding on the bear's back."
+  },
+  {
+    "id": 315,
+    "img_id": "2406636.jpg",
+    "question": "What is the main activity in the image?",
+    "short_answer": "Skiing and snowboarding",
+    "reasoned_answer": "The image shows several people skiing and snowboarding down a snowy slope, indicating that the main activity in the image is winter sports."
+  },
+  {
+    "id": 316,
+    "img_id": "2323604.jpg",
+    "question": "What is the street sign pointing to?",
+    "short_answer": "The street sign is pointing to the right.",
+    "reasoned_answer": "The street sign is blue and white and has the word \"avenue\" on it. It is pointing to the right, indicating the direction of the avenue."
+  },
+  {
+    "id": 317,
+    "img_id": "2323604.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "City maintenance crews are responsible for the upkeep of street signs, ensuring they are clearly visible and accurate for drivers and pedestrians."
+  },
+  {
+    "id": 318,
+    "img_id": "2320240.jpg",
+    "question": "What is the person holding in their hand?",
+    "short_answer": "A Wii remote",
+    "reasoned_answer": "The person is holding a Wii remote in their hand, which is a controller for the Nintendo Wii gaming console."
+  },
+  {
+    "id": 319,
+    "img_id": "2320240.jpg",
+    "question": "How many buttons are on the Wii remote?",
+    "short_answer": "16",
+    "reasoned_answer": "The Wii remote has a total of 16 buttons, including the directional pad and the A, B, X, Y, and Z buttons."
+  },
+  {
+    "id": 320,
+    "img_id": "2320240.jpg",
+    "question": "What is the person holding in their hand?",
+    "short_answer": "A Wii remote",
+    "reasoned_answer": "The person is holding a Wii remote in their hand, which is a controller for the Nintendo Wii gaming console."
+  },
+  {
+    "id": 321,
+    "img_id": "2401661.jpg",
+    "question": "How many people are in the airport?",
+    "short_answer": "12",
+    "reasoned_answer": "There are 12 people in the airport, including the man holding the luggage and the other people scattered throughout the airport."
+  },
+  {
+    "id": 322,
+    "img_id": "2401661.jpg",
+    "question": "Is the man wearing a jacket?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing a jacket, which suggests that the weather might be cool or chilly."
+  },
+  {
+    "id": 323,
+    "img_id": "2401661.jpg",
+    "question": "How many people are in the airport?",
+    "short_answer": "12",
+    "reasoned_answer": "There are 12 people in the airport, including the man holding the luggage and the other people scattered throughout the airport."
+  },
+  {
+    "id": 324,
+    "img_id": "2347187.jpg",
+    "question": "Whose handbag is it?",
+    "short_answer": "The woman's",
+    "reasoned_answer": "The image description states that the woman is carrying a handbag while riding her bicycle, so it is reasonable to assume that the handbag belongs to her."
+  },
+  {
+    "id": 325,
+    "img_id": "2347187.jpg",
+    "question": "Is the woman riding a bicycle down a cobblestone street?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a woman riding a bicycle down a cobblestone street, which is a common sight in urban areas."
+  },
+  {
+    "id": 326,
+    "img_id": "2347187.jpg",
+    "question": "Whose handbag is it?",
+    "short_answer": "The woman's",
+    "reasoned_answer": "The image description states that the woman is carrying a handbag while riding her bicycle, so it is reasonable to assume that the handbag belongs to her."
+  },
+  {
+    "id": 327,
+    "img_id": "2344979.jpg",
+    "question": "Who is holding the handbag?",
+    "short_answer": "Woman",
+    "reasoned_answer": "The woman is holding a handbag while walking down the walkway with the child and other people."
+  },
+  {
+    "id": 328,
+    "img_id": "2344979.jpg",
+    "question": "What is the purpose of the walkway at the airport?",
+    "short_answer": "The walkway at the airport serves as a designated path for passengers to move between the terminal and the airplanes, ensuring a safe and efficient flow of people and luggage.",
+    "reasoned_answer": "The walkway provides a clear and organized space for passengers to navigate the airport, avoiding congestion and confusion. It also allows for the smooth movement of luggage, such as suitcases and handbags, which are essential for travelers."
+  },
+  {
+    "id": 329,
+    "img_id": "2344979.jpg",
+    "question": "Which airport is this?",
+    "short_answer": "International Airport",
+    "reasoned_answer": "The presence of a bus and multiple people with luggage suggests that this is an international airport."
+  },
+  {
+    "id": 330,
+    "img_id": "2327548.jpg",
+    "question": "How many giraffes are in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows a group of three giraffes standing close to each other in a caged area."
+  },
+  {
+    "id": 331,
+    "img_id": "2327548.jpg",
+    "question": "Which giraffe is the largest?",
+    "short_answer": "The giraffe on the left is the largest.",
+    "reasoned_answer": "The giraffe on the left is the largest because it is positioned in the back and is the most prominent in the image."
+  },
+  {
+    "id": 332,
+    "img_id": "2327548.jpg",
+    "question": "Which giraffe is the largest?",
+    "short_answer": "The giraffe on the left is the largest.",
+    "reasoned_answer": "The giraffe on the left is the largest because it is positioned in the back and is the most prominent in the image."
+  },
+  {
+    "id": 333,
+    "img_id": "2347871.jpg",
+    "question": "How many elephants are in the scene?",
+    "short_answer": "4",
+    "reasoned_answer": "The image shows a group of elephants, including the main one and others in the background, making a total of 4 elephants in the scene."
+  },
+  {
+    "id": 334,
+    "img_id": "2347871.jpg",
+    "question": "Whose trunk is resting on the rock?",
+    "short_answer": "Elephant's",
+    "reasoned_answer": "The elephant is the one whose trunk is resting on the rock."
+  },
+  {
+    "id": 335,
+    "img_id": "2388774.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image description states that there are trees visible in the background, but the exact number cannot be determined."
+  },
+  {
+    "id": 336,
+    "img_id": "2388774.jpg",
+    "question": "How many trees are visible in the background of the image?",
+    "short_answer": "3",
+    "reasoned_answer": "The parrot is perched on the side of the car window and looking out, possibly observing its surroundings or waiting for someone to open the door."
+  },
+  {
+    "id": 337,
+    "img_id": "2339632.jpg",
+    "question": "What is the dog's favorite treat?",
+    "short_answer": "Donut",
+    "reasoned_answer": "The dog is lying on the floor next to a donut, which suggests that it enjoys donuts as a treat."
+  },
+  {
+    "id": 338,
+    "img_id": "2339632.jpg",
+    "question": "Is the dog happy?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The dog is lying down and appears to be relaxed, indicating that it is happy in its environment."
+  },
+  {
+    "id": 339,
+    "img_id": "2327224.jpg",
+    "question": "Is the bus driving down the road in the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bus is driving down the road surrounded by snow, indicating that it has been snowing recently."
+  },
+  {
+    "id": 340,
+    "img_id": "2327224.jpg",
+    "question": "Whose/whom responsibility is it to clear the snow from the bus and the sidewalk?",
+    "short_answer": "The city's responsibility",
+    "reasoned_answer": "The city is responsible for maintaining public roads and sidewalks, ensuring that they are safe and accessible for all residents and visitors. In the image, the bus is covered in snow, and the sidewalk is also covered, indicating that the city has not yet cleared the snow from these areas. This highlights the importance of effective snow management strategies during winter weather to keep the city functional and safe."
+  },
+  {
+    "id": 341,
+    "img_id": "2327224.jpg",
+    "question": "Is the bus driving down the road in the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bus is driving down the road surrounded by snow, indicating that it has been snowing recently."
+  },
+  {
+    "id": 342,
+    "img_id": "2329679.jpg",
+    "question": "What is the man holding in the image?",
+    "short_answer": "A surfboard",
+    "reasoned_answer": "The man is holding a surfboard in the ocean, which is a common piece of equipment used for surfing."
+  },
+  {
+    "id": 343,
+    "img_id": "2329679.jpg",
+    "question": "Is the man in the ocean wearing a wetsuit?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing a wetsuit, which is designed to keep surfers warm in cold water and provide some buoyancy."
+  },
+  {
+    "id": 344,
+    "img_id": "2329679.jpg",
+    "question": "How many waves are visible in the image?",
+    "short_answer": "There are several waves visible in the image.",
+    "reasoned_answer": "The image shows a dynamic ocean scene with waves crashing near the man, indicating a variety of wave sizes and intensities."
+  },
+  {
+    "id": 345,
+    "img_id": "2317271.jpg",
+    "question": "Whose hand is visible in the image?",
+    "short_answer": "The person's hand is visible in the image.",
+    "reasoned_answer": "The person is holding the cell phone in their hand and capturing a picture of the scene."
+  },
+  {
+    "id": 346,
+    "img_id": "2317271.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one person holding a cell phone, so there are no other people present in the scene."
+  },
+  {
+    "id": 347,
+    "img_id": "2317271.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one person holding a cell phone, so there are no other people present in the scene."
+  },
+  {
+    "id": 348,
+    "img_id": "2378076.jpg",
+    "question": "What is the color scheme of the bathroom?",
+    "short_answer": "Green",
+    "reasoned_answer": "The bathroom is decorated with a green color scheme, which gives it a cozy and inviting atmosphere."
+  },
+  {
+    "id": 349,
+    "img_id": "2378076.jpg",
+    "question": "Is the bathroom decorated with a green color scheme?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bathroom is decorated with a green color scheme, giving it a cozy and inviting atmosphere."
+  },
+  {
+    "id": 350,
+    "img_id": "2378076.jpg",
+    "question": "Who is the person who designed the bathroom?",
+    "short_answer": "The bathroom was designed by an architect.",
+    "reasoned_answer": "The architect's design choices, such as the green color scheme and the placement of the fixtures, suggest a thoughtful and functional approach to the space."
+  },
+  {
+    "id": 351,
+    "img_id": "2405033.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The cow is looking directly at the camera, capturing the viewer's attention."
+  },
+  {
+    "id": 352,
+    "img_id": "2405033.jpg",
+    "question": "Who is the cow looking at?",
+    "short_answer": "The cow is looking at the camera.",
+    "reasoned_answer": "The cow is standing in a muddy field, which is typically associated with farming activities. The presence of other cows in the background also suggests that this is a farm setting. Therefore, it can be inferred that the cow belongs to the farmer who is responsible for taking care of the animals."
+  },
+  {
+    "id": 353,
+    "img_id": "2343941.jpg",
+    "question": "Who is sitting on the chair?",
+    "short_answer": "The teddy bear and the doll are sitting on the chair.",
+    "reasoned_answer": "The image shows a brown teddy bear and a doll sitting on a floral patterned chair. The teddy bear is on the left side of the chair, while the doll is on the right side. The room is dimly lit, creating a sense of intimacy and tranquility."
+  },
+  {
+    "id": 354,
+    "img_id": "2343941.jpg",
+    "question": "How many teddy bears are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one teddy bear sitting on the chair next to the doll."
+  },
+  {
+    "id": 355,
+    "img_id": "2343941.jpg",
+    "question": "What is the purpose of the teddy bear and the doll in the image?",
+    "short_answer": "The teddy bear and the doll are placed together to create a sense of warmth, connection, and intimacy in the dimly lit room.",
+    "reasoned_answer": "The arrangement of the teddy bear and the doll on the floral patterned chair suggests a story or a moment of connection between the two toys, inviting the viewer to imagine a narrative that brings comfort and emotional resonance to the scene."
+  },
+  {
+    "id": 356,
+    "img_id": "1591896.jpg",
+    "question": "Whose/whom food is on the table?",
+    "short_answer": "The food on the table belongs to the people who are going to enjoy the meal.",
+    "reasoned_answer": "The image shows a dining table filled with a variety of food, including plates of french fries, bowls containing different types of food, and cups. The table is surrounded by chairs, indicating that it is set up for people to sit and enjoy the meal. It can be inferred that the food is meant for the people who will be using the chairs, suggesting that it belongs to them."
+  },
+  {
+    "id": 357,
+    "img_id": "1591896.jpg",
+    "question": "How many plates of french fries are on the table?",
+    "short_answer": "There are six plates of french fries on the table.",
+    "reasoned_answer": "The image shows a variety of food on the table, including several plates of french fries. The fries are spread out across the table, creating a visually appealing presentation."
+  },
+  {
+    "id": 358,
+    "img_id": "1591896.jpg",
+    "question": "What is the main dish in the image?",
+    "short_answer": "French fries",
+    "reasoned_answer": "The image features a large dining table filled with a variety of food, and the main dish appears to be french fries, as there are several plates of fries spread out across the table."
+  },
+  {
+    "id": 359,
+    "img_id": "2393916.jpg",
+    "question": "How many Wii remotes are being held by the women?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two women holding Wii remotes while playing a video game, indicating that there are two remotes in total."
+  },
+  {
+    "id": 360,
+    "img_id": "2393916.jpg",
+    "question": "How many Wii remotes are being held by the women?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two women holding Wii remotes while playing a video game, indicating that there are two remotes in total."
+  },
+  {
+    "id": 361,
+    "img_id": "2393916.jpg",
+    "question": "Whose living room is this?",
+    "short_answer": "The living room belongs to the two women who are playing the video game.",
+    "reasoned_answer": "The image shows the two women standing in the living room, each holding a Wii remote, and there are no other people or indications of the room's ownership."
+  },
+  {
+    "id": 362,
+    "img_id": "2355236.jpg",
+    "question": "Is the bedroom well-organized?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The room appears to be well-organized with a large bed, chair, clock, bottle, bowl, and book all placed in a neat and orderly manner."
+  },
+  {
+    "id": 363,
+    "img_id": "2355236.jpg",
+    "question": "How many items are present in the bedroom?",
+    "short_answer": "7",
+    "reasoned_answer": "The image shows a bed, chair, clock, bottle, bowl, and book, making a total of 7 items in the bedroom."
+  },
+  {
+    "id": 364,
+    "img_id": "2355236.jpg",
+    "question": "Is the bedroom well-organized?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The room appears to be well-organized with a large bed, chair, clock, bottle, bowl, and book all placed in a neat and orderly manner."
+  },
+  {
+    "id": 365,
+    "img_id": "2409236.jpg",
+    "question": "Are the people riding on the elephants?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a group of people riding on the backs of three elephants as they walk through a river, indicating that they are indeed riding the elephants."
+  },
+  {
+    "id": 366,
+    "img_id": "2409236.jpg",
+    "question": "Which elephant is the person riding on the left?",
+    "short_answer": "The person is riding on the left elephant.",
+    "reasoned_answer": "The person is seated on the left elephant, which is the first elephant in the line."
+  },
+  {
+    "id": 367,
+    "img_id": "2409236.jpg",
+    "question": "What is the unique experience of riding elephants through a river?",
+    "short_answer": "The unique experience of riding elephants through a river is a cultural and adventurous activity that allows people to connect with nature and the majestic creatures.",
+    "reasoned_answer": "The image shows a group of people riding on the backs of three elephants as they walk through a river. This activity is not only a way to explore the natural environment but also a way to learn about and appreciate the cultural significance of elephants in certain regions."
+  },
+  {
+    "id": 368,
+    "img_id": "2364933.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a woman sitting on a bench, and there are three other benches in the scene, indicating a total of four benches."
+  },
+  {
+    "id": 369,
+    "img_id": "2316548.jpg",
+    "question": "Whose train is it?",
+    "short_answer": "Passenger train",
+    "reasoned_answer": "The train is designed for transporting people, and there are several people visible in the image, indicating that it is a passenger train."
+  },
+  {
+    "id": 370,
+    "img_id": "2316548.jpg",
+    "question": "Who is waiting to board the train?",
+    "short_answer": "Passengers",
+    "reasoned_answer": "The image shows several people near the train, and their presence suggests that they might be waiting to board the train or simply observing the scene."
+  },
+  {
+    "id": 371,
+    "img_id": "2316548.jpg",
+    "question": "What is the color scheme of the train in the image?",
+    "short_answer": "The train has a yellow and blue color scheme.",
+    "reasoned_answer": "The train's color scheme is visually distinct and easily identifiable in the image."
+  },
+  {
+    "id": 372,
+    "img_id": "2404507.jpg",
+    "question": "Whose/Whom are the animals in the image?",
+    "short_answer": "The animals in the image are the giraffes and zebras.",
+    "reasoned_answer": "The animals in the image are the giraffes and zebras, as they are the main focus of the scene and are the ones standing in a line."
+  },
+  {
+    "id": 373,
+    "img_id": "2404507.jpg",
+    "question": "Who is standing in the foreground?",
+    "short_answer": "A giraffe is standing in the foreground.",
+    "reasoned_answer": "The giraffe is standing in the foreground, and it is the most prominent animal in the scene."
+  },
+  {
+    "id": 374,
+    "img_id": "2404507.jpg",
+    "question": "Are the animals in the image interacting with each other?",
+    "short_answer": "No",
+    "reasoned_answer": "The animals, including giraffes and zebras, are standing in a line and appear to be coexisting peacefully in their natural habitat without any signs of interaction."
+  },
+  {
+    "id": 375,
+    "img_id": "2353257.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows at least 3 traffic lights, which are likely helping to manage the flow of traffic and ensure the safety of pedestrians and drivers."
+  },
+  {
+    "id": 376,
+    "img_id": "2353257.jpg",
+    "question": "Are there any traffic lights in the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a group of people walking down the sidewalk, and there are at least 13 people visible in the scene."
+  },
+  {
+    "id": 377,
+    "img_id": "2410409.jpg",
+    "question": "What is the purpose of the Coca-Cola truck parked in front of the CVS Pharmacy store?",
+    "short_answer": "The Coca-Cola truck is parked in front of the CVS Pharmacy store to deliver beverages to the store for sale.",
+    "reasoned_answer": "The presence of the Coca-Cola truck in front of the CVS Pharmacy store suggests that it is there to deliver beverages to the store for sale. This is a common practice for companies to deliver their products directly to retailers to ensure timely availability of their products for customers."
+  },
+  {
+    "id": 378,
+    "img_id": "2410409.jpg",
+    "question": "What is the purpose of the Coca-Cola truck parked in front of the CVS Pharmacy store?",
+    "short_answer": "The Coca-Cola truck is parked in front of the CVS Pharmacy store to deliver beverages to the store for sale.",
+    "reasoned_answer": "The presence of the Coca-Cola truck in front of the CVS Pharmacy store suggests that it is there to deliver beverages to the store for sale. This is a common practice for companies to deliver their products directly to retailers to ensure timely availability of their products for customers."
+  },
+  {
+    "id": 379,
+    "img_id": "2410409.jpg",
+    "question": "How many cars are parked in front of the CVS Pharmacy store?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three cars parked in front of the CVS Pharmacy store, as seen in the image."
+  },
+  {
+    "id": 380,
+    "img_id": "2376721.jpg",
+    "question": "Is the woman wearing glasses?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman is wearing glasses, which is visible in the image."
+  },
+  {
+    "id": 381,
+    "img_id": "2376721.jpg",
+    "question": "How many cars are parked in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows three cars parked in the background, one on the left side, another further back on the right side, and the third closer to the center."
+  },
+  {
+    "id": 382,
+    "img_id": "2376721.jpg",
+    "question": "What is the woman wearing?",
+    "short_answer": "Glasses and a scarf",
+    "reasoned_answer": "The woman is wearing glasses and a scarf around her neck, which are visible in the image."
+  },
+  {
+    "id": 383,
+    "img_id": "2409731.jpg",
+    "question": "How many people are in the background of the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three people in the background of the image, sitting on chairs and a bench."
+  },
+  {
+    "id": 384,
+    "img_id": "2409731.jpg",
+    "question": "How many people are in the background of the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three people in the background of the image, sitting on chairs and a bench."
+  },
+  {
+    "id": 385,
+    "img_id": "2409731.jpg",
+    "question": "Who is riding the skateboard on the ramp?",
+    "short_answer": "A young man",
+    "reasoned_answer": "The image shows a young man riding a skateboard on a ramp, wearing a helmet for safety, and his skateboard is positioned under his feet."
+  },
+  {
+    "id": 386,
+    "img_id": "2399686.jpg",
+    "question": "Is the dog wearing a red bow tie?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The dog is wearing a red bow tie, which is visible in the image."
+  },
+  {
+    "id": 387,
+    "img_id": "2399686.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "The image description states that there are two people in the scene, one on the left side and the other more towards the center."
+  },
+  {
+    "id": 388,
+    "img_id": "2399686.jpg",
+    "question": "What is the dog wearing?",
+    "short_answer": "A red bow tie.",
+    "reasoned_answer": "The dog is wearing a red bow tie, which is a decorative accessory often used to dress up pets."
+  },
+  {
+    "id": 389,
+    "img_id": "2396478.jpg",
+    "question": "Which zebra is grazing in the field?",
+    "short_answer": "The zebra in the image is grazing in the field.",
+    "reasoned_answer": "The image shows a zebra grazing in a lush green field, and the zebra's head is positioned towards the left side of the image, with its body extending towards the right. The zebra's mane is also visible, adding to the overall beauty of the scene."
+  },
+  {
+    "id": 390,
+    "img_id": "2396478.jpg",
+    "question": "What is the zebra grazing on in the image?",
+    "short_answer": "The zebra is grazing on tall grass in the image.",
+    "reasoned_answer": "The zebra's head is positioned towards the left side of the image, with its body extending towards the right. The zebra's mane is also visible, adding to the overall beauty of the scene. The field appears to be a peaceful and serene location, providing a suitable habitat for the zebra to graze and thrive."
+  },
+  {
+    "id": 391,
+    "img_id": "2396478.jpg",
+    "question": "How many zebras are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one zebra grazing in the field."
+  },
+  {
+    "id": 392,
+    "img_id": "2404942.jpg",
+    "question": "How does the windsurfer maintain balance on the surfboard while riding the sail?",
+    "short_answer": "The windsurfer maintains balance by shifting their weight and adjusting their body position on the surfboard.",
+    "reasoned_answer": "The windsurfer uses their core strength and body coordination to control the sail and adjust their center of gravity on the surfboard, allowing them to ride smoothly and maintain balance."
+  },
+  {
+    "id": 393,
+    "img_id": "2404942.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The image shows a person windsurfing on a surfboard with a sail attached, gliding across the water's surface. The sail is positioned at the top of the board, and the windsurfer is skillfully maneuvering it to catch the wind. The scene is set against a backdrop of a clear blue sky, which adds to the overall beauty of the image. The water appears to be relatively calm, providing a perfect environment for the windsurfer to enjoy their activity. The surfboard is visible in the foreground, while the sail is clearly visible in the background, showcasing the windsurfer's skill and control."
+  },
+  {
+    "id": 394,
+    "img_id": "2332309.jpg",
+    "question": "Who is responsible for the maintenance of the fence surrounding the field?",
+    "short_answer": "The farmer is responsible for the maintenance of the fence surrounding the field.",
+    "reasoned_answer": "The farmer is typically the one who takes care of the animals and the land, so it is reasonable to assume that they would also be responsible for maintaining the fence to ensure the safety and well-being of the sheep."
+  },
+  {
+    "id": 395,
+    "img_id": "2332309.jpg",
+    "question": "Are the sheep in the field?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The sheep are grazing in the field, which is surrounded by a fence."
+  },
+  {
+    "id": 396,
+    "img_id": "2332309.jpg",
+    "question": "How many sheep are in the field?",
+    "short_answer": "There are nine sheep in the field.",
+    "reasoned_answer": "The image shows a herd of nine sheep grazing in the lush green field, and they are scattered throughout the field."
+  },
+  {
+    "id": 397,
+    "img_id": "2374189.jpg",
+    "question": "Is the woman wearing a pink shirt?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman is wearing a pink shirt, which is visible in the image."
+  },
+  {
+    "id": 398,
+    "img_id": "2374189.jpg",
+    "question": "Who is the woman in the pink shirt eating the hamburger?",
+    "short_answer": "The woman in the pink shirt is the main focus of the scene.",
+    "reasoned_answer": "The woman in the pink shirt is the main subject of the image and is clearly visible eating the hamburger."
+  },
+  {
+    "id": 399,
+    "img_id": "2374189.jpg",
+    "question": "What is the woman wearing?",
+    "short_answer": "A pink shirt",
+    "reasoned_answer": "The woman is wearing a pink shirt, which is visible in the image."
+  },
+  {
+    "id": 400,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the train car in the image?",
+    "short_answer": "The train car in the image is likely used for transporting goods or materials.",
+    "reasoned_answer": "The train car's large size and industrial appearance suggest that it is designed for carrying heavy loads over long distances. This is a common purpose for train cars, as they can efficiently transport large quantities of goods and materials while reducing the environmental impact compared to road transportation."
+  },
+  {
+    "id": 401,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the train car in the image?",
+    "short_answer": "It is used for transporting goods or materials.",
+    "reasoned_answer": "The train car's large size and industrial appearance suggest that it is designed for carrying heavy loads over long distances."
+  },
+  {
+    "id": 402,
+    "img_id": "2409362.jpg",
+    "question": "Whose/whom train car is this?",
+    "short_answer": "This is an old, industrial-sized train car that has been sitting on the tracks for quite some time.",
+    "reasoned_answer": "The train car's age and condition suggest that it has been exposed to the elements for an extended period, and its rusty appearance indicates that it belongs to a larger train system."
+  },
+  {
+    "id": 403,
+    "img_id": "2363311.jpg",
+    "question": "Whose/whom is the large white food truck parked for?",
+    "short_answer": "The large white food truck is parked for the people in the parking lot.",
+    "reasoned_answer": "The image shows several people scattered around the area, some of them carrying handbags, and the truck is prominently displayed, suggesting that it is meant for the people in the vicinity."
+  },
+  {
+    "id": 404,
+    "img_id": "2363311.jpg",
+    "question": "Is the food truck parked in a busy area?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The presence of several people carrying handbags and standing around the truck indicates that it is a popular spot for people to gather and enjoy their meals."
+  },
+  {
+    "id": 405,
+    "img_id": "2322440.jpg",
+    "question": "Is the food on the plate stand appetizing?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The plate stand is filled with a variety of food items, including pastries, sandwiches, and bowls, which suggests a diverse and appetizing selection."
+  },
+  {
+    "id": 406,
+    "img_id": "2322440.jpg",
+    "question": "What is the main dish on the plate stand?",
+    "short_answer": "The main dish on the plate stand is a variety of pastries, including croissants and muffins, as well as a selection of sandwiches.",
+    "reasoned_answer": "The image shows a three-tiered plate stand filled with a delicious assortment of pastries and sandwiches, indicating that these are the main dishes on the stand."
+  },
+  {
+    "id": 407,
+    "img_id": "2322440.jpg",
+    "question": "Whose/whom is the delicious assortment of pastries, including croissants and muffins, as well as a selection of sandwiches on the three-tiered plate stand?",
+    "short_answer": "The person in the background is enjoying the meal or preparing to partake in the delicious spread.",
+    "reasoned_answer": "The person in the background is the one who is enjoying the meal or preparing to partake in the delicious spread, as they are the one who is visible in the image."
+  },
+  {
+    "id": 408,
+    "img_id": "2397397.jpg",
+    "question": "is/am/are the dancers wearing costumes?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The dancers are wearing colorful costumes as part of their traditional dance performance."
+  },
+  {
+    "id": 409,
+    "img_id": "2397397.jpg",
+    "question": "Whose/whom are the dancers performing for?",
+    "short_answer": "The dancers are performing for the audience.",
+    "reasoned_answer": "The image shows a group of women performing a traditional dance in front of a crowd, indicating that they are entertaining the audience."
+  },
+  {
+    "id": 410,
+    "img_id": "2397397.jpg",
+    "question": "How many women are performing in the traditional dance?",
+    "short_answer": "4",
+    "reasoned_answer": "The image shows a group of four women performing the traditional dance in front of the crowd."
+  },
+  {
+    "id": 411,
+    "img_id": "2401597.jpg",
+    "question": "What is the purpose of the bench in the park?",
+    "short_answer": "The bench in the park serves as a place for visitors to sit, relax, and enjoy the view of the water and the surrounding natural environment.",
+    "reasoned_answer": "The bench provides a comfortable spot for people to take a break from walking or engaging in other park activities, allowing them to appreciate the beauty of the park and the tranquility of the water."
+  },
+  {
+    "id": 412,
+    "img_id": "2401597.jpg",
+    "question": "Who is the person who is sitting on the bench in the park?",
+    "short_answer": "Visitor",
+    "reasoned_answer": "The image shows a person sitting on the bench, but it is not possible to determine their identity from the image alone. It is likely that the visitor is enjoying the view of the water and the boats in the background."
+  },
+  {
+    "id": 413,
+    "img_id": "2391045.jpg",
+    "question": "What is the main focus of the scene in the image?",
+    "short_answer": "The main focus of the scene in the image is the two women standing on a tennis court, both holding tennis rackets and embracing each other.",
+    "reasoned_answer": "The women are the main focus of the scene, with their tennis rackets and the tennis court as the primary elements."
+  },
+  {
+    "id": 414,
+    "img_id": "2391045.jpg",
+    "question": "Who are the two women embracing each other on the tennis court?",
+    "short_answer": "The two women embracing each other on the tennis court are tennis players.",
+    "reasoned_answer": "The women are holding tennis rackets and are on a tennis court, which suggests that they are tennis players."
+  },
+  {
+    "id": 415,
+    "img_id": "2391045.jpg",
+    "question": "Who are the two women embracing each other on the tennis court?",
+    "short_answer": "The two women embracing each other on the tennis court are tennis players.",
+    "reasoned_answer": "The women are holding tennis rackets and are on a tennis court, which suggests that they are tennis players."
+  },
+  {
+    "id": 416,
+    "img_id": "2399259.jpg",
+    "question": "Is the sheep looking out to sea?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The sheep is standing on a rocky cliff overlooking the ocean, and it appears to be looking out to sea."
+  },
+  {
+    "id": 417,
+    "img_id": "2399259.jpg",
+    "question": "How many boats are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two boats on the water, one closer to the left side and the other further to the right."
+  },
+  {
+    "id": 418,
+    "img_id": "2355189.jpg",
+    "question": "Is the man holding a tennis racket?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is actively participating in the tennis match and is holding a tennis racket."
+  },
+  {
+    "id": 419,
+    "img_id": "2355189.jpg",
+    "question": "Which player is holding the tennis racket?",
+    "short_answer": "The man in the center of the court.",
+    "reasoned_answer": "The man is actively participating in the game and is the main focus of the scene."
+  },
+  {
+    "id": 420,
+    "img_id": "2355189.jpg",
+    "question": "Whose/whom is the main focus of the scene?",
+    "short_answer": "The main focus of the scene is the man holding the tennis racket.",
+    "reasoned_answer": "The man holding the tennis racket is the only person actively participating in the game, and he is the main focus of the scene."
+  },
+  {
+    "id": 421,
+    "img_id": "2413063.jpg",
+    "question": "How many black and white checkered tiles are there in the bathroom?",
+    "short_answer": "There are 10 black and white checkered tiles in the bathroom.",
+    "reasoned_answer": "The image shows a close-up view of the bathroom, and the tiles are clearly visible. The number of tiles can be easily counted, and the pattern is consistent throughout the room."
+  },
+  {
+    "id": 422,
+    "img_id": "2413063.jpg",
+    "question": "How many black and white checkered tiles are there in the bathroom?",
+    "short_answer": "There are 10 black and white checkered tiles in the bathroom.",
+    "reasoned_answer": "The image shows a close-up view of the bathroom, and the tiles are clearly visible. The number of tiles can be easily counted, and the pattern is consistent throughout the room."
+  },
+  {
+    "id": 423,
+    "img_id": "2380622.jpg",
+    "question": "Is the bird in the foreground a pelican?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bird is large and white, which is consistent with the description of a pelican. Additionally, the bird's size and shape are more prominent in the foreground, making it the most likely species in the scene."
+  },
+  {
+    "id": 424,
+    "img_id": "2380622.jpg",
+    "question": "How many cars are parked in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "The image shows three cars parked in the background, with one on the left side, another in the middle, and the third on the right side."
+  },
+  {
+    "id": 425,
+    "img_id": "2380622.jpg",
+    "question": "What is the bird in the foreground?",
+    "short_answer": "A pelican",
+    "reasoned_answer": "The bird in the foreground is a large white bird, possibly a pelican, which is known for its distinctive beak. The size and shape of the bird, along with its white color, make it a likely candidate for the bird in the foreground."
+  },
+  {
+    "id": 426,
+    "img_id": "2388036.jpg",
+    "question": "How many buildings are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The image only shows one building, which is the one the man is standing in front of while talking on his cell phone."
+  },
+  {
+    "id": 427,
+    "img_id": "2388036.jpg",
+    "question": "What is the man wearing?",
+    "short_answer": "A blue vest and a hat",
+    "reasoned_answer": "The man is dressed in a uniform, which suggests that he might be a security guard or a uniformed worker."
+  },
+  {
+    "id": 428,
+    "img_id": "2388036.jpg",
+    "question": "Is the man wearing a hat?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing a hat, which is visible in the image."
+  },
+  {
+    "id": 429,
+    "img_id": "2336508.jpg",
+    "question": "Is the train station busy?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows several people scattered throughout the scene, and the train is positioned in the middle of the station, indicating a central point of activity."
+  },
+  {
+    "id": 430,
+    "img_id": "2336508.jpg",
+    "question": "What is the train station?",
+    "short_answer": "The train station is a busy area with a large glass ceiling, where trains arrive and depart.",
+    "reasoned_answer": "The image shows a train station with a train parked on the tracks, surrounded by several people. The presence of multiple people and the train's location in the middle of the station suggest that it is either arriving or departing, serving as a central point of activity in the scene. The large glass ceiling allows natural light to fill the space, making the station appear bright and welcoming."
+  },
+  {
+    "id": 431,
+    "img_id": "2336508.jpg",
+    "question": "What is the train station?",
+    "short_answer": "The train station is a busy area with a large glass ceiling, where trains arrive and depart.",
+    "reasoned_answer": "The image shows a train station with a train parked on the tracks, surrounded by several people. The presence of multiple people and the train's location in the middle of the station suggest that it is either arriving or departing, serving as a central point of activity in the scene. The large glass ceiling allows natural light to fill the space, making the station appear bright and welcoming."
+  },
+  {
+    "id": 432,
+    "img_id": "2361640.jpg",
+    "question": "What is the train carrying?",
+    "short_answer": "The train is carrying a significant amount of cargo.",
+    "reasoned_answer": "The train is described as a long train with many cars, indicating that it is transporting a substantial amount of goods."
+  },
+  {
+    "id": 433,
+    "img_id": "2361640.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The train is described as a long train with many cars, indicating that it has a significant number of cars."
+  },
+  {
+    "id": 434,
+    "img_id": "2375728.jpg",
+    "question": "What is the cake covered in?",
+    "short_answer": "The cake is covered in shrimp, cheese, and vegetables.",
+    "reasoned_answer": "The cake is adorned with a generous amount of shrimp, which can be seen in different areas of the cake."
+  },
+  {
+    "id": 435,
+    "img_id": "2375728.jpg",
+    "question": "How many shrimp are on the cake?",
+    "short_answer": "There are 12 shrimp on the cake.",
+    "reasoned_answer": "The image shows a generous amount of shrimp on the cake, and I can count at least 12 of them."
+  },
+  {
+    "id": 436,
+    "img_id": "2375728.jpg",
+    "question": "Whose cake is it?",
+    "short_answer": "It is the cake of the person in the background.",
+    "reasoned_answer": "The person in the background is attending to the cake or preparing to enjoy it, so it is likely their cake."
+  },
+  {
+    "id": 437,
+    "img_id": "2588.jpg",
+    "question": "Whose dog is it?",
+    "short_answer": "It is the dog of the person standing closer to the left side of the image.",
+    "reasoned_answer": "The dog is walking down the street in front of a building, and the person standing closer to the left side of the image is likely the owner of the dog."
+  },
+  {
+    "id": 438,
+    "img_id": "2588.jpg",
+    "question": "How many people are in the scene?",
+    "short_answer": "2",
+    "reasoned_answer": "The image shows two people in the scene, one on the left side and the other on the right side, observing the dog as it walks by."
+  },
+  {
+    "id": 439,
+    "img_id": "2588.jpg",
+    "question": "What is the dog walking down the street for?",
+    "short_answer": "The dog is walking down the street for leisure or exercise.",
+    "reasoned_answer": "The dog appears to be walking freely and leisurely, which suggests that it is either enjoying the outdoors or getting some exercise. It is also possible that the dog's owner is nearby, allowing the dog to explore the area on its own."
+  },
+  {
+    "id": 440,
+    "img_id": "2398747.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The teddy bear is a Christmas decoration, and the hat and scarf add a festive touch to the scene."
+  },
+  {
+    "id": 441,
+    "img_id": "2398747.jpg",
+    "question": "What is the teddy bear wearing?",
+    "short_answer": "The teddy bear is wearing a hat and a scarf.",
+    "reasoned_answer": "The teddy bear is wearing a hat and scarf, which are commonly associated with Christmas decorations. Additionally, the scene is set in front of a brick wall and a clock, which further suggests a festive atmosphere."
+  },
+  {
+    "id": 442,
+    "img_id": "2364071.jpg",
+    "question": "Is the batter preparing to swing at the ball?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The batter is holding a baseball bat and standing at home plate, indicating that he is preparing to swing at the ball."
+  },
+  {
+    "id": 443,
+    "img_id": "2364071.jpg",
+    "question": "Is the batter preparing to swing at the ball?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The batter is holding a baseball bat and standing at home plate, indicating that he is preparing to swing at the ball."
+  },
+  {
+    "id": 444,
+    "img_id": "2361865.jpg",
+    "question": "What are the two baseball players sitting on the bench talking about?",
+    "short_answer": "They are likely discussing strategies or sharing stories about their experiences on the field.",
+    "reasoned_answer": "The players seem to be enjoying their time together, and it is common for teammates to engage in conversation during breaks or downtime."
+  },
+  {
+    "id": 445,
+    "img_id": "2361865.jpg",
+    "question": "What are the two baseball players sitting on the bench talking about?",
+    "short_answer": "They are likely discussing strategies or sharing stories about their experiences on the field.",
+    "reasoned_answer": "The players seem to be enjoying their time together, and it is common for teammates to engage in conversation during breaks or downtime."
+  },
+  {
+    "id": 446,
+    "img_id": "2361865.jpg",
+    "question": "How many cups are there in the image?",
+    "short_answer": "There are two cups in the image.",
+    "reasoned_answer": "The image description states that there are two cups in the scene, one near the left player and the other near the right player."
+  }
+]

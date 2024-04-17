@@ -118,10 +118,13 @@ def export_result(
         annot_img_folder = os.path.join(misc_folder, "annot_img")
         os.makedirs(annot_img_folder)
         for metadata in annot_metadatas:
-            save_annotated_img(
-                metadata["complete_tensor"],
-                os.path.join(annot_img_folder, f"{metadata['id']}_annot.jpg"),
-            )
+            try:
+                save_annotated_img(
+                    metadata["complete_tensor"],
+                    os.path.join(annot_img_folder, f"{metadata['id']}_annot.jpg"),
+                )
+            except:
+                continue
 
 
 def verif_digit(s: str):

@@ -8,6 +8,7 @@ from src.eval_helper import (
     gen_question_prefix,
     gen_size_hist,
     gwet_AC2,
+    gen_subjective_xlsx
 )
 from tqdm import tqdm
 
@@ -20,6 +21,7 @@ pipeline = [
     ("gwet", gwet_AC2, "json"),
     ("gen_size", gen_size_hist, "plt"),
     ("prefix", gen_question_prefix, "plt"),
+    ("gen_xlsx", gen_subjective_xlsx, "xlsx"),
 ]
 
 logging.info("Starting Evaluation...")
