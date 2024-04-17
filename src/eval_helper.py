@@ -375,15 +375,27 @@ def gen_quant_subj_df(
     return round(pd.DataFrame(res).T, 2)
 
 
-def gen_subj_rank(test_names: List[str]) -> pd.DataFrame:
+def gen_subj_rank(test_names: List[str], map_index: dict = None) -> pd.DataFrame:
     quant_subj_res = gen_subjective_quant_analysis(test_names)
-
     res = {}
     for test_name, data in quant_subj_res.items():
-        res[test_name] = data["ovr_mean_scores"]
+        content = data["ovr_mean_scores"]
+        content["clean_rate"] = data["clean_rate"]
+        content["amount"] = data["amount"]
+        res[test_name] = content
 
     df = pd.DataFrame(res).T
-    df["rank"] = df.rank(axis=0, ascending=False).mean(axis=1)
-    df = df.sort_values(by="rank")
 
-    return df
+    if map_index:
+        df.rename(index=map_index, inplace=True)
+
+    rank_df = pd.DataFrame(index=[i + 1 for i in range(len(df.index))], columns=df.columns)
+    
+    for col in df.columns:
+        asc = True if col == "irrelevancy" else False
+        ranked_idx = df.sort_values(by=col, ascending=asc)[col].index
+        ranked_val = np.round(df.sort_values(by=col, ascending=asc)[col].values, 2)
+
+        rank_df[col] = [f"{ranked_idx[i]} - ({ranked_val[i]})" for i in range(len(ranked_idx))]
+
+    return rank_df
