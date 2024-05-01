@@ -279,7 +279,9 @@ def transform_raw_to_dfs(
         filename, ext = os.path.splitext(file)
         evaluator = filename.split("_")[-1]
 
-        if ext == "xlsx":
+        df = None
+
+        if ext == ".xlsx":
             df = pd.read_excel(xlsx_dir + file, sheet_name=sheet_name)[
                 [
                     "id",
@@ -291,7 +293,7 @@ def transform_raw_to_dfs(
                     "irrelevancy",
                 ]
             ]
-        elif ext == "csv":
+        elif ext == ".csv":
             df = pd.read_csv(xlsx_dir + file)[
                 [
                     "id",
@@ -349,7 +351,7 @@ def gen_subjective_quant_analysis(test_names: List[str]) -> dict:
 
 
 def gen_quant_subj_df(
-    test_names: List[str], export_detail: bool = False
+    test_names: List[str], export_detail: bool = False, map_index = None
 ) -> pd.DataFrame:
     quant_subj_res = gen_subjective_quant_analysis(test_names)
 
