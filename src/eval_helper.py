@@ -2,6 +2,7 @@ import base64
 import io
 import json
 import os
+import sys
 from typing import List, Tuple
 
 import matplotlib.pyplot as plt
@@ -10,17 +11,37 @@ import pandas as pd
 import seaborn as sns
 from irrCAC.raw import CAC
 from PIL import Image
+# import df2img
 
 from src.base import load_config, unpack_json
 
 METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance", "plausibility"]
 
 cfg = load_config("./", "eval.yml")
+
 SEED = cfg["seed"]
 TEST_NAME = cfg["test_name"]
-XLSX_NAME = cfg["xlsx_name"]
-RESULT_PATH = f"./result/{TEST_NAME}/eval/"
+EVAL_NUM = cfg["eval_amount"]
+
+MULTI_RESULT_PATH = f"./result/multieval/{TEST_NAME}/"
+SINGLETON_RESULT_PATH = "./result/{test_name}/eval/"
 RULES_PATH = "./prompt/eval/rules.txt"
+
+MAP_INDEX = {
+    "10-4_vicuna13-vip_nonvis-optim_500" : "13b_nonvis",
+    "10-4_vicuna7_naive-optim_500": "7b_naive",
+    "10-4_vicuna13_naive-optim_500": "13b_naive",
+    "10-4_vicuna13_qg-story-optim_500": "13b_qg-story",
+}
+
+
+class NullWriter(object):
+    def write(self, arg):
+        pass
+
+
+nullwrite = NullWriter()
+oldstdout = sys.stdout
 
 
 def load_eval_res(path, mode="csv", sep=","):
@@ -35,12 +56,13 @@ def load_eval_res(path, mode="csv", sep=","):
     return df
 
 
-def export_eval(name, data, mode="json", RESULT_PATH=RESULT_PATH):
-    if not os.path.exists(RESULT_PATH):
-        os.makedirs(RESULT_PATH)
+def export_eval(name, data, test_name=None, mode="json"):
+    path = SINGLETON_RESULT_PATH.format(test_name=test_name)
+    if not os.path.exists(path):
+        os.makedirs(path)
 
     if mode == "json":
-        with open(RESULT_PATH + f"{name}.json", "w") as json_file:
+        with open(path + f"{name}.json", "w") as json_file:
             json.dump(data, json_file)
 
     elif mode == "plt":
@@ -48,19 +70,53 @@ def export_eval(name, data, mode="json", RESULT_PATH=RESULT_PATH):
 
         image = Image.open(io.BytesIO(image_bytes))
 
-        image_path = os.path.join(RESULT_PATH, f"{name}.jpg")
+        image_path = os.path.join(path, f"{name}.jpg")
         image.save(image_path)
 
     elif mode == "xlsx":
-        with open(RULES_PATH, "r") as rule_f:
+        with open("./prompt/eval/rules.txt", "r") as rule_f:
             rule_list = rule_f.readlines()
 
         rules = pd.DataFrame({"rules": rule_list})
 
-        writer = pd.ExcelWriter(RESULT_PATH + f"{XLSX_NAME}.xlsx", engine="xlsxwriter")
+        writer = pd.ExcelWriter(path + f"scoring_template.xlsx", engine="xlsxwriter")
         rules.to_excel(writer, sheet_name="rules")
         data.to_excel(writer, sheet_name="scoresheet")
         writer.close()
+    
+    elif mode == "df":
+        sys.stdout = nullwrite
+        fig = df2img.plot_dataframe(
+            data,
+            title=dict(
+                font_color="darkred",
+                font_family="Computer Modern",
+                font_size=16,
+                text=name,
+            ),
+            tbl_header=dict(
+                align="right",
+                fill_color="#d7d8d6",
+                font_family="Computer Modern",
+                font_color="darkslategray",
+                font_size=12,
+                line_color="darkslategray",
+            ),
+            tbl_cells=dict(
+                align="right",
+                font_family="Computer Modern",
+                line_color="darkslategray",
+            ),
+            row_fill_color=("#ffffff", "#ffffff"),
+            fig_size=(1500, 160),
+        )
+        sys.stdout = oldstdout
+
+        if not os.path.exists(MULTI_RESULT_PATH):
+            os.makedirs(MULTI_RESULT_PATH)
+
+        filename = os.path.join(MULTI_RESULT_PATH, f"{name}.jpg")
+        df2img.save_dataframe(fig=fig, filename=filename)
 
 
 def transform_list_to_dfs(test_name, mode="csv", sep=";"):
@@ -129,15 +185,15 @@ def common_ids(dfs):
     if not dfs:
         return set()
 
-    common_ids_set = set(dfs[0]["id"])
+    common_ids_set = set(dfs[0]["id"].values)
     for df in dfs[1:]:
-        common_ids_set &= set(df["id"])
+        common_ids_set &= set(df["id"].values)
 
     return common_ids_set
 
 
 def dfs_to_CAC(dfs):
-    METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance"]
+    METRICS = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
     CACs = {}
 
     common_ids_set = common_ids(dfs)
@@ -152,8 +208,19 @@ def dfs_to_CAC(dfs):
 
 def gwet_AC2(test_name, weights="ordinal"):
     transformed_dfs = transform_raw_to_dfs(test_name)
+    cleaned_transformed_dfs = [get_clean_df(df, mode = "remove")[0] for df in transformed_dfs]
+    
+    if len(cleaned_transformed_dfs) == 1:
+        return {
+            "accuracy": 1.0,
+            "logical": 1.0,
+            "clarity": 1.0,
+            "detail": 1.0,
+            "irrelevancy": 1.0,
+            "overall": 1.0
+        }
 
-    cac_by_metric_dict = dfs_to_CAC(transformed_dfs)
+    cac_by_metric_dict = dfs_to_CAC(cleaned_transformed_dfs)
     gwet_by_metric_dict = {}
 
     scores = []
@@ -169,8 +236,13 @@ def gwet_AC2(test_name, weights="ordinal"):
     return gwet_by_metric_dict
 
 
-def gen_size_hist(test_name):
-    data = unpack_json(f"./result/{test_name}/res.json")
+def gen_size_hist(test_name, all=True):
+    data = unpack_json(f"./result/{test_name}/res.json")[:EVAL_NUM]
+    
+    if not all:
+        clean_ids = set(get_subj_mutual_data(test_name, mode="remove")[0][0]["id"].values)
+        data = [item for item in data if item["id"] in clean_ids]
+
     question_lengths = [len(item["question"].split()) for item in data]
     short_answer_lengths = [len(item["short_answer"].split()) for item in data]
     reasoned_answer_lengths = [len(item["reasoned_answer"].split()) for item in data]
@@ -182,6 +254,11 @@ def gen_size_hist(test_name):
     sns.histplot(question_lengths, ax=axes[0], kde=True)
     sns.histplot(short_answer_lengths, ax=axes[1], kde=True)
     sns.histplot(reasoned_answer_lengths, ax=axes[2], kde=True)
+
+    # Set the x-axis limits for each plot
+    axes[0].set_xlim(0, 20)
+    axes[1].set_xlim(0, 50)
+    axes[2].set_xlim(0, 100)
 
     # Set titles
     axes[0].set_title("Question Word Length")
@@ -211,8 +288,13 @@ def gen_size_hist(test_name):
     return image_base64
 
 
-def gen_question_prefix(test_name):
-    data = unpack_json(f"./result/{test_name}/res.json")
+def gen_question_prefix(test_name, all = True):
+    data = unpack_json(f"./result/{test_name}/res.json")[:EVAL_NUM]
+
+    if not all:
+        clean_ids = set(get_subj_mutual_data(test_name, mode="remove")[0][0]["id"].values)
+        data = [item for item in data if item["id"] in clean_ids]
+
     question_prefixes = {}
 
     # Count occurrences of question prefixes
@@ -247,7 +329,7 @@ def gen_question_prefix(test_name):
 
 
 def gen_subjective_xlsx(test_name):
-    data = unpack_json(f"./result/{test_name}/res.json")
+    data = unpack_json(f"./result/{test_name}/res.json")[:EVAL_NUM]
     cols = ["id", "img_id", "question", "short_answer", "reasoned_answer"]
     df = pd.DataFrame(data, columns=cols)
 
@@ -278,8 +360,6 @@ def transform_raw_to_dfs(
     for file in os.listdir(xlsx_dir):
         filename, ext = os.path.splitext(file)
         evaluator = filename.split("_")[-1]
-
-        df = None
 
         if ext == ".xlsx":
             df = pd.read_excel(xlsx_dir + file, sheet_name=sheet_name)[
@@ -312,25 +392,44 @@ def transform_raw_to_dfs(
     return dfs
 
 
-def get_clean_df(df: pd.DataFrame, sample_size: int = 50) -> Tuple[pd.DataFrame, float]:
-    clean_df = df[(df != -1.0).all(axis=1) & (df.notnull().all(axis=1))]
-    clean_rate = len(clean_df) / sample_size
+def get_clean_df(df: pd.DataFrame, mode = "remove") -> Tuple[pd.DataFrame, float]:
+    df.dropna(subset=["accuracy", "logical", "clarity", "detail", "irrelevancy"], inplace=True)
+
+    clean_rate = None
+    if mode == "remove":
+        clean_df = df[(df != -1.0).all(axis=1)]
+        clean_rate = len(clean_df) / len(df)
+    elif mode == "replace":
+        temp_clean_df = df[(df != -1.0).all(axis=1)]
+        clean_df = df.replace(-1.0, 1.0)
+        clean_rate = len(temp_clean_df) / len(df)
 
     return clean_df, clean_rate
+
+
+def get_clean_ids(df: pd.DataFrame) -> set:
+    return set(get_clean_df(df)[0]["id"].values)
+
+
+def get_subj_mutual_data(test_name: str, mode = "remove") -> Tuple[List[pd.DataFrame], List[float]]:
+    transformed_dfs = transform_raw_to_dfs(test_name)
+    cleaned_transformed_dfs = [get_clean_df(df, mode=mode) for df in transformed_dfs]
+
+    cleaned_dfs = [df for df, _ in cleaned_transformed_dfs]
+    mutual_clean_rate = [rate for _, rate in cleaned_transformed_dfs]
+
+    common_ids_set = common_ids(cleaned_dfs)
+    mutual_dfs = [df[df["id"].isin(common_ids_set)] for df in cleaned_dfs]
+
+    return mutual_dfs, mutual_clean_rate
 
 
 def gen_subjective_quant_analysis(test_names: List[str]) -> dict:
     res = {}
 
-    for test in test_names:
-        transformed_dfs = transform_raw_to_dfs(test)
-        cleaned_transformed_dfs = [get_clean_df(df) for df in transformed_dfs]
-
-        cleaned_dfs = [df for df, _ in cleaned_transformed_dfs]
-        clean_rate = [rate for _, rate in cleaned_transformed_dfs]
-
-        common_ids_set = common_ids(cleaned_dfs)
-        mutual_dfs = [df[df["id"].isin(common_ids_set)] for df in cleaned_dfs]
+    for test_name in test_names:
+        
+        mutual_dfs, mutual_clean_rate = get_subj_mutual_data(test_name=test_name, mode = "replace")
 
         metric = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
         mean_scores = [df[metric].mean() for df in mutual_dfs]
@@ -338,24 +437,30 @@ def gen_subjective_quant_analysis(test_names: List[str]) -> dict:
         ovr_std_scores = pd.concat(mean_scores, axis=1).std(axis=1)
 
         mean_scores = [mean_scores[i].to_dict() for i in range(len(mean_scores))]
+        
+        gwet_ac2 = gwet_AC2(test_name)
 
-        res[test] = {
-            "amount": len(common_ids_set),
-            "clean_rate": np.mean(clean_rate),
-            "mean_scores_per_sample": mean_scores,
+        res[test_name] = {
+            "amount": len(mutual_dfs[0]),
+            "gen_rate": np.mean(mutual_clean_rate),
             "ovr_mean_scores": ovr_mean_scores.to_dict(),
             "ovr_std_scores": ovr_std_scores.to_dict(),
+            "ovr_gwet_ac2": gwet_ac2["overall"],
+            
+            "mean_scores_per_sample": mean_scores,
+            "gwet_per_metrics": gwet_ac2,
         }
 
     return res
 
 
 def gen_quant_subj_df(
-    test_names: List[str], export_detail: bool = False, map_index = None
+    test_names: List[str], export_detail: bool = False
 ) -> pd.DataFrame:
+    
     quant_subj_res = gen_subjective_quant_analysis(test_names)
-
     res = {}
+    
     for test_name, data in quant_subj_res.items():
         if export_detail:
             with open(f"./result/{test_name}/eval/quant_subj.json", "w") as f:
@@ -363,7 +468,8 @@ def gen_quant_subj_df(
 
         res[test_name] = {
             "amount": data["amount"],
-            "clean_rate": data["clean_rate"],
+            "gen_rate": data["gen_rate"],
+            "gwet_ac2": data["ovr_gwet_ac2"],
             **{
                 f"avg_{metric}": data["ovr_mean_scores"][metric]
                 for metric in data["ovr_mean_scores"].keys()
@@ -373,23 +479,27 @@ def gen_quant_subj_df(
                 for metric in data["ovr_std_scores"].keys()
             },
         }
+    
+    df = round(pd.DataFrame(res).T, 2)
+    if MAP_INDEX:
+        df.rename(index=MAP_INDEX, inplace=True)
+    
+    return df
 
-    return round(pd.DataFrame(res).T, 2)
 
-
-def gen_subj_rank(test_names: List[str], map_index: dict = None) -> pd.DataFrame:
+def gen_subj_rank(test_names: List[str]) -> pd.DataFrame:
     quant_subj_res = gen_subjective_quant_analysis(test_names)
     res = {}
     for test_name, data in quant_subj_res.items():
         content = data["ovr_mean_scores"]
-        content["clean_rate"] = data["clean_rate"]
         content["amount"] = data["amount"]
+        content["gen_rate"] = data["gen_rate"]
+        content["gwet_ac2"] = data["ovr_gwet_ac2"]
         res[test_name] = content
 
     df = pd.DataFrame(res).T
-
-    if map_index:
-        df.rename(index=map_index, inplace=True)
+    if MAP_INDEX:
+        df.rename(index=MAP_INDEX, inplace=True)
 
     rank_df = pd.DataFrame(index=[i + 1 for i in range(len(df.index))], columns=df.columns)
     
