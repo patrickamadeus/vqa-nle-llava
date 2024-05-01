@@ -1,8 +1,8 @@
-test_name: 10-4_vicuna13-vip_nonvis-optim_500
-xlsx_name: 10-4_vicuna13-vip_nonvis-optim_500__Kenneth
+test_name: experiment_1
+test_group:
+    test_1: 10-4_vicuna7_naive-optim_500
+    test_2: 10-4_vicuna13_naive-optim_500
+    test_3: 10-4_vicuna13_qg-story-optim_500
+    test_4: 10-4_vicuna13-vip_nonvis-optim_500
+eval_amount: 50
 seed: 42
-
-run_params:
-    num_per_inference: 3
-    use_nonvis: 0
-    use_img_ext: 1
