@@ -8,10 +8,14 @@ from typing import List, Tuple
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from pandas.plotting import table
 import seaborn as sns
 from irrCAC.raw import CAC
 from PIL import Image
-import df2img
+import plotly.graph_objects as go
+
+#----
+#----
 
 from src.base import load_config, unpack_json
 
@@ -85,38 +89,40 @@ def export_eval(name, data, test_name=None, mode="json"):
         writer.close()
     
     elif mode == "df":
-        sys.stdout = nullwrite
-        fig = df2img.plot_dataframe(
-            data,
-            title=dict(
-                font_color="darkred",
-                font_family="Computer Modern",
-                font_size=16,
-                text=name,
-            ),
-            tbl_header=dict(
-                align="right",
-                fill_color="#d7d8d6",
-                font_family="Computer Modern",
-                font_color="darkslategray",
-                font_size=12,
-                line_color="darkslategray",
-            ),
-            tbl_cells=dict(
-                align="right",
-                font_family="Computer Modern",
-                line_color="darkslategray",
-            ),
-            row_fill_color=("#ffffff", "#ffffff"),
-            fig_size=(1500, 160),
-        )
-        sys.stdout = oldstdout
 
+        # fig, ax = plt.subplots(figsize=(10, 2)) # set size frame
+        # ax.xaxis.set_visible(False)  # hide the x axis
+        # ax.yaxis.set_visible(False)  # hide the y axis
+        # ax.set_frame_on(False)  # no visible frame, uncomment if size is ok
+        # tabla = table(ax, data, loc='upper right', colWidths=[0.17]*len(data.columns))  # where df is your data frame
+        # tabla.auto_set_font_size(False) # Activate set fontsize manually
+        # tabla.set_fontsize(12) # if ++fontsize is necessary ++colWidths
+        # tabla.scale(1.2, 1.2) # change size table
+        # plt.savefig('table.png', transparent=True)
+
+        # fig = go.Figure(data=[
+        #                     go.Table(
+        #                         header=dict(values=list(data.columns),align='center'),
+        #                         cells=dict(values=data.values,
+        #                                 fill_color = [["white","lightgrey"]*data.shape[0]],
+        #                                 align='center'
+        #                                 )
+        #                             )
+        #                     ])
+    
         if not os.path.exists(MULTI_RESULT_PATH):
             os.makedirs(MULTI_RESULT_PATH)
+        
+        # also export the data as csv
+        data.to_csv(os.path.join(MULTI_RESULT_PATH, f"{name}.csv"))
 
-        filename = os.path.join(MULTI_RESULT_PATH, f"{name}.jpg")
-        df2img.save_dataframe(fig=fig, filename=filename)
+        # also export the data as xlsx
+        data.to_excel(os.path.join(MULTI_RESULT_PATH, f"{name}.xlsx"))
+
+        # filename = os.path.join(MULTI_RESULT_PATH, f"{name}.jpg")
+        # fig.write_image(filename,scale=6)
+        # plt.savefig(filename, transparent=True)
+        
 
 
 def transform_list_to_dfs(test_name, mode="csv", sep=";"):
