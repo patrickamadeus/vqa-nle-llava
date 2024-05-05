@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sns
 from irrCAC.raw import CAC
 from PIL import Image
-# import df2img
+import df2img
 
 from src.base import load_config, unpack_json
 

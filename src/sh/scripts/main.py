@@ -20,18 +20,25 @@ models = [
 ]
 
 for i in range(len(runner)):
-    # Download model
-    model = (
-        runner[i]
-        .from_pretrained(
-            models[i],
-            torch_dtype=torch.float16,
-            low_cpu_mem_usage=True,
-        )
-        .to(0)
-    )
-    processor = AutoProcessor.from_pretrained(models[i])
-
+    retry_limit = 10
+    
+    while retry_limit:
+        try:
+            model = (
+                runner[i]
+                .from_pretrained(
+                    models[i],
+                    torch_dtype=torch.float16,
+                    low_cpu_mem_usage=True,
+                )
+                .to(0)
+            )
+            processor = AutoProcessor.from_pretrained(models[i])
+            break  # Exit the loop if no exception occurred
+        except urllib3.exceptions.ProtocolError:
+            retry_limit -= 1
+            print("ProtocolError occurred. Retrying...")
+    
     # Free CUDA memory
     del model
     del processor
