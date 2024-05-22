@@ -1,0 +1,5 @@
+,amount,gen_rate,gwet_ac2,avg_accuracy,avg_logical,avg_clarity,avg_detail,avg_irrelevancy,std_accuracy,std_logical,std_clarity,std_detail,std_irrelevancy
+7b_naive,75.0,0.85,1.0,2.28,2.24,2.6,2.28,1.6,,,,,
+13b_naive,75.0,1.0,1.0,2.52,2.33,2.91,2.6,1.37,,,,,
+13b_self-const,75.0,0.92,1.0,2.52,2.41,2.73,2.77,1.56,,,,,
+13b_nonvis,75.0,0.97,1.0,2.53,2.45,2.89,2.69,1.23,,,,,

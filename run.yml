@@ -1,23 +1,23 @@
-test_name: 10-4_vicuna7_qg-story-optim_500
+test_name: vicuna13_1.6_naive_1
 seed: 42
 dataset:
     name: GQA
     count: 167
 
 model:
-    name: llava-hf/llava-1.5-7b-hf
-    path: llava-hf/llava-1.5-7b-hf
-    family: llava
+    name: llava-hf/llava-v1.6-vicuna-13b-hf
+    path: llava-hf/llava-v1.6-vicuna-13b-hf
+    family: llava-1.6
     params:
-        use_4_bit: 0
+        use_8_bit: 0
         device: "cuda"
         low_cpu: 1
         
 
 prompt:
-    multistep: 1
-    primary: qg_story_optim
-    inter: story_long
+    multistep: 0
+    primary: naive_optim
+    inter: 
 
 run_params:
     num_per_inference: 3

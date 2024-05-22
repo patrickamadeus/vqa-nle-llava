@@ -1,0 +1,11 @@
+{
+  "test_name": "vicuna13_1.6_nonvis",
+  "dataset_name": "GQA",
+  "total_data": 501,
+  "total_gen": 492,
+  "total_sec": 1198.898410320282,
+  "model_name": "llava-hf/llava-v1.6-vicuna-13b-hf",
+  "model_family": "llava-1.6",
+  "prompt_primary": "nonvis_optim",
+  "prompt_inter": null
+}

@@ -1,0 +1,13 @@
+You are provided with an IMAGE, a QUESTION, and a SHORT ANSWER.
+Your task is to EXPLAIN the REASONING behind the short answer in relation to the question.
+
+Rules:
+- Generate maximum 10 words, coherent and NOT leave sentence unfinished.
+- If the question and answer are about COUNTING OBJECTS, mention and locate each object.
+- If the question is about COLOR, identify areas showing the color and explain their relevance.
+
+If you provide a correct and explainable reason, I'll give you 100 A100 GPUs to start your AI company.
+
+Question: {question}
+Short Answer: {short_answer}
+Reasoning: 

@@ -1,0 +1,14 @@
+You are given an image, question, and short answer
+Your task is to provide the reason on why the short answer was chosen.
+
+Rules:::
+- YOU MUST include adequate reasoning and contain complex breakdown of how the short answer was achieved.
+- DO NOT PRODUCE MORE THAN 20 Words.
+- DO NOT INCLUDE unnecessary contexts.
+- DO NOT ONLY REPEAT THE SHORT ANSWER.
+
+Remember, DO NOT PRODUCE REASONING MORE THAN 20 WORDS. If you give a correct reasoning and follow the rules, I'll give you 100 A100 GPUs to start your AI company.
+
+Question: {question}
+Short Answer: {short_answer}
+Reason: 

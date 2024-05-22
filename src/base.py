@@ -219,9 +219,12 @@ def save_annotated_img(tensor, path):
     img_pil.save(path)
 
 
-def raw_output_splitter(out_id, out_content):
+def raw_output_splitter(out_id, out_content, extras=None):
     if out_content != "":
-        return f"{out_id}\n-------------------------------\n{out_content}\n"
+        out = f"{out_id}\n-------------------------------\n{out_content}\n\n"
+        if extras is not None:
+            out += '\n'.join([f'Choice {i + 1}: {extras[i]}' for i in range(len(extras))])
+        return out + "\n\n"
     return ""
 
 
@@ -236,3 +239,34 @@ def expand_prefix_stratify(prefixes, props, total_length):
     random.shuffle(expanded_list)
 
     return expanded_list[:total_length]
+
+
+def validate_question(q):
+    questions = q.split(",")
+    if len(questions) == 1:
+        return questions[0]
+    
+    prefixes = ["how", "what", "why", "who", "whose", "which", "where","when"]
+    
+    for question in questions[1:]:
+        for prefix in prefixes:
+            if prefix in question:
+                return questions[0] + "?"
+    
+    if "?" not in questions[-1]:
+        return ','.join(questions[:-1]) + "?"
+
+    return ','.join(questions[:]).strip("\n")
+
+def validate_short_answer(a):
+    return a.strip("\n")
+
+
+def validate_reason(s):
+    sentences = s.split('.')
+    last_sentence = sentences[-1]
+    
+    if not last_sentence.endswith('.'):
+        return '.'.join(sentences[:-1]) + "."
+    
+    return '.'.join(sentences[:]).strip("\n") + "."

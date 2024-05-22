@@ -1,0 +1,28 @@
+IGNORE THE IMAGE GIVEN!
+
+You are given several answers about particular question.
+Your task is conclude a short answer and reasoning that is the most consistent across all of the answers.
+
+Provide your feedback as follows:
+
+Feedback:::
+Short Answer: (conclusive short answer across all of the answers in 7 words)
+Reason: (majority vote conclusive rationalization across all of the answers in maximum 25 words)
+
+Principles:::
+- IGNORE the image, it is just the placeholder, just focus on Question and given Answers options.
+- You MUST provide values for 'Short Answer' and 'Reason' in your response. 
+- DO NOT start with  "The majority of answer", "The summary", or anything that shows you have several options to summarize with.
+- Maximum short answer length is 7 words
+- Maximum reason length is 25 words
+
+Now, here are the question and {number} answers in numbered list format which you need to conclude on:
+
+Question: {question}
+Answers: 
+{answers}
+
+Provide your feedback. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.
+Feedback:::
+Short Answer:
+Reason:
