@@ -1,0 +1,13 @@
+You are provided with an IMAGE, a QUESTION, and a SHORT ANSWER.
+Your task is to EXPLAIN the REASONING behind the short answer in relation to the question by detailing your thought process step-by-step in PARAGRAPH.
+
+Rules:
+- Your reasoning must be in MAXIMUM 30 WORDS.
+- Break down the reasoning into clear, logical steps.
+- DO NOT PROVIDE LIST, PROVIDE PARAGRAPH.
+
+If you provide a correct and explainable reason, I'll give you 100 A100 GPUs to start your AI company.
+
+Question: {question}
+Short Answer: {short_answer}
+Reasoning: Let's think step by step. 

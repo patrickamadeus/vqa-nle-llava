@@ -4,8 +4,6 @@ from src.base import load_config, expand_prefix_stratify
 from src.inference import load_model
 
 PROMPT_DICT = {
-    "qg_lr": "./prompt/qg_lr/",
-    "lr": "./prompt/lr/",
     "story": "./prompt/qg_story/story_base.txt",
     "story_long": "./prompt/qg_story/story_long.txt",
     "qg_story": "./prompt/qg_story/gen_base.txt",
@@ -13,10 +11,11 @@ PROMPT_DICT = {
     "qg_story_optim": "./prompt/qg_story/gen_optim.txt",
     "naive": "./prompt/naive/base.txt",
     "naive_optim": "./prompt/naive/optim.txt",
-    "clevr_base": "./prompt/CLEVR/base.txt",
-    "vlm_korika": "./prompt/vlm_korika.txt",
     "nonvis_base": "./prompt/nonvis/base.txt",
     "nonvis_optim": "./prompt/nonvis/optim.txt",
+    "sc_question": "./prompt/self_consistency/question.txt",
+    "sc_short_answer": "./prompt/self_consistency/short_answer.txt",
+    "sc_reason": "./prompt/self_consistency/reasoning.txt"
 }
 
 
@@ -33,7 +32,7 @@ SCENE_GRAPH_PATH = "./dataset/feat/sceneGraphs.json"
 MODEL_NAME = run_cfg["model"]["name"]
 MODEL_PATH = run_cfg["model"]["path"]
 MODEL_FAMILY = run_cfg["model"]["family"]
-MODEL_USE_4_BIT = run_cfg["model"]["params"]["use_4_bit"]
+MODEL_USE_4_BIT = run_cfg["model"]["params"]["use_8_bit"]
 MODEL_DEVICE = run_cfg["model"]["params"]["device"]
 MODEL_LOW_CPU = run_cfg["model"]["params"]["low_cpu"]
 MODEL, PROCESSOR = load_model(
@@ -72,7 +71,7 @@ if PROMPT_IS_MULTISTEP:
         PROMPT_INTER = f.read()
 
 # QUESTION PREFIXES
-PREFIXES = ["what", "is/am/are", "which", "how many", "where/when", "who", "whose/whom"]
+PREFIXES = ["what", "is/am/are (pick one that fits the most)", "which", "how many", "where/when (pick one that fits the most)", "who", "whose/whom (pick one that fits the most)"]
 PREFIXES_PROPORTIONS = [2,2,2,2,1,1,1]
 
 if PARAM_USE_NONVIS:

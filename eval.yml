@@ -1,8 +1,9 @@
-test_name: experiment_1
+test_name: experiment_75_clean_complete
+bad_data: replace
 test_group:
     test_1: 10-4_vicuna7_naive-optim_500
     test_2: 10-4_vicuna13_naive-optim_500
-    test_3: 10-4_vicuna13_qg-story-optim_500
+    test_3: vicuna13_1.6_self-const-limit
     test_4: 10-4_vicuna13-vip_nonvis-optim_500
-eval_amount: 50
+eval_amount: 100
 seed: 42

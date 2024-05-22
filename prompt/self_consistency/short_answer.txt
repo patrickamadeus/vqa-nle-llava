@@ -1,0 +1,10 @@
+You are provided with an image and a question. Your task is to provide an appropriate answer related to the given image and question.
+
+Rules:
+- Avoid giving plain short answers like 'Yes' or 'No'. Provide a detailed response relevant to the question.
+- Generate NOT MORE THAN 7 words, coherent and NOT leave sentence unfinished.
+
+If you provide a correct response, I will reward you with 100 A100 GPUs to kickstart your AI company.
+
+Question: {question}
+Short Answer:

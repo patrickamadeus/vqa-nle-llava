@@ -7,6 +7,7 @@ import requests
 import torch
 from PIL import Image
 from tqdm import tqdm
+import json
 from transformers import (
     AutoModel,
     AutoModelForCausalLM,
@@ -14,6 +15,8 @@ from transformers import (
     AutoProcessor,
     LlavaForConditionalGeneration,
     VipLlavaForConditionalGeneration,
+    LlavaNextProcessor, 
+    LlavaNextForConditionalGeneration
 )
 
 from src.base import (
@@ -21,30 +24,47 @@ from src.base import (
     encode_image,
     get_filename,
     set_seed,
+    unpack_json,
 )
 
 
-def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=42):
+def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=42, load_in_8bit = False):
     MODEL_LOADER_DICT = {
         "llava": LlavaForConditionalGeneration,
         "vip_llava": VipLlavaForConditionalGeneration,
         "auto": AutoModel,
         "llama": AutoModelForCausalLM,
-        "llava-1.6": AutoModelForPreTraining,
+        "llava-1.6": LlavaNextForConditionalGeneration,
     }
 
     model, processor = None, None
     if "openai" not in model_family:
         set_seed(seed)
-        model = (
-            MODEL_LOADER_DICT[model_family]
-            .from_pretrained(
-                model_path,
-                torch_dtype=torch.float16,
-                low_cpu_mem_usage=low_cpu_mem_usage,
+        
+        if load_in_8bit:
+            model = (
+                MODEL_LOADER_DICT[model_family]
+                .from_pretrained(
+                    model_path,
+                    torch_dtype=torch.float16,
+                    low_cpu_mem_usage=low_cpu_mem_usage,
+                    load_in_8bit=load_in_8bit,
+#                     use_flash_attention_2=True
+                    attn_implementation="flash_attention_2"
+                )
             )
-            .to(device)
-        )
+        else:
+            model = (
+                MODEL_LOADER_DICT[model_family]
+                .from_pretrained(
+                    model_path,
+                    torch_dtype=torch.float16,
+                    low_cpu_mem_usage=low_cpu_mem_usage,
+#                     use_flash_attention_2=True
+                    attn_implementation="flash_attention_2"
+                )
+                .to(device)
+            )  
         processor = AutoProcessor.from_pretrained(model_path)
 
     print(f"Loaded {model_path}")
@@ -128,7 +148,9 @@ def inference_hf(
     if boilerplate_prompt:
         prompt = "USER: <image>\n" + prompt + "\nASSISTANT:"
 
-    inputs = processor(prompt, img_raw, return_tensors="pt").to(0, torch.float16)
+    inputs = processor(
+        prompt, img_raw, return_tensors="pt").to(0, torch.float16)
+    
     raw_output = model.generate(
         **inputs, max_new_tokens=max_new_tokens, do_sample=do_sample
     )
@@ -141,6 +163,56 @@ def inference_hf(
     seconds = end_time - start_time
 
     return output + "\n", seconds
+
+
+def inference_hf_multi(
+    model,
+    processor,
+    prompt,
+    top_k=50,
+    top_p=0.95,
+    num_return_sequences=5,
+    boilerplate_prompt=True,
+    img_path=None,
+    img_raw=None,
+    max_new_tokens=1500,
+    do_sample=True,
+    skip_special_tokens=True,
+) -> (str, float):
+    start_time = time()
+    if img_raw is None:
+        try:
+            img_raw = Image.open(img_path)
+        except Exception as e:
+            return str(e)
+
+    if boilerplate_prompt:
+        prompt = "USER:\n" + prompt + "\nASSISTANT:"
+
+    inputs = processor(prompt, img_raw, return_tensors="pt").to(0, torch.float16)
+    
+    raw_outputs = model.generate(
+        **inputs, 
+        max_new_tokens=max_new_tokens, 
+        do_sample=do_sample,
+        top_k=top_k,
+        top_p=top_p,
+        num_return_sequences=num_return_sequences
+    )
+    
+    res = []
+    for i, sample_output in enumerate(raw_outputs):
+        output = processor.decode(sample_output, skip_special_tokens=skip_special_tokens)
+
+        if boilerplate_prompt:
+            output = output[output.index("ASSISTANT:") + 11 :]
+            
+        res.append(output)
+
+    end_time = time()
+    seconds = end_time - start_time
+    
+    return res, seconds
 
 
 def batch_inference_hf(
@@ -295,3 +367,63 @@ def nonvis_inference_runner(
         0,
         {"id": img_id, "complete_tensor": complete_annot_tensor},
     )
+
+
+def self_consistency_processor(img_path, question, top_k_prompt, conclude_prompt, top_k_sample = 5):
+    # Generate top_k_sample answers
+    answers, sec1 = inference_hf_multi(
+        model, processor, 
+        top_k_prompt.format(question = question), 
+        img_path = img_path,
+        num_return_sequences = top_k_sample
+    )
+    
+    num = top_k_sample
+    ques = q
+    ans = ""
+
+    for i, answer in enumerate(answers):
+        ans += f"{i+1}. {answer}\n\n"
+    
+    # Conclude majority answer that is the most consistent
+    final, sec2 = inference_hf(
+        model, processor, 
+        conclude.format(number = num, question = ques, answers = ans),
+        img_raw = None
+    )
+    
+    return final, sec1+sec2+sec3
+
+
+
+def self_consistency_inference_runner(
+    model,
+    processor,
+    top_k_prompt,
+    conclude_prompt,
+    img_path,
+):
+    img_id_ext, _ = get_filename(img_path)
+
+    logging.info(f"[{img_id_ext}] - Inference started...")
+    
+    
+
+    outs = []
+    total_sec = 0
+    for prefix in runner_config["prefixes"]:
+        primary_out, primary_sec = inference_hf(
+            model,
+            processor,
+            prompt_primary.format(
+                intermediary=inter_out,
+                prefix=prefix,
+            ),
+            img_path=img_path,
+        )
+        outs.append(primary_out)
+        total_sec += primary_sec
+
+    logging.info(f"[{img_id_ext}] - Primary Inference finished ({total_sec}s)")
+
+    return "\n".join(outs), total_sec, inter_out, inter_sec, None

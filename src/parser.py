@@ -33,7 +33,6 @@ def parse_output(
     short_answers = pattern_short_answer.findall(input_text)
     long_answers = pattern_long_answer.findall(input_text)
     ids = [i + prev_i for i in range(1, len(questions) + 1)]
-    print(len(questions))
     data = [
         {
             "id": i,

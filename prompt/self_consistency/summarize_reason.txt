@@ -1,0 +1,9 @@
+You are given a long reasoning answer.
+Your task is to provide the summarized version of it.
+
+Here is the long reason: 
+{long_reason}
+
+DO NOT include phrase like "All answer..", "The majority of answer..", "The conclusion...", "The consistent..." that shows you have several option of answers.
+
+Summarize the only essential reasoning in maximum of 25 words.

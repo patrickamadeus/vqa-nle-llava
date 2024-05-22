@@ -1,0 +1,13 @@
+You are given an IMAGE.
+Provide ONE QUESTION that begins with the prefix '{prefix}' and requires COMPLEX REASONING.
+
+Rules:
+- Choose the SIMPLEST prefix if multiple options exist. (Example: If the prefixes are "where/when" choose "where" if it is easier)
+- Only ONE QUESTION with NO follow-ups.
+- The question must REQUIRE reasoning to answer.
+- Generate maximum 15 words, coherent and NOT leave sentence unfinished.
+- DO NOT ask YES/NO questions.
+
+If correct, you'll receive 100 A100 GPUs to start your AI company.
+
+Question:

@@ -1,0 +1,17 @@
+You are given an image and a question.
+Your task is to provide the answer related to the given image and question.
+
+Provide your feedback as follows:
+
+Feedback:::
+Short Answer: (your brief answer related to the question)
+Reason: Let's think step by step. (your rationale for the answer you choose respective to the question in maximum 30 words, using chain reasoning)
+
+Now, here is the question:
+
+Question: {question}
+
+Provide your feedback. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.
+Feedback:::
+Short Answer:
+Reason: Let's think step by step.

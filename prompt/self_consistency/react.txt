@@ -1,0 +1,17 @@
+You are provided with an IMAGE, a QUESTION, and a SHORT ANSWER.
+Your task is to EXPLAIN the REASONING behind the short answer in using observation, thoughts, and action until you are sure you reach your final reason answer.
+
+Rules:::
+- Observation: Carefully examine the IMAGE to identify relevant details and elements related to the QUESTION.
+- Thoughts: Analyze the observed details to understand their significance and how they relate to the QUESTION and SHORT ANSWER.
+- Action: Based on your observations and thoughts, formulate reasoning that logically connect the elements to the SHORT ANSWER.
+- Reason: The conclusion from Observation, Thought, and Action in NOT LESS THAN 10 words and NOT MORE THAN 30 words.
+
+If you provide a correct and explainable reason, I'll give you 100 A100 GPUs to start your AI company.
+
+Question: {question}
+Short Answer: {short_answer}
+Observation:
+Thoughts:
+Action:
+Reason:
