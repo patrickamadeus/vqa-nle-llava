@@ -1,0 +1,11 @@
+{
+  "test_name": "vicuna13_1.5_random",
+  "dataset_name": "GQA",
+  "total_data": 501,
+  "total_gen": 501,
+  "total_sec": 1369.3679485321045,
+  "model_name": "llava-hf/llava-1.5-13b-hf",
+  "model_family": "llava",
+  "prompt_primary": "naive_random",
+  "prompt_inter": null
+}

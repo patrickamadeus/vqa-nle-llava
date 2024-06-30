@@ -50,7 +50,7 @@ def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=
                     low_cpu_mem_usage=low_cpu_mem_usage,
                     load_in_8bit=load_in_8bit,
 #                     use_flash_attention_2=True
-                    attn_implementation="flash_attention_2"
+#                     attn_implementation="flash_attention_2"
                 )
             )
         else:
@@ -61,7 +61,7 @@ def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=
                     torch_dtype=torch.float16,
                     low_cpu_mem_usage=low_cpu_mem_usage,
 #                     use_flash_attention_2=True
-                    attn_implementation="flash_attention_2"
+#                     attn_implementation="flash_attention_2"
                 )
                 .to(device)
             )  
@@ -310,7 +310,7 @@ def base_inference_runner(
             processor,
             prompt_primary.format(
                 intermediary=inter_out,
-                prefix=prefix,
+#                 prefix=prefix,
             ),
             img_path=img_path,
         )

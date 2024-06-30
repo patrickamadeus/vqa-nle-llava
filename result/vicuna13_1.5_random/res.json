@@ -1,0 +1,3509 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "What is the relationship between the boy and the man playing frisbee?",
+    "short_answer": "The man is likely the boy's father or a family member.",
+    "reasoned_answer": "The image shows a young boy and an older man playing frisbee together, which suggests a close relationship, such as a parent-child or an uncle-nephew relationship."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "What is the relationship between the boy and the man playing frisbee?",
+    "short_answer": "The man is likely the boy's father or a family member.",
+    "reasoned_answer": "The image shows a young boy and an older man playing frisbee together, which suggests a close relationship, such as a parent-child or an uncle-nephew relationship."
+  },
+  {
+    "id": 3,
+    "img_id": "2353575.jpg",
+    "question": "What is the relationship between the boy and the man playing frisbee?",
+    "short_answer": "The man is likely the boy's father or a family member.",
+    "reasoned_answer": "The image shows a young boy and an older man playing frisbee together, which suggests a close relationship, such as a parent-child or an uncle-nephew relationship."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy's favorite snack?",
+    "short_answer": "Candy bar",
+    "reasoned_answer": "The boy is holding a candy bar in his hand while standing next to a bicycle."
+  },
+  {
+    "id": 5,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy's favorite snack?",
+    "short_answer": "Candy bar",
+    "reasoned_answer": "The boy is holding a candy bar in his hand while standing next to a bicycle."
+  },
+  {
+    "id": 6,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy's favorite snack?",
+    "short_answer": "Candy bar",
+    "reasoned_answer": "The boy is holding a candy bar in his hand while standing next to a bicycle."
+  },
+  {
+    "id": 7,
+    "img_id": "2404643.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Lawyer",
+    "reasoned_answer": "The man is wearing a green tie, which is often associated with lawyers."
+  },
+  {
+    "id": 8,
+    "img_id": "2404643.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Lawyer",
+    "reasoned_answer": "The man is wearing a green tie, which is often associated with lawyers."
+  },
+  {
+    "id": 9,
+    "img_id": "2404643.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Lawyer",
+    "reasoned_answer": "The man is wearing a green tie, which is often associated with lawyers."
+  },
+  {
+    "id": 10,
+    "img_id": "2347921.jpg",
+    "question": "What is the boy's favorite food?",
+    "short_answer": "Pizza",
+    "reasoned_answer": "The boy is eating a slice of pizza in the image, which suggests that he enjoys eating pizza."
+  },
+  {
+    "id": 11,
+    "img_id": "2347921.jpg",
+    "question": "What is the boy's favorite food?",
+    "short_answer": "Pizza",
+    "reasoned_answer": "The boy is eating a slice of pizza in the image, which suggests that he enjoys eating pizza."
+  },
+  {
+    "id": 12,
+    "img_id": "2347921.jpg",
+    "question": "What is the boy's favorite food?",
+    "short_answer": "Pizza",
+    "reasoned_answer": "The boy is eating a slice of pizza in the image, which suggests that he enjoys eating pizza."
+  },
+  {
+    "id": 13,
+    "img_id": "2321990.jpg",
+    "question": "What is the woman's occupation?",
+    "short_answer": "Writer",
+    "reasoned_answer": "The woman is sitting in a chair with a laptop and a cat, which suggests that she might be working from home or engaged in a creative pursuit."
+  },
+  {
+    "id": 14,
+    "img_id": "2321990.jpg",
+    "question": "What is the woman's occupation?",
+    "short_answer": "Writer",
+    "reasoned_answer": "The woman is sitting in a chair with a laptop and a cat, which suggests that she might be working from home or engaged in a creative pursuit."
+  },
+  {
+    "id": 15,
+    "img_id": "2321990.jpg",
+    "question": "What is the woman's occupation?",
+    "short_answer": "Writer",
+    "reasoned_answer": "The woman is sitting in a chair with a laptop and a cat, which suggests that she might be working from home or engaged in a creative pursuit."
+  },
+  {
+    "id": 16,
+    "img_id": "2360023.jpg",
+    "question": "What is the name of the train company that operates this train?",
+    "short_answer": "Southern Railways",
+    "reasoned_answer": "The train is operated by Southern Railways, as indicated by the logo on the side of the train."
+  },
+  {
+    "id": 17,
+    "img_id": "2360023.jpg",
+    "question": "What is the name of the train company that operates this train?",
+    "short_answer": "Southern Railways",
+    "reasoned_answer": "The train is operated by Southern Railways, as indicated by the logo on the side of the train."
+  },
+  {
+    "id": 18,
+    "img_id": "2360023.jpg",
+    "question": "What is the name of the train company that operates this train?",
+    "short_answer": "Southern Railways",
+    "reasoned_answer": "The train is operated by Southern Railways, as indicated by the logo on the side of the train."
+  },
+  {
+    "id": 19,
+    "img_id": "2342596.jpg",
+    "question": "What is the purpose of the umbrella the girl is holding?",
+    "short_answer": "To protect her from the rain.",
+    "reasoned_answer": "The girl is holding an umbrella while walking down the street, which suggests that it is raining, and she is using the umbrella to stay dry."
+  },
+  {
+    "id": 20,
+    "img_id": "2342596.jpg",
+    "question": "What is the purpose of the umbrella the girl is holding?",
+    "short_answer": "To protect her from the rain.",
+    "reasoned_answer": "The girl is holding an umbrella while walking down the street, which suggests that it is raining, and she is using the umbrella to stay dry."
+  },
+  {
+    "id": 21,
+    "img_id": "2342596.jpg",
+    "question": "What is the purpose of the umbrella the girl is holding?",
+    "short_answer": "To protect her from the rain.",
+    "reasoned_answer": "The girl is holding an umbrella while walking down the street, which suggests that it is raining, and she is using the umbrella to stay dry."
+  },
+  {
+    "id": 22,
+    "img_id": "2335580.jpg",
+    "question": "What is the girl's favorite sport?",
+    "short_answer": "Baseball",
+    "reasoned_answer": "The girl is swinging a baseball bat in the image, which suggests that she enjoys playing baseball."
+  },
+  {
+    "id": 23,
+    "img_id": "2335580.jpg",
+    "question": "What is the girl's favorite sport?",
+    "short_answer": "Baseball",
+    "reasoned_answer": "The girl is swinging a baseball bat in the image, which suggests that she enjoys playing baseball."
+  },
+  {
+    "id": 24,
+    "img_id": "2335580.jpg",
+    "question": "What is the girl's favorite sport?",
+    "short_answer": "Baseball",
+    "reasoned_answer": "The girl is swinging a baseball bat in the image, which suggests that she enjoys playing baseball."
+  },
+  {
+    "id": 25,
+    "img_id": "2361750.jpg",
+    "question": "What is the breed of the animal in the image?",
+    "short_answer": "Highland cow",
+    "reasoned_answer": "The animal in the image has long hair and horns, which are characteristic features of Highland cows."
+  },
+  {
+    "id": 26,
+    "img_id": "2361750.jpg",
+    "question": "What is the breed of the animal in the image?",
+    "short_answer": "Highland cow",
+    "reasoned_answer": "The animal in the image has long hair and horns, which are characteristic features of Highland cows."
+  },
+  {
+    "id": 27,
+    "img_id": "2361750.jpg",
+    "question": "What is the breed of the animal in the image?",
+    "short_answer": "Highland cow",
+    "reasoned_answer": "The animal in the image has long hair and horns, which are characteristic features of Highland cows."
+  },
+  {
+    "id": 28,
+    "img_id": "2341916.jpg",
+    "question": "What is the main ingredient in the dish being cooked on the stove?",
+    "short_answer": "Fish",
+    "reasoned_answer": "The image shows fish being cooked in a pan on the stove, along with other ingredients such as onions and rice."
+  },
+  {
+    "id": 29,
+    "img_id": "2341916.jpg",
+    "question": "What is the main ingredient in the dish being cooked on the stove?",
+    "short_answer": "Fish",
+    "reasoned_answer": "The image shows fish being cooked in a pan on the stove, along with other ingredients such as onions and rice."
+  },
+  {
+    "id": 30,
+    "img_id": "2341916.jpg",
+    "question": "What is the main ingredient in the dish being cooked on the stove?",
+    "short_answer": "Fish",
+    "reasoned_answer": "The image shows fish being cooked in a pan on the stove, along with other ingredients such as onions and rice."
+  },
+  {
+    "id": 31,
+    "img_id": "2402093.jpg",
+    "question": "What is the skateboarder doing in the image?",
+    "short_answer": "The skateboarder is performing a trick, jumping over a set of stairs.",
+    "reasoned_answer": "The skateboarder is in mid-air, with the skateboard visible beneath him, indicating that he is executing a jump or trick over the stairs."
+  },
+  {
+    "id": 32,
+    "img_id": "2402093.jpg",
+    "question": "What is the skateboarder doing in the image?",
+    "short_answer": "The skateboarder is performing a trick, jumping over a set of stairs.",
+    "reasoned_answer": "The skateboarder is in mid-air, with the skateboard visible beneath him, indicating that he is executing a jump or trick over the stairs."
+  },
+  {
+    "id": 33,
+    "img_id": "2402093.jpg",
+    "question": "What is the skateboarder doing in the image?",
+    "short_answer": "The skateboarder is performing a trick, jumping over a set of stairs.",
+    "reasoned_answer": "The skateboarder is in mid-air, with the skateboard visible beneath him, indicating that he is executing a jump or trick over the stairs."
+  },
+  {
+    "id": 34,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket in her hand."
+  },
+  {
+    "id": 35,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket in her hand."
+  },
+  {
+    "id": 36,
+    "img_id": "2356501.jpg",
+    "question": "What is the woman holding in her hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The woman is holding a tennis racket in her hand."
+  },
+  {
+    "id": 37,
+    "img_id": "2349840.jpg",
+    "question": "What is the color of the train engine?",
+    "short_answer": "Blue and white.",
+    "reasoned_answer": "The train engine is blue and white in color."
+  },
+  {
+    "id": 38,
+    "img_id": "2349840.jpg",
+    "question": "What is the color of the train engine?",
+    "short_answer": "Blue and white.",
+    "reasoned_answer": "The train engine is blue and white in color."
+  },
+  {
+    "id": 39,
+    "img_id": "2349840.jpg",
+    "question": "What is the color of the train engine?",
+    "short_answer": "Blue and white.",
+    "reasoned_answer": "The train engine is blue and white in color."
+  },
+  {
+    "id": 40,
+    "img_id": "2403286.jpg",
+    "question": "What is the main dish on the plate?",
+    "short_answer": "Enchilada",
+    "reasoned_answer": "The main dish on the plate is an enchilada, which is a Mexican dish made with a tortilla filled with meat, cheese, and sauce, and then baked. The enchilada is covered in a yellow sauce, which is likely salsa or cheese sauce. The plate also includes beans and rice as side dishes."
+  },
+  {
+    "id": 41,
+    "img_id": "2403286.jpg",
+    "question": "What is the main dish on the plate?",
+    "short_answer": "Enchilada",
+    "reasoned_answer": "The main dish on the plate is an enchilada, which is a Mexican dish made with a tortilla filled with meat, cheese, and sauce, and then baked. The enchilada is covered in a yellow sauce, which is likely salsa or cheese sauce. The plate also includes beans and rice as side dishes."
+  },
+  {
+    "id": 42,
+    "img_id": "2403286.jpg",
+    "question": "What is the main dish on the plate?",
+    "short_answer": "Enchilada",
+    "reasoned_answer": "The main dish on the plate is an enchilada, which is a Mexican dish made with a tortilla filled with meat, cheese, and sauce, and then baked. The enchilada is covered in a yellow sauce, which is likely salsa or cheese sauce. The plate also includes beans and rice as side dishes."
+  },
+  {
+    "id": 43,
+    "img_id": "1159351.jpg",
+    "question": "What is the purpose of the men playing video games in the museum?",
+    "short_answer": "They are playing video games to promote a product or event.",
+    "reasoned_answer": "The men are playing video games in a museum, which is an unusual setting for such an activity. This suggests that they are there to promote a product or event, as museums are not typically used as venues for video game demonstrations."
+  },
+  {
+    "id": 44,
+    "img_id": "1159351.jpg",
+    "question": "What is the purpose of the men playing video games in the museum?",
+    "short_answer": "They are playing video games to promote a product or event.",
+    "reasoned_answer": "The men are playing video games in a museum, which is an unusual setting for such an activity. This suggests that they are there to promote a product or event, as museums are not typically used as venues for video game demonstrations."
+  },
+  {
+    "id": 45,
+    "img_id": "1159351.jpg",
+    "question": "What is the purpose of the men playing video games in the museum?",
+    "short_answer": "They are playing video games to promote a product or event.",
+    "reasoned_answer": "The men are playing video games in a museum, which is an unusual setting for such an activity. This suggests that they are there to promote a product or event, as museums are not typically used as venues for video game demonstrations."
+  },
+  {
+    "id": 46,
+    "img_id": "2380438.jpg",
+    "question": "What is the occasion for the two men to be smiling and posing with pizzas?",
+    "short_answer": "They are celebrating a special occasion or enjoying a casual get-together.",
+    "reasoned_answer": "The two men are smiling and posing with pizzas, which suggests that they are happy and enjoying themselves. This could be a celebration of a special occasion, a casual get-together with friends, or simply a fun and relaxed moment shared between the two men."
+  },
+  {
+    "id": 47,
+    "img_id": "2380438.jpg",
+    "question": "What is the occasion for the two men to be smiling and posing with pizzas?",
+    "short_answer": "They are celebrating a special occasion or enjoying a casual get-together.",
+    "reasoned_answer": "The two men are smiling and posing with pizzas, which suggests that they are happy and enjoying themselves. This could be a celebration of a special occasion, a casual get-together with friends, or simply a fun and relaxed moment shared between the two men."
+  },
+  {
+    "id": 48,
+    "img_id": "2380438.jpg",
+    "question": "What is the occasion for the two men to be smiling and posing with pizzas?",
+    "short_answer": "They are celebrating a special occasion or enjoying a casual get-together.",
+    "reasoned_answer": "The two men are smiling and posing with pizzas, which suggests that they are happy and enjoying themselves. This could be a celebration of a special occasion, a casual get-together with friends, or simply a fun and relaxed moment shared between the two men."
+  },
+  {
+    "id": 49,
+    "img_id": "2378845.jpg",
+    "question": "What is the condition of the bathroom sink and toilet?",
+    "short_answer": "The bathroom sink and toilet are in poor condition, with peeling paint and rust.",
+    "reasoned_answer": "The peeling paint and rust indicate that the bathroom has not been well-maintained and has likely been exposed to moisture and humidity for an extended period, causing the deterioration of the surfaces."
+  },
+  {
+    "id": 50,
+    "img_id": "2378845.jpg",
+    "question": "What is the condition of the bathroom sink and toilet?",
+    "short_answer": "The bathroom sink and toilet are in poor condition, with peeling paint and rust.",
+    "reasoned_answer": "The peeling paint and rust indicate that the bathroom has not been well-maintained and has likely been exposed to moisture and humidity for an extended period, causing the deterioration of the surfaces."
+  },
+  {
+    "id": 51,
+    "img_id": "2378845.jpg",
+    "question": "What is the condition of the bathroom sink and toilet?",
+    "short_answer": "The bathroom sink and toilet are in poor condition, with peeling paint and rust.",
+    "reasoned_answer": "The peeling paint and rust indicate that the bathroom has not been well-maintained and has likely been exposed to moisture and humidity for an extended period, causing the deterioration of the surfaces."
+  },
+  {
+    "id": 52,
+    "img_id": "2408290.jpg",
+    "question": "What is the rider's number on the motorcycle?",
+    "short_answer": "4",
+    "reasoned_answer": "The rider's number is 4, as indicated by the number on the motorcycle."
+  },
+  {
+    "id": 53,
+    "img_id": "2408290.jpg",
+    "question": "What is the rider's number on the motorcycle?",
+    "short_answer": "4",
+    "reasoned_answer": "The rider's number is 4, as indicated by the number on the motorcycle."
+  },
+  {
+    "id": 54,
+    "img_id": "2408290.jpg",
+    "question": "What is the rider's number on the motorcycle?",
+    "short_answer": "4",
+    "reasoned_answer": "The rider's number is 4, as indicated by the number on the motorcycle."
+  },
+  {
+    "id": 55,
+    "img_id": "2366289.jpg",
+    "question": "What is the purpose of the umbrellas on the beach?",
+    "short_answer": "To provide shade and protection from the sun.",
+    "reasoned_answer": "The umbrellas are placed near the tables and benches on the beach, which suggests that they are meant to provide shade and protection from the sun for people who are sitting at the tables or benches. This helps to create a more comfortable and enjoyable beach experience for visitors."
+  },
+  {
+    "id": 56,
+    "img_id": "2366289.jpg",
+    "question": "What is the purpose of the umbrellas on the beach?",
+    "short_answer": "To provide shade and protection from the sun.",
+    "reasoned_answer": "The umbrellas are placed near the tables and benches on the beach, which suggests that they are meant to provide shade and protection from the sun for people who are sitting at the tables or benches. This helps to create a more comfortable and enjoyable beach experience for visitors."
+  },
+  {
+    "id": 57,
+    "img_id": "2366289.jpg",
+    "question": "What is the purpose of the umbrellas on the beach?",
+    "short_answer": "To provide shade and protection from the sun.",
+    "reasoned_answer": "The umbrellas are placed near the tables and benches on the beach, which suggests that they are meant to provide shade and protection from the sun for people who are sitting at the tables or benches. This helps to create a more comfortable and enjoyable beach experience for visitors."
+  },
+  {
+    "id": 58,
+    "img_id": "2335961.jpg",
+    "question": "What is the purpose of the police officers riding horses in the image?",
+    "short_answer": "The police officers are patrolling the area on horseback.",
+    "reasoned_answer": "The image shows three police officers riding horses down a street, which suggests that they are patrolling the area on horseback. This method of patrolling allows officers to have a higher vantage point, making it easier to spot potential issues and maintain crowd control during events or gatherings."
+  },
+  {
+    "id": 59,
+    "img_id": "2335961.jpg",
+    "question": "What is the purpose of the police officers riding horses in the image?",
+    "short_answer": "The police officers are patrolling the area on horseback.",
+    "reasoned_answer": "The image shows three police officers riding horses down a street, which suggests that they are patrolling the area on horseback. This method of patrolling allows officers to have a higher vantage point, making it easier to spot potential issues and maintain crowd control during events or gatherings."
+  },
+  {
+    "id": 60,
+    "img_id": "2335961.jpg",
+    "question": "What is the purpose of the police officers riding horses in the image?",
+    "short_answer": "The police officers are patrolling the area on horseback.",
+    "reasoned_answer": "The image shows three police officers riding horses down a street, which suggests that they are patrolling the area on horseback. This method of patrolling allows officers to have a higher vantage point, making it easier to spot potential issues and maintain crowd control during events or gatherings."
+  },
+  {
+    "id": 61,
+    "img_id": "2417850.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Green and red.",
+    "reasoned_answer": "The train in the image is green and red, as it is a passenger train with multiple colors."
+  },
+  {
+    "id": 62,
+    "img_id": "2417850.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Green and red.",
+    "reasoned_answer": "The train in the image is green and red, as it is a passenger train with multiple colors."
+  },
+  {
+    "id": 63,
+    "img_id": "2417850.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Green and red.",
+    "reasoned_answer": "The train in the image is green and red, as it is a passenger train with multiple colors."
+  },
+  {
+    "id": 64,
+    "img_id": "2338295.jpg",
+    "question": "What is the natural habitat of giraffes?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "Giraffes are native to Africa and typically inhabit savannahs, grasslands, and open woodlands. They are well-adapted to these environments due to their long necks and legs, which allow them to reach high branches for food and spot predators from a distance. In the image, the giraffes are seen walking across a dirt road, which is consistent with their natural habitat."
+  },
+  {
+    "id": 65,
+    "img_id": "2338295.jpg",
+    "question": "What is the natural habitat of giraffes?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "Giraffes are native to Africa and typically inhabit savannahs, grasslands, and open woodlands. They are well-adapted to these environments due to their long necks and legs, which allow them to reach high branches for food and spot predators from a distance. In the image, the giraffes are seen walking across a dirt road, which is consistent with their natural habitat."
+  },
+  {
+    "id": 66,
+    "img_id": "2338295.jpg",
+    "question": "What is the natural habitat of giraffes?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "Giraffes are native to Africa and typically inhabit savannahs, grasslands, and open woodlands. They are well-adapted to these environments due to their long necks and legs, which allow them to reach high branches for food and spot predators from a distance. In the image, the giraffes are seen walking across a dirt road, which is consistent with their natural habitat."
+  },
+  {
+    "id": 67,
+    "img_id": "2324496.jpg",
+    "question": "What is the man's facial hair?",
+    "short_answer": "Beard",
+    "reasoned_answer": "The man has a beard on his face."
+  },
+  {
+    "id": 68,
+    "img_id": "2324496.jpg",
+    "question": "What is the man's facial hair?",
+    "short_answer": "Beard",
+    "reasoned_answer": "The man has a beard on his face."
+  },
+  {
+    "id": 69,
+    "img_id": "2324496.jpg",
+    "question": "What is the man's facial hair?",
+    "short_answer": "Beard",
+    "reasoned_answer": "The man has a beard on his face."
+  },
+  {
+    "id": 70,
+    "img_id": "2321389.jpg",
+    "question": "What is the man's skill level in snowboarding?",
+    "short_answer": "He is an advanced snowboarder.",
+    "reasoned_answer": "The man is performing a trick on a snowboard, which requires a certain level of skill and experience."
+  },
+  {
+    "id": 71,
+    "img_id": "2321389.jpg",
+    "question": "What is the man's skill level in snowboarding?",
+    "short_answer": "He is an advanced snowboarder.",
+    "reasoned_answer": "The man is performing a trick on a snowboard, which requires a certain level of skill and experience."
+  },
+  {
+    "id": 72,
+    "img_id": "2321389.jpg",
+    "question": "What is the man's skill level in snowboarding?",
+    "short_answer": "He is an advanced snowboarder.",
+    "reasoned_answer": "The man is performing a trick on a snowboard, which requires a certain level of skill and experience."
+  },
+  {
+    "id": 73,
+    "img_id": "2340260.jpg",
+    "question": "What is the most common vegetable in the image?",
+    "short_answer": "Tomato",
+    "reasoned_answer": "There are several tomatoes in the image, making it the most common vegetable."
+  },
+  {
+    "id": 74,
+    "img_id": "2340260.jpg",
+    "question": "What is the most common vegetable in the image?",
+    "short_answer": "Tomato",
+    "reasoned_answer": "There are several tomatoes in the image, making it the most common vegetable."
+  },
+  {
+    "id": 75,
+    "img_id": "2340260.jpg",
+    "question": "What is the most common vegetable in the image?",
+    "short_answer": "Tomato",
+    "reasoned_answer": "There are several tomatoes in the image, making it the most common vegetable."
+  },
+  {
+    "id": 76,
+    "img_id": "2320752.jpg",
+    "question": "What is the time displayed on the clock?",
+    "short_answer": "12:30",
+    "reasoned_answer": "The clock shows the time as 12:30, which is the time when the clock is at its highest point."
+  },
+  {
+    "id": 77,
+    "img_id": "2320752.jpg",
+    "question": "What is the time displayed on the clock?",
+    "short_answer": "12:30",
+    "reasoned_answer": "The clock shows the time as 12:30, which is the time when the clock is at its highest point."
+  },
+  {
+    "id": 78,
+    "img_id": "2320752.jpg",
+    "question": "What is the time displayed on the clock?",
+    "short_answer": "12:30",
+    "reasoned_answer": "The clock shows the time as 12:30, which is the time when the clock is at its highest point."
+  },
+  {
+    "id": 79,
+    "img_id": "2402695.jpg",
+    "question": "What is the main activity of the people in the image?",
+    "short_answer": "Skiing",
+    "reasoned_answer": "The people in the image are wearing ski gear and holding ski poles, indicating that they are skiing down a snow-covered slope."
+  },
+  {
+    "id": 80,
+    "img_id": "2402695.jpg",
+    "question": "What is the main activity of the people in the image?",
+    "short_answer": "Skiing",
+    "reasoned_answer": "The people in the image are wearing ski gear and holding ski poles, indicating that they are skiing down a snow-covered slope."
+  },
+  {
+    "id": 81,
+    "img_id": "2402695.jpg",
+    "question": "What is the main activity of the people in the image?",
+    "short_answer": "Skiing",
+    "reasoned_answer": "The people in the image are wearing ski gear and holding ski poles, indicating that they are skiing down a snow-covered slope."
+  },
+  {
+    "id": 82,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the vase holding the bouquet of roses?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The vase holding the bouquet of roses is purple."
+  },
+  {
+    "id": 83,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the vase holding the bouquet of roses?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The vase holding the bouquet of roses is purple."
+  },
+  {
+    "id": 84,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the vase holding the bouquet of roses?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The vase holding the bouquet of roses is purple."
+  },
+  {
+    "id": 85,
+    "img_id": "2387492.jpg",
+    "question": "What is the purpose of the Chicago Police Department vehicle parked on the street?",
+    "short_answer": "The vehicle is parked on the street to provide security and maintain order in the area.",
+    "reasoned_answer": "The Chicago Police Department vehicle is parked on the street to ensure public safety, respond to emergencies, and enforce laws. The presence of the vehicle serves as a deterrent to criminal activity and helps maintain order in the community."
+  },
+  {
+    "id": 86,
+    "img_id": "2387492.jpg",
+    "question": "What is the purpose of the Chicago Police Department vehicle parked on the street?",
+    "short_answer": "The vehicle is parked on the street to provide security and maintain order in the area.",
+    "reasoned_answer": "The Chicago Police Department vehicle is parked on the street to ensure public safety, respond to emergencies, and enforce laws. The presence of the vehicle serves as a deterrent to criminal activity and helps maintain order in the community."
+  },
+  {
+    "id": 87,
+    "img_id": "2387492.jpg",
+    "question": "What is the purpose of the Chicago Police Department vehicle parked on the street?",
+    "short_answer": "The vehicle is parked on the street to provide security and maintain order in the area.",
+    "reasoned_answer": "The Chicago Police Department vehicle is parked on the street to ensure public safety, respond to emergencies, and enforce laws. The presence of the vehicle serves as a deterrent to criminal activity and helps maintain order in the community."
+  },
+  {
+    "id": 88,
+    "img_id": "2345458.jpg",
+    "question": "What is the man's occupation or role in the image?",
+    "short_answer": "Cowboy",
+    "reasoned_answer": "The man is wearing a cowboy hat, vest, and tie, which suggests that he is dressed as a cowboy."
+  },
+  {
+    "id": 89,
+    "img_id": "2345458.jpg",
+    "question": "What is the man's occupation or role in the image?",
+    "short_answer": "Cowboy",
+    "reasoned_answer": "The man is wearing a cowboy hat, vest, and tie, which suggests that he is dressed as a cowboy."
+  },
+  {
+    "id": 90,
+    "img_id": "2345458.jpg",
+    "question": "What is the man's occupation or role in the image?",
+    "short_answer": "Cowboy",
+    "reasoned_answer": "The man is wearing a cowboy hat, vest, and tie, which suggests that he is dressed as a cowboy."
+  },
+  {
+    "id": 91,
+    "img_id": "2417032.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is skiing down a snow-covered slope.",
+    "reasoned_answer": "The image shows a person wearing skis and holding ski poles, with a snowy mountain in the background. This suggests that they are actively skiing down the slope."
+  },
+  {
+    "id": 92,
+    "img_id": "2417032.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is skiing down a snow-covered slope.",
+    "reasoned_answer": "The image shows a person wearing skis and holding ski poles, with a snowy mountain in the background. This suggests that they are actively skiing down the slope."
+  },
+  {
+    "id": 93,
+    "img_id": "2417032.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is skiing down a snow-covered slope.",
+    "reasoned_answer": "The image shows a person wearing skis and holding ski poles, with a snowy mountain in the background. This suggests that they are actively skiing down the slope."
+  },
+  {
+    "id": 94,
+    "img_id": "2394235.jpg",
+    "question": "What is the purpose of the bench on the trail?",
+    "short_answer": "To provide a resting spot for hikers.",
+    "reasoned_answer": "The bench is located on a trail surrounded by trees and bushes, which suggests that it is meant for hikers to take a break and enjoy the natural surroundings."
+  },
+  {
+    "id": 95,
+    "img_id": "2394235.jpg",
+    "question": "What is the purpose of the bench on the trail?",
+    "short_answer": "To provide a resting spot for hikers.",
+    "reasoned_answer": "The bench is located on a trail surrounded by trees and bushes, which suggests that it is meant for hikers to take a break and enjoy the natural surroundings."
+  },
+  {
+    "id": 96,
+    "img_id": "2394235.jpg",
+    "question": "What is the purpose of the bench on the trail?",
+    "short_answer": "To provide a resting spot for hikers.",
+    "reasoned_answer": "The bench is located on a trail surrounded by trees and bushes, which suggests that it is meant for hikers to take a break and enjoy the natural surroundings."
+  },
+  {
+    "id": 97,
+    "img_id": "2387659.jpg",
+    "question": "What is the woman's position on the tennis court?",
+    "short_answer": "She is in a ready position, waiting for the ball to be served.",
+    "reasoned_answer": "The woman is crouched down with a tennis racket in hand, indicating that she is prepared to receive the ball and return it during the game."
+  },
+  {
+    "id": 98,
+    "img_id": "2387659.jpg",
+    "question": "What is the woman's position on the tennis court?",
+    "short_answer": "She is in a ready position, waiting for the ball to be served.",
+    "reasoned_answer": "The woman is crouched down with a tennis racket in hand, indicating that she is prepared to receive the ball and return it during the game."
+  },
+  {
+    "id": 99,
+    "img_id": "2387659.jpg",
+    "question": "What is the woman's position on the tennis court?",
+    "short_answer": "She is in a ready position, waiting for the ball to be served.",
+    "reasoned_answer": "The woman is crouched down with a tennis racket in hand, indicating that she is prepared to receive the ball and return it during the game."
+  },
+  {
+    "id": 100,
+    "img_id": "2393668.jpg",
+    "question": "What is the purpose of the fence surrounding the airport runway?",
+    "short_answer": "The fence serves as a security measure to prevent unauthorized access to the runway.",
+    "reasoned_answer": "The fence acts as a barrier to ensure the safety of both the airport personnel and the general public. It helps to prevent accidents, theft, and unauthorized access to restricted areas, such as the runway where airplanes take off and land."
+  },
+  {
+    "id": 101,
+    "img_id": "2393668.jpg",
+    "question": "What is the purpose of the fence surrounding the airport runway?",
+    "short_answer": "The fence serves as a security measure to prevent unauthorized access to the runway.",
+    "reasoned_answer": "The fence acts as a barrier to ensure the safety of both the airport personnel and the general public. It helps to prevent accidents, theft, and unauthorized access to restricted areas, such as the runway where airplanes take off and land."
+  },
+  {
+    "id": 102,
+    "img_id": "2393668.jpg",
+    "question": "What is the purpose of the fence surrounding the airport runway?",
+    "short_answer": "The fence serves as a security measure to prevent unauthorized access to the runway.",
+    "reasoned_answer": "The fence acts as a barrier to ensure the safety of both the airport personnel and the general public. It helps to prevent accidents, theft, and unauthorized access to restricted areas, such as the runway where airplanes take off and land."
+  },
+  {
+    "id": 103,
+    "img_id": "2328035.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Teacher",
+    "reasoned_answer": "The man is wearing glasses, a tie, and a vest, which are typical attire for a teacher."
+  },
+  {
+    "id": 104,
+    "img_id": "2328035.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Teacher",
+    "reasoned_answer": "The man is wearing glasses, a tie, and a vest, which are typical attire for a teacher."
+  },
+  {
+    "id": 105,
+    "img_id": "2328035.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Teacher",
+    "reasoned_answer": "The man is wearing glasses, a tie, and a vest, which are typical attire for a teacher."
+  },
+  {
+    "id": 106,
+    "img_id": "2395429.jpg",
+    "question": "What is the elephant doing in the water?",
+    "short_answer": "The elephant is swimming and playing in the water.",
+    "reasoned_answer": "The elephant is seen with its trunk in the air and partially submerged in the water, which indicates that it is enjoying itself and engaging in playful behavior."
+  },
+  {
+    "id": 107,
+    "img_id": "2395429.jpg",
+    "question": "What is the elephant doing in the water?",
+    "short_answer": "The elephant is swimming and playing in the water.",
+    "reasoned_answer": "The elephant is seen with its trunk in the air and partially submerged in the water, which indicates that it is enjoying itself and engaging in playful behavior."
+  },
+  {
+    "id": 108,
+    "img_id": "2395429.jpg",
+    "question": "What is the elephant doing in the water?",
+    "short_answer": "The elephant is swimming and playing in the water.",
+    "reasoned_answer": "The elephant is seen with its trunk in the air and partially submerged in the water, which indicates that it is enjoying itself and engaging in playful behavior."
+  },
+  {
+    "id": 109,
+    "img_id": "2337356.jpg",
+    "question": "What is the purpose of the toilet paper holder in the bathroom?",
+    "short_answer": "To hold toilet paper.",
+    "reasoned_answer": "The toilet paper holder is designed to hold toilet paper for easy access and convenience for users."
+  },
+  {
+    "id": 110,
+    "img_id": "2337356.jpg",
+    "question": "What is the purpose of the toilet paper holder in the bathroom?",
+    "short_answer": "To hold toilet paper.",
+    "reasoned_answer": "The toilet paper holder is designed to hold toilet paper for easy access and convenience for users."
+  },
+  {
+    "id": 111,
+    "img_id": "2337356.jpg",
+    "question": "What is the purpose of the toilet paper holder in the bathroom?",
+    "short_answer": "To hold toilet paper.",
+    "reasoned_answer": "The toilet paper holder is designed to hold toilet paper for easy access and convenience for users."
+  },
+  {
+    "id": 112,
+    "img_id": "2336569.jpg",
+    "question": "What is the purpose of the street signs hanging from the wires above the traffic lights?",
+    "short_answer": "The street signs hanging from the wires above the traffic lights provide directions and information to drivers and pedestrians.",
+    "reasoned_answer": "The street signs hanging from the wires above the traffic lights serve as a visual guide for people navigating the area, helping them find their desired destinations and ensuring smooth traffic flow."
+  },
+  {
+    "id": 113,
+    "img_id": "2336569.jpg",
+    "question": "What is the purpose of the street signs hanging from the wires above the traffic lights?",
+    "short_answer": "The street signs hanging from the wires above the traffic lights provide directions and information to drivers and pedestrians.",
+    "reasoned_answer": "The street signs hanging from the wires above the traffic lights serve as a visual guide for people navigating the area, helping them find their desired destinations and ensuring smooth traffic flow."
+  },
+  {
+    "id": 114,
+    "img_id": "2336569.jpg",
+    "question": "What is the purpose of the street signs hanging from the wires above the traffic lights?",
+    "short_answer": "The street signs hanging from the wires above the traffic lights provide directions and information to drivers and pedestrians.",
+    "reasoned_answer": "The street signs hanging from the wires above the traffic lights serve as a visual guide for people navigating the area, helping them find their desired destinations and ensuring smooth traffic flow."
+  },
+  {
+    "id": 115,
+    "img_id": "4418.jpg",
+    "question": "What is the purpose of the beakers in the lab?",
+    "short_answer": "The beakers are used to measure and mix chemicals.",
+    "reasoned_answer": "Beakers are commonly used in labs for measuring and mixing chemicals, as they have a precise volume and are easy to read. In the image, there are multiple beakers on the lab counter, indicating that they are being used for various experiments or procedures."
+  },
+  {
+    "id": 116,
+    "img_id": "4418.jpg",
+    "question": "What is the purpose of the beakers in the lab?",
+    "short_answer": "The beakers are used to measure and mix chemicals.",
+    "reasoned_answer": "Beakers are commonly used in labs for measuring and mixing chemicals, as they have a precise volume and are easy to read. In the image, there are multiple beakers on the lab counter, indicating that they are being used for various experiments or procedures."
+  },
+  {
+    "id": 117,
+    "img_id": "4418.jpg",
+    "question": "What is the purpose of the beakers in the lab?",
+    "short_answer": "The beakers are used to measure and mix chemicals.",
+    "reasoned_answer": "Beakers are commonly used in labs for measuring and mixing chemicals, as they have a precise volume and are easy to read. In the image, there are multiple beakers on the lab counter, indicating that they are being used for various experiments or procedures."
+  },
+  {
+    "id": 118,
+    "img_id": "2369698.jpg",
+    "question": "What is the name of the bus company and the type of bus shown in the image?",
+    "short_answer": "The bus company is called Bus Liguine and the bus shown in the image is a double-decker bus.",
+    "reasoned_answer": "The image shows a green and yellow double-decker bus with the name \"Bus Liguine\" on the side. The presence of two levels of seating indicates that it is a double-decker bus."
+  },
+  {
+    "id": 119,
+    "img_id": "2369698.jpg",
+    "question": "What is the name of the bus company and the type of bus shown in the image?",
+    "short_answer": "The bus company is called Bus Liguine and the bus shown in the image is a double-decker bus.",
+    "reasoned_answer": "The image shows a green and yellow double-decker bus with the name \"Bus Liguine\" on the side. The presence of two levels of seating indicates that it is a double-decker bus."
+  },
+  {
+    "id": 120,
+    "img_id": "2369698.jpg",
+    "question": "What is the name of the bus company and the type of bus shown in the image?",
+    "short_answer": "The bus company is called Bus Liguine and the bus shown in the image is a double-decker bus.",
+    "reasoned_answer": "The image shows a green and yellow double-decker bus with the name \"Bus Liguine\" on the side. The presence of two levels of seating indicates that it is a double-decker bus."
+  },
+  {
+    "id": 121,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the bus parked in front of the church?",
+    "short_answer": "The bus is parked in front of the church to pick up passengers for a trip.",
+    "reasoned_answer": "The image shows a bus parked in front of a church, and there are people standing nearby. This suggests that the bus is there to pick up passengers for a trip, possibly a religious or community event."
+  },
+  {
+    "id": 122,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the bus parked in front of the church?",
+    "short_answer": "The bus is parked in front of the church to pick up passengers for a trip.",
+    "reasoned_answer": "The image shows a bus parked in front of a church, and there are people standing nearby. This suggests that the bus is there to pick up passengers for a trip, possibly a religious or community event."
+  },
+  {
+    "id": 123,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the bus parked in front of the church?",
+    "short_answer": "The bus is parked in front of the church to pick up passengers for a trip.",
+    "reasoned_answer": "The image shows a bus parked in front of a church, and there are people standing nearby. This suggests that the bus is there to pick up passengers for a trip, possibly a religious or community event."
+  },
+  {
+    "id": 124,
+    "img_id": "2406064.jpg",
+    "question": "What is the relationship between the two men and the child in the image?",
+    "short_answer": "The two men are likely the child's father and uncle.",
+    "reasoned_answer": "The image shows two men and a child wearing red ties, which suggests a family connection. The fact that they are posing together for a picture implies that they have a close relationship, and it is common for family members to pose together for photos. The child's father and uncle are the most likely relatives in this scenario."
+  },
+  {
+    "id": 125,
+    "img_id": "2406064.jpg",
+    "question": "What is the relationship between the two men and the child in the image?",
+    "short_answer": "The two men are likely the child's father and uncle.",
+    "reasoned_answer": "The image shows two men and a child wearing red ties, which suggests a family connection. The fact that they are posing together for a picture implies that they have a close relationship, and it is common for family members to pose together for photos. The child's father and uncle are the most likely relatives in this scenario."
+  },
+  {
+    "id": 126,
+    "img_id": "2406064.jpg",
+    "question": "What is the relationship between the two men and the child in the image?",
+    "short_answer": "The two men are likely the child's father and uncle.",
+    "reasoned_answer": "The image shows two men and a child wearing red ties, which suggests a family connection. The fact that they are posing together for a picture implies that they have a close relationship, and it is common for family members to pose together for photos. The child's father and uncle are the most likely relatives in this scenario."
+  },
+  {
+    "id": 127,
+    "img_id": "2371480.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The dish is described as chicken and broccoli, and the image shows pieces of chicken in the dish."
+  },
+  {
+    "id": 128,
+    "img_id": "2371480.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The dish is described as chicken and broccoli, and the image shows pieces of chicken in the dish."
+  },
+  {
+    "id": 129,
+    "img_id": "2371480.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The dish is described as chicken and broccoli, and the image shows pieces of chicken in the dish."
+  },
+  {
+    "id": 130,
+    "img_id": "2377994.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "Zebras are herbivores and primarily graze on grass, which is their main food source. In the image, the zebra is seen eating grass, which indicates that it is fulfilling its dietary needs."
+  },
+  {
+    "id": 131,
+    "img_id": "2377994.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "Zebras are herbivores and primarily graze on grass, which is their main food source. In the image, the zebra is seen eating grass, which indicates that it is fulfilling its dietary needs."
+  },
+  {
+    "id": 132,
+    "img_id": "2377994.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "Zebras are herbivores and primarily graze on grass, which is their main food source. In the image, the zebra is seen eating grass, which indicates that it is fulfilling its dietary needs."
+  },
+  {
+    "id": 133,
+    "img_id": "2328856.jpg",
+    "question": "What is the man wearing while skateboarding?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The man is wearing a helmet and knee pads to protect himself from potential injuries while skateboarding."
+  },
+  {
+    "id": 134,
+    "img_id": "2328856.jpg",
+    "question": "What is the man wearing while skateboarding?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The man is wearing a helmet and knee pads to protect himself from potential injuries while skateboarding."
+  },
+  {
+    "id": 135,
+    "img_id": "2328856.jpg",
+    "question": "What is the man wearing while skateboarding?",
+    "short_answer": "Helmet and knee pads",
+    "reasoned_answer": "The man is wearing a helmet and knee pads to protect himself from potential injuries while skateboarding."
+  },
+  {
+    "id": 136,
+    "img_id": "2381621.jpg",
+    "question": "What is the relationship between the two boys in the image?",
+    "short_answer": "Brothers",
+    "reasoned_answer": "They are playing together and one is holding the other's head, which suggests a close and playful relationship."
+  },
+  {
+    "id": 137,
+    "img_id": "2381621.jpg",
+    "question": "What is the relationship between the two boys in the image?",
+    "short_answer": "Brothers",
+    "reasoned_answer": "They are playing together and one is holding the other's head, which suggests a close and playful relationship."
+  },
+  {
+    "id": 138,
+    "img_id": "2381621.jpg",
+    "question": "What is the relationship between the two boys in the image?",
+    "short_answer": "Brothers",
+    "reasoned_answer": "They are playing together and one is holding the other's head, which suggests a close and playful relationship."
+  },
+  {
+    "id": 139,
+    "img_id": "2383102.jpg",
+    "question": "What is the color of the car in front of the train?",
+    "short_answer": "Red",
+    "reasoned_answer": "The car in front of the train is red."
+  },
+  {
+    "id": 140,
+    "img_id": "2383102.jpg",
+    "question": "What is the color of the car in front of the train?",
+    "short_answer": "Red",
+    "reasoned_answer": "The car in front of the train is red."
+  },
+  {
+    "id": 141,
+    "img_id": "2383102.jpg",
+    "question": "What is the color of the car in front of the train?",
+    "short_answer": "Red",
+    "reasoned_answer": "The car in front of the train is red."
+  },
+  {
+    "id": 142,
+    "img_id": "2357307.jpg",
+    "question": "What is the woman playing with the Wii remote?",
+    "short_answer": "Wii Sports",
+    "reasoned_answer": "The woman is playing a game on the Wii console, specifically Wii Sports, as she is holding the Wii remote and pointing it at the TV."
+  },
+  {
+    "id": 143,
+    "img_id": "2357307.jpg",
+    "question": "What is the woman playing with the Wii remote?",
+    "short_answer": "Wii Sports",
+    "reasoned_answer": "The woman is playing a game on the Wii console, specifically Wii Sports, as she is holding the Wii remote and pointing it at the TV."
+  },
+  {
+    "id": 144,
+    "img_id": "2357307.jpg",
+    "question": "What is the woman playing with the Wii remote?",
+    "short_answer": "Wii Sports",
+    "reasoned_answer": "The woman is playing a game on the Wii console, specifically Wii Sports, as she is holding the Wii remote and pointing it at the TV."
+  },
+  {
+    "id": 145,
+    "img_id": "2381970.jpg",
+    "question": "What is the most common topping on a pizza?",
+    "short_answer": "Pepperoni",
+    "reasoned_answer": "Pepperoni is a popular topping on pizzas and is often used in combination with other toppings like sausage, mushrooms, and onions."
+  },
+  {
+    "id": 146,
+    "img_id": "2381970.jpg",
+    "question": "What is the most common topping on a pizza?",
+    "short_answer": "Pepperoni",
+    "reasoned_answer": "Pepperoni is a popular topping on pizzas and is often used in combination with other toppings like sausage, mushrooms, and onions."
+  },
+  {
+    "id": 147,
+    "img_id": "2381970.jpg",
+    "question": "What is the most common topping on a pizza?",
+    "short_answer": "Pepperoni",
+    "reasoned_answer": "Pepperoni is a popular topping on pizzas and is often used in combination with other toppings like sausage, mushrooms, and onions."
+  },
+  {
+    "id": 148,
+    "img_id": "2322221.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a passenger train.",
+    "reasoned_answer": "The train is designed to transport passengers, as evidenced by the presence of windows and doors on the train cars."
+  },
+  {
+    "id": 149,
+    "img_id": "2322221.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a passenger train.",
+    "reasoned_answer": "The train is designed to transport passengers, as evidenced by the presence of windows and doors on the train cars."
+  },
+  {
+    "id": 150,
+    "img_id": "2322221.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a passenger train.",
+    "reasoned_answer": "The train is designed to transport passengers, as evidenced by the presence of windows and doors on the train cars."
+  },
+  {
+    "id": 151,
+    "img_id": "2396722.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "A group of people playing frisbee in a field.",
+    "reasoned_answer": "The image shows a group of people standing in a field, with one person holding a frisbee, and others watching. This suggests that they are engaged in a game of frisbee, which is a popular outdoor activity."
+  },
+  {
+    "id": 152,
+    "img_id": "2396722.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "A group of people playing frisbee in a field.",
+    "reasoned_answer": "The image shows a group of people standing in a field, with one person holding a frisbee, and others watching. This suggests that they are engaged in a game of frisbee, which is a popular outdoor activity."
+  },
+  {
+    "id": 153,
+    "img_id": "2396722.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "A group of people playing frisbee in a field.",
+    "reasoned_answer": "The image shows a group of people standing in a field, with one person holding a frisbee, and others watching. This suggests that they are engaged in a game of frisbee, which is a popular outdoor activity."
+  },
+  {
+    "id": 154,
+    "img_id": "2416057.jpg",
+    "question": "What is the age of the boy riding the skateboard?",
+    "short_answer": "10",
+    "reasoned_answer": "The boy is described as a young boy and a little boy, which suggests that he is likely in his early teenage years."
+  },
+  {
+    "id": 155,
+    "img_id": "2416057.jpg",
+    "question": "What is the age of the boy riding the skateboard?",
+    "short_answer": "10",
+    "reasoned_answer": "The boy is described as a young boy and a little boy, which suggests that he is likely in his early teenage years."
+  },
+  {
+    "id": 156,
+    "img_id": "2416057.jpg",
+    "question": "What is the age of the boy riding the skateboard?",
+    "short_answer": "10",
+    "reasoned_answer": "The boy is described as a young boy and a little boy, which suggests that he is likely in his early teenage years."
+  },
+  {
+    "id": 157,
+    "img_id": "2325198.jpg",
+    "question": "What is the difference between the two cupcakes?",
+    "short_answer": "One is red velvet and the other is vanilla.",
+    "reasoned_answer": "The red velvet cupcake has red frosting and the vanilla cupcake has white frosting."
+  },
+  {
+    "id": 158,
+    "img_id": "2325198.jpg",
+    "question": "What is the difference between the two cupcakes?",
+    "short_answer": "One is red velvet and the other is vanilla.",
+    "reasoned_answer": "The red velvet cupcake has red frosting and the vanilla cupcake has white frosting."
+  },
+  {
+    "id": 159,
+    "img_id": "2325198.jpg",
+    "question": "What is the difference between the two cupcakes?",
+    "short_answer": "One is red velvet and the other is vanilla.",
+    "reasoned_answer": "The red velvet cupcake has red frosting and the vanilla cupcake has white frosting."
+  },
+  {
+    "id": 160,
+    "img_id": "2412796.jpg",
+    "question": "What is the polar bear doing in the image?",
+    "short_answer": "The polar bear is standing on a rock in the water.",
+    "reasoned_answer": "The polar bear is standing on a rock in the water, possibly to get a better view of its surroundings or to reach a specific location. Polar bears are known to be excellent swimmers and are often found in water, so it is not unusual to see them in such a setting."
+  },
+  {
+    "id": 161,
+    "img_id": "2412796.jpg",
+    "question": "What is the polar bear doing in the image?",
+    "short_answer": "The polar bear is standing on a rock in the water.",
+    "reasoned_answer": "The polar bear is standing on a rock in the water, possibly to get a better view of its surroundings or to reach a specific location. Polar bears are known to be excellent swimmers and are often found in water, so it is not unusual to see them in such a setting."
+  },
+  {
+    "id": 162,
+    "img_id": "2412796.jpg",
+    "question": "What is the polar bear doing in the image?",
+    "short_answer": "The polar bear is standing on a rock in the water.",
+    "reasoned_answer": "The polar bear is standing on a rock in the water, possibly to get a better view of its surroundings or to reach a specific location. Polar bears are known to be excellent swimmers and are often found in water, so it is not unusual to see them in such a setting."
+  },
+  {
+    "id": 163,
+    "img_id": "2335189.jpg",
+    "question": "What is the breed of the dog being walked by the man and woman?",
+    "short_answer": "Dalmatian",
+    "reasoned_answer": "The dog is black and white, which is a characteristic of Dalmatians."
+  },
+  {
+    "id": 164,
+    "img_id": "2335189.jpg",
+    "question": "What is the breed of the dog being walked by the man and woman?",
+    "short_answer": "Dalmatian",
+    "reasoned_answer": "The dog is black and white, which is a characteristic of Dalmatians."
+  },
+  {
+    "id": 165,
+    "img_id": "2335189.jpg",
+    "question": "What is the breed of the dog being walked by the man and woman?",
+    "short_answer": "Dalmatian",
+    "reasoned_answer": "The dog is black and white, which is a characteristic of Dalmatians."
+  },
+  {
+    "id": 166,
+    "img_id": "61553.jpg",
+    "question": "What is the primary activity of the sheep in the image?",
+    "short_answer": "Grazing on grass.",
+    "reasoned_answer": "The sheep are seen eating grass in the field, which is their primary activity."
+  },
+  {
+    "id": 167,
+    "img_id": "61553.jpg",
+    "question": "What is the primary activity of the sheep in the image?",
+    "short_answer": "Grazing on grass.",
+    "reasoned_answer": "The sheep are seen eating grass in the field, which is their primary activity."
+  },
+  {
+    "id": 168,
+    "img_id": "61553.jpg",
+    "question": "What is the primary activity of the sheep in the image?",
+    "short_answer": "Grazing on grass.",
+    "reasoned_answer": "The sheep are seen eating grass in the field, which is their primary activity."
+  },
+  {
+    "id": 169,
+    "img_id": "2345526.jpg",
+    "question": "What is the woman's destination?",
+    "short_answer": "Train station",
+    "reasoned_answer": "The woman is waiting at the train station with her luggage, which suggests that she is either arriving at her destination or waiting for a train to depart."
+  },
+  {
+    "id": 170,
+    "img_id": "2345526.jpg",
+    "question": "What is the woman's destination?",
+    "short_answer": "Train station",
+    "reasoned_answer": "The woman is waiting at the train station with her luggage, which suggests that she is either arriving at her destination or waiting for a train to depart."
+  },
+  {
+    "id": 171,
+    "img_id": "2345526.jpg",
+    "question": "What is the woman's destination?",
+    "short_answer": "Train station",
+    "reasoned_answer": "The woman is waiting at the train station with her luggage, which suggests that she is either arriving at her destination or waiting for a train to depart."
+  },
+  {
+    "id": 172,
+    "img_id": "2348169.jpg",
+    "question": "What is the bird's species and what is it doing in the image?",
+    "short_answer": "The bird is a white bird, possibly a stork, standing in a grassy field.",
+    "reasoned_answer": "The bird is white and has a long beak, which is a characteristic of storks. It is standing in a grassy field, which is a natural habitat for storks."
+  },
+  {
+    "id": 173,
+    "img_id": "2348169.jpg",
+    "question": "What is the bird's species and what is it doing in the image?",
+    "short_answer": "The bird is a white bird, possibly a stork, standing in a grassy field.",
+    "reasoned_answer": "The bird is white and has a long beak, which is a characteristic of storks. It is standing in a grassy field, which is a natural habitat for storks."
+  },
+  {
+    "id": 174,
+    "img_id": "2348169.jpg",
+    "question": "What is the bird's species and what is it doing in the image?",
+    "short_answer": "The bird is a white bird, possibly a stork, standing in a grassy field.",
+    "reasoned_answer": "The bird is white and has a long beak, which is a characteristic of storks. It is standing in a grassy field, which is a natural habitat for storks."
+  },
+  {
+    "id": 175,
+    "img_id": "2394575.jpg",
+    "question": "What is the natural habitat of zebras?",
+    "short_answer": "Zebras are native to Africa and typically inhabit grasslands, savannas, and open woodlands.",
+    "reasoned_answer": "Zebras are native to Africa and are commonly found in grasslands, savannas, and open woodlands. These habitats provide them with ample grazing opportunities and allow them to spot predators from a distance. In the image, the zebras are standing in a dirt area, which is not their natural habitat. This suggests that they might be in a zoo or a wildlife reserve, where they are provided with a controlled environment that mimics their natural habitat to some extent."
+  },
+  {
+    "id": 176,
+    "img_id": "2394575.jpg",
+    "question": "What is the natural habitat of zebras?",
+    "short_answer": "Zebras are native to Africa and typically inhabit grasslands, savannas, and open woodlands.",
+    "reasoned_answer": "Zebras are native to Africa and are commonly found in grasslands, savannas, and open woodlands. These habitats provide them with ample grazing opportunities and allow them to spot predators from a distance. In the image, the zebras are standing in a dirt area, which is not their natural habitat. This suggests that they might be in a zoo or a wildlife reserve, where they are provided with a controlled environment that mimics their natural habitat to some extent."
+  },
+  {
+    "id": 177,
+    "img_id": "2394575.jpg",
+    "question": "What is the natural habitat of zebras?",
+    "short_answer": "Zebras are native to Africa and typically inhabit grasslands, savannas, and open woodlands.",
+    "reasoned_answer": "Zebras are native to Africa and are commonly found in grasslands, savannas, and open woodlands. These habitats provide them with ample grazing opportunities and allow them to spot predators from a distance. In the image, the zebras are standing in a dirt area, which is not their natural habitat. This suggests that they might be in a zoo or a wildlife reserve, where they are provided with a controlled environment that mimics their natural habitat to some extent."
+  },
+  {
+    "id": 178,
+    "img_id": "2336094.jpg",
+    "question": "What is the purpose of the carrots and the spoon in the image?",
+    "short_answer": "The carrots are being prepared for cooking, and the spoon is used for stirring or serving the dish.",
+    "reasoned_answer": "The image shows a pile of carrots on a blue surface, and a spoon is placed nearby. The presence of the spoon suggests that it is being used for cooking or serving the dish, while the carrots are likely to be a part of the recipe."
+  },
+  {
+    "id": 179,
+    "img_id": "2336094.jpg",
+    "question": "What is the purpose of the carrots and the spoon in the image?",
+    "short_answer": "The carrots are being prepared for cooking, and the spoon is used for stirring or serving the dish.",
+    "reasoned_answer": "The image shows a pile of carrots on a blue surface, and a spoon is placed nearby. The presence of the spoon suggests that it is being used for cooking or serving the dish, while the carrots are likely to be a part of the recipe."
+  },
+  {
+    "id": 180,
+    "img_id": "2336094.jpg",
+    "question": "What is the purpose of the carrots and the spoon in the image?",
+    "short_answer": "The carrots are being prepared for cooking, and the spoon is used for stirring or serving the dish.",
+    "reasoned_answer": "The image shows a pile of carrots on a blue surface, and a spoon is placed nearby. The presence of the spoon suggests that it is being used for cooking or serving the dish, while the carrots are likely to be a part of the recipe."
+  },
+  {
+    "id": 181,
+    "img_id": "2340329.jpg",
+    "question": "What is the girl's favorite color for her kite?",
+    "short_answer": "Red and yellow",
+    "reasoned_answer": "The girl is seen kneeling down next to a red and yellow kite, which suggests that she might have a preference for these colors."
+  },
+  {
+    "id": 182,
+    "img_id": "2340329.jpg",
+    "question": "What is the girl's favorite color for her kite?",
+    "short_answer": "Red and yellow",
+    "reasoned_answer": "The girl is seen kneeling down next to a red and yellow kite, which suggests that she might have a preference for these colors."
+  },
+  {
+    "id": 183,
+    "img_id": "2340329.jpg",
+    "question": "What is the girl's favorite color for her kite?",
+    "short_answer": "Red and yellow",
+    "reasoned_answer": "The girl is seen kneeling down next to a red and yellow kite, which suggests that she might have a preference for these colors."
+  },
+  {
+    "id": 184,
+    "img_id": "2399456.jpg",
+    "question": "What is the purpose of the small airplane flying over the grassy field?",
+    "short_answer": "The small airplane is flying over the grassy field for a demonstration or practice.",
+    "reasoned_answer": "The airplane is a small, single-engine plane, which is typically used for recreational flying, flight training, or demonstrations. The presence of a person in the cockpit suggests that the pilot is either practicing their flying skills or demonstrating the capabilities of the aircraft."
+  },
+  {
+    "id": 185,
+    "img_id": "2399456.jpg",
+    "question": "What is the purpose of the small airplane flying over the grassy field?",
+    "short_answer": "The small airplane is flying over the grassy field for a demonstration or practice.",
+    "reasoned_answer": "The airplane is a small, single-engine plane, which is typically used for recreational flying, flight training, or demonstrations. The presence of a person in the cockpit suggests that the pilot is either practicing their flying skills or demonstrating the capabilities of the aircraft."
+  },
+  {
+    "id": 186,
+    "img_id": "2399456.jpg",
+    "question": "What is the purpose of the small airplane flying over the grassy field?",
+    "short_answer": "The small airplane is flying over the grassy field for a demonstration or practice.",
+    "reasoned_answer": "The airplane is a small, single-engine plane, which is typically used for recreational flying, flight training, or demonstrations. The presence of a person in the cockpit suggests that the pilot is either practicing their flying skills or demonstrating the capabilities of the aircraft."
+  },
+  {
+    "id": 187,
+    "img_id": "2336504.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a steam engine, which is a type of locomotive that uses steam power to move.",
+    "reasoned_answer": "The train is a steam engine, as indicated by the presence of a smokestack and the fact that it is an old-fashioned train. Steam engines were widely used in the past, but have largely been replaced by diesel and electric locomotives due to their efficiency and lower environmental impact."
+  },
+  {
+    "id": 188,
+    "img_id": "2336504.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a steam engine, which is a type of locomotive that uses steam power to move.",
+    "reasoned_answer": "The train is a steam engine, as indicated by the presence of a smokestack and the fact that it is an old-fashioned train. Steam engines were widely used in the past, but have largely been replaced by diesel and electric locomotives due to their efficiency and lower environmental impact."
+  },
+  {
+    "id": 189,
+    "img_id": "2336504.jpg",
+    "question": "What is the purpose of the train in the image?",
+    "short_answer": "The train in the image is a steam engine, which is a type of locomotive that uses steam power to move.",
+    "reasoned_answer": "The train is a steam engine, as indicated by the presence of a smokestack and the fact that it is an old-fashioned train. Steam engines were widely used in the past, but have largely been replaced by diesel and electric locomotives due to their efficiency and lower environmental impact."
+  },
+  {
+    "id": 190,
+    "img_id": "2340386.jpg",
+    "question": "What is the purpose of the two people wearing helmets while riding the motorcycle?",
+    "short_answer": "Safety",
+    "reasoned_answer": "Wearing helmets while riding a motorcycle is essential for safety as it protects the head from potential injuries in case of an accident."
+  },
+  {
+    "id": 191,
+    "img_id": "2340386.jpg",
+    "question": "What is the purpose of the two people wearing helmets while riding the motorcycle?",
+    "short_answer": "Safety",
+    "reasoned_answer": "Wearing helmets while riding a motorcycle is essential for safety as it protects the head from potential injuries in case of an accident."
+  },
+  {
+    "id": 192,
+    "img_id": "2340386.jpg",
+    "question": "What is the purpose of the two people wearing helmets while riding the motorcycle?",
+    "short_answer": "Safety",
+    "reasoned_answer": "Wearing helmets while riding a motorcycle is essential for safety as it protects the head from potential injuries in case of an accident."
+  },
+  {
+    "id": 193,
+    "img_id": "2384046.jpg",
+    "question": "What is the purpose of the benches along the sidewalk?",
+    "short_answer": "To provide seating for pedestrians.",
+    "reasoned_answer": "The benches are placed along the sidewalk to offer a place for people to sit, rest, and enjoy the surroundings, including the trees and the view of the street. This encourages social interaction and makes the area more inviting and comfortable for pedestrians."
+  },
+  {
+    "id": 194,
+    "img_id": "2384046.jpg",
+    "question": "What is the purpose of the benches along the sidewalk?",
+    "short_answer": "To provide seating for pedestrians.",
+    "reasoned_answer": "The benches are placed along the sidewalk to offer a place for people to sit, rest, and enjoy the surroundings, including the trees and the view of the street. This encourages social interaction and makes the area more inviting and comfortable for pedestrians."
+  },
+  {
+    "id": 195,
+    "img_id": "2384046.jpg",
+    "question": "What is the purpose of the benches along the sidewalk?",
+    "short_answer": "To provide seating for pedestrians.",
+    "reasoned_answer": "The benches are placed along the sidewalk to offer a place for people to sit, rest, and enjoy the surroundings, including the trees and the view of the street. This encourages social interaction and makes the area more inviting and comfortable for pedestrians."
+  },
+  {
+    "id": 196,
+    "img_id": "2329288.jpg",
+    "question": "What is the boy flying in the park?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is flying a kite in the park, as evidenced by the kite soaring in the sky and the boy walking towards it."
+  },
+  {
+    "id": 197,
+    "img_id": "2329288.jpg",
+    "question": "What is the boy flying in the park?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is flying a kite in the park, as evidenced by the kite soaring in the sky and the boy walking towards it."
+  },
+  {
+    "id": 198,
+    "img_id": "2329288.jpg",
+    "question": "What is the boy flying in the park?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is flying a kite in the park, as evidenced by the kite soaring in the sky and the boy walking towards it."
+  },
+  {
+    "id": 199,
+    "img_id": "2351307.jpg",
+    "question": "What is the brand of the skateboard being used by the skateboarder in the image?",
+    "short_answer": "Converse",
+    "reasoned_answer": "The skateboarder is performing a trick on a Converse skateboard."
+  },
+  {
+    "id": 200,
+    "img_id": "2351307.jpg",
+    "question": "What is the brand of the skateboard being used by the skateboarder in the image?",
+    "short_answer": "Converse",
+    "reasoned_answer": "The skateboarder is performing a trick on a Converse skateboard."
+  },
+  {
+    "id": 201,
+    "img_id": "2351307.jpg",
+    "question": "What is the brand of the skateboard being used by the skateboarder in the image?",
+    "short_answer": "Converse",
+    "reasoned_answer": "The skateboarder is performing a trick on a Converse skateboard."
+  },
+  {
+    "id": 202,
+    "img_id": "2385125.jpg",
+    "question": "What is the purpose of the double-decker bus in the image?",
+    "short_answer": "The purpose of the double-decker bus in the image is to provide public transportation for passengers.",
+    "reasoned_answer": "The bus is parked on a city street, and it is a red double-decker bus, which is a common mode of public transportation in some cities, particularly in London. These buses are designed to accommodate a large number of passengers, with seating on both the lower and upper decks, making them an efficient and popular choice for urban transportation."
+  },
+  {
+    "id": 203,
+    "img_id": "2385125.jpg",
+    "question": "What is the purpose of the double-decker bus in the image?",
+    "short_answer": "The purpose of the double-decker bus in the image is to provide public transportation for passengers.",
+    "reasoned_answer": "The bus is parked on a city street, and it is a red double-decker bus, which is a common mode of public transportation in some cities, particularly in London. These buses are designed to accommodate a large number of passengers, with seating on both the lower and upper decks, making them an efficient and popular choice for urban transportation."
+  },
+  {
+    "id": 204,
+    "img_id": "2385125.jpg",
+    "question": "What is the purpose of the double-decker bus in the image?",
+    "short_answer": "The purpose of the double-decker bus in the image is to provide public transportation for passengers.",
+    "reasoned_answer": "The bus is parked on a city street, and it is a red double-decker bus, which is a common mode of public transportation in some cities, particularly in London. These buses are designed to accommodate a large number of passengers, with seating on both the lower and upper decks, making them an efficient and popular choice for urban transportation."
+  },
+  {
+    "id": 205,
+    "img_id": "2395663.jpg",
+    "question": "What is the purpose of the white cart with the word \"Space\" on it?",
+    "short_answer": "The white cart with the word \"Space\" on it is a food cart.",
+    "reasoned_answer": "The cart is designed to serve food and beverages to customers, and the word \"Space\" on it likely refers to the name of the food cart business."
+  },
+  {
+    "id": 206,
+    "img_id": "2395663.jpg",
+    "question": "What is the purpose of the white cart with the word \"Space\" on it?",
+    "short_answer": "The white cart with the word \"Space\" on it is a food cart.",
+    "reasoned_answer": "The cart is designed to serve food and beverages to customers, and the word \"Space\" on it likely refers to the name of the food cart business."
+  },
+  {
+    "id": 207,
+    "img_id": "2395663.jpg",
+    "question": "What is the purpose of the white cart with the word \"Space\" on it?",
+    "short_answer": "The white cart with the word \"Space\" on it is a food cart.",
+    "reasoned_answer": "The cart is designed to serve food and beverages to customers, and the word \"Space\" on it likely refers to the name of the food cart business."
+  },
+  {
+    "id": 208,
+    "img_id": "2336625.jpg",
+    "question": "What is the destination of the double-decker bus in the image?",
+    "short_answer": "Central London",
+    "reasoned_answer": "The bus is heading to Central London, as indicated by the digital sign on the front of the bus."
+  },
+  {
+    "id": 209,
+    "img_id": "2336625.jpg",
+    "question": "What is the destination of the double-decker bus in the image?",
+    "short_answer": "Central London",
+    "reasoned_answer": "The bus is heading to Central London, as indicated by the digital sign on the front of the bus."
+  },
+  {
+    "id": 210,
+    "img_id": "2336625.jpg",
+    "question": "What is the destination of the double-decker bus in the image?",
+    "short_answer": "Central London",
+    "reasoned_answer": "The bus is heading to Central London, as indicated by the digital sign on the front of the bus."
+  },
+  {
+    "id": 211,
+    "img_id": "2395359.jpg",
+    "question": "What is the purpose of the toilet paper rolls being placed on top of the toilet?",
+    "short_answer": "To be easily accessible for users.",
+    "reasoned_answer": "The toilet paper rolls are placed on top of the toilet to ensure that they are within reach and easily accessible for users when needed. This placement is convenient and practical, as it allows users to quickly grab a roll without having to search for it in a cabinet or other storage area."
+  },
+  {
+    "id": 212,
+    "img_id": "2395359.jpg",
+    "question": "What is the purpose of the toilet paper rolls being placed on top of the toilet?",
+    "short_answer": "To be easily accessible for users.",
+    "reasoned_answer": "The toilet paper rolls are placed on top of the toilet to ensure that they are within reach and easily accessible for users when needed. This placement is convenient and practical, as it allows users to quickly grab a roll without having to search for it in a cabinet or other storage area."
+  },
+  {
+    "id": 213,
+    "img_id": "2395359.jpg",
+    "question": "What is the purpose of the toilet paper rolls being placed on top of the toilet?",
+    "short_answer": "To be easily accessible for users.",
+    "reasoned_answer": "The toilet paper rolls are placed on top of the toilet to ensure that they are within reach and easily accessible for users when needed. This placement is convenient and practical, as it allows users to quickly grab a roll without having to search for it in a cabinet or other storage area."
+  },
+  {
+    "id": 214,
+    "img_id": "2409526.jpg",
+    "question": "What is the primary purpose of the fence in the image?",
+    "short_answer": "To keep the horse contained within a designated area.",
+    "reasoned_answer": "The fence serves as a boundary to ensure the horse stays within the grassy field and does not wander off or get lost. It also provides a safe and controlled environment for the horse to graze and exercise."
+  },
+  {
+    "id": 215,
+    "img_id": "2409526.jpg",
+    "question": "What is the primary purpose of the fence in the image?",
+    "short_answer": "To keep the horse contained within a designated area.",
+    "reasoned_answer": "The fence serves as a boundary to ensure the horse stays within the grassy field and does not wander off or get lost. It also provides a safe and controlled environment for the horse to graze and exercise."
+  },
+  {
+    "id": 216,
+    "img_id": "2409526.jpg",
+    "question": "What is the primary purpose of the fence in the image?",
+    "short_answer": "To keep the horse contained within a designated area.",
+    "reasoned_answer": "The fence serves as a boundary to ensure the horse stays within the grassy field and does not wander off or get lost. It also provides a safe and controlled environment for the horse to graze and exercise."
+  },
+  {
+    "id": 217,
+    "img_id": "2364865.jpg",
+    "question": "What is the man's skill level in tennis?",
+    "short_answer": "He is a professional tennis player.",
+    "reasoned_answer": "The man is wearing a white shirt and black shorts, which are typical attire for tennis players. Additionally, he is swinging a tennis racket at a tennis ball, indicating that he is actively engaged in playing the sport. His posture and technique also suggest that he has experience and skill in the game."
+  },
+  {
+    "id": 218,
+    "img_id": "2364865.jpg",
+    "question": "What is the man's skill level in tennis?",
+    "short_answer": "He is a professional tennis player.",
+    "reasoned_answer": "The man is wearing a white shirt and black shorts, which are typical attire for tennis players. Additionally, he is swinging a tennis racket at a tennis ball, indicating that he is actively engaged in playing the sport. His posture and technique also suggest that he has experience and skill in the game."
+  },
+  {
+    "id": 219,
+    "img_id": "2364865.jpg",
+    "question": "What is the man's skill level in tennis?",
+    "short_answer": "He is a professional tennis player.",
+    "reasoned_answer": "The man is wearing a white shirt and black shorts, which are typical attire for tennis players. Additionally, he is swinging a tennis racket at a tennis ball, indicating that he is actively engaged in playing the sport. His posture and technique also suggest that he has experience and skill in the game."
+  },
+  {
+    "id": 220,
+    "img_id": "2353948.jpg",
+    "question": "What is the dog's name?",
+    "short_answer": "Max",
+    "reasoned_answer": "The dog is wearing a white shirt with the name Max on it."
+  },
+  {
+    "id": 221,
+    "img_id": "2353948.jpg",
+    "question": "What is the dog's name?",
+    "short_answer": "Max",
+    "reasoned_answer": "The dog is wearing a white shirt with the name Max on it."
+  },
+  {
+    "id": 222,
+    "img_id": "2353948.jpg",
+    "question": "What is the dog's name?",
+    "short_answer": "Max",
+    "reasoned_answer": "The dog is wearing a white shirt with the name Max on it."
+  },
+  {
+    "id": 223,
+    "img_id": "2335089.jpg",
+    "question": "What is the purpose of the fence surrounding the building?",
+    "short_answer": "Security",
+    "reasoned_answer": "The fence surrounding the building serves as a security measure to protect the property and its occupants from unauthorized access, theft, or vandalism."
+  },
+  {
+    "id": 224,
+    "img_id": "2335089.jpg",
+    "question": "What is the purpose of the fence surrounding the building?",
+    "short_answer": "Security",
+    "reasoned_answer": "The fence surrounding the building serves as a security measure to protect the property and its occupants from unauthorized access, theft, or vandalism."
+  },
+  {
+    "id": 225,
+    "img_id": "2335089.jpg",
+    "question": "What is the purpose of the fence surrounding the building?",
+    "short_answer": "Security",
+    "reasoned_answer": "The fence surrounding the building serves as a security measure to protect the property and its occupants from unauthorized access, theft, or vandalism."
+  },
+  {
+    "id": 226,
+    "img_id": "1592305.jpg",
+    "question": "What is the name of the street where the traffic is stopped?",
+    "short_answer": "Grodan Furniture Carpets.",
+    "reasoned_answer": "The name of the street is visible on the side of a building in the image."
+  },
+  {
+    "id": 227,
+    "img_id": "1592305.jpg",
+    "question": "What is the name of the street where the traffic is stopped?",
+    "short_answer": "Grodan Furniture Carpets.",
+    "reasoned_answer": "The name of the street is visible on the side of a building in the image."
+  },
+  {
+    "id": 228,
+    "img_id": "1592305.jpg",
+    "question": "What is the name of the street where the traffic is stopped?",
+    "short_answer": "Grodan Furniture Carpets.",
+    "reasoned_answer": "The name of the street is visible on the side of a building in the image."
+  },
+  {
+    "id": 229,
+    "img_id": "2385401.jpg",
+    "question": "What is the primary purpose of the cow in the image?",
+    "short_answer": "Grazing",
+    "reasoned_answer": "The cow is standing in a grassy field, which is its natural habitat for grazing on grass."
+  },
+  {
+    "id": 230,
+    "img_id": "2385401.jpg",
+    "question": "What is the primary purpose of the cow in the image?",
+    "short_answer": "Grazing",
+    "reasoned_answer": "The cow is standing in a grassy field, which is its natural habitat for grazing on grass."
+  },
+  {
+    "id": 231,
+    "img_id": "2385401.jpg",
+    "question": "What is the primary purpose of the cow in the image?",
+    "short_answer": "Grazing",
+    "reasoned_answer": "The cow is standing in a grassy field, which is its natural habitat for grazing on grass."
+  },
+  {
+    "id": 232,
+    "img_id": "2354998.jpg",
+    "question": "What is the boy's facial expression while talking on the phone?",
+    "short_answer": "The boy has a frowning facial expression while talking on the phone.",
+    "reasoned_answer": "The boy's facial expression shows that he is not happy or satisfied with the conversation he is having on the phone."
+  },
+  {
+    "id": 233,
+    "img_id": "2354998.jpg",
+    "question": "What is the boy's facial expression while talking on the phone?",
+    "short_answer": "The boy has a frowning facial expression while talking on the phone.",
+    "reasoned_answer": "The boy's facial expression shows that he is not happy or satisfied with the conversation he is having on the phone."
+  },
+  {
+    "id": 234,
+    "img_id": "2354998.jpg",
+    "question": "What is the boy's facial expression while talking on the phone?",
+    "short_answer": "The boy has a frowning facial expression while talking on the phone.",
+    "reasoned_answer": "The boy's facial expression shows that he is not happy or satisfied with the conversation he is having on the phone."
+  },
+  {
+    "id": 235,
+    "img_id": "2387420.jpg",
+    "question": "What is the dessert on the plate?",
+    "short_answer": "Cake",
+    "reasoned_answer": "The dessert on the plate is a slice of cake."
+  },
+  {
+    "id": 236,
+    "img_id": "2387420.jpg",
+    "question": "What is the dessert on the plate?",
+    "short_answer": "Cake",
+    "reasoned_answer": "The dessert on the plate is a slice of cake."
+  },
+  {
+    "id": 237,
+    "img_id": "2387420.jpg",
+    "question": "What is the dessert on the plate?",
+    "short_answer": "Cake",
+    "reasoned_answer": "The dessert on the plate is a slice of cake."
+  },
+  {
+    "id": 238,
+    "img_id": "2383227.jpg",
+    "question": "What is the dog playing with in the snow?",
+    "short_answer": "Frisbee",
+    "reasoned_answer": "The dog is playing with a frisbee in the snow, as it is a popular and enjoyable outdoor activity for dogs. The frisbee is red, which makes it easily visible against the white snow. The dog is actively engaged in the game, running and holding the frisbee in its mouth, which indicates that it is having fun and exercising at the same time."
+  },
+  {
+    "id": 239,
+    "img_id": "2383227.jpg",
+    "question": "What is the dog playing with in the snow?",
+    "short_answer": "Frisbee",
+    "reasoned_answer": "The dog is playing with a frisbee in the snow, as it is a popular and enjoyable outdoor activity for dogs. The frisbee is red, which makes it easily visible against the white snow. The dog is actively engaged in the game, running and holding the frisbee in its mouth, which indicates that it is having fun and exercising at the same time."
+  },
+  {
+    "id": 240,
+    "img_id": "2383227.jpg",
+    "question": "What is the dog playing with in the snow?",
+    "short_answer": "Frisbee",
+    "reasoned_answer": "The dog is playing with a frisbee in the snow, as it is a popular and enjoyable outdoor activity for dogs. The frisbee is red, which makes it easily visible against the white snow. The dog is actively engaged in the game, running and holding the frisbee in its mouth, which indicates that it is having fun and exercising at the same time."
+  },
+  {
+    "id": 241,
+    "img_id": "2355470.jpg",
+    "question": "What is the behavior of the two bears in the water?",
+    "short_answer": "The two bears are playing and splashing in the water.",
+    "reasoned_answer": "The bears are interacting with each other, with one bear opening its mouth and the other bear making a face, which suggests that they are engaging in playful behavior. Additionally, their body language and the fact that they are in the water together indicate that they are enjoying their time together."
+  },
+  {
+    "id": 242,
+    "img_id": "2355470.jpg",
+    "question": "What is the behavior of the two bears in the water?",
+    "short_answer": "The two bears are playing and splashing in the water.",
+    "reasoned_answer": "The bears are interacting with each other, with one bear opening its mouth and the other bear making a face, which suggests that they are engaging in playful behavior. Additionally, their body language and the fact that they are in the water together indicate that they are enjoying their time together."
+  },
+  {
+    "id": 243,
+    "img_id": "2355470.jpg",
+    "question": "What is the behavior of the two bears in the water?",
+    "short_answer": "The two bears are playing and splashing in the water.",
+    "reasoned_answer": "The bears are interacting with each other, with one bear opening its mouth and the other bear making a face, which suggests that they are engaging in playful behavior. Additionally, their body language and the fact that they are in the water together indicate that they are enjoying their time together."
+  },
+  {
+    "id": 244,
+    "img_id": "2385962.jpg",
+    "question": "What is the image of?",
+    "short_answer": "A person surfing on a wave.",
+    "reasoned_answer": "The image shows a person riding a wave on a surfboard, which is a common activity associated with surfing."
+  },
+  {
+    "id": 245,
+    "img_id": "2385962.jpg",
+    "question": "What is the image of?",
+    "short_answer": "A person surfing on a wave.",
+    "reasoned_answer": "The image shows a person riding a wave on a surfboard, which is a common activity associated with surfing."
+  },
+  {
+    "id": 246,
+    "img_id": "2385962.jpg",
+    "question": "What is the image of?",
+    "short_answer": "A person surfing on a wave.",
+    "reasoned_answer": "The image shows a person riding a wave on a surfboard, which is a common activity associated with surfing."
+  },
+  {
+    "id": 247,
+    "img_id": "2357633.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Broccoli",
+    "reasoned_answer": "The dish is primarily composed of broccoli, with other vegetables such as peppers and potatoes."
+  },
+  {
+    "id": 248,
+    "img_id": "2357633.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Broccoli",
+    "reasoned_answer": "The dish is primarily composed of broccoli, with other vegetables such as peppers and potatoes."
+  },
+  {
+    "id": 249,
+    "img_id": "2357633.jpg",
+    "question": "What is the main ingredient in the dish?",
+    "short_answer": "Broccoli",
+    "reasoned_answer": "The dish is primarily composed of broccoli, with other vegetables such as peppers and potatoes."
+  },
+  {
+    "id": 250,
+    "img_id": "2325709.jpg",
+    "question": "What is the age of the child in the image?",
+    "short_answer": "2 years old",
+    "reasoned_answer": "The child is described as a \"little boy\" and \"young child,\" which suggests that he is likely around 2 years old."
+  },
+  {
+    "id": 251,
+    "img_id": "2325709.jpg",
+    "question": "What is the age of the child in the image?",
+    "short_answer": "2 years old",
+    "reasoned_answer": "The child is described as a \"little boy\" and \"young child,\" which suggests that he is likely around 2 years old."
+  },
+  {
+    "id": 252,
+    "img_id": "2325709.jpg",
+    "question": "What is the age of the child in the image?",
+    "short_answer": "2 years old",
+    "reasoned_answer": "The child is described as a \"little boy\" and \"young child,\" which suggests that he is likely around 2 years old."
+  },
+  {
+    "id": 253,
+    "img_id": "2372106.jpg",
+    "question": "What is the purpose of the gondola ride in the image?",
+    "short_answer": "The purpose of the gondola ride in the image is to provide a tourist attraction and a unique way to explore the city.",
+    "reasoned_answer": "The image shows a group of people riding in a gondola boat, which is a traditional Venetian boat used for transportation and sightseeing. The gondola ride allows tourists to experience the city's canals and waterways from a different perspective, while also providing a leisurely and romantic experience."
+  },
+  {
+    "id": 254,
+    "img_id": "2372106.jpg",
+    "question": "What is the purpose of the gondola ride in the image?",
+    "short_answer": "The purpose of the gondola ride in the image is to provide a tourist attraction and a unique way to explore the city.",
+    "reasoned_answer": "The image shows a group of people riding in a gondola boat, which is a traditional Venetian boat used for transportation and sightseeing. The gondola ride allows tourists to experience the city's canals and waterways from a different perspective, while also providing a leisurely and romantic experience."
+  },
+  {
+    "id": 255,
+    "img_id": "2372106.jpg",
+    "question": "What is the purpose of the gondola ride in the image?",
+    "short_answer": "The purpose of the gondola ride in the image is to provide a tourist attraction and a unique way to explore the city.",
+    "reasoned_answer": "The image shows a group of people riding in a gondola boat, which is a traditional Venetian boat used for transportation and sightseeing. The gondola ride allows tourists to experience the city's canals and waterways from a different perspective, while also providing a leisurely and romantic experience."
+  },
+  {
+    "id": 256,
+    "img_id": "2402571.jpg",
+    "question": "What are the two people sitting on a bench doing?",
+    "short_answer": "The two people sitting on a bench are reading newspapers.",
+    "reasoned_answer": "The image shows an elderly couple sitting on a bench, with one of them holding a newspaper. This suggests that they are engaged in reading the newspaper, which is a common activity for people to pass the time or stay informed about current events."
+  },
+  {
+    "id": 257,
+    "img_id": "2402571.jpg",
+    "question": "What are the two people sitting on a bench doing?",
+    "short_answer": "The two people sitting on a bench are reading newspapers.",
+    "reasoned_answer": "The image shows an elderly couple sitting on a bench, with one of them holding a newspaper. This suggests that they are engaged in reading the newspaper, which is a common activity for people to pass the time or stay informed about current events."
+  },
+  {
+    "id": 258,
+    "img_id": "2402571.jpg",
+    "question": "What are the two people sitting on a bench doing?",
+    "short_answer": "The two people sitting on a bench are reading newspapers.",
+    "reasoned_answer": "The image shows an elderly couple sitting on a bench, with one of them holding a newspaper. This suggests that they are engaged in reading the newspaper, which is a common activity for people to pass the time or stay informed about current events."
+  },
+  {
+    "id": 259,
+    "img_id": "2358661.jpg",
+    "question": "What is the purpose of the boat in the water?",
+    "short_answer": "The boat is being used for fishing.",
+    "reasoned_answer": "The boat is equipped with fishing gear, including a net, and is floating in the water."
+  },
+  {
+    "id": 260,
+    "img_id": "2358661.jpg",
+    "question": "What is the purpose of the boat in the water?",
+    "short_answer": "The boat is being used for fishing.",
+    "reasoned_answer": "The boat is equipped with fishing gear, including a net, and is floating in the water."
+  },
+  {
+    "id": 261,
+    "img_id": "2358661.jpg",
+    "question": "What is the purpose of the boat in the water?",
+    "short_answer": "The boat is being used for fishing.",
+    "reasoned_answer": "The boat is equipped with fishing gear, including a net, and is floating in the water."
+  },
+  {
+    "id": 262,
+    "img_id": "2332474.jpg",
+    "question": "What is the color of the bus in the image?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The bus in the image is purple."
+  },
+  {
+    "id": 263,
+    "img_id": "2332474.jpg",
+    "question": "What is the color of the bus in the image?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The bus in the image is purple."
+  },
+  {
+    "id": 264,
+    "img_id": "2332474.jpg",
+    "question": "What is the color of the bus in the image?",
+    "short_answer": "Purple",
+    "reasoned_answer": "The bus in the image is purple."
+  },
+  {
+    "id": 265,
+    "img_id": "2392939.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "People are walking through an airport with their luggage.",
+    "reasoned_answer": "The image shows a group of people walking through an airport, carrying suitcases and backpacks, which indicates that they are either arriving or departing for a trip."
+  },
+  {
+    "id": 266,
+    "img_id": "2392939.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "People are walking through an airport with their luggage.",
+    "reasoned_answer": "The image shows a group of people walking through an airport, carrying suitcases and backpacks, which indicates that they are either arriving or departing for a trip."
+  },
+  {
+    "id": 267,
+    "img_id": "2392939.jpg",
+    "question": "What is the main activity taking place in the image?",
+    "short_answer": "People are walking through an airport with their luggage.",
+    "reasoned_answer": "The image shows a group of people walking through an airport, carrying suitcases and backpacks, which indicates that they are either arriving or departing for a trip."
+  },
+  {
+    "id": 268,
+    "img_id": "2353025.jpg",
+    "question": "What is the man's shirt color?",
+    "short_answer": "White",
+    "reasoned_answer": "The man is wearing a white shirt."
+  },
+  {
+    "id": 269,
+    "img_id": "2353025.jpg",
+    "question": "What is the man's shirt color?",
+    "short_answer": "White",
+    "reasoned_answer": "The man is wearing a white shirt."
+  },
+  {
+    "id": 270,
+    "img_id": "2353025.jpg",
+    "question": "What is the man's shirt color?",
+    "short_answer": "White",
+    "reasoned_answer": "The man is wearing a white shirt."
+  },
+  {
+    "id": 271,
+    "img_id": "1592308.jpg",
+    "question": "What is the man wearing gloves while preparing food?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing gloves while preparing food to maintain hygiene and prevent contamination."
+  },
+  {
+    "id": 272,
+    "img_id": "1592308.jpg",
+    "question": "What is the man wearing gloves while preparing food?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing gloves while preparing food to maintain hygiene and prevent contamination."
+  },
+  {
+    "id": 273,
+    "img_id": "1592308.jpg",
+    "question": "What is the man wearing gloves while preparing food?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing gloves while preparing food to maintain hygiene and prevent contamination."
+  },
+  {
+    "id": 274,
+    "img_id": "2375001.jpg",
+    "question": "What is the breed of sheep in the image?",
+    "short_answer": "Merino",
+    "reasoned_answer": "The sheep in the image have long, curly fleece, which is a characteristic of Merino sheep."
+  },
+  {
+    "id": 275,
+    "img_id": "2375001.jpg",
+    "question": "What is the breed of sheep in the image?",
+    "short_answer": "Merino",
+    "reasoned_answer": "The sheep in the image have long, curly fleece, which is a characteristic of Merino sheep."
+  },
+  {
+    "id": 276,
+    "img_id": "2375001.jpg",
+    "question": "What is the breed of sheep in the image?",
+    "short_answer": "Merino",
+    "reasoned_answer": "The sheep in the image have long, curly fleece, which is a characteristic of Merino sheep."
+  },
+  {
+    "id": 277,
+    "img_id": "2325014.jpg",
+    "question": "What is the purpose of the bananas and jars of pickles on the table?",
+    "short_answer": "The bananas and jars of pickles are being displayed for sale.",
+    "reasoned_answer": "The bananas and jars of pickles are arranged on a table, which suggests that they are being offered for purchase. The presence of a snowboard in the image also indicates that this might be a winter sports event or a store selling winter sports equipment, where food and pickles could be a part of the product offerings."
+  },
+  {
+    "id": 278,
+    "img_id": "2325014.jpg",
+    "question": "What is the purpose of the bananas and jars of pickles on the table?",
+    "short_answer": "The bananas and jars of pickles are being displayed for sale.",
+    "reasoned_answer": "The bananas and jars of pickles are arranged on a table, which suggests that they are being offered for purchase. The presence of a snowboard in the image also indicates that this might be a winter sports event or a store selling winter sports equipment, where food and pickles could be a part of the product offerings."
+  },
+  {
+    "id": 279,
+    "img_id": "2325014.jpg",
+    "question": "What is the purpose of the bananas and jars of pickles on the table?",
+    "short_answer": "The bananas and jars of pickles are being displayed for sale.",
+    "reasoned_answer": "The bananas and jars of pickles are arranged on a table, which suggests that they are being offered for purchase. The presence of a snowboard in the image also indicates that this might be a winter sports event or a store selling winter sports equipment, where food and pickles could be a part of the product offerings."
+  },
+  {
+    "id": 280,
+    "img_id": "2367942.jpg",
+    "question": "What is the purpose of the plane flying in the sky?",
+    "short_answer": "The plane is flying in the sky for a demonstration or an airshow.",
+    "reasoned_answer": "The plane is an old-fashioned military aircraft, which suggests that it might be participating in an airshow or a demonstration event to showcase its capabilities and historical significance."
+  },
+  {
+    "id": 281,
+    "img_id": "2367942.jpg",
+    "question": "What is the purpose of the plane flying in the sky?",
+    "short_answer": "The plane is flying in the sky for a demonstration or an airshow.",
+    "reasoned_answer": "The plane is an old-fashioned military aircraft, which suggests that it might be participating in an airshow or a demonstration event to showcase its capabilities and historical significance."
+  },
+  {
+    "id": 282,
+    "img_id": "2367942.jpg",
+    "question": "What is the purpose of the plane flying in the sky?",
+    "short_answer": "The plane is flying in the sky for a demonstration or an airshow.",
+    "reasoned_answer": "The plane is an old-fashioned military aircraft, which suggests that it might be participating in an airshow or a demonstration event to showcase its capabilities and historical significance."
+  },
+  {
+    "id": 283,
+    "img_id": "2376574.jpg",
+    "question": "What is the man doing at the desk?",
+    "short_answer": "The man is working on a laptop and holding a piece of paper.",
+    "reasoned_answer": "The man is sitting at a desk with a laptop, papers, and a cup, which suggests that he is engaged in some work or study activity. The presence of the paper and the cup indicates that he might be taking notes or referring to some written material while using the laptop."
+  },
+  {
+    "id": 284,
+    "img_id": "2376574.jpg",
+    "question": "What is the man doing at the desk?",
+    "short_answer": "The man is working on a laptop and holding a piece of paper.",
+    "reasoned_answer": "The man is sitting at a desk with a laptop, papers, and a cup, which suggests that he is engaged in some work or study activity. The presence of the paper and the cup indicates that he might be taking notes or referring to some written material while using the laptop."
+  },
+  {
+    "id": 285,
+    "img_id": "2376574.jpg",
+    "question": "What is the man doing at the desk?",
+    "short_answer": "The man is working on a laptop and holding a piece of paper.",
+    "reasoned_answer": "The man is sitting at a desk with a laptop, papers, and a cup, which suggests that he is engaged in some work or study activity. The presence of the paper and the cup indicates that he might be taking notes or referring to some written material while using the laptop."
+  },
+  {
+    "id": 286,
+    "img_id": "2414742.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand."
+  },
+  {
+    "id": 287,
+    "img_id": "2414742.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand."
+  },
+  {
+    "id": 288,
+    "img_id": "2414742.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand."
+  },
+  {
+    "id": 289,
+    "img_id": "2363769.jpg",
+    "question": "What is the name of the book that the panda bear is sitting on?",
+    "short_answer": "The book is called \"Panda Bear\".",
+    "reasoned_answer": "The panda bear is sitting on a book called \"Panda Bear\", which is a children's book about pandas."
+  },
+  {
+    "id": 290,
+    "img_id": "2363769.jpg",
+    "question": "What is the name of the book that the panda bear is sitting on?",
+    "short_answer": "The book is called \"Panda Bear\".",
+    "reasoned_answer": "The panda bear is sitting on a book called \"Panda Bear\", which is a children's book about pandas."
+  },
+  {
+    "id": 291,
+    "img_id": "2363769.jpg",
+    "question": "What is the name of the book that the panda bear is sitting on?",
+    "short_answer": "The book is called \"Panda Bear\".",
+    "reasoned_answer": "The panda bear is sitting on a book called \"Panda Bear\", which is a children's book about pandas."
+  },
+  {
+    "id": 292,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on a rack?",
+    "short_answer": "To organize and display them for easy access and selection.",
+    "reasoned_answer": "Hanging ties on a rack allows for better visibility and organization, making it easier for people to choose the tie they want to wear. It also helps to keep the ties clean and wrinkle-free, as they are not folded or stacked on top of each other."
+  },
+  {
+    "id": 293,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on a rack?",
+    "short_answer": "To organize and display them for easy access and selection.",
+    "reasoned_answer": "Hanging ties on a rack allows for better visibility and organization, making it easier for people to choose the tie they want to wear. It also helps to keep the ties clean and wrinkle-free, as they are not folded or stacked on top of each other."
+  },
+  {
+    "id": 294,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on a rack?",
+    "short_answer": "To organize and display them for easy access and selection.",
+    "reasoned_answer": "Hanging ties on a rack allows for better visibility and organization, making it easier for people to choose the tie they want to wear. It also helps to keep the ties clean and wrinkle-free, as they are not folded or stacked on top of each other."
+  },
+  {
+    "id": 295,
+    "img_id": "3046.jpg",
+    "question": "What is the name of the pub in the image?",
+    "short_answer": "The Daily Now",
+    "reasoned_answer": "The name of the pub is visible on the sign above the crowd of people."
+  },
+  {
+    "id": 296,
+    "img_id": "3046.jpg",
+    "question": "What is the name of the pub in the image?",
+    "short_answer": "The Daily Now",
+    "reasoned_answer": "The name of the pub is visible on the sign above the crowd of people."
+  },
+  {
+    "id": 297,
+    "img_id": "3046.jpg",
+    "question": "What is the name of the pub in the image?",
+    "short_answer": "The Daily Now",
+    "reasoned_answer": "The name of the pub is visible on the sign above the crowd of people."
+  },
+  {
+    "id": 298,
+    "img_id": "2356613.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Painter",
+    "reasoned_answer": "The man is holding a paint bucket and talking on a cell phone, which suggests that he is a painter."
+  },
+  {
+    "id": 299,
+    "img_id": "2356613.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Painter",
+    "reasoned_answer": "The man is holding a paint bucket and talking on a cell phone, which suggests that he is a painter."
+  },
+  {
+    "id": 300,
+    "img_id": "2356613.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Painter",
+    "reasoned_answer": "The man is holding a paint bucket and talking on a cell phone, which suggests that he is a painter."
+  },
+  {
+    "id": 301,
+    "img_id": "2358937.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Retired",
+    "reasoned_answer": "The man is wearing a plaid shirt and jeans, which suggests a casual and relaxed lifestyle. He is also standing in a kitchen, which implies that he might be engaged in household activities such as cooking or cleaning. However, there is no clear indication of his occupation from the image alone."
+  },
+  {
+    "id": 302,
+    "img_id": "2358937.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Retired",
+    "reasoned_answer": "The man is wearing a plaid shirt and jeans, which suggests a casual and relaxed lifestyle. He is also standing in a kitchen, which implies that he might be engaged in household activities such as cooking or cleaning. However, there is no clear indication of his occupation from the image alone."
+  },
+  {
+    "id": 303,
+    "img_id": "2358937.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Retired",
+    "reasoned_answer": "The man is wearing a plaid shirt and jeans, which suggests a casual and relaxed lifestyle. He is also standing in a kitchen, which implies that he might be engaged in household activities such as cooking or cleaning. However, there is no clear indication of his occupation from the image alone."
+  },
+  {
+    "id": 304,
+    "img_id": "2364094.jpg",
+    "question": "What is the color of the toilet seat?",
+    "short_answer": "White",
+    "reasoned_answer": "The toilet seat is white, which is a common color for toilet seats to provide a clean and hygienic appearance."
+  },
+  {
+    "id": 305,
+    "img_id": "2364094.jpg",
+    "question": "What is the color of the toilet seat?",
+    "short_answer": "White",
+    "reasoned_answer": "The toilet seat is white, which is a common color for toilet seats to provide a clean and hygienic appearance."
+  },
+  {
+    "id": 306,
+    "img_id": "2364094.jpg",
+    "question": "What is the color of the toilet seat?",
+    "short_answer": "White",
+    "reasoned_answer": "The toilet seat is white, which is a common color for toilet seats to provide a clean and hygienic appearance."
+  },
+  {
+    "id": 307,
+    "img_id": "2326805.jpg",
+    "question": "What is the purpose of the rug in the bathroom?",
+    "short_answer": "To provide comfort and warmth on the cold floor.",
+    "reasoned_answer": "The rug is placed on the floor of the bathroom, which is a cold and wet environment. The rug helps to provide comfort and warmth to the person standing on the floor, making the bathroom experience more pleasant."
+  },
+  {
+    "id": 308,
+    "img_id": "2326805.jpg",
+    "question": "What is the purpose of the rug in the bathroom?",
+    "short_answer": "To provide comfort and warmth on the cold floor.",
+    "reasoned_answer": "The rug is placed on the floor of the bathroom, which is a cold and wet environment. The rug helps to provide comfort and warmth to the person standing on the floor, making the bathroom experience more pleasant."
+  },
+  {
+    "id": 309,
+    "img_id": "2326805.jpg",
+    "question": "What is the purpose of the rug in the bathroom?",
+    "short_answer": "To provide comfort and warmth on the cold floor.",
+    "reasoned_answer": "The rug is placed on the floor of the bathroom, which is a cold and wet environment. The rug helps to provide comfort and warmth to the person standing on the floor, making the bathroom experience more pleasant."
+  },
+  {
+    "id": 310,
+    "img_id": "2363482.jpg",
+    "question": "What is the color of the train engine in the image?",
+    "short_answer": "Orange and blue.",
+    "reasoned_answer": "The train engine in the image is orange and blue."
+  },
+  {
+    "id": 311,
+    "img_id": "2363482.jpg",
+    "question": "What is the color of the train engine in the image?",
+    "short_answer": "Orange and blue.",
+    "reasoned_answer": "The train engine in the image is orange and blue."
+  },
+  {
+    "id": 312,
+    "img_id": "2363482.jpg",
+    "question": "What is the color of the train engine in the image?",
+    "short_answer": "Orange and blue.",
+    "reasoned_answer": "The train engine in the image is orange and blue."
+  },
+  {
+    "id": 313,
+    "img_id": "2346925.jpg",
+    "question": "What is the couple's favorite type of beer?",
+    "short_answer": "Lager",
+    "reasoned_answer": "The couple is posing in front of a bar with multiple bottles of beer, and they are smiling, suggesting they enjoy the beer they are drinking. Since they are posing in front of a bar, it is likely that they have a preference for the beer available at the bar, which is lager."
+  },
+  {
+    "id": 314,
+    "img_id": "2346925.jpg",
+    "question": "What is the couple's favorite type of beer?",
+    "short_answer": "Lager",
+    "reasoned_answer": "The couple is posing in front of a bar with multiple bottles of beer, and they are smiling, suggesting they enjoy the beer they are drinking. Since they are posing in front of a bar, it is likely that they have a preference for the beer available at the bar, which is lager."
+  },
+  {
+    "id": 315,
+    "img_id": "2346925.jpg",
+    "question": "What is the couple's favorite type of beer?",
+    "short_answer": "Lager",
+    "reasoned_answer": "The couple is posing in front of a bar with multiple bottles of beer, and they are smiling, suggesting they enjoy the beer they are drinking. Since they are posing in front of a bar, it is likely that they have a preference for the beer available at the bar, which is lager."
+  },
+  {
+    "id": 316,
+    "img_id": "2414333.jpg",
+    "question": "What is the purpose of the trash can in the bathroom?",
+    "short_answer": "To dispose of waste materials.",
+    "reasoned_answer": "The trash can in the bathroom serves as a convenient and designated place for disposing of waste materials, such as used tissues, empty product containers, or other bathroom waste. This helps maintain cleanliness and hygiene in the bathroom."
+  },
+  {
+    "id": 317,
+    "img_id": "2414333.jpg",
+    "question": "What is the purpose of the trash can in the bathroom?",
+    "short_answer": "To dispose of waste materials.",
+    "reasoned_answer": "The trash can in the bathroom serves as a convenient and designated place for disposing of waste materials, such as used tissues, empty product containers, or other bathroom waste. This helps maintain cleanliness and hygiene in the bathroom."
+  },
+  {
+    "id": 318,
+    "img_id": "2414333.jpg",
+    "question": "What is the purpose of the trash can in the bathroom?",
+    "short_answer": "To dispose of waste materials.",
+    "reasoned_answer": "The trash can in the bathroom serves as a convenient and designated place for disposing of waste materials, such as used tissues, empty product containers, or other bathroom waste. This helps maintain cleanliness and hygiene in the bathroom."
+  },
+  {
+    "id": 319,
+    "img_id": "2367754.jpg",
+    "question": "What is the purpose of the fire hydrant in the image?",
+    "short_answer": "The fire hydrant in the image is a decorative piece, not functional.",
+    "reasoned_answer": "The fire hydrant is painted red and is located in a circular driveway with a tree and a flag. It is not connected to any water supply, and its purpose is to serve as an artistic element in the landscape design."
+  },
+  {
+    "id": 320,
+    "img_id": "2367754.jpg",
+    "question": "What is the purpose of the fire hydrant in the image?",
+    "short_answer": "The fire hydrant in the image is a decorative piece, not functional.",
+    "reasoned_answer": "The fire hydrant is painted red and is located in a circular driveway with a tree and a flag. It is not connected to any water supply, and its purpose is to serve as an artistic element in the landscape design."
+  },
+  {
+    "id": 321,
+    "img_id": "2367754.jpg",
+    "question": "What is the purpose of the fire hydrant in the image?",
+    "short_answer": "The fire hydrant in the image is a decorative piece, not functional.",
+    "reasoned_answer": "The fire hydrant is painted red and is located in a circular driveway with a tree and a flag. It is not connected to any water supply, and its purpose is to serve as an artistic element in the landscape design."
+  },
+  {
+    "id": 322,
+    "img_id": "2410168.jpg",
+    "question": "What is the boy holding in his hand?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is holding a kite in his hand, which is connected to a string."
+  },
+  {
+    "id": 323,
+    "img_id": "2410168.jpg",
+    "question": "What is the boy holding in his hand?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is holding a kite in his hand, which is connected to a string."
+  },
+  {
+    "id": 324,
+    "img_id": "2410168.jpg",
+    "question": "What is the boy holding in his hand?",
+    "short_answer": "Kite",
+    "reasoned_answer": "The boy is holding a kite in his hand, which is connected to a string."
+  },
+  {
+    "id": 325,
+    "img_id": "2336615.jpg",
+    "question": "What is the surfer's skill level?",
+    "short_answer": "Intermediate",
+    "reasoned_answer": "The surfer is riding a wave on a surfboard, which suggests that they have some experience and skill in surfing. However, it is not possible to determine their exact skill level from the image alone."
+  },
+  {
+    "id": 326,
+    "img_id": "2336615.jpg",
+    "question": "What is the surfer's skill level?",
+    "short_answer": "Intermediate",
+    "reasoned_answer": "The surfer is riding a wave on a surfboard, which suggests that they have some experience and skill in surfing. However, it is not possible to determine their exact skill level from the image alone."
+  },
+  {
+    "id": 327,
+    "img_id": "2336615.jpg",
+    "question": "What is the surfer's skill level?",
+    "short_answer": "Intermediate",
+    "reasoned_answer": "The surfer is riding a wave on a surfboard, which suggests that they have some experience and skill in surfing. However, it is not possible to determine their exact skill level from the image alone."
+  },
+  {
+    "id": 328,
+    "img_id": "2403185.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "He is a businessman.",
+    "reasoned_answer": "The man is wearing a watch and talking on a cell phone, which suggests that he is likely involved in a professional occupation, such as a businessman."
+  },
+  {
+    "id": 329,
+    "img_id": "2403185.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "He is a businessman.",
+    "reasoned_answer": "The man is wearing a watch and talking on a cell phone, which suggests that he is likely involved in a professional occupation, such as a businessman."
+  },
+  {
+    "id": 330,
+    "img_id": "2403185.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "He is a businessman.",
+    "reasoned_answer": "The man is wearing a watch and talking on a cell phone, which suggests that he is likely involved in a professional occupation, such as a businessman."
+  },
+  {
+    "id": 331,
+    "img_id": "2340412.jpg",
+    "question": "What is the bear doing in the image?",
+    "short_answer": "The bear is laying on top of a large rock.",
+    "reasoned_answer": "The bear is resting or relaxing on the rock, which provides a comfortable and elevated surface for it to lounge on."
+  },
+  {
+    "id": 332,
+    "img_id": "2340412.jpg",
+    "question": "What is the bear doing in the image?",
+    "short_answer": "The bear is laying on top of a large rock.",
+    "reasoned_answer": "The bear is resting or relaxing on the rock, which provides a comfortable and elevated surface for it to lounge on."
+  },
+  {
+    "id": 333,
+    "img_id": "2340412.jpg",
+    "question": "What is the bear doing in the image?",
+    "short_answer": "The bear is laying on top of a large rock.",
+    "reasoned_answer": "The bear is resting or relaxing on the rock, which provides a comfortable and elevated surface for it to lounge on."
+  },
+  {
+    "id": 334,
+    "img_id": "2370561.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional work environment, such as a business setting."
+  },
+  {
+    "id": 335,
+    "img_id": "2370561.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional work environment, such as a business setting."
+  },
+  {
+    "id": 336,
+    "img_id": "2370561.jpg",
+    "question": "What is the man's profession?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional work environment, such as a business setting."
+  },
+  {
+    "id": 337,
+    "img_id": "2318936.jpg",
+    "question": "How many people are at the beach?",
+    "short_answer": "There are many people at the beach.",
+    "reasoned_answer": "The image shows a large crowd of people gathered on the beach, with many of them sitting under umbrellas and on towels."
+  },
+  {
+    "id": 338,
+    "img_id": "2318936.jpg",
+    "question": "How many people are at the beach?",
+    "short_answer": "There are many people at the beach.",
+    "reasoned_answer": "The image shows a large crowd of people gathered on the beach, with many of them sitting under umbrellas and on towels."
+  },
+  {
+    "id": 339,
+    "img_id": "2318936.jpg",
+    "question": "How many people are at the beach?",
+    "short_answer": "There are many people at the beach.",
+    "reasoned_answer": "The image shows a large crowd of people gathered on the beach, with many of them sitting under umbrellas and on towels."
+  },
+  {
+    "id": 340,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion for which these women are gathered around a table?",
+    "short_answer": "Birthday party",
+    "reasoned_answer": "The women are wearing party hats and are seated around a table with plates, bowls, cups, and spoons, which suggests a celebration."
+  },
+  {
+    "id": 341,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion for which these women are gathered around a table?",
+    "short_answer": "Birthday party",
+    "reasoned_answer": "The women are wearing party hats and are seated around a table with plates, bowls, cups, and spoons, which suggests a celebration."
+  },
+  {
+    "id": 342,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion for which these women are gathered around a table?",
+    "short_answer": "Birthday party",
+    "reasoned_answer": "The women are wearing party hats and are seated around a table with plates, bowls, cups, and spoons, which suggests a celebration."
+  },
+  {
+    "id": 343,
+    "img_id": "2365717.jpg",
+    "question": "What are the two men playing in the office?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two men are playing a video game using Wii controllers in the office."
+  },
+  {
+    "id": 344,
+    "img_id": "2365717.jpg",
+    "question": "What are the two men playing in the office?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two men are playing a video game using Wii controllers in the office."
+  },
+  {
+    "id": 345,
+    "img_id": "2365717.jpg",
+    "question": "What are the two men playing in the office?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two men are playing a video game using Wii controllers in the office."
+  },
+  {
+    "id": 346,
+    "img_id": "2398013.jpg",
+    "question": "What is the name of the airline operating the airplane in the image?",
+    "short_answer": "SAS",
+    "reasoned_answer": "The airplane in the image is operated by SAS, which is the name of the airline."
+  },
+  {
+    "id": 347,
+    "img_id": "2398013.jpg",
+    "question": "What is the name of the airline operating the airplane in the image?",
+    "short_answer": "SAS",
+    "reasoned_answer": "The airplane in the image is operated by SAS, which is the name of the airline."
+  },
+  {
+    "id": 348,
+    "img_id": "2398013.jpg",
+    "question": "What is the name of the airline operating the airplane in the image?",
+    "short_answer": "SAS",
+    "reasoned_answer": "The airplane in the image is operated by SAS, which is the name of the airline."
+  },
+  {
+    "id": 349,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the two bears in the image?",
+    "short_answer": "The relationship between the two bears is that of a mother and her cub.",
+    "reasoned_answer": "The image shows a large bear walking with a smaller bear on its back, which is a common behavior among mother bears and their cubs. The smaller bear is likely the cub, and the larger bear is the mother. This behavior is observed as a way for the mother bear to protect and care for her offspring while traveling through the forest."
+  },
+  {
+    "id": 350,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the two bears in the image?",
+    "short_answer": "The relationship between the two bears is that of a mother and her cub.",
+    "reasoned_answer": "The image shows a large bear walking with a smaller bear on its back, which is a common behavior among mother bears and their cubs. The smaller bear is likely the cub, and the larger bear is the mother. This behavior is observed as a way for the mother bear to protect and care for her offspring while traveling through the forest."
+  },
+  {
+    "id": 351,
+    "img_id": "2403281.jpg",
+    "question": "What is the relationship between the two bears in the image?",
+    "short_answer": "The relationship between the two bears is that of a mother and her cub.",
+    "reasoned_answer": "The image shows a large bear walking with a smaller bear on its back, which is a common behavior among mother bears and their cubs. The smaller bear is likely the cub, and the larger bear is the mother. This behavior is observed as a way for the mother bear to protect and care for her offspring while traveling through the forest."
+  },
+  {
+    "id": 352,
+    "img_id": "2406636.jpg",
+    "question": "How many people are skiing down the slope?",
+    "short_answer": "5",
+    "reasoned_answer": "There are 5 people skiing down the slope in the image."
+  },
+  {
+    "id": 353,
+    "img_id": "2406636.jpg",
+    "question": "How many people are skiing down the slope?",
+    "short_answer": "5",
+    "reasoned_answer": "There are 5 people skiing down the slope in the image."
+  },
+  {
+    "id": 354,
+    "img_id": "2406636.jpg",
+    "question": "How many people are skiing down the slope?",
+    "short_answer": "5",
+    "reasoned_answer": "There are 5 people skiing down the slope in the image."
+  },
+  {
+    "id": 355,
+    "img_id": "2323604.jpg",
+    "question": "What is the name of the street at the intersection of 13th Street?",
+    "short_answer": "Avenue",
+    "reasoned_answer": "The street sign at the intersection of 13th Street indicates that the street is named \"Avenue.\""
+  },
+  {
+    "id": 356,
+    "img_id": "2323604.jpg",
+    "question": "What is the name of the street at the intersection of 13th Street?",
+    "short_answer": "Avenue",
+    "reasoned_answer": "The street sign at the intersection of 13th Street indicates that the street is named \"Avenue.\""
+  },
+  {
+    "id": 357,
+    "img_id": "2323604.jpg",
+    "question": "What is the name of the street at the intersection of 13th Street?",
+    "short_answer": "Avenue",
+    "reasoned_answer": "The street sign at the intersection of 13th Street indicates that the street is named \"Avenue.\""
+  },
+  {
+    "id": 358,
+    "img_id": "2320240.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Wii remote",
+    "reasoned_answer": "The man is holding a Wii remote, which is a controller for the Nintendo Wii gaming console."
+  },
+  {
+    "id": 359,
+    "img_id": "2320240.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Wii remote",
+    "reasoned_answer": "The man is holding a Wii remote, which is a controller for the Nintendo Wii gaming console."
+  },
+  {
+    "id": 360,
+    "img_id": "2320240.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Wii remote",
+    "reasoned_answer": "The man is holding a Wii remote, which is a controller for the Nintendo Wii gaming console."
+  },
+  {
+    "id": 361,
+    "img_id": "2401661.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional occupation such as a businessman."
+  },
+  {
+    "id": 362,
+    "img_id": "2401661.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional occupation such as a businessman."
+  },
+  {
+    "id": 363,
+    "img_id": "2401661.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "Businessman",
+    "reasoned_answer": "The man is wearing a suit and tie, which is typically associated with a professional occupation such as a businessman."
+  },
+  {
+    "id": 364,
+    "img_id": "2347187.jpg",
+    "question": "What is the woman riding on the street?",
+    "short_answer": "Bicycle",
+    "reasoned_answer": "The woman is riding a bicycle on the street."
+  },
+  {
+    "id": 365,
+    "img_id": "2347187.jpg",
+    "question": "What is the woman riding on the street?",
+    "short_answer": "Bicycle",
+    "reasoned_answer": "The woman is riding a bicycle on the street."
+  },
+  {
+    "id": 366,
+    "img_id": "2347187.jpg",
+    "question": "What is the woman riding on the street?",
+    "short_answer": "Bicycle",
+    "reasoned_answer": "The woman is riding a bicycle on the street."
+  },
+  {
+    "id": 367,
+    "img_id": "2344979.jpg",
+    "question": "What is the relationship between the woman and the child?",
+    "short_answer": "The woman is the mother of the child.",
+    "reasoned_answer": "The woman is holding the child's hand and walking with her, which suggests a close relationship and caretaking role."
+  },
+  {
+    "id": 368,
+    "img_id": "2344979.jpg",
+    "question": "What is the relationship between the woman and the child?",
+    "short_answer": "The woman is the mother of the child.",
+    "reasoned_answer": "The woman is holding the child's hand and walking with her, which suggests a close relationship and caretaking role."
+  },
+  {
+    "id": 369,
+    "img_id": "2344979.jpg",
+    "question": "What is the relationship between the woman and the child?",
+    "short_answer": "The woman is the mother of the child.",
+    "reasoned_answer": "The woman is holding the child's hand and walking with her, which suggests a close relationship and caretaking role."
+  },
+  {
+    "id": 370,
+    "img_id": "2327548.jpg",
+    "question": "What is the relationship between the two giraffes in the image?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "The giraffes are standing close to each other, touching their necks together, and looking at each other, which are all signs of social bonding and friendship in animals."
+  },
+  {
+    "id": 371,
+    "img_id": "2327548.jpg",
+    "question": "What is the relationship between the two giraffes in the image?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "The giraffes are standing close to each other, touching their necks together, and looking at each other, which are all signs of social bonding and friendship in animals."
+  },
+  {
+    "id": 372,
+    "img_id": "2327548.jpg",
+    "question": "What is the relationship between the two giraffes in the image?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "The giraffes are standing close to each other, touching their necks together, and looking at each other, which are all signs of social bonding and friendship in animals."
+  },
+  {
+    "id": 373,
+    "img_id": "2347871.jpg",
+    "question": "What is the elephant doing in the image?",
+    "short_answer": "The elephant is standing next to a waterfall and drinking water from it.",
+    "reasoned_answer": "The elephant is seen with its trunk in the water, which indicates that it is drinking from the waterfall."
+  },
+  {
+    "id": 374,
+    "img_id": "2347871.jpg",
+    "question": "What is the elephant doing in the image?",
+    "short_answer": "The elephant is standing next to a waterfall and drinking water from it.",
+    "reasoned_answer": "The elephant is seen with its trunk in the water, which indicates that it is drinking from the waterfall."
+  },
+  {
+    "id": 375,
+    "img_id": "2347871.jpg",
+    "question": "What is the elephant doing in the image?",
+    "short_answer": "The elephant is standing next to a waterfall and drinking water from it.",
+    "reasoned_answer": "The elephant is seen with its trunk in the water, which indicates that it is drinking from the waterfall."
+  },
+  {
+    "id": 376,
+    "img_id": "2388774.jpg",
+    "question": "What is the bird's name?",
+    "short_answer": "Parrot",
+    "reasoned_answer": "The bird is a green parrot, which is known for its vibrant color and intelligence."
+  },
+  {
+    "id": 377,
+    "img_id": "2388774.jpg",
+    "question": "What is the bird's name?",
+    "short_answer": "Parrot",
+    "reasoned_answer": "The bird is a green parrot, which is known for its vibrant color and intelligence."
+  },
+  {
+    "id": 378,
+    "img_id": "2388774.jpg",
+    "question": "What is the bird's name?",
+    "short_answer": "Parrot",
+    "reasoned_answer": "The bird is a green parrot, which is known for its vibrant color and intelligence."
+  },
+  {
+    "id": 379,
+    "img_id": "2339632.jpg",
+    "question": "What is the dog's favorite toy?",
+    "short_answer": "Donut",
+    "reasoned_answer": "The dog is laying on the floor next to a donut, which suggests that the dog enjoys playing with it."
+  },
+  {
+    "id": 380,
+    "img_id": "2339632.jpg",
+    "question": "What is the dog's favorite toy?",
+    "short_answer": "Donut",
+    "reasoned_answer": "The dog is laying on the floor next to a donut, which suggests that the dog enjoys playing with it."
+  },
+  {
+    "id": 381,
+    "img_id": "2339632.jpg",
+    "question": "What is the dog's favorite toy?",
+    "short_answer": "Donut",
+    "reasoned_answer": "The dog is laying on the floor next to a donut, which suggests that the dog enjoys playing with it."
+  },
+  {
+    "id": 382,
+    "img_id": "2327224.jpg",
+    "question": "What is the name of the city where the bus is located?",
+    "short_answer": "Woodley Park",
+    "reasoned_answer": "The bus is named \"Woodley Park\" and is located in a city."
+  },
+  {
+    "id": 383,
+    "img_id": "2327224.jpg",
+    "question": "What is the name of the city where the bus is located?",
+    "short_answer": "Woodley Park",
+    "reasoned_answer": "The bus is named \"Woodley Park\" and is located in a city."
+  },
+  {
+    "id": 384,
+    "img_id": "2327224.jpg",
+    "question": "What is the name of the city where the bus is located?",
+    "short_answer": "Woodley Park",
+    "reasoned_answer": "The bus is named \"Woodley Park\" and is located in a city."
+  },
+  {
+    "id": 385,
+    "img_id": "2329679.jpg",
+    "question": "What is the man's stance on the surfboard?",
+    "short_answer": "He is kneeling on the surfboard.",
+    "reasoned_answer": "The man is kneeling on the surfboard to maintain balance and control while riding the wave."
+  },
+  {
+    "id": 386,
+    "img_id": "2329679.jpg",
+    "question": "What is the man's stance on the surfboard?",
+    "short_answer": "He is kneeling on the surfboard.",
+    "reasoned_answer": "The man is kneeling on the surfboard to maintain balance and control while riding the wave."
+  },
+  {
+    "id": 387,
+    "img_id": "2329679.jpg",
+    "question": "What is the man's stance on the surfboard?",
+    "short_answer": "He is kneeling on the surfboard.",
+    "reasoned_answer": "The man is kneeling on the surfboard to maintain balance and control while riding the wave."
+  },
+  {
+    "id": 388,
+    "img_id": "2317271.jpg",
+    "question": "What is the purpose of the cell phone in the image?",
+    "short_answer": "The person is using the cell phone to take a picture.",
+    "reasoned_answer": "The image shows a person holding a cell phone with a picture displayed on the screen, indicating that they are taking a picture."
+  },
+  {
+    "id": 389,
+    "img_id": "2317271.jpg",
+    "question": "What is the purpose of the cell phone in the image?",
+    "short_answer": "The person is using the cell phone to take a picture.",
+    "reasoned_answer": "The image shows a person holding a cell phone with a picture displayed on the screen, indicating that they are taking a picture."
+  },
+  {
+    "id": 390,
+    "img_id": "2317271.jpg",
+    "question": "What is the purpose of the cell phone in the image?",
+    "short_answer": "The person is using the cell phone to take a picture.",
+    "reasoned_answer": "The image shows a person holding a cell phone with a picture displayed on the screen, indicating that they are taking a picture."
+  },
+  {
+    "id": 391,
+    "img_id": "2378076.jpg",
+    "question": "What is the color of the bathroom walls?",
+    "short_answer": "Green",
+    "reasoned_answer": "The walls of the bathroom are painted green."
+  },
+  {
+    "id": 392,
+    "img_id": "2378076.jpg",
+    "question": "What is the color of the bathroom walls?",
+    "short_answer": "Green",
+    "reasoned_answer": "The walls of the bathroom are painted green."
+  },
+  {
+    "id": 393,
+    "img_id": "2378076.jpg",
+    "question": "What is the color of the bathroom walls?",
+    "short_answer": "Green",
+    "reasoned_answer": "The walls of the bathroom are painted green."
+  },
+  {
+    "id": 394,
+    "img_id": "2405033.jpg",
+    "question": "What is the breed of the cow in the image?",
+    "short_answer": "Angus",
+    "reasoned_answer": "The cow in the image is covered in mud and has a distinctive black and white face, which are characteristics of the Angus breed."
+  },
+  {
+    "id": 395,
+    "img_id": "2405033.jpg",
+    "question": "What is the breed of the cow in the image?",
+    "short_answer": "Angus",
+    "reasoned_answer": "The cow in the image is covered in mud and has a distinctive black and white face, which are characteristics of the Angus breed."
+  },
+  {
+    "id": 396,
+    "img_id": "2405033.jpg",
+    "question": "What is the breed of the cow in the image?",
+    "short_answer": "Angus",
+    "reasoned_answer": "The cow in the image is covered in mud and has a distinctive black and white face, which are characteristics of the Angus breed."
+  },
+  {
+    "id": 397,
+    "img_id": "2343941.jpg",
+    "question": "What is the significance of the teddy bear and doll sitting together in the chair?",
+    "short_answer": "It represents a sense of companionship and comfort.",
+    "reasoned_answer": "The teddy bear and doll sitting together in the chair symbolize a connection between the two objects, which are often associated with childhood memories and emotional support. The arrangement of the objects in the chair suggests a sense of warmth and comfort, as if they are there to provide companionship to each other or to someone who might be missing them."
+  },
+  {
+    "id": 398,
+    "img_id": "2343941.jpg",
+    "question": "What is the significance of the teddy bear and doll sitting together in the chair?",
+    "short_answer": "It represents a sense of companionship and comfort.",
+    "reasoned_answer": "The teddy bear and doll sitting together in the chair symbolize a connection between the two objects, which are often associated with childhood memories and emotional support. The arrangement of the objects in the chair suggests a sense of warmth and comfort, as if they are there to provide companionship to each other or to someone who might be missing them."
+  },
+  {
+    "id": 399,
+    "img_id": "2343941.jpg",
+    "question": "What is the significance of the teddy bear and doll sitting together in the chair?",
+    "short_answer": "It represents a sense of companionship and comfort.",
+    "reasoned_answer": "The teddy bear and doll sitting together in the chair symbolize a connection between the two objects, which are often associated with childhood memories and emotional support. The arrangement of the objects in the chair suggests a sense of warmth and comfort, as if they are there to provide companionship to each other or to someone who might be missing them."
+  },
+  {
+    "id": 400,
+    "img_id": "1591896.jpg",
+    "question": "What is the main dish being cooked in the image?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The image shows a large roasting pan filled with chicken, which is being cooked in an oven."
+  },
+  {
+    "id": 401,
+    "img_id": "1591896.jpg",
+    "question": "What is the main dish being cooked in the image?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The image shows a large roasting pan filled with chicken, which is being cooked in an oven."
+  },
+  {
+    "id": 402,
+    "img_id": "1591896.jpg",
+    "question": "What is the main dish being cooked in the image?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The image shows a large roasting pan filled with chicken, which is being cooked in an oven."
+  },
+  {
+    "id": 403,
+    "img_id": "2393916.jpg",
+    "question": "What are the two women playing in the living room?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two women are playing a video game using Wii controllers, which suggests that they are playing a game on the Wii console."
+  },
+  {
+    "id": 404,
+    "img_id": "2393916.jpg",
+    "question": "What are the two women playing in the living room?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two women are playing a video game using Wii controllers, which suggests that they are playing a game on the Wii console."
+  },
+  {
+    "id": 405,
+    "img_id": "2393916.jpg",
+    "question": "What are the two women playing in the living room?",
+    "short_answer": "Wii",
+    "reasoned_answer": "The two women are playing a video game using Wii controllers, which suggests that they are playing a game on the Wii console."
+  },
+  {
+    "id": 406,
+    "img_id": "2355236.jpg",
+    "question": "What is the color of the bedspread on the bed?",
+    "short_answer": "White",
+    "reasoned_answer": "The bedspread on the bed is white, which complements the red and white floral comforter and the overall color scheme of the bedroom."
+  },
+  {
+    "id": 407,
+    "img_id": "2355236.jpg",
+    "question": "What is the color of the bedspread on the bed?",
+    "short_answer": "White",
+    "reasoned_answer": "The bedspread on the bed is white, which complements the red and white floral comforter and the overall color scheme of the bedroom."
+  },
+  {
+    "id": 408,
+    "img_id": "2355236.jpg",
+    "question": "What is the color of the bedspread on the bed?",
+    "short_answer": "White",
+    "reasoned_answer": "The bedspread on the bed is white, which complements the red and white floral comforter and the overall color scheme of the bedroom."
+  },
+  {
+    "id": 409,
+    "img_id": "2409236.jpg",
+    "question": "What is the purpose of the men riding on the elephants in the water?",
+    "short_answer": "The men are riding on the elephants to cross the river.",
+    "reasoned_answer": "The image shows three elephants walking through a river with men riding on their backs. This suggests that the men are using the elephants as a means of transportation to cross the river, as it is likely more efficient and safer than wading through the water on foot."
+  },
+  {
+    "id": 410,
+    "img_id": "2409236.jpg",
+    "question": "What is the purpose of the men riding on the elephants in the water?",
+    "short_answer": "The men are riding on the elephants to cross the river.",
+    "reasoned_answer": "The image shows three elephants walking through a river with men riding on their backs. This suggests that the men are using the elephants as a means of transportation to cross the river, as it is likely more efficient and safer than wading through the water on foot."
+  },
+  {
+    "id": 411,
+    "img_id": "2409236.jpg",
+    "question": "What is the purpose of the men riding on the elephants in the water?",
+    "short_answer": "The men are riding on the elephants to cross the river.",
+    "reasoned_answer": "The image shows three elephants walking through a river with men riding on their backs. This suggests that the men are using the elephants as a means of transportation to cross the river, as it is likely more efficient and safer than wading through the water on foot."
+  },
+  {
+    "id": 412,
+    "img_id": "2364933.jpg",
+    "question": "What is the age of the person sitting on the bench?",
+    "short_answer": "65",
+    "reasoned_answer": "The person is described as an elderly woman."
+  },
+  {
+    "id": 413,
+    "img_id": "2364933.jpg",
+    "question": "What is the age of the person sitting on the bench?",
+    "short_answer": "65",
+    "reasoned_answer": "The person is described as an elderly woman."
+  },
+  {
+    "id": 414,
+    "img_id": "2364933.jpg",
+    "question": "What is the age of the person sitting on the bench?",
+    "short_answer": "65",
+    "reasoned_answer": "The person is described as an elderly woman."
+  },
+  {
+    "id": 415,
+    "img_id": "2316548.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Yellow and blue.",
+    "reasoned_answer": "The train in the image is yellow and blue, which is the color scheme of the First Great Western train."
+  },
+  {
+    "id": 416,
+    "img_id": "2316548.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Yellow and blue.",
+    "reasoned_answer": "The train in the image is yellow and blue, which is the color scheme of the First Great Western train."
+  },
+  {
+    "id": 417,
+    "img_id": "2316548.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Yellow and blue.",
+    "reasoned_answer": "The train in the image is yellow and blue, which is the color scheme of the First Great Western train."
+  },
+  {
+    "id": 418,
+    "img_id": "2404507.jpg",
+    "question": "What is the natural habitat of giraffes and zebras?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "The image shows a group of giraffes and zebras in a grassy field, which is typical of the savannah habitat where these animals are commonly found."
+  },
+  {
+    "id": 419,
+    "img_id": "2404507.jpg",
+    "question": "What is the natural habitat of giraffes and zebras?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "The image shows a group of giraffes and zebras in a grassy field, which is typical of the savannah habitat where these animals are commonly found."
+  },
+  {
+    "id": 420,
+    "img_id": "2404507.jpg",
+    "question": "What is the natural habitat of giraffes and zebras?",
+    "short_answer": "Savannah",
+    "reasoned_answer": "The image shows a group of giraffes and zebras in a grassy field, which is typical of the savannah habitat where these animals are commonly found."
+  },
+  {
+    "id": 421,
+    "img_id": "2353257.jpg",
+    "question": "What is the most common mode of transportation in the city?",
+    "short_answer": "Car",
+    "reasoned_answer": "In the image, there are multiple cars on the street, indicating that cars are a common mode of transportation in the city."
+  },
+  {
+    "id": 422,
+    "img_id": "2353257.jpg",
+    "question": "What is the most common mode of transportation in the city?",
+    "short_answer": "Car",
+    "reasoned_answer": "In the image, there are multiple cars on the street, indicating that cars are a common mode of transportation in the city."
+  },
+  {
+    "id": 423,
+    "img_id": "2353257.jpg",
+    "question": "What is the most common mode of transportation in the city?",
+    "short_answer": "Car",
+    "reasoned_answer": "In the image, there are multiple cars on the street, indicating that cars are a common mode of transportation in the city."
+  },
+  {
+    "id": 424,
+    "img_id": "2410409.jpg",
+    "question": "What is the purpose of the Coca-Cola truck parked in front of the CVS Pharmacy?",
+    "short_answer": "The Coca-Cola truck is parked in front of the CVS Pharmacy to deliver beverages to the store.",
+    "reasoned_answer": "The presence of the Coca-Cola truck in front of the CVS Pharmacy suggests that it is there to make a delivery of Coca-Cola products to the store. This is a common practice for beverage companies to supply their products to retailers, such as CVS Pharmacy, to ensure that they have a steady supply of their products for customers to purchase."
+  },
+  {
+    "id": 425,
+    "img_id": "2410409.jpg",
+    "question": "What is the purpose of the Coca-Cola truck parked in front of the CVS Pharmacy?",
+    "short_answer": "The Coca-Cola truck is parked in front of the CVS Pharmacy to deliver beverages to the store.",
+    "reasoned_answer": "The presence of the Coca-Cola truck in front of the CVS Pharmacy suggests that it is there to make a delivery of Coca-Cola products to the store. This is a common practice for beverage companies to supply their products to retailers, such as CVS Pharmacy, to ensure that they have a steady supply of their products for customers to purchase."
+  },
+  {
+    "id": 426,
+    "img_id": "2410409.jpg",
+    "question": "What is the purpose of the Coca-Cola truck parked in front of the CVS Pharmacy?",
+    "short_answer": "The Coca-Cola truck is parked in front of the CVS Pharmacy to deliver beverages to the store.",
+    "reasoned_answer": "The presence of the Coca-Cola truck in front of the CVS Pharmacy suggests that it is there to make a delivery of Coca-Cola products to the store. This is a common practice for beverage companies to supply their products to retailers, such as CVS Pharmacy, to ensure that they have a steady supply of their products for customers to purchase."
+  },
+  {
+    "id": 427,
+    "img_id": "2376721.jpg",
+    "question": "What is the woman's favorite type of donut?",
+    "short_answer": "Chocolate",
+    "reasoned_answer": "The woman is eating a chocolate donut in the image."
+  },
+  {
+    "id": 428,
+    "img_id": "2376721.jpg",
+    "question": "What is the woman's favorite type of donut?",
+    "short_answer": "Chocolate",
+    "reasoned_answer": "The woman is eating a chocolate donut in the image."
+  },
+  {
+    "id": 429,
+    "img_id": "2376721.jpg",
+    "question": "What is the woman's favorite type of donut?",
+    "short_answer": "Chocolate",
+    "reasoned_answer": "The woman is eating a chocolate donut in the image."
+  },
+  {
+    "id": 430,
+    "img_id": "2409731.jpg",
+    "question": "What is the skateboarder doing at the pool?",
+    "short_answer": "The skateboarder is performing a trick on the edge of the pool.",
+    "reasoned_answer": "The skateboarder is wearing a helmet and knee pads, which indicates that he is practicing a trick at the pool. The presence of the skateboard and the pool's edge also supports this conclusion."
+  },
+  {
+    "id": 431,
+    "img_id": "2409731.jpg",
+    "question": "What is the skateboarder doing at the pool?",
+    "short_answer": "The skateboarder is performing a trick on the edge of the pool.",
+    "reasoned_answer": "The skateboarder is wearing a helmet and knee pads, which indicates that he is practicing a trick at the pool. The presence of the skateboard and the pool's edge also supports this conclusion."
+  },
+  {
+    "id": 432,
+    "img_id": "2409731.jpg",
+    "question": "What is the skateboarder doing at the pool?",
+    "short_answer": "The skateboarder is performing a trick on the edge of the pool.",
+    "reasoned_answer": "The skateboarder is wearing a helmet and knee pads, which indicates that he is practicing a trick at the pool. The presence of the skateboard and the pool's edge also supports this conclusion."
+  },
+  {
+    "id": 433,
+    "img_id": "2399686.jpg",
+    "question": "What is the breed of the dog in the image?",
+    "short_answer": "Mutt",
+    "reasoned_answer": "The dog in the image is a mutt, which is a mixed breed dog. It is not possible to determine the exact breed of the dog from the image alone."
+  },
+  {
+    "id": 434,
+    "img_id": "2399686.jpg",
+    "question": "What is the breed of the dog in the image?",
+    "short_answer": "Mutt",
+    "reasoned_answer": "The dog in the image is a mutt, which is a mixed breed dog. It is not possible to determine the exact breed of the dog from the image alone."
+  },
+  {
+    "id": 435,
+    "img_id": "2399686.jpg",
+    "question": "What is the breed of the dog in the image?",
+    "short_answer": "Mutt",
+    "reasoned_answer": "The dog in the image is a mutt, which is a mixed breed dog. It is not possible to determine the exact breed of the dog from the image alone."
+  },
+  {
+    "id": 436,
+    "img_id": "2396478.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "The zebra is seen grazing on tall grass in the image, which indicates that grass is its primary food source."
+  },
+  {
+    "id": 437,
+    "img_id": "2396478.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "The zebra is seen grazing on tall grass in the image, which indicates that grass is its primary food source."
+  },
+  {
+    "id": 438,
+    "img_id": "2396478.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "The zebra is seen grazing on tall grass in the image, which indicates that grass is its primary food source."
+  },
+  {
+    "id": 439,
+    "img_id": "2404942.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is windsurfing in the ocean.",
+    "reasoned_answer": "The image shows a person riding a surfboard with a sail attached to it, which is a common activity in windsurfing. The person is also wearing a wetsuit, which is typical attire for water sports."
+  },
+  {
+    "id": 440,
+    "img_id": "2404942.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is windsurfing in the ocean.",
+    "reasoned_answer": "The image shows a person riding a surfboard with a sail attached to it, which is a common activity in windsurfing. The person is also wearing a wetsuit, which is typical attire for water sports."
+  },
+  {
+    "id": 441,
+    "img_id": "2404942.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is windsurfing in the ocean.",
+    "reasoned_answer": "The image shows a person riding a surfboard with a sail attached to it, which is a common activity in windsurfing. The person is also wearing a wetsuit, which is typical attire for water sports."
+  },
+  {
+    "id": 442,
+    "img_id": "2332309.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "To keep the sheep contained in the pasture.",
+    "reasoned_answer": "The fence serves as a boundary to prevent the sheep from wandering off and getting lost or injured. It also helps the shepherd to manage and monitor the herd more easily."
+  },
+  {
+    "id": 443,
+    "img_id": "2332309.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "To keep the sheep contained in the pasture.",
+    "reasoned_answer": "The fence serves as a boundary to prevent the sheep from wandering off and getting lost or injured. It also helps the shepherd to manage and monitor the herd more easily."
+  },
+  {
+    "id": 444,
+    "img_id": "2332309.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "To keep the sheep contained in the pasture.",
+    "reasoned_answer": "The fence serves as a boundary to prevent the sheep from wandering off and getting lost or injured. It also helps the shepherd to manage and monitor the herd more easily."
+  },
+  {
+    "id": 445,
+    "img_id": "2374189.jpg",
+    "question": "What is the woman's favorite type of sandwich?",
+    "short_answer": "Hamburger",
+    "reasoned_answer": "The woman is eating a hamburger in the image."
+  },
+  {
+    "id": 446,
+    "img_id": "2374189.jpg",
+    "question": "What is the woman's favorite type of sandwich?",
+    "short_answer": "Hamburger",
+    "reasoned_answer": "The woman is eating a hamburger in the image."
+  },
+  {
+    "id": 447,
+    "img_id": "2374189.jpg",
+    "question": "What is the woman's favorite type of sandwich?",
+    "short_answer": "Hamburger",
+    "reasoned_answer": "The woman is eating a hamburger in the image."
+  },
+  {
+    "id": 448,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the rusty machine on the train tracks?",
+    "short_answer": "The rusty machine on the train tracks is a piece of old machinery, likely used for loading or unloading cargo.",
+    "reasoned_answer": "The presence of the rusty machinery on the train tracks suggests that it has been there for a long time and has been exposed to the elements, causing it to deteriorate. The fact that it is still on the tracks indicates that it may still be functional or that it has not been removed yet. The machinery's purpose is likely related to the loading or unloading of cargo, as it is situated on a train track, which is a common location for such equipment."
+  },
+  {
+    "id": 449,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the rusty machine on the train tracks?",
+    "short_answer": "The rusty machine on the train tracks is a piece of old machinery, likely used for loading or unloading cargo.",
+    "reasoned_answer": "The presence of the rusty machinery on the train tracks suggests that it has been there for a long time and has been exposed to the elements, causing it to deteriorate. The fact that it is still on the tracks indicates that it may still be functional or that it has not been removed yet. The machinery's purpose is likely related to the loading or unloading of cargo, as it is situated on a train track, which is a common location for such equipment."
+  },
+  {
+    "id": 450,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the rusty machine on the train tracks?",
+    "short_answer": "The rusty machine on the train tracks is a piece of old machinery, likely used for loading or unloading cargo.",
+    "reasoned_answer": "The presence of the rusty machinery on the train tracks suggests that it has been there for a long time and has been exposed to the elements, causing it to deteriorate. The fact that it is still on the tracks indicates that it may still be functional or that it has not been removed yet. The machinery's purpose is likely related to the loading or unloading of cargo, as it is situated on a train track, which is a common location for such equipment."
+  },
+  {
+    "id": 451,
+    "img_id": "2363311.jpg",
+    "question": "What is the name of the food truck in the image?",
+    "short_answer": "Tacospace.com",
+    "reasoned_answer": "The name of the food truck is displayed on the side of the truck in blue letters."
+  },
+  {
+    "id": 452,
+    "img_id": "2363311.jpg",
+    "question": "What is the name of the food truck in the image?",
+    "short_answer": "Tacospace.com",
+    "reasoned_answer": "The name of the food truck is displayed on the side of the truck in blue letters."
+  },
+  {
+    "id": 453,
+    "img_id": "2363311.jpg",
+    "question": "What is the name of the food truck in the image?",
+    "short_answer": "Tacospace.com",
+    "reasoned_answer": "The name of the food truck is displayed on the side of the truck in blue letters."
+  },
+  {
+    "id": 454,
+    "img_id": "2322440.jpg",
+    "question": "What is the purpose of the three-tiered plate of food?",
+    "short_answer": "To serve a variety of food items in an organized and visually appealing manner.",
+    "reasoned_answer": "The three-tiered plate is designed to hold different types of food, allowing for a diverse and balanced meal. The tiered structure also helps to keep the food items separated and prevents them from mixing, which can be particularly useful for dishes that may not taste well when combined. Additionally, the tiered plate adds an aesthetic element to the presentation of the food, making it more visually appealing and inviting."
+  },
+  {
+    "id": 455,
+    "img_id": "2322440.jpg",
+    "question": "What is the purpose of the three-tiered plate of food?",
+    "short_answer": "To serve a variety of food items in an organized and visually appealing manner.",
+    "reasoned_answer": "The three-tiered plate is designed to hold different types of food, allowing for a diverse and balanced meal. The tiered structure also helps to keep the food items separated and prevents them from mixing, which can be particularly useful for dishes that may not taste well when combined. Additionally, the tiered plate adds an aesthetic element to the presentation of the food, making it more visually appealing and inviting."
+  },
+  {
+    "id": 456,
+    "img_id": "2322440.jpg",
+    "question": "What is the purpose of the three-tiered plate of food?",
+    "short_answer": "To serve a variety of food items in an organized and visually appealing manner.",
+    "reasoned_answer": "The three-tiered plate is designed to hold different types of food, allowing for a diverse and balanced meal. The tiered structure also helps to keep the food items separated and prevents them from mixing, which can be particularly useful for dishes that may not taste well when combined. Additionally, the tiered plate adds an aesthetic element to the presentation of the food, making it more visually appealing and inviting."
+  },
+  {
+    "id": 457,
+    "img_id": "2397397.jpg",
+    "question": "What is the cultural significance of the women holding umbrellas while dancing?",
+    "short_answer": "The umbrellas are a part of their traditional dance performance.",
+    "reasoned_answer": "The women are dressed in traditional Chinese clothing and holding umbrellas, which are often used in Chinese dance performances as a prop to enhance the visual appeal and cultural significance of the performance."
+  },
+  {
+    "id": 458,
+    "img_id": "2397397.jpg",
+    "question": "What is the cultural significance of the women holding umbrellas while dancing?",
+    "short_answer": "The umbrellas are a part of their traditional dance performance.",
+    "reasoned_answer": "The women are dressed in traditional Chinese clothing and holding umbrellas, which are often used in Chinese dance performances as a prop to enhance the visual appeal and cultural significance of the performance."
+  },
+  {
+    "id": 459,
+    "img_id": "2397397.jpg",
+    "question": "What is the cultural significance of the women holding umbrellas while dancing?",
+    "short_answer": "The umbrellas are a part of their traditional dance performance.",
+    "reasoned_answer": "The women are dressed in traditional Chinese clothing and holding umbrellas, which are often used in Chinese dance performances as a prop to enhance the visual appeal and cultural significance of the performance."
+  },
+  {
+    "id": 460,
+    "img_id": "2401597.jpg",
+    "question": "What is the purpose of the bench in the image?",
+    "short_answer": "To provide a place to sit and enjoy the view of the lake.",
+    "reasoned_answer": "The bench is located near the water, under a tree, and overlooks the lake, making it an ideal spot for relaxation and appreciation of the natural surroundings."
+  },
+  {
+    "id": 461,
+    "img_id": "2401597.jpg",
+    "question": "What is the purpose of the bench in the image?",
+    "short_answer": "To provide a place to sit and enjoy the view of the lake.",
+    "reasoned_answer": "The bench is located near the water, under a tree, and overlooks the lake, making it an ideal spot for relaxation and appreciation of the natural surroundings."
+  },
+  {
+    "id": 462,
+    "img_id": "2401597.jpg",
+    "question": "What is the purpose of the bench in the image?",
+    "short_answer": "To provide a place to sit and enjoy the view of the lake.",
+    "reasoned_answer": "The bench is located near the water, under a tree, and overlooks the lake, making it an ideal spot for relaxation and appreciation of the natural surroundings."
+  },
+  {
+    "id": 463,
+    "img_id": "2391045.jpg",
+    "question": "What is the relationship between the two women on the tennis court?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "They are hugging each other, which is a common way to express affection and friendship."
+  },
+  {
+    "id": 464,
+    "img_id": "2391045.jpg",
+    "question": "What is the relationship between the two women on the tennis court?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "They are hugging each other, which is a common way to express affection and friendship."
+  },
+  {
+    "id": 465,
+    "img_id": "2391045.jpg",
+    "question": "What is the relationship between the two women on the tennis court?",
+    "short_answer": "They are friends.",
+    "reasoned_answer": "They are hugging each other, which is a common way to express affection and friendship."
+  },
+  {
+    "id": 466,
+    "img_id": "2399259.jpg",
+    "question": "What is the purpose of the lighthouse in the image?",
+    "short_answer": "To guide ships and prevent them from running aground.",
+    "reasoned_answer": "Lighthouses are typically built near coastlines to help ships navigate safely and avoid dangerous areas, such as rocky shores or shallow waters. The presence of the lighthouse in the image suggests that it serves this purpose in this location."
+  },
+  {
+    "id": 467,
+    "img_id": "2399259.jpg",
+    "question": "What is the purpose of the lighthouse in the image?",
+    "short_answer": "To guide ships and prevent them from running aground.",
+    "reasoned_answer": "Lighthouses are typically built near coastlines to help ships navigate safely and avoid dangerous areas, such as rocky shores or shallow waters. The presence of the lighthouse in the image suggests that it serves this purpose in this location."
+  },
+  {
+    "id": 468,
+    "img_id": "2399259.jpg",
+    "question": "What is the purpose of the lighthouse in the image?",
+    "short_answer": "To guide ships and prevent them from running aground.",
+    "reasoned_answer": "Lighthouses are typically built near coastlines to help ships navigate safely and avoid dangerous areas, such as rocky shores or shallow waters. The presence of the lighthouse in the image suggests that it serves this purpose in this location."
+  },
+  {
+    "id": 469,
+    "img_id": "2355189.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand, indicating that he is playing tennis."
+  },
+  {
+    "id": 470,
+    "img_id": "2355189.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand, indicating that he is playing tennis."
+  },
+  {
+    "id": 471,
+    "img_id": "2355189.jpg",
+    "question": "What is the man holding in his hand?",
+    "short_answer": "Tennis racket",
+    "reasoned_answer": "The man is holding a tennis racket in his hand, indicating that he is playing tennis."
+  },
+  {
+    "id": 472,
+    "img_id": "2413063.jpg",
+    "question": "What is the color scheme of the bathroom?",
+    "short_answer": "Black and white.",
+    "reasoned_answer": "The bathroom has a black and white color scheme, which is evident from the checkered wallpaper and the white toilet and sink."
+  },
+  {
+    "id": 473,
+    "img_id": "2413063.jpg",
+    "question": "What is the color scheme of the bathroom?",
+    "short_answer": "Black and white.",
+    "reasoned_answer": "The bathroom has a black and white color scheme, which is evident from the checkered wallpaper and the white toilet and sink."
+  },
+  {
+    "id": 474,
+    "img_id": "2413063.jpg",
+    "question": "What is the color scheme of the bathroom?",
+    "short_answer": "Black and white.",
+    "reasoned_answer": "The bathroom has a black and white color scheme, which is evident from the checkered wallpaper and the white toilet and sink."
+  },
+  {
+    "id": 475,
+    "img_id": "2380622.jpg",
+    "question": "What is the relationship between the pelican and the seagull?",
+    "short_answer": "They are both birds.",
+    "reasoned_answer": "Both pelicans and seagulls are birds, and they are seen together in the image."
+  },
+  {
+    "id": 476,
+    "img_id": "2380622.jpg",
+    "question": "What is the relationship between the pelican and the seagull?",
+    "short_answer": "They are both birds.",
+    "reasoned_answer": "Both pelicans and seagulls are birds, and they are seen together in the image."
+  },
+  {
+    "id": 477,
+    "img_id": "2380622.jpg",
+    "question": "What is the relationship between the pelican and the seagull?",
+    "short_answer": "They are both birds.",
+    "reasoned_answer": "Both pelicans and seagulls are birds, and they are seen together in the image."
+  },
+  {
+    "id": 478,
+    "img_id": "2388036.jpg",
+    "question": "What is the profession of the man in the image?",
+    "short_answer": "Police officer",
+    "reasoned_answer": "The man is wearing a police uniform, which includes a blue vest, a hat, and a tie. He is also holding a cell phone to his ear, which suggests that he is on duty and communicating with someone."
+  },
+  {
+    "id": 479,
+    "img_id": "2388036.jpg",
+    "question": "What is the profession of the man in the image?",
+    "short_answer": "Police officer",
+    "reasoned_answer": "The man is wearing a police uniform, which includes a blue vest, a hat, and a tie. He is also holding a cell phone to his ear, which suggests that he is on duty and communicating with someone."
+  },
+  {
+    "id": 480,
+    "img_id": "2388036.jpg",
+    "question": "What is the profession of the man in the image?",
+    "short_answer": "Police officer",
+    "reasoned_answer": "The man is wearing a police uniform, which includes a blue vest, a hat, and a tie. He is also holding a cell phone to his ear, which suggests that he is on duty and communicating with someone."
+  },
+  {
+    "id": 481,
+    "img_id": "2336508.jpg",
+    "question": "What is the purpose of the train station?",
+    "short_answer": "The purpose of the train station is to facilitate the arrival and departure of trains, allowing passengers to board and disembark.",
+    "reasoned_answer": "The image shows a train stopped at a platform in a train station, indicating that it is a location where trains stop to pick up and drop off passengers. Train stations are designed to provide a safe and efficient environment for passengers to travel between different destinations."
+  },
+  {
+    "id": 482,
+    "img_id": "2336508.jpg",
+    "question": "What is the purpose of the train station?",
+    "short_answer": "The purpose of the train station is to facilitate the arrival and departure of trains, allowing passengers to board and disembark.",
+    "reasoned_answer": "The image shows a train stopped at a platform in a train station, indicating that it is a location where trains stop to pick up and drop off passengers. Train stations are designed to provide a safe and efficient environment for passengers to travel between different destinations."
+  },
+  {
+    "id": 483,
+    "img_id": "2336508.jpg",
+    "question": "What is the purpose of the train station?",
+    "short_answer": "The purpose of the train station is to facilitate the arrival and departure of trains, allowing passengers to board and disembark.",
+    "reasoned_answer": "The image shows a train stopped at a platform in a train station, indicating that it is a location where trains stop to pick up and drop off passengers. Train stations are designed to provide a safe and efficient environment for passengers to travel between different destinations."
+  },
+  {
+    "id": 484,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Red",
+    "reasoned_answer": "The train in the image is red."
+  },
+  {
+    "id": 485,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Red",
+    "reasoned_answer": "The train in the image is red."
+  },
+  {
+    "id": 486,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "Red",
+    "reasoned_answer": "The train in the image is red."
+  },
+  {
+    "id": 487,
+    "img_id": "2375728.jpg",
+    "question": "What is the main ingredient of the cake?",
+    "short_answer": "Shrimp",
+    "reasoned_answer": "The cake is covered in shrimp, which is the main ingredient."
+  },
+  {
+    "id": 488,
+    "img_id": "2375728.jpg",
+    "question": "What is the main ingredient of the cake?",
+    "short_answer": "Shrimp",
+    "reasoned_answer": "The cake is covered in shrimp, which is the main ingredient."
+  },
+  {
+    "id": 489,
+    "img_id": "2375728.jpg",
+    "question": "What is the main ingredient of the cake?",
+    "short_answer": "Shrimp",
+    "reasoned_answer": "The cake is covered in shrimp, which is the main ingredient."
+  },
+  {
+    "id": 490,
+    "img_id": "2588.jpg",
+    "question": "What is the breed of the dog walking down the street?",
+    "short_answer": "Labrador",
+    "reasoned_answer": "The dog is black and has a long tail, which are common characteristics of Labrador dogs."
+  },
+  {
+    "id": 491,
+    "img_id": "2588.jpg",
+    "question": "What is the breed of the dog walking down the street?",
+    "short_answer": "Labrador",
+    "reasoned_answer": "The dog is black and has a long tail, which are common characteristics of Labrador dogs."
+  },
+  {
+    "id": 492,
+    "img_id": "2588.jpg",
+    "question": "What is the breed of the dog walking down the street?",
+    "short_answer": "Labrador",
+    "reasoned_answer": "The dog is black and has a long tail, which are common characteristics of Labrador dogs."
+  },
+  {
+    "id": 493,
+    "img_id": "2398747.jpg",
+    "question": "What is the purpose of the teddy bear ornament hanging from the ceiling?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The teddy bear ornament is hanging from the ceiling to serve as a decorative element, adding a touch of warmth and charm to the space. It can also be a conversation starter or a way to showcase personal taste and style."
+  },
+  {
+    "id": 494,
+    "img_id": "2398747.jpg",
+    "question": "What is the purpose of the teddy bear ornament hanging from the ceiling?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The teddy bear ornament is hanging from the ceiling to serve as a decorative element, adding a touch of warmth and charm to the space. It can also be a conversation starter or a way to showcase personal taste and style."
+  },
+  {
+    "id": 495,
+    "img_id": "2398747.jpg",
+    "question": "What is the purpose of the teddy bear ornament hanging from the ceiling?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The teddy bear ornament is hanging from the ceiling to serve as a decorative element, adding a touch of warmth and charm to the space. It can also be a conversation starter or a way to showcase personal taste and style."
+  },
+  {
+    "id": 496,
+    "img_id": "2364071.jpg",
+    "question": "What is the name of the batter in the image?",
+    "short_answer": "The batter's name is not visible in the image.",
+    "reasoned_answer": "The image only shows the batter holding a baseball bat, but does not provide any information about the batter's name."
+  },
+  {
+    "id": 497,
+    "img_id": "2364071.jpg",
+    "question": "What is the name of the batter in the image?",
+    "short_answer": "The batter's name is not visible in the image.",
+    "reasoned_answer": "The image only shows the batter holding a baseball bat, but does not provide any information about the batter's name."
+  },
+  {
+    "id": 498,
+    "img_id": "2364071.jpg",
+    "question": "What is the name of the batter in the image?",
+    "short_answer": "The batter's name is not visible in the image.",
+    "reasoned_answer": "The image only shows the batter holding a baseball bat, but does not provide any information about the batter's name."
+  },
+  {
+    "id": 499,
+    "img_id": "2361865.jpg",
+    "question": "What are the two baseball players wearing?",
+    "short_answer": "Uniforms",
+    "reasoned_answer": "The two baseball players are wearing matching uniforms, which indicates that they are part of the same team."
+  },
+  {
+    "id": 500,
+    "img_id": "2361865.jpg",
+    "question": "What are the two baseball players wearing?",
+    "short_answer": "Uniforms",
+    "reasoned_answer": "The two baseball players are wearing matching uniforms, which indicates that they are part of the same team."
+  },
+  {
+    "id": 501,
+    "img_id": "2361865.jpg",
+    "question": "What are the two baseball players wearing?",
+    "short_answer": "Uniforms",
+    "reasoned_answer": "The two baseball players are wearing matching uniforms, which indicates that they are part of the same team."
+  }
+]

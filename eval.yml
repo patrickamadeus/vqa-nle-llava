@@ -1,4 +1,4 @@
-test_name: experiment_75_clean_complete
+test_name: experiment_with_js
 bad_data: replace
 test_group:
     test_1: 10-4_vicuna7_naive-optim_500

@@ -165,7 +165,7 @@ def unpack_json(json_file_path):
         print(f"An unexpected error occurred: {e}")
 
 
-def annotate_images(img_path, graph, num_obj=5, min_area_div=100):  # TODO: Changing
+def annotate_images(img_path, graph, num_obj=5, min_area_div=100):  ### PINDAH KE PREPROC
     COLORS = [
         "red",
         "green",
@@ -219,7 +219,7 @@ def save_annotated_img(tensor, path):
     img_pil.save(path)
 
 
-def raw_output_splitter(out_id, out_content, extras=None):
+def raw_output_splitter(out_id, out_content, extras=None): ### PINDAH KE PREPROC/ POSTPROC
     if out_content != "":
         out = f"{out_id}\n-------------------------------\n{out_content}\n\n"
         if extras is not None:
@@ -228,7 +228,7 @@ def raw_output_splitter(out_id, out_content, extras=None):
     return ""
 
 
-def expand_prefix_stratify(prefixes, props, total_length):
+def expand_prefix_stratify(prefixes, props, total_length): ### PINDAH KEINFERENCE
     props = [(total_length * prop) // sum(props) for prop in props]
 
     expanded_list = []
@@ -241,12 +241,13 @@ def expand_prefix_stratify(prefixes, props, total_length):
     return expanded_list[:total_length]
 
 
-def validate_question(q):
+def validate_question(q): ### PINDAH KE POSTPROC
     questions = q.split(",")
     if len(questions) == 1:
         return questions[0]
     
     prefixes = ["how", "what", "why", "who", "whose", "which", "where","when"]
+    proportion = [2,2,2,1,1,1,2,1,2,1,]
     
     for question in questions[1:]:
         for prefix in prefixes:
@@ -258,11 +259,11 @@ def validate_question(q):
 
     return ','.join(questions[:]).strip("\n")
 
-def validate_short_answer(a):
+def validate_short_answer(a): ### PINDAH KE POSTPROC
     return a.strip("\n")
 
 
-def validate_reason(s):
+def validate_reason(s): ### PINDAH KE POSTPROC
     sentences = s.split('.')
     last_sentence = sentences[-1]
     
