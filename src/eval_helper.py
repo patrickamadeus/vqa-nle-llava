@@ -15,6 +15,7 @@ from irrCAC.raw import CAC
 from PIL import Image
 import plotly.graph_objects as go
 from scipy.stats import pearsonr, chisquare, entropy
+from scipy.spatial.distance import jensenshannon
 
 from src.base import load_config, unpack_json
 
@@ -383,6 +384,11 @@ def gen_dist_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
         kl_divergence_a = entropy(heights_a_human + epsilon, heights_a_sample + epsilon)
         kl_divergence_r = entropy(heights_r_human + epsilon, heights_r_sample + epsilon)
         
+        js_divergence_q = jensenshannon(heights_q_human, heights_q_sample)
+        js_divergence_a = jensenshannon(heights_a_human, heights_a_sample)
+        js_divergence_r = jensenshannon(heights_r_human, heights_r_sample)
+        
+        
         content = {
             "experiment": sample_name,
             "pearson_q": pearson_corr_q,
@@ -391,6 +397,9 @@ def gen_dist_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
             "kl_q": kl_divergence_q,
             "kl_a": kl_divergence_a,
             "kl_r": kl_divergence_r,
+            "js_q": js_divergence_q,
+            "js_a": js_divergence_a,
+            "js_r": js_divergence_r
         }
         res.append(content)
     
@@ -423,12 +432,15 @@ def gen_prefix_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
     prefix_counter = Counter(human_prefixes)
 
     # Gather question prefixes from sample data
+    ii = 0
     for sample_name in test_names:
         with open(f"./result/{sample_name}/res.json") as f:
             sample_data = json.load(f)
+        print(sample_name, ii)
         if not all:
             clean_ids = set(get_subj_mutual_data(sample_name, mode="remove")[0][0]["id"].values)
             sample_data = [item for item in sample_data if item["id"] in clean_ids]
+        ii += 1
         
         sample_prefixes = [item["question"].split()[0] for item in sample_data]
         prefix_counter.update(sample_prefixes)
@@ -450,6 +462,7 @@ def gen_prefix_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
     axes = axes.flatten()
 
     all_data = [("Human", human_prefixes)]
+    ii = 0
     for sample_name in test_names:
         
         with open(f"./result/{sample_name}/res.json") as f:
@@ -457,7 +470,7 @@ def gen_prefix_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
         if not all:
             clean_ids = set(get_subj_mutual_data(sample_name, mode="remove")[0][0]["id"].values)
             sample_data = [item for item in sample_data if item["id"] in clean_ids]
-        
+        ii += 1
         sample_prefixes = [item["question"].split()[0] for item in sample_data]
         all_data.append((sample_name, sample_prefixes))
 
@@ -595,15 +608,15 @@ def get_clean_df(df: pd.DataFrame, mode = "remove") -> Tuple[pd.DataFrame, float
     df.dropna(subset=["accuracy", "logical", "clarity", "detail", "irrelevancy"], inplace=True)
 
     clean_rate = None
-    if mode == "remove":
-        clean_df = df[(df != -1.0).all(axis=1)]
-        clean_rate = len(clean_df) / len(df)
-    elif mode == "replace":
-        temp_clean_df = df[(df != -1.0).all(axis=1)]
-        clean_df = df.replace(-1.0, 1.0)
-        clean_rate = len(temp_clean_df) / len(df)
-
-    return clean_df, clean_rate
+#     if mode == "remove":
+    clean_df = df[(df != -1.0).all(axis=1)]
+    clean_rate = len(clean_df) / len(df)
+#     elif mode == "replace":
+#         temp_clean_df = df[(df != -1.0).all(axis=1)]
+#         clean_df = df.replace(-1.0, 1.0)
+#         clean_rate = len(temp_clean_df) / len(df)
+    
+    return clean_df, clean_rate, len(clean_df), len(df)
 
 
 def get_clean_ids(df: pd.DataFrame) -> set:
@@ -613,22 +626,31 @@ def get_clean_ids(df: pd.DataFrame) -> set:
 def get_subj_mutual_data(test_name: str, mode = "remove") -> Tuple[List[pd.DataFrame], List[float]]:
     transformed_dfs = transform_raw_to_dfs(test_name)
     cleaned_transformed_dfs = [get_clean_df(df, mode=mode) for df in transformed_dfs]
-
-    cleaned_dfs = [df for df, _ in cleaned_transformed_dfs]
-    mutual_clean_rate = [rate for _, rate in cleaned_transformed_dfs]
+    
+    cleaned_dfs = []
+    mutual_clean_rate = []
+    mutual_real_amt = []
+    mutual_amt = []
+    
+    for df, rate, real_amt, amt in cleaned_transformed_dfs:
+        cleaned_dfs.append(df)
+        mutual_clean_rate.append(rate)
+        mutual_real_amt.append(real_amt)
+        mutual_amt.append(amt)
+    
 
     common_ids_set = common_ids(cleaned_dfs)
     mutual_dfs = [df[df["id"].isin(common_ids_set)] for df in cleaned_dfs]
+    
+    return mutual_dfs, mutual_clean_rate, mutual_real_amt, mutual_amt
 
-    return mutual_dfs, mutual_clean_rate
 
-
-def gen_subjective_quant_analysis(test_names: List[str], mode = "replace") -> dict:
+def gen_subjective_quant_analysis(test_names: List[str], mode = "remove") -> dict:
     res = {}
 
     for test_name in test_names:
         
-        mutual_dfs, mutual_clean_rate = get_subj_mutual_data(test_name=test_name, mode = mode)
+        mutual_dfs, mutual_clean_rate, mutual_real_amt, mutual_amt = get_subj_mutual_data(test_name=test_name, mode = mode)
 
         metric = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
         mean_scores = [df[metric].mean() for df in mutual_dfs]
@@ -640,7 +662,8 @@ def gen_subjective_quant_analysis(test_names: List[str], mode = "replace") -> di
         gwet_ac2 = gwet_AC2(test_name)
 
         res[test_name] = {
-            "amount": len(mutual_dfs[0]),
+            "amount": mutual_amt[0], # TODO: improve
+            "real_amount": mutual_real_amt[0], # TODO: improve
             "gen_rate": np.mean(mutual_clean_rate),
             "ovr_mean_scores": ovr_mean_scores.to_dict(),
             "ovr_std_scores": ovr_std_scores.to_dict(),
@@ -667,6 +690,7 @@ def gen_quant_subj_df(
 
         res[test_name] = {
             "amount": data["amount"],
+            "real_amount": data["real_amount"],
             "gen_rate": data["gen_rate"],
             "gwet_ac2": data["ovr_gwet_ac2"],
             **{
@@ -691,7 +715,7 @@ def gen_subj_rank(test_names: List[str], mode = "replace") -> pd.DataFrame:
     res = {}
     for test_name, data in quant_subj_res.items():
         content = data["ovr_mean_scores"]
-        content["amount"] = data["amount"]
+#         content["amount"] = data["amount"]
         content["gen_rate"] = data["gen_rate"]
         content["gwet_ac2"] = data["ovr_gwet_ac2"]
         res[test_name] = content
@@ -848,16 +872,13 @@ def gen_quant_subj_chart(test_names: List[str], mode = "replace"):
     return ""
 
 
-def gen_rate_chart(test_names: List[str], mode="replace"):
-    # Assuming gen_quant_subj_df is a function that generates the DataFrame you need
-    df = gen_quant_subj_df(test_names, mode=mode)[['amount', 'gen_rate']]
-    df_human = pd.read_csv('./result/human/human_quant.csv', index_col=0)[['amount', 'gen_rate']]
+def gen_rate_chart(test_names, mode="replace"):
+    df = gen_quant_subj_df(test_names, mode=mode)[['amount','real_amount','gen_rate']]
+    df_human = pd.read_csv('./result/human/human_quant.csv', index_col=0)[['amount', 'real_amount', 'gen_rate']]
+    
     
     df = pd.concat([df, df_human], axis=0)
     
-    # Calculate real_amount
-    df['real_amount'] = np.floor(df['amount'] * df['gen_rate'])
-
     # Sample data
     categories = df.index.values
     bar_data = df.amount.values
@@ -870,10 +891,19 @@ def gen_rate_chart(test_names: List[str], mode="replace"):
     # Plot bar chart for amount
     bar_width = 0.2
     bar_positions = np.arange(len(categories))
-    ax1.bar(bar_positions, bar_data, width=bar_width, label='Expected Amount', color='#85D1EC')
+    bars1 = ax1.bar(bar_positions, bar_data, width=bar_width, label='Total Data Observed (Until 75 Valid Data)', color='#85D1EC')
 
     # Plot bar chart for real_amount
-    ax1.bar(bar_positions + bar_width, real_bar_data, width=bar_width, label='Real Amount', color='#FFC300')
+    bars2 = ax1.bar(bar_positions + bar_width, real_bar_data, width=bar_width, label='Valid Data Observed', color='#FFC300')
+
+    # Add numbers on top of the bars
+    for bar in bars1:
+        yval = bar.get_height()
+        ax1.text(bar.get_x() + bar.get_width()/2, yval + 0.5, int(yval), ha='center', va='bottom', fontsize=10)
+    
+    for bar in bars2:
+        yval = bar.get_height()
+        ax1.text(bar.get_x() + bar.get_width()/2, yval + 0.5, int(yval), ha='center', va='bottom', fontsize=10)
 
     # Create secondary y-axis for line chart
     ax2 = ax1.twinx()
@@ -883,8 +913,8 @@ def gen_rate_chart(test_names: List[str], mode="replace"):
     ax1.set_xlabel('Experiment', fontsize=12)
     ax1.set_ylabel('Count', fontsize=12)
     ax2.set_ylabel('Gen Rate', color='r', fontsize=12)
-    ax1.legend(loc='upper left')
-    ax2.legend(loc='upper right')
+    ax1.legend(loc='upper left', fontsize = 8)
+    ax2.legend(loc='upper right', fontsize = 10)
 
     # Rotate x-axis labels for ax1
     ax1.set_xticks(bar_positions + bar_width / 2)
@@ -915,4 +945,5 @@ def gen_rate_chart(test_names: List[str], mode="replace"):
 
     plt.savefig(f'./result/multieval/{TEST_NAME}/generation_rate_chart.jpg', bbox_inches='tight')
     
-    return  ""
+    return ""
+

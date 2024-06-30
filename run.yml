@@ -1,13 +1,13 @@
-test_name: vicuna13_1.6_naive_1
+test_name: vicuna13_1.5_random
 seed: 42
 dataset:
     name: GQA
     count: 167
 
 model:
-    name: llava-hf/llava-v1.6-vicuna-13b-hf
-    path: llava-hf/llava-v1.6-vicuna-13b-hf
-    family: llava-1.6
+    name: llava-hf/llava-1.5-13b-hf
+    path: llava-hf/llava-1.5-13b-hf
+    family: llava
     params:
         use_8_bit: 0
         device: "cuda"
@@ -16,7 +16,7 @@ model:
 
 prompt:
     multistep: 0
-    primary: naive_optim
+    primary: naive_random
     inter: 
 
 run_params:

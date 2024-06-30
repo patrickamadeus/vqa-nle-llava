@@ -11,6 +11,7 @@ PROMPT_DICT = {
     "qg_story_optim": "./prompt/qg_story/gen_optim.txt",
     "naive": "./prompt/naive/base.txt",
     "naive_optim": "./prompt/naive/optim.txt",
+    "naive_random": "./prompt/naive/random.txt",
     "nonvis_base": "./prompt/nonvis/base.txt",
     "nonvis_optim": "./prompt/nonvis/optim.txt",
     "sc_question": "./prompt/self_consistency/question.txt",

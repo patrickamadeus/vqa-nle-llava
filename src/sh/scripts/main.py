@@ -10,19 +10,19 @@ from transformers import (
 )
 
 runner = [
-#     LlavaForConditionalGeneration,
-#     LlavaForConditionalGeneration,
-#     VipLlavaForConditionalGeneration,
+    LlavaForConditionalGeneration,
+    LlavaForConditionalGeneration,
+    VipLlavaForConditionalGeneration,
 #     LlavaNextForConditionalGeneration,
-    LlavaNextForConditionalGeneration
+#     LlavaNextForConditionalGeneration
 ]
 
 models = [
-#     "llava-hf/llava-1.5-7b-hf",
-#     "llava-hf/llava-1.5-13b-hf",
-#     "llava-hf/vip-llava-13b-hf",
+    "llava-hf/llava-1.5-7b-hf",
+    "llava-hf/llava-1.5-13b-hf",
+    "llava-hf/vip-llava-13b-hf",
 #     "llava-hf/llava-v1.6-vicuna-7b-hf",
-    "llava-hf/llava-v1.6-vicuna-13b-hf"
+#     "llava-hf/llava-v1.6-vicuna-13b-hf"
 ]
 
 for i in range(len(runner)):

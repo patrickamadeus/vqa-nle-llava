@@ -1,0 +1,5 @@
+,accuracy,logical,clarity,detail,irrelevancy,gen_rate,gwet_ac2
+1,13b_self-const - (2.64),13b_self-const - (2.53),13b_nonvis - (2.93),13b_self-const - (2.93),13b_nonvis - (1.24),13b_naive - (1.0),7b_naive - (1.0)
+2,13b_nonvis - (2.57),13b_nonvis - (2.49),13b_naive - (2.91),13b_nonvis - (2.73),13b_naive - (1.37),13b_nonvis - (0.97),13b_naive - (1.0)
+3,13b_naive - (2.52),7b_naive - (2.44),13b_self-const - (2.89),13b_naive - (2.6),13b_self-const - (1.61),13b_self-const - (0.91),13b_self-const - (1.0)
+4,7b_naive - (2.49),13b_naive - (2.33),7b_naive - (2.88),7b_naive - (2.48),7b_naive - (1.64),7b_naive - (0.83),13b_nonvis - (1.0)

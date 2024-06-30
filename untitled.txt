@@ -1,0 +1,25 @@
+<!-- START PROGRAM -->
+
+call variables
+    imgs[], model, prompt
+
+init variables 
+    imgs[], synthetic_datas[], total_time, raw_outputs
+
+for img in imgs do
+    
+    img_info <- get metadata and info from img
+    formatted_prompt <- format(prompt, img_info)
+    
+    raw_output, time <- model(img, formatted_prompt)
+    
+    raw_outputs <- raw_outputs + raw_output
+    total_time <- total_time + time
+    
+    if raw_output is valid then
+        data <- parse(raw_output)
+        synthetic_datas <- synthetic_datas + data
+    else then
+        // do nothing
+    
+<!-- END PROGRAM -->
