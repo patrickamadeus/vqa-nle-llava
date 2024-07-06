@@ -32,8 +32,6 @@ def load_model(model_path, model_family, low_cpu_mem_usage, device="cuda", seed=
     MODEL_LOADER_DICT = {
         "llava": LlavaForConditionalGeneration,
         "vip_llava": VipLlavaForConditionalGeneration,
-        "auto": AutoModel,
-        "llama": AutoModelForCausalLM,
         "llava-1.6": LlavaNextForConditionalGeneration,
     }
 
@@ -369,61 +367,61 @@ def nonvis_inference_runner(
     )
 
 
-def self_consistency_processor(img_path, question, top_k_prompt, conclude_prompt, top_k_sample = 5):
-    # Generate top_k_sample answers
-    answers, sec1 = inference_hf_multi(
-        model, processor, 
-        top_k_prompt.format(question = question), 
-        img_path = img_path,
-        num_return_sequences = top_k_sample
-    )
+# def self_consistency_processor(img_path, question, top_k_prompt, conclude_prompt, top_k_sample = 5):
+#     # Generate top_k_sample answers
+#     answers, sec1 = inference_hf_multi(
+#         model, processor, 
+#         top_k_prompt.format(question = question), 
+#         img_path = img_path,
+#         num_return_sequences = top_k_sample
+#     )
     
-    num = top_k_sample
-    ques = q
-    ans = ""
+#     num = top_k_sample
+#     ques = q
+#     ans = ""
 
-    for i, answer in enumerate(answers):
-        ans += f"{i+1}. {answer}\n\n"
+#     for i, answer in enumerate(answers):
+#         ans += f"{i+1}. {answer}\n\n"
     
-    # Conclude majority answer that is the most consistent
-    final, sec2 = inference_hf(
-        model, processor, 
-        conclude.format(number = num, question = ques, answers = ans),
-        img_raw = None
-    )
+#     # Conclude majority answer that is the most consistent
+#     final, sec2 = inference_hf(
+#         model, processor, 
+#         conclude.format(number = num, question = ques, answers = ans),
+#         img_raw = None
+#     )
     
-    return final, sec1+sec2+sec3
+#     return final, sec1+sec2+sec3
 
 
 
-def self_consistency_inference_runner(
-    model,
-    processor,
-    top_k_prompt,
-    conclude_prompt,
-    img_path,
-):
-    img_id_ext, _ = get_filename(img_path)
+# def self_consistency_inference_runner(
+#     model,
+#     processor,
+#     top_k_prompt,
+#     conclude_prompt,
+#     img_path,
+# ):
+#     img_id_ext, _ = get_filename(img_path)
 
-    logging.info(f"[{img_id_ext}] - Inference started...")
+#     logging.info(f"[{img_id_ext}] - Inference started...")
     
     
 
-    outs = []
-    total_sec = 0
-    for prefix in runner_config["prefixes"]:
-        primary_out, primary_sec = inference_hf(
-            model,
-            processor,
-            prompt_primary.format(
-                intermediary=inter_out,
-                prefix=prefix,
-            ),
-            img_path=img_path,
-        )
-        outs.append(primary_out)
-        total_sec += primary_sec
+#     outs = []
+#     total_sec = 0
+#     for prefix in runner_config["prefixes"]:
+#         primary_out, primary_sec = inference_hf(
+#             model,
+#             processor,
+#             prompt_primary.format(
+#                 intermediary=inter_out,
+#                 prefix=prefix,
+#             ),
+#             img_path=img_path,
+#         )
+#         outs.append(primary_out)
+#         total_sec += primary_sec
 
-    logging.info(f"[{img_id_ext}] - Primary Inference finished ({total_sec}s)")
+#     logging.info(f"[{img_id_ext}] - Primary Inference finished ({total_sec}s)")
 
-    return "\n".join(outs), total_sec, inter_out, inter_sec, None
+#     return "\n".join(outs), total_sec, inter_out, inter_sec, None

@@ -10,9 +10,9 @@ import torchvision
 from yaml import safe_load
 
 
-def load_config(config_path: str, config_name: str) -> dict:
-    with open(os.path.join(config_path, config_name)) as file:
-        config = safe_load(file)
+def load_config(config_path: str) -> dict:
+    with open(config_path) as file_path:
+        config = safe_load(file_path)
     return config
 
 

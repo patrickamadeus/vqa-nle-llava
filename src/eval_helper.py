@@ -9,12 +9,10 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from pandas.plotting import table
 import seaborn as sns
 from irrCAC.raw import CAC
 from PIL import Image
-import plotly.graph_objects as go
-from scipy.stats import pearsonr, chisquare, entropy
+from scipy.stats import pearsonr
 from scipy.spatial.distance import jensenshannon
 
 from src.base import load_config, unpack_json
@@ -90,26 +88,6 @@ def export_eval(name, data, test_name=None, mode="json"):
         writer.close()
     
     elif mode == "df":
-
-        # fig, ax = plt.subplots(figsize=(10, 2)) # set size frame
-        # ax.xaxis.set_visible(False)  # hide the x axis
-        # ax.yaxis.set_visible(False)  # hide the y axis
-        # ax.set_frame_on(False)  # no visible frame, uncomment if size is ok
-        # tabla = table(ax, data, loc='upper right', colWidths=[0.17]*len(data.columns))  # where df is your data frame
-        # tabla.auto_set_font_size(False) # Activate set fontsize manually
-        # tabla.set_fontsize(12) # if ++fontsize is necessary ++colWidths
-        # tabla.scale(1.2, 1.2) # change size table
-        # plt.savefig('table.png', transparent=True)
-
-        # fig = go.Figure(data=[
-        #                     go.Table(
-        #                         header=dict(values=list(data.columns),align='center'),
-        #                         cells=dict(values=data.values,
-        #                                 fill_color = [["white","lightgrey"]*data.shape[0]],
-        #                                 align='center'
-        #                                 )
-        #                             )
-        #                     ])
     
         if not os.path.exists(MULTI_RESULT_PATH):
             os.makedirs(MULTI_RESULT_PATH)
@@ -119,11 +97,6 @@ def export_eval(name, data, test_name=None, mode="json"):
 
         # also export the data as xlsx
         data.to_excel(os.path.join(MULTI_RESULT_PATH, f"{name}.xlsx"))
-
-        # filename = os.path.join(MULTI_RESULT_PATH, f"{name}.jpg")
-        # fig.write_image(filename,scale=6)
-        # plt.savefig(filename, transparent=True)
-        
 
 
 def transform_list_to_dfs(test_name, mode="csv", sep=";"):
@@ -380,13 +353,9 @@ def gen_dist_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
         pearson_corr_a, _ = pearsonr(heights_a_human, heights_a_sample)
         pearson_corr_r, _ = pearsonr(heights_r_human, heights_r_sample)
         
-        kl_divergence_q = entropy(heights_q_human + epsilon, heights_q_sample + epsilon)
-        kl_divergence_a = entropy(heights_a_human + epsilon, heights_a_sample + epsilon)
-        kl_divergence_r = entropy(heights_r_human + epsilon, heights_r_sample + epsilon)
-        
-        js_divergence_q = jensenshannon(heights_q_human, heights_q_sample)
-        js_divergence_a = jensenshannon(heights_a_human, heights_a_sample)
-        js_divergence_r = jensenshannon(heights_r_human, heights_r_sample)
+        js_divergence_q = jensenshannon(heights_q_human + epsilon, heights_q_sample + epsilon)
+        js_divergence_a = jensenshannon(heights_a_human + epsilon, heights_a_sample + epsilon)
+        js_divergence_r = jensenshannon(heights_r_human + epsilon, heights_r_sample + epsilon)
         
         
         content = {
@@ -394,9 +363,6 @@ def gen_dist_analysis(test_names, output_dir=MULTI_RESULT_PATH, all=False):
             "pearson_q": pearson_corr_q,
             "pearson_a": pearson_corr_a,
             "pearson_r": pearson_corr_r,
-            "kl_q": kl_divergence_q,
-            "kl_a": kl_divergence_a,
-            "kl_r": kl_divergence_r,
             "js_q": js_divergence_q,
             "js_a": js_divergence_a,
             "js_r": js_divergence_r
@@ -605,16 +571,12 @@ def transform_raw_to_dfs(
 
 
 def get_clean_df(df: pd.DataFrame, mode = "remove") -> Tuple[pd.DataFrame, float]:
+
     df.dropna(subset=["accuracy", "logical", "clarity", "detail", "irrelevancy"], inplace=True)
 
     clean_rate = None
-#     if mode == "remove":
     clean_df = df[(df != -1.0).all(axis=1)]
     clean_rate = len(clean_df) / len(df)
-#     elif mode == "replace":
-#         temp_clean_df = df[(df != -1.0).all(axis=1)]
-#         clean_df = df.replace(-1.0, 1.0)
-#         clean_rate = len(temp_clean_df) / len(df)
     
     return clean_df, clean_rate, len(clean_df), len(df)
 
