@@ -3,6 +3,8 @@ import os
 import re
 
 from src.helper.base import save_annotated_img
+from src.config.run import RunConfig
+
 
 def parse_output(
     input_text: str,
@@ -22,7 +24,7 @@ def parse_output(
     """
     if not input_text.endswith("\n"):
         input_text += "\n"
-    
+
     pattern_question = re.compile(r"Question:\s(.+?)\n")
     pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
     pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")
@@ -48,82 +50,56 @@ def parse_output(
 
 
 def export_result(
-    data: list[dict],
-    total_data: int,
-    total_gen: int,
-    total_sec: int,
-    primary_raw_out: str,
-    inter_raw_out: str,
-    test_name: str,
-    dataset_name: str,
-    model_name: str,
-    model_family: str,
-    prompt_primary: str,
-    prompt_inter: str,
-    inter_dict: dict,
-    annot_metadatas: list[dict],
-):
-    # Create a new folder named "result" with a numbered identifier if it exists
-    result_folder = f"./result/{test_name}"
-    identifier = 1
-    while os.path.exists(result_folder):
-        result_folder = f"./result/{test_name}_{identifier}"
-        identifier += 1
+    data: list[dict], raw_data: str, total_sec: float, run_config: RunConfig
+) -> None:
+    model_config = run_config.get_model_config()
+    data_config = run_config.get_data_config()
+    run_params = run_config.get_run_params()
 
+    metadata = {
+        "test_name": run_config.get_test_name(),
+        "model_name": model_config["name"],
+        "prompt": run_config.get_prompt_type(),
+        "expected_data_count": run_params["num_per_inference"] * data_config["count"],
+        "generated_data_count": len(data),
+        "total_sec": total_sec,
+    }
+
+    test_name = run_config.get_test_name()
+    result_folder = f"./result/{test_name}"
+    id = 1
+    while os.path.exists(result_folder):
+        result_folder = f"./result/{test_name}_{id}"
+        id += 1
     os.makedirs(result_folder)
+
     misc_folder = os.path.join(result_folder, "misc")
     os.makedirs(misc_folder)
 
-    # Construct metadata dictionary
-    metadata = {
-        "test_name": test_name,
-        "dataset_name": dataset_name,
-        "total_data": total_data,
-        "total_gen": total_gen,
-        "total_sec": total_sec,
-        "model_name": model_name,
-        "model_family": model_family,
-        "prompt_primary": prompt_primary,
-        "prompt_inter": prompt_inter,
-    }
-
-    # Export metadata to metadata.json
     metadata_path = os.path.join(result_folder, "metadata.json")
     with open(metadata_path, "w") as metadata_file:
         json.dump(metadata, metadata_file, indent=2)
 
-    # Export data to res.json
     res_path = os.path.join(result_folder, "res.json")
     with open(res_path, "w") as res_file:
         json.dump(data, res_file, indent=2)
 
-    # Export inter_dict to inter.json
-    inter_dict_path = os.path.join(misc_folder, "inter.json")
-    with open(inter_dict_path, "w") as res_file:
-        json.dump(inter_dict, res_file, indent=2)
+    raw_path = os.path.join(misc_folder, "raw.txt")
+    with open(raw_path, "w") as raw_file:
+        raw_file.write(raw_data)
 
-    # Export primary_raw_out to primary.txt
-    primary_path = os.path.join(misc_folder, "primary.txt")
-    with open(primary_path, "w") as primary_file:
-        primary_file.write(primary_raw_out)
-
-    # Export inter_raw_out to secondary.txt
-    inter_path = os.path.join(misc_folder, "inter.txt")
-    with open(inter_path, "w") as inter_file:
-        inter_file.write(inter_raw_out)
-
-    # If annot_metadatas is not empty, get every image using save_annotated_img to the misc/annot_img folder with name {id}_annot.jpg
-    if annot_metadatas:
-        annot_img_folder = os.path.join(misc_folder, "annot_img")
-        os.makedirs(annot_img_folder)
-        for metadata in annot_metadatas:
-            try:
-                save_annotated_img(
-                    metadata["complete_tensor"],
-                    os.path.join(annot_img_folder, f"{metadata['id']}_annot.jpg"),
-                )
-            except:
-                continue
+    # # If annot_metadatas is not empty, get every image using save_annotated_img to the misc/annot_img folder with name {id}_annot.jpg
+    # if annot_metadatas:
+    #     annot_img_folder = os.path.join(misc_folder, "annot_img")
+    #     os.makedirs(annot_img_folder)
+    #     for metadata in annot_metadatas:
+    #         try:
+    #             save_annotated_img(
+    #                 metadata["complete_tensor"],
+    #                 os.path.join(annot_img_folder, f"{metadata['id']}_annot.jpg"),
+    #             )
+    #         except:
+    #             continue
 
 
 def verif_digit(s: str):

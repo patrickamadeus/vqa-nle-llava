@@ -9,7 +9,7 @@ from transformers import (
     LlavaNextForConditionalGeneration,
 )
 
-from src.config.run_class import RunConfig
+from src.config.run import RunConfig
 
 
 Config = RunConfig()

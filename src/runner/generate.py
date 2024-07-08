@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 from src.model import LVLM
 from src.dataset import Dataset
-from src.config.run_class import RunConfig
+from src.config.run import RunConfig
 from src.helper.base import init_logging, raw_output_splitter, set_seed
 from src.helper.parser import parse_output
 
