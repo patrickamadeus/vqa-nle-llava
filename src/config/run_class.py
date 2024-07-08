@@ -41,7 +41,10 @@ class RunConfig:
         return data_cfg
 
     def get_prompt(self):
-        raw_path = self.__prompt_cfg["prompt"]
+        if self.__prompt_cfg == "self_consistency":
+            return self.__prompt_cfg
+        
+        raw_path = self.__prompt_cfg
 
         folder = raw_path.split("-")[0]
         filename = raw_path.split("-")[1]
@@ -57,8 +60,8 @@ class RunConfig:
         run_params = {
             "num_per_inference": int(self.__run_params["num_per_inference"]),
             "use_img_ext": self.__run_params["use_img_ext"],
-            "q_prefix": eval(self.__run_params["q_prefix"]),
-            "q_prefix_prop": eval(self.__run_params["q_prefix_prop"]),
+            "q_prefix": self.__run_params["q_prefix"],
+            "q_prefix_prop": self.__run_params["q_prefix_prop"],
         }
 
         return run_params

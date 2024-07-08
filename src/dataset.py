@@ -25,16 +25,15 @@ class Dataset:
         self.__q_prefix_prop = run_params_config["q_prefix_prop"]
         self.__num_per_inference = run_params_config["num_per_inference"]
 
-        if self.__use_scene_graph:
-            with open("./dataset/scene_graph.json") as file:
-                self.__scene_graph = json.load(file)
+        with open("./dataset/feat/sceneGraphs.json") as file:
+            self.__scene_graph = json.load(file)
 
         self.__ids = []
         self.__images = []
         self.__object_names = []
         self.__q_prefices = []
 
-    def __get_filename(long_path: str) -> str:
+    def __get_filename(self, long_path: str) -> str:
         filename_with_ext = os.path.basename(long_path)
         filename = os.path.splitext(filename_with_ext)[0]
 
@@ -48,7 +47,7 @@ class Dataset:
             for root, _, files in os.walk(self.__img_path)
             for file in files
             if (os.path.basename(root) == os.path.basename(self.__img_path))
-            and (self.__get_filename(file)[-1] in keys)
+            and (self.__get_filename(file)[0] in keys)
         ][: self.__count]
 
         return file_paths
@@ -66,13 +65,17 @@ class Dataset:
     def __multi_annotate_image(self, img_path, num_obj=5, min_area_div=100):
         img_torch = torchvision.io.read_image(img_path)
 
+        img_key = self.__get_filename(img_path)[0]
         img_area = img_torch.size()[-1] * img_torch.size()[-2]
-        graph = self.__scene_graph[self.__get_filename(img_path)[-1]]
+        graph = self.__scene_graph[img_key]
 
         annotated_imgs = []
         obj_names = []
 
         for object in graph["objects"].values():
+            if num_obj == 0:
+                break
+            
             x, y, w, h = object["x"], object["y"], object["w"], object["h"]
             if w * h * min_area_div < img_area:
                 continue
@@ -82,6 +85,8 @@ class Dataset:
 
             annotated_imgs.append(img_pil)
             obj_names.append(object["name"])
+
+            num_obj -= 1
 
         return annotated_imgs, obj_names
 
@@ -94,7 +99,7 @@ class Dataset:
                 "how many",
                 "where/when (pick one that fits the most)",
             )
-            prefixes_proportions = [2, 2, 2, 2, 1, 1, 1]
+            prefixes_proportions = [2,2,2,1,1]
         else:
             prefixes = self.__q_prefix_choice
             prefixes_proportions = self.__q_prefix_prop
@@ -121,15 +126,16 @@ class Dataset:
 
         for img_path, img_id in img_paths_ids:
             if self.__use_scene_graph:
-                annotated_imgs, obj_names = self.__multi_annotate_image(img_path)
+                annotated_imgs, obj_names = self.__multi_annotate_image(img_path, self.__num_per_inference)
                 self.__ids.extend([img_id] * len(annotated_imgs))
                 self.__images.extend(annotated_imgs)
                 self.__object_names.extend(obj_names)
             else:
                 img = Image.open(img_path)
-                self.__ids.append(img_id)
-                self.__images.append(img)
-
+                self.__ids.extend([img_id] * self.__num_per_inference)
+                self.__images.extend([img] * self.__num_per_inference)
+                self.__object_names.extend([None] * self.__num_per_inference)
+        
         return {
             "ids": self.__ids,
             "images": self.__images,
@@ -139,12 +145,8 @@ class Dataset:
     def get_data(self):
         self.__expand_prefix_stratify()
         final_data = self.__get_images_and_obj_names()
-        final_data["q_prefices"] = self.__q_prefices
 
-        if len(final_data["object_names"]) < len(final_data["images"]):
-            final_data["object_names"] += [None] * (
-                len(final_data["images"]) - len(final_data["object_names"])
-            )
+        final_data["q_prefices"] = self.__q_prefices
 
         final_data = [(v[0], v[1], v[3], v[2]) for v in zip(*final_data.values())]
 

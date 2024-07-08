@@ -12,7 +12,7 @@ You MUST provide values for 'Question', 'Short Answer', and 'Reason' in your ans
 
 Now here is the object name.
 
-Object name: {name}
+Object name: {obj_name}
 
 Provide your feedback. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.
 Feedback:::

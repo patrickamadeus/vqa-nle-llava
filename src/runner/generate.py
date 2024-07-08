@@ -8,24 +8,35 @@ warnings.filterwarnings("ignore")
 
 from src.model import LVLM
 from src.dataset import Dataset
-from src.helper.base import init_logging, raw_output_splitter
+from src.config.run_class import RunConfig
+from src.helper.base import init_logging, raw_output_splitter, set_seed
 from src.helper.parser import parse_output
 
+Config = RunConfig()
+SEED = Config.get_seed()
 
 init_logging()
+set_seed(SEED)
 
 
 class GenerateRunner:
     def __init__(
-        self, dataset: Dataset, model: LVLM, prompt: str, ensemble: bool = False
+        self, dataset: Dataset, model: LVLM, prompt: str
     ) -> None:
         self.__data = dataset.get_data()
         self.__model = model
         self.__prompt = prompt
 
-        self.__is_ensemble = ensemble
+        self.__is_ensemble = self.__prompt == "self_consistency"
         self.__is_using_scene_graph = dataset.is_using_scene_graph()
 
+        if self.__is_using_scene_graph and not self.__prompt.startswith("nonvis"):
+            print("You are using scene graph annotation without using non-visual prompt.")
+            user_input = input("Enter [Y/y] to proceed: ")
+            if user_input.strip().lower() != 'y':
+                print("Program aborted.")
+                exit()
+        
         if self.__is_ensemble:
             self.__sc_model = SentenceTransformer(
                 "sentence-transformers/all-mpnet-base-v2"
@@ -181,6 +192,7 @@ class GenerateRunner:
                 raw_data = self.__generate_self_consistency_data(img, prefix)
 
             parsed_data = parse_output(raw_data, img_id, prev_i=prev_id)
+
             total_data.extend(parsed_data)
 
             prev_id += len(parsed_data)
