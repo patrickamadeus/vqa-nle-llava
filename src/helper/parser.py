@@ -4,7 +4,6 @@ import re
 
 from src.helper.base import save_annotated_img
 
-
 def parse_output(
     input_text: str,
     img_id: str,
@@ -21,6 +20,9 @@ def parse_output(
     Returns:
     - list[dict[str, str]]: A list of dictionaries containing parsed data.
     """
+    if not input_text.endswith("\n"):
+        input_text += "\n"
+    
     pattern_question = re.compile(r"Question:\s(.+?)\n")
     pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
     pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")
@@ -29,6 +31,7 @@ def parse_output(
     questions = pattern_question.findall(input_text)
     short_answers = pattern_short_answer.findall(input_text)
     long_answers = pattern_long_answer.findall(input_text)
+
     ids = [i + prev_i for i in range(1, len(questions) + 1)]
     data = [
         {
