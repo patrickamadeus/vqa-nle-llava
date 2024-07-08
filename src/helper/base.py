@@ -247,7 +247,6 @@ def validate_question(q): ### PINDAH KE POSTPROC
         return questions[0]
     
     prefixes = ["how", "what", "why", "who", "whose", "which", "where","when"]
-    proportion = [2,2,2,1,1,1,2,1,2,1,]
     
     for question in questions[1:]:
         for prefix in prefixes:

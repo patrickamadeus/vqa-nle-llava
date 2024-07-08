@@ -6,7 +6,7 @@ import torchvision
 import random
 
 from src.config.run_class import RunConfig
-from src.base import set_seed
+from src.helper.base import set_seed
 
 Config = RunConfig()
 DataConfig = Config.get_data_config()
@@ -29,6 +29,7 @@ class Dataset:
             with open("./dataset/scene_graph.json") as file:
                 self.__scene_graph = json.load(file)
 
+        self.__ids = []
         self.__images = []
         self.__object_names = []
         self.__q_prefices = []
@@ -43,7 +44,7 @@ class Dataset:
         keys = set(self.__scene_graph.keys())
 
         file_paths = [
-            os.path.join(root, file)
+            (os.path.join(root, file), self.__get_filename(file)[-1])
             for root, _, files in os.walk(self.__img_path)
             for file in files
             if (os.path.basename(root) == os.path.basename(self.__img_path))
@@ -98,27 +99,53 @@ class Dataset:
             prefixes = self.__q_prefix_choice
             prefixes_proportions = self.__q_prefix_prop
 
-        for i, prefix in enumerate(prefixes):
-            self.__q_prefices.extend([prefix] * prefixes_proportions[i])
+        n_data = self.__count * self.__num_per_inference
 
+        props = [
+            (n_data * prop) // sum(prefixes_proportions)
+            for prop in prefixes_proportions
+        ]
+        for i, prop in enumerate(props):
+            self.__q_prefices += [prefixes[i]] * prop
+
+        self.__q_prefices += [prefixes[0]] * (n_data - sum(props))
         random.shuffle(self.__q_prefices)
 
-    def get_images_and_obj_names(self):
-        img_paths = self.__get_imagepaths_with_annotation_info()
+        self.__q_prefices = self.__q_prefices[:n_data]
 
-        for img_path in img_paths:
+    def is_using_scene_graph(self):
+        return self.__use_scene_graph
+
+    def __get_images_and_obj_names(self):
+        img_paths_ids = self.__get_imagepaths_with_annotation_info()
+
+        for img_path, img_id in img_paths_ids:
             if self.__use_scene_graph:
                 annotated_imgs, obj_names = self.__multi_annotate_image(img_path)
+                self.__ids.extend([img_id] * len(annotated_imgs))
                 self.__images.extend(annotated_imgs)
                 self.__object_names.extend(obj_names)
             else:
                 img = Image.open(img_path)
+                self.__ids.append(img_id)
                 self.__images.append(img)
 
-        return self.__images, self.__object_names
+        return {
+            "ids": self.__ids,
+            "images": self.__images,
+            "object_names": self.__object_names,
+        }
 
     def get_data(self):
         self.__expand_prefix_stratify()
-        images, object_names = self.get_images_and_obj_names()
+        final_data = self.__get_images_and_obj_names()
+        final_data["q_prefices"] = self.__q_prefices
 
-        return images, self.__q_prefices, object_names
+        if len(final_data["object_names"]) < len(final_data["images"]):
+            final_data["object_names"] += [None] * (
+                len(final_data["images"]) - len(final_data["object_names"])
+            )
+
+        final_data = [(v[0], v[1], v[3], v[2]) for v in zip(*final_data.values())]
+
+        return final_data

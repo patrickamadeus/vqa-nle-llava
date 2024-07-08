@@ -63,20 +63,17 @@ for test_name in TEST_GROUP:
 logging.info("Starting Multi Evaluation...")
 logging.info(f"[] - Inference started...")
 for name, func, mode in tqdm(multi_eval_pipeline):
-#     try:
-        
-    # For PoC 
-    if "remove" in name:
-        res = func(test_names = TEST_GROUP, mode = "remove")
-    else:
-        res = func(test_names = TEST_GROUP)
+    try:
+        # For PoC 
+        if "remove" in name:
+            res = func(test_names = TEST_GROUP, mode = "remove")
+        else:
+            res = func(test_names = TEST_GROUP)
 
-    # export for non-img files    
-    if not name.startswith("merge"):
-        export_eval(name, res, mode=mode)
-    logging.info(f"[{name}] Inference Successful...")
-
-        
-#     except Exception as e:
-#         logging.error(f"Error occurred while processing '{name}': {str(e)}")
-#         continue
+        # export for non-img files    
+        if not name.startswith("merge"):
+            export_eval(name, res, mode=mode)
+        logging.info(f"[{name}] Inference Successful...")
+    except Exception as e:
+        logging.error(f"Error occurred while processing '{name}': {str(e)}")
+        continue
