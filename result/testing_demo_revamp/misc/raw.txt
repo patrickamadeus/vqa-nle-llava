@@ -1,0 +1,90 @@
+1072.jpg
+-------------------------------
+is/are (pick one that fits the most)
+
+Question: Is the bike locked to the bike rack?
+Short Answer: Yes
+Reason: The bike is locked to the bike rack, ensuring its security while the owner is away.
+
+
+
+1072.jpg
+-------------------------------
+how many
+
+Question: How many bicycles are parked at the bike rack?
+Short Answer: 1
+Reason: There is only one bicycle parked at the bike rack.
+
+
+
+1072.jpg
+-------------------------------
+where
+
+Question: Where is the yellow bicycle parked?
+Short Answer: The yellow bicycle is parked next to a row of bicycle racks.
+Reason: The yellow bicycle is parked next to a row of bicycle racks, which are designed for securely locking bicycles when not in use. This suggests that the owner of the bicycle has chosen to park it in a designated area, ensuring its safety and convenience for future use.
+
+
+
+1159351.jpg
+-------------------------------
+is/are (pick one that fits the most)
+
+Question: Is the man holding a Wii remote?
+Short Answer: Yes
+Reason: The man is holding a Wii remote, which is a type of video game controller used for the Nintendo Wii gaming console.
+
+
+
+1159351.jpg
+-------------------------------
+what
+
+Question: What is the purpose of the men playing video games in the museum?
+Short Answer: They are playing video games to promote a product or event.
+Reason: The men are playing video games in a museum, which is an unusual setting for such an activity. This suggests that they are there to draw attention to a specific product or event, possibly related to the video games they are playing.
+
+
+
+1159351.jpg
+-------------------------------
+what
+
+Question: What is the purpose of the men playing video games in the museum?
+Short Answer: They are playing video games to promote a product or event.
+Reason: The men are playing video games in a museum, which is an unusual setting for such an activity. This suggests that they are there to draw attention to a specific product or event, possibly related to the video games they are playing.
+
+
+
+1159687.jpg
+-------------------------------
+which
+
+Question: Which person is holding a skateboard on their head?
+Short Answer: Man in red shirt.
+Reason: The man in the red shirt is holding a skateboard on his head, which is an unusual and attention-grabbing action.
+
+
+
+1159687.jpg
+-------------------------------
+what
+
+Question: What is the man's shirt number?
+Short Answer: 22
+Reason: The man's shirt number is 22.
+
+
+
+1159687.jpg
+-------------------------------
+what
+
+Question: What is the man's shirt number?
+Short Answer: 22
+Reason: The man's shirt number is 22.
+
+
+

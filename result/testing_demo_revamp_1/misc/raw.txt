@@ -1,0 +1,90 @@
+1072.jpg
+-------------------------------
+is/are (pick one that fits the most)
+
+Question: Is the bike parked in a designated area?
+Short Answer: Yes
+Reason: The bike is parked in a bike rack, which is a designated area for parking bicycles.
+
+
+
+1072.jpg
+-------------------------------
+how many
+
+Question: How many bicycle racks are visible in the image?
+Short Answer: 5
+Reason: There are five bicycle racks visible in the image, with one of them having a yellow bicycle parked in it.
+
+
+
+1072.jpg
+-------------------------------
+where
+
+Question: Where is the bike parked?
+Short Answer: Bike rack
+Reason: The bike is parked in a bike rack, which is a designated area for parking bicycles.
+
+
+
+1159351.jpg
+-------------------------------
+is/are (pick one that fits the most)
+
+Question: What is the purpose of the rope barrier in the image?
+Short Answer: To prevent unauthorized access to the exhibit.
+Reason: The rope barrier is a common security measure used in museums and exhibitions to keep visitors at a safe distance from the displayed items and to prevent any potential damage or theft.
+
+
+
+1159351.jpg
+-------------------------------
+what
+
+Question: What is the purpose of the rope barrier in the image?
+Short Answer: The rope barrier is used to separate the area where the men are playing the video game from the rest of the room.
+Reason: The rope barrier serves as a safety measure to prevent any accidental damage to the exhibit or the people in the room. It also helps to maintain a clear path for the players to move around without interfering with the ongoing activities.
+
+
+
+1159351.jpg
+-------------------------------
+what
+
+Question: What is the purpose of the rope barrier in the image?
+Short Answer: The rope barrier is used to separate the area where the men are playing the video game from the rest of the room.
+Reason: The rope barrier serves as a safety measure to prevent any accidental damage to the exhibit or the people in the room. It also helps to maintain a clear path for the players to move around without interfering with the ongoing activities.
+
+
+
+1159687.jpg
+-------------------------------
+which
+
+Question: What is the man wearing on his head?
+Short Answer: A hat
+Reason: The man is wearing a hat on his head, which is a common accessory for people to wear.
+
+
+
+1159687.jpg
+-------------------------------
+what
+
+Question: What is the man wearing on his head?
+Short Answer: A hat
+Reason: The man is wearing a hat on his head, which is a common accessory for people to wear.
+
+
+
+1159687.jpg
+-------------------------------
+what
+
+Question: What is the man wearing on his head?
+Short Answer: A hat
+Reason: The man is wearing a hat on his head, which is a common accessory for people to wear.
+
+
+
