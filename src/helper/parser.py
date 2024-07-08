@@ -11,17 +11,6 @@ def parse_output(
     img_id: str,
     prev_i: int = 0,
 ) -> list[dict[str, str]]:
-    """
-    Parse output text and extract question, short answer, and long answer.
-
-    Args:
-    - input_text (str): The input text containing question, short answer, and long answer.
-    - img_id (str): The image ID associated with the output.
-    - prev_i (int): The previous ID, used for generating sequential IDs.
-
-    Returns:
-    - list[dict[str, str]]: A list of dictionaries containing parsed data.
-    """
     if not input_text.endswith("\n"):
         input_text += "\n"
 
@@ -47,7 +36,6 @@ def parse_output(
     ]
 
     return data
-
 
 def export_result(
     data: list[dict], raw_data: str, total_sec: float, run_config: RunConfig
@@ -100,84 +88,4 @@ def export_result(
     #             )
     #         except:
     #             continue
-
-
-def verif_digit(s: str):
-    s = s.strip()
-    if s.isnumeric():
-        return int(s)
-    return -1
-
-
-def export_eval(
-    test_name: str,
-    eval_model: str,
-    ids: [int],
-    factoid_scores: [str],
-    reasoning_scores: [str],
-    raw_output: str,
-    total_eval_time: int,
-    in_token: int,
-    out_token: int,
-    eval_prompt_factoid: str,
-    eval_prompt_reasoning: str,
-) -> None:
-    accs, logics, clears, details, irrels, plauss = [], [], [], [], [], []
-
-    total_bad_tc = 0
-    for ID, fs, rs in zip(ids, factoid_scores, reasoning_scores):
-        fs, logic, clear, detail, irrel, plaus = (
-            verif_digit(s) for s in [fs] + rs.split(";")
-        )
-        accs.append(fs)
-        logics.append(logic)
-        clears.append(clear)
-        details.append(detail)
-        irrels.append(irrel)
-        plauss.append(plaus)
-
-        count_bad_tc = sum(x == -1 for x in [fs, logic, clear, detail, irrel, plaus])
-        if count_bad_tc:
-            print(f"{count_bad_tc} bad metrics exist for id: {ID}")
-            total_bad_tc += count_bad_tc
-
-    data = [
-        {
-            "id": i,
-            "accuracy": a,
-            "logic": l,
-            "clarity": c,
-            "detail": d,
-            "irrelevance": ir,
-            "plausibility": p,
-        }
-        for i, a, l, c, d, ir, p in zip(
-            ids, accs, logics, clears, details, irrels, plauss
-        )
-    ]
-
-    result_folder = f"./result/{test_name}"
-    misc_folder = f"./result/{test_name}/misc"
-
-    misc_path = os.path.join(misc_folder, "eval_raw.txt")
-    with open(misc_path, "w") as raw_eval_file:
-        raw_eval_file.write(raw_output)
-
-    eval_res_path = os.path.join(result_folder, "eval.json")
-    with open(eval_res_path, "w") as json_file:
-        json.dump(data, json_file, indent=2)
-
-    metadata_path = os.path.join(result_folder, "metadata.json")
-    data = ""
-    with open(metadata_path, "r") as metadata_file:
-        data = json.load(metadata_file)
-        data["evaluator_model_name"] = eval_model
-        data["total_eval_time"] = total_eval_time
-        data["eval_prompt_factoid"] = eval_prompt_factoid
-        data["eval_prompt_reasoning"] = eval_prompt_reasoning
-        data["eval_success_rate"] = round(1 - total_bad_tc / (len(ids) * 6), 2)
-
-    with open(metadata_path, "w") as metadata_file:
-        json.dump(data, metadata_file, indent=2)
-
-    print(f"Total bad TC metrics {total_bad_tc}/{len(ids) * 6}")
+    

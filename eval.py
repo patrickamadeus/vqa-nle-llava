@@ -6,7 +6,7 @@ from src.config.eval import (
     TEST_GROUP,
     TEST_NAME,
 )
-from src.eval_helper import (
+from src.helper.eval_helper import (
     export_eval,
     gen_question_prefix,
     gen_size_hist,
