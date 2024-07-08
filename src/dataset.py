@@ -5,7 +5,7 @@ import torch
 import torchvision
 import random
 
-from src.config.run_class import RunConfig
+from src.config.run import RunConfig
 from src.helper.base import set_seed
 
 Config = RunConfig()

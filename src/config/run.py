@@ -1,82 +1,70 @@
-import json
-
-from src.base import load_config, expand_prefix_stratify
-from src.legacy.inference import load_model
-
-PROMPT_DICT = {
-    "story": "./prompt/qg_story/story_base.txt",
-    "story_long": "./prompt/qg_story/story_long.txt",
-    "qg_story": "./prompt/qg_story/gen_base.txt",
-    "qg_story_limit": "./prompt/qg_story/gen_limit.txt",
-    "qg_story_optim": "./prompt/qg_story/gen_optim.txt",
-    "naive": "./prompt/naive/base.txt",
-    "naive_optim": "./prompt/naive/optim.txt",
-    "naive_random": "./prompt/naive/random.txt",
-    "nonvis_base": "./prompt/nonvis/base.txt",
-    "nonvis_optim": "./prompt/nonvis/optim.txt",
-    "sc_question": "./prompt/self_consistency/question.txt",
-    "sc_short_answer": "./prompt/self_consistency/short_answer.txt",
-    "sc_reason": "./prompt/self_consistency/reasoning.txt"
-}
+from yaml import safe_load
 
 
-# Load from YAML
-# Load from dictionary
-run_cfg = load_config("./", "run.yml")
+class RunConfig:
+    def __init__(self, config_path="./run.yml"):
+        with open(config_path) as file_path:
+            self.config = safe_load(file_path)
 
-SEED = run_cfg["seed"]
+        self.test_name = self.config["test_name"]
+        self.seed = self.config["seed"]
+        self.__dataset_cfg = self.config["dataset"]
+        self.__model_cfg = self.config["model"]
+        self.__prompt_cfg = self.config["prompt"]
+        self.__run_params = self.config["run_params"]
 
-DATASET_NAME = run_cfg["dataset"]["name"]
-DATASET_DATA_COUNT = int(run_cfg["dataset"]["count"])
-SCENE_GRAPH_PATH = "./dataset/feat/sceneGraphs.json"
+    def get_test_name(self):
+        return self.test_name
 
-MODEL_NAME = run_cfg["model"]["name"]
-MODEL_PATH = run_cfg["model"]["path"]
-MODEL_FAMILY = run_cfg["model"]["family"]
-MODEL_USE_4_BIT = run_cfg["model"]["params"]["use_8_bit"]
-MODEL_DEVICE = run_cfg["model"]["params"]["device"]
-MODEL_LOW_CPU = run_cfg["model"]["params"]["low_cpu"]
-MODEL, PROCESSOR = load_model(
-    MODEL_PATH, MODEL_FAMILY, MODEL_LOW_CPU, device=MODEL_DEVICE, seed=SEED
-)
+    def get_seed(self):
+        return self.seed
 
-PROMPT_IS_MULTISTEP = int(run_cfg["prompt"]["multistep"])
-PROMPT_PRIMARY_KEY = run_cfg["prompt"]["primary"]
-PROMPT_INTER_KEY = run_cfg["prompt"]["inter"]
-PROMPT_PRIMARY_PATH = PROMPT_DICT[PROMPT_PRIMARY_KEY]
-PROMPT_INTER_PATH = ""
-if PROMPT_IS_MULTISTEP:
-    PROMPT_INTER_PATH = PROMPT_DICT[PROMPT_INTER_KEY]
+    def get_model_config(self):
+        model_cfg = {
+            "name": self.__model_cfg["name"],
+            "path": self.__model_cfg["path"],
+            "family": self.__model_cfg["family"],
+            "use_8_bit": int(self.__model_cfg["params"]["use_8_bit"]),
+            "device": self.__model_cfg["params"]["device"],
+            "low_cpu": int(self.__model_cfg["params"]["low_cpu"]),
+        }
 
-TEST_NAME = run_cfg["test_name"]
-PARAM_NUM_PER_INFERENCE = int(run_cfg["run_params"]["num_per_inference"])
-PARAM_USE_NONVIS = int(run_cfg["run_params"]["use_nonvis"])
-with open(SCENE_GRAPH_PATH) as json_file:
-    SCENE_GRAPH = json.load(json_file)
-PARAM_USE_EXTS = run_cfg["run_params"]["use_img_ext"]
+        return model_cfg
 
+    def get_data_config(self):
+        data_cfg = {
+            "name": self.__dataset_cfg["name"],
+            "use_scene_graph": self.__dataset_cfg["use_scene_graph"],
+            "count": int(self.__dataset_cfg["count"]),
+        }
 
-# Derived config constants
-# DATASET
-DATASET_IMG_PATH = "./dataset/img"
-DATASET_FEAT_PATH = "./dataset/feat"
+        return data_cfg
+    
+    def get_prompt_type(self):
+        return self.__prompt_cfg
 
-# PROMPT
-PROMPT_PRIMARY = ""
-PROMPT_INTER = ""
+    def get_prompt(self):
+        if self.__prompt_cfg == "self_consistency":
+            return self.__prompt_cfg
+        
+        raw_path = self.__prompt_cfg
 
-with open(PROMPT_PRIMARY_PATH) as f:
-    PROMPT_PRIMARY = f.read()
-if PROMPT_IS_MULTISTEP:
-    with open(PROMPT_INTER_PATH) as f:
-        PROMPT_INTER = f.read()
+        folder = raw_path.split("-")[0]
+        filename = raw_path.split("-")[1]
 
-# QUESTION PREFIXES
-PREFIXES = ["what", "is/am/are (pick one that fits the most)", "which", "how many", "where/when (pick one that fits the most)", "who", "whose/whom (pick one that fits the most)"]
-PREFIXES_PROPORTIONS = [2,2,2,2,1,1,1]
+        prompt_path = f"./prompt/{folder}/{filename}.txt"
 
-if PARAM_USE_NONVIS:
-    PREFIXES = PREFIXES[:5]
-    PREFIXES_PROPORTIONS = PREFIXES_PROPORTIONS[:5]
+        with open(prompt_path) as file:
+            prompt = file.read()
 
-PREFIX_LIST = expand_prefix_stratify(PREFIXES, PREFIXES_PROPORTIONS, DATASET_DATA_COUNT * PARAM_NUM_PER_INFERENCE)
+        return prompt
+
+    def get_run_params(self):
+        run_params = {
+            "num_per_inference": int(self.__run_params["num_per_inference"]),
+            "use_img_ext": self.__run_params["use_img_ext"],
+            "q_prefix": self.__run_params["q_prefix"],
+            "q_prefix_prop": self.__run_params["q_prefix_prop"],
+        }
+
+        return run_params
