@@ -29,8 +29,8 @@ from src.config.run import (
 from src.config.run import (
     PARAM_NUM_PER_INFERENCE as NUM,
 )
-from src.inference import base_inference_runner, nonvis_inference_runner
-from src.parser import export_result, parse_output
+from src.legacy.inference import base_inference_runner, nonvis_inference_runner
+from src.helper.parser import export_result, parse_output
 from tqdm import tqdm
 
 init_logging()

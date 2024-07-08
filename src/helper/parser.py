@@ -2,11 +2,13 @@ import json
 import os
 import re
 
-from src.base import save_annotated_img
+from src.helper.base import save_annotated_img
 
 
 def parse_output(
-    input_text: str, img_id: str, prev_i: int = 0, type_out="openai", mode="optim"
+    input_text: str,
+    img_id: str,
+    prev_i: int = 0,
 ) -> list[dict[str, str]]:
     """
     Parse output text and extract question, short answer, and long answer.
@@ -19,14 +21,9 @@ def parse_output(
     Returns:
     - list[dict[str, str]]: A list of dictionaries containing parsed data.
     """
-    # Define regular expression patterns
-    pattern_question = re.compile(r"\d+\.\s(.+?)\n")
-    pattern_short_answer = re.compile(r"S\.\s(.+?)\n")
-    pattern_long_answer = re.compile(r"L\.\s(.+?)\n")
-    if mode == "optim":
-        pattern_question = re.compile(r"Question:\s(.+?)\n")
-        pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
-        pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")
+    pattern_question = re.compile(r"Question:\s(.+?)\n")
+    pattern_short_answer = re.compile(r"Short Answer:\s(.+?)\n")
+    pattern_long_answer = re.compile(r"Reason:\s(.+?)\n")
 
     # Find matches using regular expressions
     questions = pattern_question.findall(input_text)

@@ -1,6 +1,5 @@
 # Importing built-in package
 import logging
-from time import time
 
 import torch
 from transformers import (
@@ -13,7 +12,7 @@ from transformers import (
 from src.config.run_class import RunConfig
 
 
-Config= RunConfig()
+Config = RunConfig()
 ModelConfig = Config.get_model_config()
 
 
@@ -40,7 +39,7 @@ class LVLM:
             self.path,
             torch_dtype=torch.float16,
             low_cpu_mem_usage=self.__low_cpu,
-            load_in_8bit=self.__use_8_bit
+            load_in_8bit=self.__use_8_bit,
         ).to(self.__device)
 
         logging.info(f"Model {self.name} loaded successfully")
@@ -68,9 +67,7 @@ class LVLM:
         max_new_tokens=1500,
         do_sample=False,
         skip_special_tokens=True,
-    ) -> tuple[str, float]:
-        start_time = time()
-
+    ) -> str:
         prompt = self.__validate_prompt_token(prompt)
 
         inputs = self.__processor(
@@ -86,13 +83,9 @@ class LVLM:
         )
 
         out = self.__processor.decode(
-            raw_out[0], 
-            skip_special_tokens=skip_special_tokens
+            raw_out[0], skip_special_tokens=skip_special_tokens
         )
 
         out = out[out.index("ASSISTANT: ") + len("ASSISTANT: ") :]
 
-        end_time = time()
-        sec = end_time - start_time
-
-        return out, sec
+        return out

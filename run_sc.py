@@ -9,7 +9,7 @@ import json
 from sentence_transformers import SentenceTransformer, util
 import re
 
-from src.base import (
+from src.helper.base import (
     get_filename,
     init_logging,
     raw_output_splitter,
@@ -21,12 +21,12 @@ from src.base import (
     expand_prefix_stratify,
 )
 
-from src.inference import(
+from src.legacy.inference import(
     inference_hf,
     load_model,
 )
 
-from src.parser import parse_output
+from src.helper.parser import parse_output
 init_logging()
 
 

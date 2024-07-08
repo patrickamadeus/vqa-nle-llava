@@ -1,7 +1,7 @@
 import json
 
 from src.base import load_config, expand_prefix_stratify
-from src.inference import load_model
+from src.legacy.inference import load_model
 
 PROMPT_DICT = {
     "story": "./prompt/qg_story/story_base.txt",
