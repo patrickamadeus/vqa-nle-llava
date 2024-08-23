@@ -2,61 +2,40 @@
   {
     "id": 1,
     "img_id": "1072.jpg",
-    "question": "Is the bike parked in a designated area?",
-    "short_answer": "Yes",
-    "reasoned_answer": "The bike is parked in a bike rack, which is a designated area for parking bicycles."
+    "question": "What is the purpose of the bike rack?",
+    "short_answer": "The bike rack is designed to securely hold bicycles while their owners are away, providing a convenient and safe storage solution for cyclists.",
+    "reasoned_answer": "The bike rack serves as a functional and practical amenity for cyclists, allowing them to park their bikes in a designated area and prevent theft or vandalism. It also promotes a culture of sustainable transportation and encourages more people to use bicycles for commuting or leisure."
   },
   {
     "id": 2,
     "img_id": "1072.jpg",
-    "question": "How many bicycle racks are visible in the image?",
-    "short_answer": "5",
-    "reasoned_answer": "There are five bicycle racks visible in the image, with one of them having a yellow bicycle parked in it."
+    "question": "What is the purpose of the bike rack?",
+    "short_answer": "The bike rack is designed to securely hold bicycles while their owners are away, providing a convenient and safe storage solution for cyclists.",
+    "reasoned_answer": "The bike rack serves as a functional and practical amenity for cyclists, allowing them to park their bikes in a designated area and prevent theft or vandalism. It also promotes a culture of sustainable transportation and encourages more people to use bicycles for commuting or leisure."
   },
   {
     "id": 3,
-    "img_id": "1072.jpg",
-    "question": "Where is the bike parked?",
-    "short_answer": "Bike rack",
-    "reasoned_answer": "The bike is parked in a bike rack, which is a designated area for parking bicycles."
-  },
-  {
-    "id": 4,
     "img_id": "1159351.jpg",
     "question": "What is the purpose of the rope barrier in the image?",
     "short_answer": "To prevent unauthorized access to the exhibit.",
     "reasoned_answer": "The rope barrier is a common security measure used in museums and exhibitions to keep visitors at a safe distance from the displayed items and to prevent any potential damage or theft."
   },
   {
-    "id": 5,
+    "id": 4,
     "img_id": "1159351.jpg",
     "question": "What is the purpose of the rope barrier in the image?",
     "short_answer": "The rope barrier is used to separate the area where the men are playing the video game from the rest of the room.",
     "reasoned_answer": "The rope barrier serves as a safety measure to prevent any accidental damage to the exhibit or the people in the room. It also helps to maintain a clear path for the players to move around without interfering with the ongoing activities."
+  },
+  {
+    "id": 5,
+    "img_id": "1159687.jpg",
+    "question": "What is the man wearing on his head?",
+    "short_answer": "A hat",
+    "reasoned_answer": "The man is wearing a hat on his head, which is a common accessory for people to wear."
   },
   {
     "id": 6,
-    "img_id": "1159351.jpg",
-    "question": "What is the purpose of the rope barrier in the image?",
-    "short_answer": "The rope barrier is used to separate the area where the men are playing the video game from the rest of the room.",
-    "reasoned_answer": "The rope barrier serves as a safety measure to prevent any accidental damage to the exhibit or the people in the room. It also helps to maintain a clear path for the players to move around without interfering with the ongoing activities."
-  },
-  {
-    "id": 7,
-    "img_id": "1159687.jpg",
-    "question": "What is the man wearing on his head?",
-    "short_answer": "A hat",
-    "reasoned_answer": "The man is wearing a hat on his head, which is a common accessory for people to wear."
-  },
-  {
-    "id": 8,
-    "img_id": "1159687.jpg",
-    "question": "What is the man wearing on his head?",
-    "short_answer": "A hat",
-    "reasoned_answer": "The man is wearing a hat on his head, which is a common accessory for people to wear."
-  },
-  {
-    "id": 9,
     "img_id": "1159687.jpg",
     "question": "What is the man wearing on his head?",
     "short_answer": "A hat",

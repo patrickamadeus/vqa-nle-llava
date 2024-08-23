@@ -1,0 +1,8 @@
+{
+  "test_name": "demo-sidang",
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "prompt": "naive-optim",
+  "expected_data_count": 6,
+  "generated_data_count": 6,
+  "total_sec": 22.06339144706726
+}

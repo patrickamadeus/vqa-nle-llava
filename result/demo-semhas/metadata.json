@@ -1,0 +1,8 @@
+{
+  "test_name": "demo-semhas",
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "prompt": "naive-optim",
+  "expected_data_count": 6,
+  "generated_data_count": 6,
+  "total_sec": 29.62779426574707
+}

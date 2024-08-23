@@ -1,7 +1,7 @@
 import logging
 import warnings
 
-from src.base import init_logging
+from src.helper.base import init_logging
 from src.config.eval import (
     TEST_GROUP,
     TEST_NAME,
@@ -30,15 +30,12 @@ init_logging()
 
 singleton_pipeline = [
     ("gwet", gwet_AC2, "json"),
-#     ("gen_size", gen_size_hist, "plt"),
     ("prefix", gen_question_prefix, "plt"),
     ("gen_xlsx", gen_subjective_xlsx, "xlsx"),
 ]
 
 multi_eval_pipeline = [
-#     ("merge_histogram", merge_histogram, "img"),
     ("merge_distribution", gen_dist_analysis, "img/csv"),
-#     ("merge_prefix", merge_prefix, "img"),
     ("merge_prefix", gen_prefix_analysis, "img"),
     ("quantitative_subj_analysis", gen_quant_subj_df, "df"),
     ("rank_analysis", gen_subj_rank, "df"),

@@ -15,14 +15,14 @@ from PIL import Image
 from scipy.stats import pearsonr
 from scipy.spatial.distance import jensenshannon
 
-from src.base import load_config, unpack_json
+from src.helper.base import load_config, unpack_json
 
 METRICS = ["accuracy", "logic", "clarity", "detail", "irrelevance", "plausibility"]
 
-cfg = load_config("./", "eval.yml")
+cfg = load_config("./eval.yml")
 
 SEED = cfg["seed"]
-TEST_NAME = cfg["test_name"]
+TEST_NAME = cfg["eval_name"]
 EVAL_NUM = cfg["eval_amount"]
 
 MULTI_RESULT_PATH = f"./result/multieval/{TEST_NAME}/"
