@@ -1,9 +1,9 @@
-eval_name: sidang_eval_demo
+eval_name: 23_8_group
 seed: 42
 eval_amount: 100
 bad_data: replace
 test_group:
-    test_1: 10-4_vicuna7_naive-optim_500
-    test_2: 10-4_vicuna13_naive-optim_500
-    test_3: vicuna13_1.6_self-const-limit
-    test_4: 10-4_vicuna13-vip_nonvis-optim_500
+    test_1: naive-p-small
+    test_2: naive-p-medium
+    test_3: seq-ensemble-p
+    test_4: naive-viz-p
