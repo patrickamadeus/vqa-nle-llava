@@ -20,7 +20,7 @@ if __name__ == "__main__":
     model = LVLM()
     prompt = Config.get_prompt()
 
-    runner = GenerateRunner(dataset, model, prompt)
+    runner = GenerateRunner(dataset, model, prompt, Config)
     synthetic_data, raw_data = runner.generate_synthetic_data()
 
     t_run = time() - t_start

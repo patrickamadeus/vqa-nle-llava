@@ -1,0 +1,8 @@
+{
+  "test_name": "naive-p-medium",
+  "model_name": "llava-hf/llava-1.5-13b-hf",
+  "prompt": "naive-optim",
+  "expected_data_count": 501,
+  "generated_data_count": 501,
+  "total_sec": 1163.343992948532
+}

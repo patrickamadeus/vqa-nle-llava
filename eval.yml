@@ -1,4 +1,4 @@
-eval_name: experiment_with_js
+eval_name: sidang_eval_demo
 seed: 42
 eval_amount: 100
 bad_data: replace

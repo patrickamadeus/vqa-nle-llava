@@ -21,16 +21,16 @@ set_seed(SEED)
 
 class GenerateRunner:
     def __init__(
-        self, dataset: Dataset, model: LVLM, prompt: str
-    ) -> None:
+        self, dataset: Dataset, model: LVLM, prompt: str, run_cfg: RunConfig) -> None:
         self.__data = dataset.get_data()
         self.__model = model
         self.__prompt = prompt
+        self.__prompt_type = run_cfg.get_prompt_type()
 
         self.__is_ensemble = self.__prompt == "self_consistency"
         self.__is_using_scene_graph = dataset.is_using_scene_graph()
 
-        if self.__is_using_scene_graph and not self.__prompt.startswith("nonvis"):
+        if self.__is_using_scene_graph and not self.__prompt_type.startswith("nonvis"):
             print("You are using scene graph annotation without using non-visual prompt.")
             user_input = input("Enter [Y/y] to proceed: ")
             if user_input.strip().lower() != 'y':

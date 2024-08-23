@@ -1,0 +1,8 @@
+{
+  "test_name": "naive-viz-p",
+  "model_name": "llava-hf/vip-llava-13b-hf",
+  "prompt": "nonvis-optim",
+  "expected_data_count": 501,
+  "generated_data_count": 450,
+  "total_sec": 954.9652826786041
+}
