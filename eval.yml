@@ -1,4 +1,4 @@
-eval_name: 23_8_group
+eval_name: sample_eval
 seed: 42
 eval_amount: 100
 bad_data: replace

@@ -1,7 +1,7 @@
-dataset_legacy/
-legacy/
+dataset/buffer
+dataset/image_bulk
 experimental/
-LLaVA/
+experiment/
 .ipynb_checkpoints
 __pycache__/
 model/

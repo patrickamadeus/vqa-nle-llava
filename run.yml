@@ -1,23 +1,23 @@
-test_name: naive-viz-p
+test_name: sample_run
 seed: 42
 dataset:
     name: GQA
-    count: 167
-    use_scene_graph: 1
+    count: 10000
+    use_scene_graph: 0
 
 model:
-    name: llava-hf/vip-llava-13b-hf
-    path: llava-hf/vip-llava-13b-hf
-    family: vip_llava
+    name: llava-hf/llava-1.5-13b-hf
+    path: llava-hf/llava-1.5-13b-hf
+    family: llava
     params:
         use_8_bit: 0
         device: "cuda"
         low_cpu: 1
         
-prompt: nonvis-optim
+prompt: naive-optim
 
 run_params:
-    num_per_inference: 3
+    num_per_inference: 2
     use_img_ext: 1
     q_prefix: ["what", "is/are (pick one that fits the most)", "which", "how many", "where"]
     q_prefix_prop: [3,2,1,1,1]
