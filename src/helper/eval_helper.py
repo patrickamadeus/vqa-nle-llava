@@ -140,7 +140,7 @@ def bulk_transform_dfs(df_list):
                 "r0": "logic",
                 "r1": "clarity",
                 "r2": "detail",
-                "r3": "irrelevance",
+                "r3": "relevancy",
                 "r4": "plausibility",
             }
         )
@@ -151,7 +151,7 @@ def bulk_transform_dfs(df_list):
             "logic",
             "clarity",
             "detail",
-            "irrelevance",
+            "relevancy",
             "plausibility",
         ]
         df = df[needed_columns]
@@ -173,7 +173,7 @@ def common_ids(dfs):
 
 
 def dfs_to_CAC(dfs):
-    METRICS = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
+    METRICS = ["accuracy", "logic", "clarity", "detail", "relevancy"]
     CACs = {}
 
     common_ids_set = common_ids(dfs)
@@ -193,10 +193,10 @@ def gwet_AC2(test_name, weights="ordinal"):
     if len(cleaned_transformed_dfs) == 1:
         return {
             "accuracy": 1.0,
-            "logical": 1.0,
+            "logic": 1.0,
             "clarity": 1.0,
             "detail": 1.0,
-            "irrelevancy": 1.0,
+            "relevancy": 1.0,
             "overall": 1.0
         }
 
@@ -510,10 +510,10 @@ def gen_subjective_xlsx(test_name):
 
     evaluation_criteria = [
         "accuracy",
-        "logical",
+        "logic",
         "clarity",
         "detail",
-        "irrelevancy",
+        "relevancy",
         "plausibility",
     ]
     for criterion in evaluation_criteria:
@@ -527,7 +527,7 @@ def gen_subjective_xlsx(test_name):
 
 # Subjective Evaluation Helper Data Preprocessing Function
 def transform_raw_to_dfs(
-    test_name: str, sheet_name: str = "scoresheet"
+    test_name: str, sheet_name: str = "Sheet1"
 ) -> List[pd.DataFrame]:
     xlsx_dir = f"./result/{test_name}/eval/xlsx/"
     dfs = []
@@ -545,10 +545,10 @@ def transform_raw_to_dfs(
                     "id",
                     "img_id",
                     "accuracy",
-                    "logical",
+                    "logic",
                     "clarity",
                     "detail",
-                    "irrelevancy",
+                    "relevancy",
                 ]
             ]
         elif ext == ".csv":
@@ -557,10 +557,10 @@ def transform_raw_to_dfs(
                     "id",
                     "img_id",
                     "accuracy",
-                    "logical",
+                    "logic",
                     "clarity",
                     "detail",
-                    "irrelevancy",
+                    "relevancy",
                 ]
             ]
 
@@ -572,7 +572,7 @@ def transform_raw_to_dfs(
 
 def get_clean_df(df: pd.DataFrame, mode = "remove") -> Tuple[pd.DataFrame, float]:
 
-    df.dropna(subset=["accuracy", "logical", "clarity", "detail", "irrelevancy"], inplace=True)
+    df.dropna(subset=["accuracy", "logic", "clarity", "detail", "relevancy"], inplace=True)
 
     clean_rate = None
     clean_df = df[(df != -1.0).all(axis=1)]
@@ -614,7 +614,7 @@ def gen_subjective_quant_analysis(test_names: List[str], mode = "remove") -> dic
         
         mutual_dfs, mutual_clean_rate, mutual_real_amt, mutual_amt = get_subj_mutual_data(test_name=test_name, mode = mode)
 
-        metric = ["accuracy", "logical", "clarity", "detail", "irrelevancy"]
+        metric = ["accuracy", "logic", "clarity", "detail", "relevancy"]
         mean_scores = [df[metric].mean() for df in mutual_dfs]
         ovr_mean_scores = pd.concat(mean_scores, axis=1).mean(axis=1)
         ovr_std_scores = pd.concat(mean_scores, axis=1).std(axis=1)
@@ -689,7 +689,7 @@ def gen_subj_rank(test_names: List[str], mode = "replace") -> pd.DataFrame:
     rank_df = pd.DataFrame(index=[i + 1 for i in range(len(df.index))], columns=df.columns)
     
     for col in df.columns:
-        asc = True if col == "irrelevancy" else False
+        asc = True if col == "relevancy" else False
         ranked_idx = df.sort_values(by=col, ascending=asc)[col].index
         ranked_val = np.round(df.sort_values(by=col, ascending=asc)[col].values, 2)
 
@@ -746,15 +746,15 @@ def gen_quant_subj_chart(test_names: List[str], mode = "replace"):
         
     
     ##### ---- Prepare datas ---- #####
-    df = gen_quant_subj_df(test_names, mode = mode)[['avg_accuracy', 'avg_logical', 'avg_clarity','avg_detail', 'avg_irrelevancy']]
+    df = gen_quant_subj_df(test_names, mode = mode)[['avg_accuracy', 'avg_logic', 'avg_clarity','avg_detail', 'avg_relevancy']]
     
     # Flip irrelevancy to relevancy to match other metrics scale
-    df['avg_relevancy'] = 4.0 - df['avg_irrelevancy']
-    df.drop(columns = ['avg_irrelevancy'], inplace = True)
+    # df['avg_relevancy'] = 4.0 - df['avg_irrelevancy']
+    # df.drop(columns = ['avg_irrelevancy'], inplace = True)
     
     
     # Concat with human's data
-    df_human = pd.read_csv('./result/human/human_quant.csv', index_col=0)[['avg_accuracy', 'avg_logical', 'avg_clarity','avg_detail', 'avg_relevancy']]
+    df_human = pd.read_csv('./result/human/human_quant.csv', index_col=0)[['avg_accuracy', 'avg_logic', 'avg_clarity','avg_detail', 'avg_relevancy']]
     df = pd.concat([df, df_human], axis=1)
     
     # Create copy df columns (for Figure 1)

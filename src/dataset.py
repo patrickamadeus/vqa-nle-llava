@@ -50,6 +50,7 @@ class Dataset:
             and (self.__get_filename(file)[0] in keys)
         ][: self.__count]
 
+
         return file_paths
 
     def __annotate_image(self, img_torch, bbox):

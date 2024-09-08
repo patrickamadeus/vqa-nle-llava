@@ -1,0 +1,3397 @@
+[
+  {
+    "id": 1,
+    "img_id": "2353575.jpg",
+    "question": "Is the boy standing in the grass?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The boy is standing on the grass, which is a natural outdoor surface."
+  },
+  {
+    "id": 2,
+    "img_id": "2353575.jpg",
+    "question": "How many pairs of shorts are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two children in the image, each wearing a pair of shorts."
+  },
+  {
+    "id": 3,
+    "img_id": "2353575.jpg",
+    "question": "What is the man doing in the image?",
+    "short_answer": "The man appears to be standing on the grass.",
+    "reasoned_answer": "The man is positioned on the grass with his feet spread apart, suggesting he is standing."
+  },
+  {
+    "id": 4,
+    "img_id": "2384295.jpg",
+    "question": "Is the hair of the boy short?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The hair of the boy is neatly trimmed and does not appear to be long."
+  },
+  {
+    "id": 5,
+    "img_id": "2384295.jpg",
+    "question": "What is the boy's name?",
+    "short_answer": "The boy's name is not visible in the image.",
+    "reasoned_answer": "The boy's name is not written on his shirt or any other part of his clothing that is visible in the image."
+  },
+  {
+    "id": 6,
+    "img_id": "2384295.jpg",
+    "question": "What is the color of the bike in the image?",
+    "short_answer": "The bike in the image is yellow.",
+    "reasoned_answer": "The bike has a bright yellow frame which is visible in the image."
+  },
+  {
+    "id": 7,
+    "img_id": "2404643.jpg",
+    "question": "What is the color of the door?",
+    "short_answer": "The door is brown.",
+    "reasoned_answer": "The door has a wooden frame and a brown color which is typical for wooden doors."
+  },
+  {
+    "id": 8,
+    "img_id": "2404643.jpg",
+    "question": "Is the pot on the step?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pot is placed on the step, which is part of the staircase."
+  },
+  {
+    "id": 9,
+    "img_id": "2404643.jpg",
+    "question": "What is the color of the man's hair?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The man's hair appears to be of a dark brown color."
+  },
+  {
+    "id": 10,
+    "img_id": "2347921.jpg",
+    "question": "How many slices of pizza are on the plate?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three slices of pizza on the plate."
+  },
+  {
+    "id": 11,
+    "img_id": "2347921.jpg",
+    "question": "What is the purpose of the sign with the red mask contour?",
+    "short_answer": "The sign with the red mask contour is there to inform people that smoking is not allowed in that area.",
+    "reasoned_answer": "The sign with the red mask contour is typically used to communicate rules or regulations to the public, and in this case, it is indicating that smoking is prohibited in that particular space."
+  },
+  {
+    "id": 12,
+    "img_id": "2347921.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three people in the image, one is a young boy eating pizza, another is a man in a white shirt standing behind him, and the third is a woman sitting at a table in the background."
+  },
+  {
+    "id": 13,
+    "img_id": "2321990.jpg",
+    "question": "What is the color of the cat in the image?",
+    "short_answer": "The cat is black.",
+    "reasoned_answer": "The cat has a solid black fur coat."
+  },
+  {
+    "id": 14,
+    "img_id": "2321990.jpg",
+    "question": "Is the bandana on the cat?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bandana is tied around the cat's neck."
+  },
+  {
+    "id": 15,
+    "img_id": "2321990.jpg",
+    "question": "How many magazines are on the table?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three magazines stacked on the table."
+  },
+  {
+    "id": 16,
+    "img_id": "2360023.jpg",
+    "question": "What is the purpose of the windshield on a train?",
+    "short_answer": "The windshield on a train serves as a window for the train operator to see the tracks ahead and the surroundings.",
+    "reasoned_answer": "The windshield is a crucial part of the train's design, providing visibility for the operator to navigate the train safely."
+  },
+  {
+    "id": 17,
+    "img_id": "2360023.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is orange.",
+    "reasoned_answer": "The sky appears to have a warm orange hue, which is often associated with sunset or sunrise."
+  },
+  {
+    "id": 18,
+    "img_id": "2360023.jpg",
+    "question": "What is the condition of the ground in the image?",
+    "short_answer": "The ground appears to be rocky and uneven.",
+    "reasoned_answer": "The ground is covered with a mix of rocks and dirt, which suggests that it is not a smooth surface."
+  },
+  {
+    "id": 19,
+    "img_id": "2342596.jpg",
+    "question": "Is the street wet?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The street appears to be wet, likely due to recent rain."
+  },
+  {
+    "id": 20,
+    "img_id": "2342596.jpg",
+    "question": "What is the name of the building with the sign that says 'Arts & Entertainment Hustle'?",
+    "short_answer": "The building with the sign that says 'Arts & Entertainment Hustle' is called the 'Arts & Entertainment Hustle'.",
+    "reasoned_answer": "The sign on the building indicates that it is called the 'Arts & Entertainment Hustle'."
+  },
+  {
+    "id": 21,
+    "img_id": "2342596.jpg",
+    "question": "Is the umbrella open?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The umbrella is open and being held above the girl's head."
+  },
+  {
+    "id": 22,
+    "img_id": "2335580.jpg",
+    "question": "What is the hair color of the girl in the image?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The girl's hair appears to be a shade of brown."
+  },
+  {
+    "id": 23,
+    "img_id": "2335580.jpg",
+    "question": "Where is the child located?",
+    "short_answer": "The child is located in a grassy field.",
+    "reasoned_answer": "The child is surrounded by grass and there are no visible structures or landmarks in the background, indicating an outdoor, open space."
+  },
+  {
+    "id": 24,
+    "img_id": "2335580.jpg",
+    "question": "Is the ground covered with grass?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The ground appears to be covered with grass, which is a common ground cover."
+  },
+  {
+    "id": 25,
+    "img_id": "2361750.jpg",
+    "question": "What is the purpose of the hair on the animal's head?",
+    "short_answer": "Insulation and protection from the elements.",
+    "reasoned_answer": "The long, thick hair on the animal's head helps to insulate its body heat and protect it from harsh weather conditions such as cold winds and rain."
+  },
+  {
+    "id": 26,
+    "img_id": "2361750.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and bright, which is typical for a daytime scene, and the color blue is often associated with clear skies."
+  },
+  {
+    "id": 27,
+    "img_id": "2361750.jpg",
+    "question": "What is the name of the mountain in the background of the image?",
+    "short_answer": "It is not possible to determine the name of the mountain from the image alone.",
+    "reasoned_answer": "The mountain is not labeled or identified with any specific name or location."
+  },
+  {
+    "id": 28,
+    "img_id": "2341916.jpg",
+    "question": "What type of food is being cooked in the pot within the red rectangle?",
+    "short_answer": "Onions are being cooked in the pot within the red rectangle.",
+    "reasoned_answer": "The pot within the red rectangle contains sliced onions that are submerged in liquid, which is a common way to cook onions."
+  },
+  {
+    "id": 29,
+    "img_id": "2341916.jpg",
+    "question": "Is the spoon in the pot of rice?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The spoon is partially submerged in the pot of rice, indicating it is being used to stir the rice."
+  },
+  {
+    "id": 30,
+    "img_id": "2341916.jpg",
+    "question": "Is the oil in the pan hot enough to cook the fish?",
+    "short_answer": "Yes, the oil appears to be hot enough to cook the fish.",
+    "reasoned_answer": "The oil is bubbling and the fish is browning, indicating that the oil is hot enough to cook the fish."
+  },
+  {
+    "id": 31,
+    "img_id": "2402093.jpg",
+    "question": "How many rays of sunlight are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one ray of sunlight visible in the image, which is the one that is casting the shadow of the skateboarder."
+  },
+  {
+    "id": 32,
+    "img_id": "2402093.jpg",
+    "question": "Is the sky clear?",
+    "short_answer": "Yes",
+    "reasoned_answer": "There are no visible clouds in the sky."
+  },
+  {
+    "id": 33,
+    "img_id": "2402093.jpg",
+    "question": "What is the purpose of the steps in the image?",
+    "short_answer": "The steps in the image likely serve as a means of access to the building above.",
+    "reasoned_answer": "Steps are typically used to provide a safe and convenient way for pedestrians to reach higher levels, such as the building in the background."
+  },
+  {
+    "id": 34,
+    "img_id": "2356501.jpg",
+    "question": "What is the man's role in the tennis event?",
+    "short_answer": "He is a ball boy.",
+    "reasoned_answer": "He is wearing a ball boy uniform and is holding a basket of tennis balls."
+  },
+  {
+    "id": 35,
+    "img_id": "2356501.jpg",
+    "question": "Which racket is being held by the person in the image?",
+    "short_answer": "The racket being held is a tennis racket.",
+    "reasoned_answer": "The racket has a tightly woven mesh pattern and is designed for hitting a tennis ball, which is typical of tennis rackets."
+  },
+  {
+    "id": 36,
+    "img_id": "2356501.jpg",
+    "question": "What is the color of the shirt the person is wearing?",
+    "short_answer": "The shirt is blue.",
+    "reasoned_answer": "The shirt appears to be blue in color."
+  },
+  {
+    "id": 37,
+    "img_id": "2349840.jpg",
+    "question": "Where is the tree located in relation to the train tracks?",
+    "short_answer": "The tree is located beside the train tracks.",
+    "reasoned_answer": "The tree is positioned alongside the railroad tracks, indicating that it is adjacent to the tracks."
+  },
+  {
+    "id": 38,
+    "img_id": "2349840.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and cloudless, which is typical for a blue sky."
+  },
+  {
+    "id": 39,
+    "img_id": "2349840.jpg",
+    "question": "What color are the cars of the train?",
+    "short_answer": "The cars of the train are blue.",
+    "reasoned_answer": "The cars of the train are painted in a bright blue color, which is a common color for train cars."
+  },
+  {
+    "id": 40,
+    "img_id": "2403286.jpg",
+    "question": "What type of food is on the plate?",
+    "short_answer": "Mexican cuisine",
+    "reasoned_answer": "The plate contains rice, beans, and what appears to be a type of meat covered in a green sauce, which are common ingredients in Mexican dishes."
+  },
+  {
+    "id": 41,
+    "img_id": "2403286.jpg",
+    "question": "What type of food is on the plate?",
+    "short_answer": "Mexican cuisine",
+    "reasoned_answer": "The plate contains a dish with melted cheese, beans, and rice, which are common ingredients in Mexican food."
+  },
+  {
+    "id": 42,
+    "img_id": "2403286.jpg",
+    "question": "How many types of sauce are visible on the plate?",
+    "short_answer": "2",
+    "reasoned_answer": "There is a yellow sauce and a green sauce on the plate."
+  },
+  {
+    "id": 43,
+    "img_id": "1159351.jpg",
+    "question": "Is the man in the image holding a video game controller?",
+    "short_answer": "Yes, the man is holding a video game controller.",
+    "reasoned_answer": "The man is holding a device that resembles a video game controller, which is commonly used to interact with video games."
+  },
+  {
+    "id": 44,
+    "img_id": "1159351.jpg",
+    "question": "Is the machine in the background turned on?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The machine has lights on and appears to be in use."
+  },
+  {
+    "id": 45,
+    "img_id": "1159351.jpg",
+    "question": "What is the man's name?",
+    "short_answer": "The man's name is not visible in the image.",
+    "reasoned_answer": "The image only shows the back of the man's head and his clothing, which does not provide any information about his name."
+  },
+  {
+    "id": 46,
+    "img_id": "2380438.jpg",
+    "question": "Is the shirt worn by the man on the left side of the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The shirt is visible on the man's body and is part of his attire."
+  },
+  {
+    "id": 47,
+    "img_id": "2380438.jpg",
+    "question": "How many shirts are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two men in the image, and both are wearing shirts."
+  },
+  {
+    "id": 48,
+    "img_id": "2380438.jpg",
+    "question": "Which man is wearing glasses?",
+    "short_answer": "The man on the left.",
+    "reasoned_answer": "The man on the left is wearing glasses, while the man on the right is not."
+  },
+  {
+    "id": 49,
+    "img_id": "2378845.jpg",
+    "question": "What is the condition of the floor in the image?",
+    "short_answer": "The floor appears to be in poor condition, with visible signs of wear and damage.",
+    "reasoned_answer": "The floor has chipped paint, rust stains, and what looks like water damage, indicating it has not been well-maintained."
+  },
+  {
+    "id": 50,
+    "img_id": "2378845.jpg",
+    "question": "Is the faucet in the sink?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The faucet is attached to the sink and is part of the sink's fixtures."
+  },
+  {
+    "id": 51,
+    "img_id": "2378845.jpg",
+    "question": "What is the condition of the wall behind the sink?",
+    "short_answer": "The wall is in poor condition, with visible peeling paint and damage.",
+    "reasoned_answer": "The peeling paint and the exposed pipes suggest that the wall has been neglected and is in need of repair or renovation."
+  },
+  {
+    "id": 52,
+    "img_id": "2408290.jpg",
+    "question": "How many people are riding the motorcycle?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one person visible on the motorcycle."
+  },
+  {
+    "id": 53,
+    "img_id": "2408290.jpg",
+    "question": "How many wheels does the bike have?",
+    "short_answer": "2",
+    "reasoned_answer": "The bike has two wheels, one on the front and one on the back."
+  },
+  {
+    "id": 54,
+    "img_id": "2408290.jpg",
+    "question": "What is the purpose of the wheel in a motorcycle?",
+    "short_answer": "The wheel provides traction and allows the motorcycle to move.",
+    "reasoned_answer": "The wheel is a crucial component of a motorcycle as it allows the vehicle to move by providing traction on the road surface."
+  },
+  {
+    "id": 55,
+    "img_id": "2366289.jpg",
+    "question": "What is the color of the water in the image?",
+    "short_answer": "The water in the image is blue.",
+    "reasoned_answer": "The water appears to be a deep blue color, which is typical for open ocean water."
+  },
+  {
+    "id": 56,
+    "img_id": "2366289.jpg",
+    "question": "Which table is closest to the camera?",
+    "short_answer": "The table on the far left.",
+    "reasoned_answer": "The table is positioned in such a way that it is the first one that would be seen by someone looking at the camera."
+  },
+  {
+    "id": 57,
+    "img_id": "2366289.jpg",
+    "question": "Which table is closest to the camera?",
+    "short_answer": "The table in the foreground.",
+    "reasoned_answer": "The table is in the foreground and is the closest to the camera."
+  },
+  {
+    "id": 58,
+    "img_id": "2335961.jpg",
+    "question": "Is the jacket worn by the police officer in the image?",
+    "short_answer": "Yes, the jacket is worn by the police officer.",
+    "reasoned_answer": "The jacket is part of the uniform that the police officer is wearing."
+  },
+  {
+    "id": 59,
+    "img_id": "2335961.jpg",
+    "question": "Is the hair of the horse visible?",
+    "short_answer": "Yes, the horse has brown hair.",
+    "reasoned_answer": "The horse's hair is clearly visible and it appears to be brown in color."
+  },
+  {
+    "id": 60,
+    "img_id": "2335961.jpg",
+    "question": "How many men are visible in the image?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four men in the image, all of whom are wearing uniforms and appear to be police officers."
+  },
+  {
+    "id": 61,
+    "img_id": "2417850.jpg",
+    "question": "What color is the train car in the image?",
+    "short_answer": "The train car in the image is green.",
+    "reasoned_answer": "The train car has a predominantly green color with some red and white accents."
+  },
+  {
+    "id": 62,
+    "img_id": "2417850.jpg",
+    "question": "What is the location of the green and red train in the image?",
+    "short_answer": "The train is located on the tracks in a rural area.",
+    "reasoned_answer": "The train is surrounded by open fields and there are no urban structures visible in the background, indicating a rural setting."
+  },
+  {
+    "id": 63,
+    "img_id": "2417850.jpg",
+    "question": "What is the color of the car in the image?",
+    "short_answer": "The car in the image is green.",
+    "reasoned_answer": "The car has a predominantly green color with some red and white accents."
+  },
+  {
+    "id": 64,
+    "img_id": "2338295.jpg",
+    "question": "How many giraffes are visible in the image?",
+    "short_answer": "There are three giraffes visible in the image.",
+    "reasoned_answer": "The image shows three giraffes standing in a row, with one of them appearing to be in motion."
+  },
+  {
+    "id": 65,
+    "img_id": "2338295.jpg",
+    "question": "What is the tree in the background?",
+    "short_answer": "It is a giraffe.",
+    "reasoned_answer": "The tree is tall with a long neck, which is characteristic of a giraffe."
+  },
+  {
+    "id": 66,
+    "img_id": "2338295.jpg",
+    "question": "What is the primary food source for giraffes in their natural habitat?",
+    "short_answer": "Giraffes primarily feed on leaves, flowers, and fruits from trees and shrubs, with the acacia tree being one of their favorites.",
+    "reasoned_answer": "Giraffes have a specialized diet that allows them to access food sources that are out of reach for many other herbivores. Their long necks and legs enable them to browse on foliage that is high up in the trees, giving them a competitive advantage in their ecosystem."
+  },
+  {
+    "id": 67,
+    "img_id": "2324496.jpg",
+    "question": "How many pillows are on the bed?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two pillows on the bed, one yellow and one white."
+  },
+  {
+    "id": 68,
+    "img_id": "2324496.jpg",
+    "question": "How many hairs are in the man's beard?",
+    "short_answer": "Many",
+    "reasoned_answer": "The man has a thick beard with a lot of hairs."
+  },
+  {
+    "id": 69,
+    "img_id": "2321389.jpg",
+    "question": "Where are the clouds in the sky?",
+    "short_answer": "The clouds are in the sky above the trees.",
+    "reasoned_answer": "The clouds are visible in the sky and they are above the trees, indicating that they are at a higher altitude than the trees."
+  },
+  {
+    "id": 70,
+    "img_id": "2321389.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and bright, which suggests it is daytime, and the color appears to be a vibrant blue."
+  },
+  {
+    "id": 71,
+    "img_id": "2321389.jpg",
+    "question": "What is the color of the snow in the image?",
+    "short_answer": "The snow in the image is white.",
+    "reasoned_answer": "The snow appears to be white, which is the typical color for snow when it is fresh and has not been disturbed."
+  },
+  {
+    "id": 72,
+    "img_id": "2340260.jpg",
+    "question": "Is there a variety of carrots on the table?",
+    "short_answer": "Yes, there are different types of carrots on the table.",
+    "reasoned_answer": "The carrots on the table come in various sizes and colors, indicating a variety."
+  },
+  {
+    "id": 73,
+    "img_id": "2320752.jpg",
+    "question": "What is the time displayed on the clock?",
+    "short_answer": "11:25",
+    "reasoned_answer": "The clock shows the hands on the numbers 11 and 25, indicating that the time is 11:25."
+  },
+  {
+    "id": 74,
+    "img_id": "2320752.jpg",
+    "question": "What is the architectural style of the building?",
+    "short_answer": "Gothic Revival",
+    "reasoned_answer": "The building features pointed arches, ornate detailing, and a clock face with Roman numerals, which are characteristic of Gothic Revival architecture."
+  },
+  {
+    "id": 75,
+    "img_id": "2402695.jpg",
+    "question": "Is the person in the image skiing down a snowy mountain?",
+    "short_answer": "Yes, the person is skiing down a snowy mountain.",
+    "reasoned_answer": "The person is wearing skis and poles, and is in a downhill skiing stance on a snowy slope."
+  },
+  {
+    "id": 76,
+    "img_id": "2402695.jpg",
+    "question": "What is the altitude of the snowy mountain range in the background?",
+    "short_answer": "The altitude is high, likely above 10,000 feet.",
+    "reasoned_answer": "The snow is thick and the peaks are jagged, indicating a high altitude where the air is thinner and colder."
+  },
+  {
+    "id": 77,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the vase holding the bouquet?",
+    "short_answer": "The vase is purple.",
+    "reasoned_answer": "The vase is made of a material that reflects light and appears purple."
+  },
+  {
+    "id": 78,
+    "img_id": "2329535.jpg",
+    "question": "What is the color of the desk in the image?",
+    "short_answer": "The desk in the image is brown.",
+    "reasoned_answer": "The desk appears to have a light brown color, which is commonly associated with wood."
+  },
+  {
+    "id": 79,
+    "img_id": "2329535.jpg",
+    "question": "Which rose has a lighter color with a darker center?",
+    "short_answer": "The rose in the middle of the bouquet.",
+    "reasoned_answer": "The rose in the middle has a lighter color with a darker center, which is typical of roses that have been cut and are no longer receiving sunlight."
+  },
+  {
+    "id": 80,
+    "img_id": "2387492.jpg",
+    "question": "What is the name of the garage in the image?",
+    "short_answer": "The name of the garage is Orlandi's Tire & Auto Service.",
+    "reasoned_answer": "The name of the garage is visible on the sign above the door."
+  },
+  {
+    "id": 81,
+    "img_id": "2387492.jpg",
+    "question": "Is the building in the background a commercial establishment?",
+    "short_answer": "Yes, it appears to be a storefront.",
+    "reasoned_answer": "The signage and the presence of a bench in front suggest it is a place where people can sit and possibly shop."
+  },
+  {
+    "id": 82,
+    "img_id": "2387492.jpg",
+    "question": "Where is the bench located?",
+    "short_answer": "It is located on the sidewalk.",
+    "reasoned_answer": "The bench is positioned on the sidewalk, which is a common place for such seating furniture."
+  },
+  {
+    "id": 83,
+    "img_id": "2345458.jpg",
+    "question": "How many mountains are visible in the background?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three distinct peaks visible in the background, which are characteristic of mountain ranges."
+  },
+  {
+    "id": 84,
+    "img_id": "2345458.jpg",
+    "question": "Is the man wearing jeans?",
+    "short_answer": "No, the man is not wearing jeans.",
+    "reasoned_answer": "The man is wearing a pair of dark-colored pants that are not denim."
+  },
+  {
+    "id": 85,
+    "img_id": "2345458.jpg",
+    "question": "What type of cloud is in the sky?",
+    "short_answer": "Cumulus cloud",
+    "reasoned_answer": "Cumulus clouds are fluffy and white, and they often have a flat base."
+  },
+  {
+    "id": 86,
+    "img_id": "2417032.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and cloudless, which is typical for a bright blue sky."
+  },
+  {
+    "id": 87,
+    "img_id": "2417032.jpg",
+    "question": "What is the snow covering the ground?",
+    "short_answer": "The snow is covering the ground because it has fallen from the sky.",
+    "reasoned_answer": "Snow typically falls from the sky during winter months and accumulates on the ground, creating a layer of snow that can be seen in the image."
+  },
+  {
+    "id": 88,
+    "img_id": "2417032.jpg",
+    "question": "Is the mound on the mountain a natural formation or a man-made structure?",
+    "short_answer": "The mound is a natural formation, likely created by weathering and erosion processes.",
+    "reasoned_answer": "The mound's shape and size suggest it has been shaped by natural forces over time, rather than being intentionally constructed by humans."
+  },
+  {
+    "id": 89,
+    "img_id": "2394235.jpg",
+    "question": "What type of bush is this?",
+    "short_answer": "It appears to be a green bush with small leaves.",
+    "reasoned_answer": "The leaves are a deep green color and seem to be small and round in shape, which is typical of certain types of bushes."
+  },
+  {
+    "id": 90,
+    "img_id": "2394235.jpg",
+    "question": "Is the tree in the image healthy?",
+    "short_answer": "No, the tree appears to be dead.",
+    "reasoned_answer": "The tree has no leaves and its branches are bare, indicating that it is not alive."
+  },
+  {
+    "id": 91,
+    "img_id": "2394235.jpg",
+    "question": "How many leaves are visible in the image?",
+    "short_answer": "There are hundreds of leaves visible in the image.",
+    "reasoned_answer": "The image shows a dense forest with a variety of trees and shrubs, all of which have leaves."
+  },
+  {
+    "id": 92,
+    "img_id": "2387659.jpg",
+    "question": "What is the man's attire?",
+    "short_answer": "The man is wearing a light blue shirt, a dark blue tie, and light-colored pants.",
+    "reasoned_answer": "The man's attire is appropriate for a formal or semi-formal event, such as a tennis match or a formal tennis club gathering."
+  },
+  {
+    "id": 93,
+    "img_id": "2387659.jpg",
+    "question": "How many players are on the tennis court?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two players on the tennis court, one serving and one receiving."
+  },
+  {
+    "id": 94,
+    "img_id": "2387659.jpg",
+    "question": "What type of attire is the man wearing in the image?",
+    "short_answer": "The man is wearing a light-colored suit with a tie.",
+    "reasoned_answer": "The man is dressed in a formal manner, which is appropriate for a tennis match or event."
+  },
+  {
+    "id": 95,
+    "img_id": "2393668.jpg",
+    "question": "Is the building in the background part of the airport's infrastructure?",
+    "short_answer": "Yes, the building is part of the airport's infrastructure.",
+    "reasoned_answer": "The building is located within the airport's premises and is likely used for airport operations."
+  },
+  {
+    "id": 96,
+    "img_id": "2393668.jpg",
+    "question": "Is the grass in the image green?",
+    "short_answer": "Yes, the grass in the image is green.",
+    "reasoned_answer": "The grass appears to be healthy and vibrant, which is typical for green grass."
+  },
+  {
+    "id": 97,
+    "img_id": "2393668.jpg",
+    "question": "How many airplanes are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one airplane visible in the image, which is a large commercial jet."
+  },
+  {
+    "id": 98,
+    "img_id": "2328035.jpg",
+    "question": "What type of vest is the man wearing?",
+    "short_answer": "He is wearing a black vest.",
+    "reasoned_answer": "The vest is black in color and appears to be a formal or semi-formal garment."
+  },
+  {
+    "id": 99,
+    "img_id": "2328035.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "He is a businessman.",
+    "reasoned_answer": "He is wearing a dress shirt and tie, which is typical attire for a professional setting."
+  },
+  {
+    "id": 100,
+    "img_id": "2328035.jpg",
+    "question": "How many people are visible in the mirror?",
+    "short_answer": "1",
+    "reasoned_answer": "The reflection in the mirror shows a single individual."
+  },
+  {
+    "id": 101,
+    "img_id": "2395429.jpg",
+    "question": "Is the ear of the elephant visible above the water?",
+    "short_answer": "Yes, the ear of the elephant is visible above the water.",
+    "reasoned_answer": "The ear of the elephant is sticking out of the water, making it visible."
+  },
+  {
+    "id": 102,
+    "img_id": "2395429.jpg",
+    "question": "What is the primary function of an elephant's trunk?",
+    "short_answer": "The primary function of an elephant's trunk is to breathe, drink, and smell. It is also used for touching, grasping, and lifting objects.",
+    "reasoned_answer": "An elephant's trunk is a highly versatile and sensitive appendage that contains over 40,000 muscles, allowing for a wide range of movements and functions."
+  },
+  {
+    "id": 103,
+    "img_id": "2395429.jpg",
+    "question": "What is the water's depth?",
+    "short_answer": "It's shallow.",
+    "reasoned_answer": "The elephant's trunk is visible above the water, indicating that the water is not deep."
+  },
+  {
+    "id": 104,
+    "img_id": "2337356.jpg",
+    "question": "Is the toilet in a public restroom?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The toilet is in a small space with a blue tile wall, which is typical of public restrooms."
+  },
+  {
+    "id": 105,
+    "img_id": "2337356.jpg",
+    "question": "How many stickers are on the wall?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one sticker on the wall."
+  },
+  {
+    "id": 106,
+    "img_id": "2337356.jpg",
+    "question": "Is the toilet seat in the image white?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The toilet seat in the image is predominantly white."
+  },
+  {
+    "id": 107,
+    "img_id": "2336569.jpg",
+    "question": "What is the name of the street sign that is hanging from the wire?",
+    "short_answer": "The name of the street sign is Stanley Park.",
+    "reasoned_answer": "The sign is labeled with the name 'Stanley Park' and is hanging from a wire along with other street signs."
+  },
+  {
+    "id": 108,
+    "img_id": "2336569.jpg",
+    "question": "What is the purpose of the power lines in the image?",
+    "short_answer": "The power lines are used to transmit electricity.",
+    "reasoned_answer": "Power lines are a common means of transmitting electricity over long distances. They are typically made of metal and are supported by poles or towers. The lines are insulated to prevent electrical shocks and are designed to withstand various weather conditions."
+  },
+  {
+    "id": 109,
+    "img_id": "2336569.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is gray.",
+    "reasoned_answer": "The sky appears to be overcast, which is often characterized by a gray color."
+  },
+  {
+    "id": 110,
+    "img_id": "4418.jpg",
+    "question": "What is the purpose of the counter in the laboratory?",
+    "short_answer": "The counter is used to hold chemicals and equipment during experiments.",
+    "reasoned_answer": "The counter provides a stable surface for scientists to place their equipment and chemicals while they work in the laboratory."
+  },
+  {
+    "id": 111,
+    "img_id": "4418.jpg",
+    "question": "What is the man's role in the laboratory?",
+    "short_answer": "The man appears to be a scientist or researcher.",
+    "reasoned_answer": "He is wearing a lab coat and is surrounded by scientific equipment and chemicals, which suggests he is involved in scientific research."
+  },
+  {
+    "id": 112,
+    "img_id": "4418.jpg",
+    "question": "How many lab coats are visible in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three individuals wearing lab coats in the image."
+  },
+  {
+    "id": 113,
+    "img_id": "2369698.jpg",
+    "question": "How many buses are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one bus visible in the image."
+  },
+  {
+    "id": 114,
+    "img_id": "2369698.jpg",
+    "question": "How many colors are visible on the ground?",
+    "short_answer": "2",
+    "reasoned_answer": "The ground appears to be a combination of green and grey."
+  },
+  {
+    "id": 115,
+    "img_id": "2369698.jpg",
+    "question": "What type of tree is in the background of the image?",
+    "short_answer": "It appears to be a deciduous tree with green leaves.",
+    "reasoned_answer": "The leaves are a vibrant green color, which suggests that the tree is healthy and likely a species that retains its foliage year-round."
+  },
+  {
+    "id": 116,
+    "img_id": "2373085.jpg",
+    "question": "What is the purpose of the dome on the building?",
+    "short_answer": "The dome is a decorative element that adds architectural interest to the building.",
+    "reasoned_answer": "The dome is a common architectural feature that can serve both functional and aesthetic purposes. In this case, the dome is part of a church, which often incorporates decorative elements to enhance the religious significance of the building."
+  },
+  {
+    "id": 117,
+    "img_id": "2373085.jpg",
+    "question": "How many windows are on the house?",
+    "short_answer": "10",
+    "reasoned_answer": "The house has windows on all sides, including the attic and basement, for a total of 10 windows."
+  },
+  {
+    "id": 118,
+    "img_id": "2373085.jpg",
+    "question": "What is the architectural style of the house in the image?",
+    "short_answer": "The house appears to be a traditional two-story brick structure with a pitched roof.",
+    "reasoned_answer": "The house has a symmetrical facade with a central doorway and windows on both floors. The brick construction and the pitched roof are characteristic of traditional residential architecture."
+  },
+  {
+    "id": 119,
+    "img_id": "2406064.jpg",
+    "question": "What color are the jeans worn by the individuals in the image?",
+    "short_answer": "The jeans worn by the individuals in the image are blue.",
+    "reasoned_answer": "The jeans are a solid blue color, which is typical for denim jeans."
+  },
+  {
+    "id": 120,
+    "img_id": "2406064.jpg",
+    "question": "Where is the hair on the man's head?",
+    "short_answer": "On his head",
+    "reasoned_answer": "The hair is on the man's head, which is where hair typically grows."
+  },
+  {
+    "id": 121,
+    "img_id": "2406064.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are two men and one child in the image."
+  },
+  {
+    "id": 122,
+    "img_id": "2371480.jpg",
+    "question": "What is the main dish on the plate?",
+    "short_answer": "Beef with gravy.",
+    "reasoned_answer": "The plate is topped with a pile of beef in a brown sauce, which is a common combination for beef dishes."
+  },
+  {
+    "id": 123,
+    "img_id": "2371480.jpg",
+    "question": "What is the primary ingredient in the sauce?",
+    "short_answer": "Soy sauce",
+    "reasoned_answer": "The sauce appears to be a dark brown color which is typical of soy sauce, and it's commonly used in Asian cuisine to flavor dishes like the one in the image."
+  },
+  {
+    "id": 124,
+    "img_id": "2371480.jpg",
+    "question": "How many pieces of meat are in the image?",
+    "short_answer": "There are several pieces of meat in the image.",
+    "reasoned_answer": "The image shows a pile of meat, which is typically cut into pieces. The exact number cannot be determined without a clear reference point."
+  },
+  {
+    "id": 125,
+    "img_id": "2377994.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "There is only one zebra visible in the image."
+  },
+  {
+    "id": 126,
+    "img_id": "2377994.jpg",
+    "question": "How many zebras are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "The zebra is lowering its head towards the grass, which is a common behavior for grazing."
+  },
+  {
+    "id": 127,
+    "img_id": "2328856.jpg",
+    "question": "What is the color of the tree trunk?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The tree trunk appears to be brown, which is a common color for tree trunks as they age."
+  },
+  {
+    "id": 128,
+    "img_id": "2328856.jpg",
+    "question": "What is the purpose of the helmet in the image?",
+    "short_answer": "The helmet is designed to protect the head from injuries.",
+    "reasoned_answer": "The helmet is a piece of safety gear commonly used in sports like skateboarding to prevent head injuries."
+  },
+  {
+    "id": 129,
+    "img_id": "2328856.jpg",
+    "question": "Is the shirt plaid?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The shirt has a pattern of intersecting lines that is characteristic of plaid."
+  },
+  {
+    "id": 130,
+    "img_id": "2381621.jpg",
+    "question": "What type of trees are in the background of the image?",
+    "short_answer": "Oak trees",
+    "reasoned_answer": "The trees have broad, rounded crowns and thick trunks, which are characteristics of oak trees."
+  },
+  {
+    "id": 131,
+    "img_id": "2381621.jpg",
+    "question": "What is the name of the park where the two boys are playing?",
+    "short_answer": "The name of the park is not visible in the image.",
+    "reasoned_answer": "The image only shows the two boys playing in a grassy area, but the name of the park is not discernible from the image."
+  },
+  {
+    "id": 132,
+    "img_id": "2381621.jpg",
+    "question": "How many cars are parked in the parking lot?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three cars visible in the parking lot."
+  },
+  {
+    "id": 133,
+    "img_id": "2383102.jpg",
+    "question": "What is the significance of the flags on the train?",
+    "short_answer": "The flags represent patriotism and pride in the United States.",
+    "reasoned_answer": "The flags are displayed prominently on the train, which suggests that they are important to the train's owner or operator. The flags are the American flag, which is a symbol of national pride, and the state flag of California, which indicates a connection to that state."
+  },
+  {
+    "id": 134,
+    "img_id": "2383102.jpg",
+    "question": "How many cars are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one car visible in the image, which is a red car."
+  },
+  {
+    "id": 135,
+    "img_id": "2383102.jpg",
+    "question": "How many floors does the building have?",
+    "short_answer": "4",
+    "reasoned_answer": "The building has a clear structure with four distinct floors."
+  },
+  {
+    "id": 136,
+    "img_id": "2357307.jpg",
+    "question": "Which table is in the room?",
+    "short_answer": "The table in the room is the one with the yellow bag on it.",
+    "reasoned_answer": "The table with the yellow bag on it is the only table in the room."
+  },
+  {
+    "id": 137,
+    "img_id": "2357307.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The wall appears to be a standard white color commonly found in residential settings."
+  },
+  {
+    "id": 138,
+    "img_id": "2381970.jpg",
+    "question": "Is the pepperoni on the pizza sliced?",
+    "short_answer": "Yes, the pepperoni on the pizza is sliced.",
+    "reasoned_answer": "The pepperoni appears to be cut into thin slices, which is a common way to serve it on a pizza."
+  },
+  {
+    "id": 139,
+    "img_id": "2381970.jpg",
+    "question": "Is the olive a part of the pizza topping?",
+    "short_answer": "Yes, the olive is a part of the pizza topping.",
+    "reasoned_answer": "The olive is a common pizza topping and is visible on the pizza in the image."
+  },
+  {
+    "id": 140,
+    "img_id": "2381970.jpg",
+    "question": "Is the crust of the pizza visible in the image?",
+    "short_answer": "Yes, the crust is visible on the edge of the pizza.",
+    "reasoned_answer": "The crust is the outer edge of the pizza, and it is clearly visible in the image."
+  },
+  {
+    "id": 141,
+    "img_id": "2322221.jpg",
+    "question": "How many trees are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one tree visible in the image."
+  },
+  {
+    "id": 142,
+    "img_id": "2322221.jpg",
+    "question": "Is the road next to the train tracks?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The road is adjacent to the train tracks, indicating that it is parallel to them."
+  },
+  {
+    "id": 143,
+    "img_id": "2322221.jpg",
+    "question": "What is the name of the building in the background of the image?",
+    "short_answer": "The building in the background is the Olympic Stadium.",
+    "reasoned_answer": "The Olympic Stadium is a well-known landmark in London, and its distinctive arches are visible in the background of the image."
+  },
+  {
+    "id": 144,
+    "img_id": "2396722.jpg",
+    "question": "What is the color of the shirt the man is wearing?",
+    "short_answer": "The shirt is grey.",
+    "reasoned_answer": "The shirt appears to be a light grey color, which is typical for men's casual wear."
+  },
+  {
+    "id": 145,
+    "img_id": "2396722.jpg",
+    "question": "Is the man in the image preparing to catch a ball?",
+    "short_answer": "No, the man is not preparing to catch a ball.",
+    "reasoned_answer": "The man is holding a frisbee, which is a flat, circular disc typically used for recreational activities such as ultimate frisbee."
+  },
+  {
+    "id": 146,
+    "img_id": "2396722.jpg",
+    "question": "What type of pants is the person wearing?",
+    "short_answer": "The person is wearing black pants.",
+    "reasoned_answer": "The pants are black and appear to be a casual style suitable for outdoor activities."
+  },
+  {
+    "id": 147,
+    "img_id": "2416057.jpg",
+    "question": "What is the color of the tree in the background?",
+    "short_answer": "The tree in the background is green.",
+    "reasoned_answer": "The tree has green leaves, which is a common color for trees during their growing season."
+  },
+  {
+    "id": 148,
+    "img_id": "2416057.jpg",
+    "question": "What is the color of the tree in the background?",
+    "short_answer": "The tree in the background is green.",
+    "reasoned_answer": "The tree has green leaves, which is a common color for trees during their growing season."
+  },
+  {
+    "id": 149,
+    "img_id": "2416057.jpg",
+    "question": "Is the road made of asphalt?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The road appears to be made of asphalt, which is a common material for paved roads."
+  },
+  {
+    "id": 150,
+    "img_id": "2325198.jpg",
+    "question": "Is the frosting on the cupcake white in color?",
+    "short_answer": "Yes, the frosting on the cupcake is white.",
+    "reasoned_answer": "The frosting appears to be a creamy white color, which is typical for a vanilla frosting."
+  },
+  {
+    "id": 151,
+    "img_id": "2325198.jpg",
+    "question": "What type of cell phone is it?",
+    "short_answer": "It is an LG phone.",
+    "reasoned_answer": "The logo on the back of the phone is visible and it matches the logo of LG phones."
+  },
+  {
+    "id": 152,
+    "img_id": "2325198.jpg",
+    "question": "What is the color of the table?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The table appears to have a brown surface."
+  },
+  {
+    "id": 153,
+    "img_id": "2412796.jpg",
+    "question": "Where is the bear located?",
+    "short_answer": "The bear is in a zoo.",
+    "reasoned_answer": "The bear is in an enclosure with rocks and water, which is typical of a zoo habitat."
+  },
+  {
+    "id": 154,
+    "img_id": "2412796.jpg",
+    "question": "What is the mountain in the background?",
+    "short_answer": "It is a rock formation.",
+    "reasoned_answer": "The mountain is made up of rocks and appears to be a natural formation, possibly part of a larger rocky outcropping."
+  },
+  {
+    "id": 155,
+    "img_id": "2412796.jpg",
+    "question": "Is the river calm or turbulent?",
+    "short_answer": "Turbulent",
+    "reasoned_answer": "The water is splashing and there is a visible wave, indicating turbulence."
+  },
+  {
+    "id": 156,
+    "img_id": "2335189.jpg",
+    "question": "Are the legs of the dog visible in the image?",
+    "short_answer": "Yes, the legs of the dog are visible in the image.",
+    "reasoned_answer": "The legs of the dog are partially visible as it is walking beside the couple."
+  },
+  {
+    "id": 157,
+    "img_id": "2335189.jpg",
+    "question": "What is the color of the wheel?",
+    "short_answer": "Black and white.",
+    "reasoned_answer": "The wheel has a black and white pattern."
+  },
+  {
+    "id": 158,
+    "img_id": "2335189.jpg",
+    "question": "How many windows are on the yellow car?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two windows on the yellow car, one on the driver's side and one on the passenger side."
+  },
+  {
+    "id": 159,
+    "img_id": "61553.jpg",
+    "question": "How many sheep are grazing in the field?",
+    "short_answer": "There are 14 sheep grazing in the field.",
+    "reasoned_answer": "The image shows a herd of sheep spread across the field, with some closer to the foreground and others further back. Counting the sheep in the field, there are 14 sheep visible."
+  },
+  {
+    "id": 160,
+    "img_id": "61553.jpg",
+    "question": "Where are the sheep grazing in the image?",
+    "short_answer": "The sheep are grazing in a grassy field.",
+    "reasoned_answer": "The sheep are spread out across the field, with some closer to the foreground and others further back, indicating they are grazing on the grass."
+  },
+  {
+    "id": 161,
+    "img_id": "61553.jpg",
+    "question": "Is the sheep within the red rectangle eating grass?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The sheep within the red rectangle has its head down towards the grass, which indicates it is eating."
+  },
+  {
+    "id": 162,
+    "img_id": "2345526.jpg",
+    "question": "What is the name of the station in the image?",
+    "short_answer": "The station is called 'Hackescher Markt'.",
+    "reasoned_answer": "The name of the station is visible on the platform signage."
+  },
+  {
+    "id": 163,
+    "img_id": "2345526.jpg",
+    "question": "What is the name of the building in the background?",
+    "short_answer": "It is a train station.",
+    "reasoned_answer": "You can see the train tracks and the platform where passengers are waiting."
+  },
+  {
+    "id": 164,
+    "img_id": "2345526.jpg",
+    "question": "What color is the scarf around the woman's neck?",
+    "short_answer": "The scarf is red.",
+    "reasoned_answer": "The scarf is wrapped around the woman's neck and is clearly visible as red."
+  },
+  {
+    "id": 165,
+    "img_id": "2348169.jpg",
+    "question": "What is the location of the park?",
+    "short_answer": "Outdoors",
+    "reasoned_answer": "The park is located outdoors, as evidenced by the natural lighting and the presence of grass and trees."
+  },
+  {
+    "id": 166,
+    "img_id": "2348169.jpg",
+    "question": "How many trunks are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one trunk visible in the image, which is the trunk of the tree in the background."
+  },
+  {
+    "id": 167,
+    "img_id": "2348169.jpg",
+    "question": "How many trees are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is a single tree visible in the background of the image."
+  },
+  {
+    "id": 168,
+    "img_id": "2394575.jpg",
+    "question": "What is the zebra's primary form of defense against predators?",
+    "short_answer": "The zebra's primary form of defense is its speed and agility, which allows it to evade predators.",
+    "reasoned_answer": "Zebras are known for their speed and agility, which they use to escape predators. Their striped pattern also helps to confuse predators and make it difficult for them to single out an individual zebra from a group."
+  },
+  {
+    "id": 169,
+    "img_id": "2394575.jpg",
+    "question": "What is the purpose of the mane of a zebra?",
+    "short_answer": "The mane of a zebra serves as a protective barrier against predators and helps to regulate body temperature.",
+    "reasoned_answer": "The mane of a zebra is a distinctive feature that can be used to identify the species. It is made up of long, stiff hairs that stand upright along the neck and back of the zebra. The mane is believed to play a role in thermoregulation, helping to dissipate heat from the body. Additionally, the mane may also serve as a deterrent to predators by making it difficult for them to grab onto the zebra."
+  },
+  {
+    "id": 170,
+    "img_id": "2394575.jpg",
+    "question": "What is the behavior of the zebra in the image?",
+    "short_answer": "The zebra appears to be standing still.",
+    "reasoned_answer": "The zebra's body is upright and it is not moving, indicating a state of rest or inactivity."
+  },
+  {
+    "id": 171,
+    "img_id": "2336094.jpg",
+    "question": "Is the pan made of metal?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pan appears to be made of metal, as indicated by its reflective surface and the way it holds the carrot sticks."
+  },
+  {
+    "id": 172,
+    "img_id": "2336094.jpg",
+    "question": "What is the purpose of the carrots in the image?",
+    "short_answer": "The carrots are being used as a craft material.",
+    "reasoned_answer": "The carrots are cut into long, thin strips, which is a common technique for creating crafts such as garlands or decorations."
+  },
+  {
+    "id": 173,
+    "img_id": "2336094.jpg",
+    "question": "How many carrots are there in the image?",
+    "short_answer": "There are dozens of carrots in the image.",
+    "reasoned_answer": "The image shows a large number of carrots, which are typically grouped together in bunches."
+  },
+  {
+    "id": 174,
+    "img_id": "2340329.jpg",
+    "question": "What is the color of the skirt the girl is wearing?",
+    "short_answer": "The skirt is blue.",
+    "reasoned_answer": "The skirt appears to be blue in color, as indicated by the visible fabric and the shadows on it."
+  },
+  {
+    "id": 175,
+    "img_id": "2340329.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The grass in the field is tall and appears to be dry, which is typical for a field that has not been recently mowed or watered."
+  },
+  {
+    "id": 176,
+    "img_id": "2399456.jpg",
+    "question": "Where is the runway located?",
+    "short_answer": "It is located at an airport.",
+    "reasoned_answer": "The runway is a long, paved surface designed for aircraft to take off and land. It is typically found at airports where airplanes can taxi, take off, and land."
+  },
+  {
+    "id": 177,
+    "img_id": "2399456.jpg",
+    "question": "How many wings does the airplane have?",
+    "short_answer": "2",
+    "reasoned_answer": "The airplane has two wings, one on each side of its fuselage."
+  },
+  {
+    "id": 178,
+    "img_id": "2399456.jpg",
+    "question": "How many types of grass are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "The grass in the image is green and appears to be two distinct types, one is taller and the other is shorter."
+  },
+  {
+    "id": 179,
+    "img_id": "2336504.jpg",
+    "question": "How many trees are visible in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three trees in the background of the image."
+  },
+  {
+    "id": 180,
+    "img_id": "2336504.jpg",
+    "question": "What is the type of tree depicted in the image?",
+    "short_answer": "It appears to be a deciduous tree, likely a species native to the region where the photo was taken.",
+    "reasoned_answer": "The tree has broad, flat leaves which are indicative of a deciduous tree, and the foliage is dense and lush, suggesting it is healthy and well-adapted to its environment."
+  },
+  {
+    "id": 181,
+    "img_id": "2336504.jpg",
+    "question": "How many steps are there on the staircase?",
+    "short_answer": "10",
+    "reasoned_answer": "The staircase has 10 steps visible in the image."
+  },
+  {
+    "id": 182,
+    "img_id": "2340386.jpg",
+    "question": "What is the color of the arm of the person riding the motorcycle?",
+    "short_answer": "The arm of the person riding the motorcycle is purple.",
+    "reasoned_answer": "The arm of the person riding the motorcycle is covered by a purple jacket."
+  },
+  {
+    "id": 183,
+    "img_id": "2340386.jpg",
+    "question": "How many people are wearing helmets in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two people in the image, and both are wearing helmets."
+  },
+  {
+    "id": 184,
+    "img_id": "2340386.jpg",
+    "question": "What is the color of the ground in the image?",
+    "short_answer": "The ground in the image is grey.",
+    "reasoned_answer": "The ground appears to be a grey color, which is typical for asphalt or concrete surfaces."
+  },
+  {
+    "id": 185,
+    "img_id": "2384046.jpg",
+    "question": "What is the weather like in the image?",
+    "short_answer": "It appears to be a cloudy day.",
+    "reasoned_answer": "The sky is filled with clouds, which suggests overcast weather."
+  },
+  {
+    "id": 186,
+    "img_id": "2384046.jpg",
+    "question": "Which bench is located on the right side of the image?",
+    "short_answer": "The bench on the right is made of wood.",
+    "reasoned_answer": "The bench is made of wood and is situated on the right side of the image."
+  },
+  {
+    "id": 187,
+    "img_id": "2384046.jpg",
+    "question": "How many trees are there on the sidewalk?",
+    "short_answer": "There are several trees on the sidewalk.",
+    "reasoned_answer": "The trees are lined up along the sidewalk, providing shade and a pleasant environment for pedestrians."
+  },
+  {
+    "id": 188,
+    "img_id": "2329288.jpg",
+    "question": "Is the sky clear or cloudy?",
+    "short_answer": "The sky is clear.",
+    "reasoned_answer": "There are no visible clouds in the sky."
+  },
+  {
+    "id": 189,
+    "img_id": "2329288.jpg",
+    "question": "What is the purpose of the fence surrounding the field?",
+    "short_answer": "To keep the ball within the playing area.",
+    "reasoned_answer": "The fence helps to prevent the ball from going out of bounds and makes it easier for players to retrieve the ball after it lands outside the field."
+  },
+  {
+    "id": 190,
+    "img_id": "2329288.jpg",
+    "question": "What is the purpose of the kite in the image?",
+    "short_answer": "The purpose of the kite in the image is to be flown in the air.",
+    "reasoned_answer": "The kite is designed to catch the wind and lift into the air, providing a recreational activity for the person flying it."
+  },
+  {
+    "id": 191,
+    "img_id": "2351307.jpg",
+    "question": "What is the skateboard in the air?",
+    "short_answer": "It is a skateboard.",
+    "reasoned_answer": "The skateboard is being used for a trick by a skateboarder."
+  },
+  {
+    "id": 192,
+    "img_id": "2351307.jpg",
+    "question": "Is the dock located near the water?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The dock is typically built over or near water, allowing for easy access to boats and other watercraft."
+  },
+  {
+    "id": 193,
+    "img_id": "2351307.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "5",
+    "reasoned_answer": "There are 5 people visible in the image, including the skateboarder and the spectators."
+  },
+  {
+    "id": 194,
+    "img_id": "2385125.jpg",
+    "question": "What is the name of the road that the red double-decker bus is traveling on?",
+    "short_answer": "The road is called \"The Strand.\"",
+    "reasoned_answer": "The sign on the bus reads \"The Strand\" and the bus is traveling on a road that appears to be \"The Strand\" based on the surrounding buildings and the presence of a river."
+  },
+  {
+    "id": 195,
+    "img_id": "2385125.jpg",
+    "question": "How many grills are visible on the front of the bus?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one grill visible on the front of the bus."
+  },
+  {
+    "id": 196,
+    "img_id": "2385125.jpg",
+    "question": "How many tires are visible on the red double-decker bus?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two tires visible on the bus, one on the left side and one on the right side."
+  },
+  {
+    "id": 197,
+    "img_id": "2395663.jpg",
+    "question": "What is the biker doing at the farmers market?",
+    "short_answer": "The biker is selling items at the farmers market.",
+    "reasoned_answer": "The biker is sitting behind a table with a sign that says 'Mount Pleasant Farmers Market' and 'Saturdays 9am-1pm'."
+  },
+  {
+    "id": 198,
+    "img_id": "2395663.jpg",
+    "question": "Which tent is in the background of the image?",
+    "short_answer": "The tent in the background is a white canopy tent.",
+    "reasoned_answer": "The tent is white and has a canopy structure, which is typical of outdoor event tents."
+  },
+  {
+    "id": 199,
+    "img_id": "2395663.jpg",
+    "question": "What is the person doing at the farmers market?",
+    "short_answer": "The person is sitting on a bicycle.",
+    "reasoned_answer": "The person is seated on a bicycle with their hands on the handlebars, indicating that they are likely taking a break or waiting for someone."
+  },
+  {
+    "id": 200,
+    "img_id": "2336625.jpg",
+    "question": "What is the destination of the bus within the red rectangle?",
+    "short_answer": "The bus within the red rectangle is headed to Cheltenham.",
+    "reasoned_answer": "The destination is displayed on the front of the bus within the red rectangle."
+  },
+  {
+    "id": 201,
+    "img_id": "2336625.jpg",
+    "question": "Is the pole red?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pole is painted red."
+  },
+  {
+    "id": 202,
+    "img_id": "2336625.jpg",
+    "question": "What is the purpose of the trees in the image?",
+    "short_answer": "The trees provide shade and aesthetic value to the area.",
+    "reasoned_answer": "The trees are located along the sidewalk, which suggests they are there to enhance the urban environment for pedestrians and to provide shade for those waiting at the bus stop."
+  },
+  {
+    "id": 203,
+    "img_id": "2395359.jpg",
+    "question": "Where is the toilet brush located in the bathroom?",
+    "short_answer": "The toilet brush is located in a holder next to the toilet.",
+    "reasoned_answer": "The toilet brush is typically stored in a holder to keep it clean and easily accessible for use."
+  },
+  {
+    "id": 204,
+    "img_id": "2395359.jpg",
+    "question": "Is the toilet in a bathroom?",
+    "short_answer": "No, the toilet is in a storage room.",
+    "reasoned_answer": "The toilet is placed next to a wall and there is a storage box above it, which suggests that it is not in a bathroom."
+  },
+  {
+    "id": 205,
+    "img_id": "2395359.jpg",
+    "question": "How many pipes are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one pipe visible in the image, which is located to the left of the toilet."
+  },
+  {
+    "id": 206,
+    "img_id": "2409526.jpg",
+    "question": "How many legs does the horse have?",
+    "short_answer": "4",
+    "reasoned_answer": "The horse has four legs, which is a common number for horses."
+  },
+  {
+    "id": 207,
+    "img_id": "2409526.jpg",
+    "question": "What is the color of the grass in the field?",
+    "short_answer": "The grass in the field is green.",
+    "reasoned_answer": "The grass appears to be a healthy green color, which is typical for grass in a field."
+  },
+  {
+    "id": 208,
+    "img_id": "2409526.jpg",
+    "question": "What is the color of the horse's mane?",
+    "short_answer": "The mane of the horse is white.",
+    "reasoned_answer": "The mane of the horse is predominantly white with some brownish tones, which is typical for a horse's mane."
+  },
+  {
+    "id": 209,
+    "img_id": "2364865.jpg",
+    "question": "What is the color of the shorts the man is wearing?",
+    "short_answer": "The shorts are black.",
+    "reasoned_answer": "The shorts are predominantly black with some yellow and white details."
+  },
+  {
+    "id": 210,
+    "img_id": "2364865.jpg",
+    "question": "What is the name of the company advertised on the sign?",
+    "short_answer": "Fandesport",
+    "reasoned_answer": "The sign says 'Fandesport' in white letters on a green background."
+  },
+  {
+    "id": 211,
+    "img_id": "2364865.jpg",
+    "question": "How many posts are there on the fence?",
+    "short_answer": "10",
+    "reasoned_answer": "The fence is made up of vertical posts that are spaced evenly apart."
+  },
+  {
+    "id": 212,
+    "img_id": "2353948.jpg",
+    "question": "What is the name of the house in the background of the image?",
+    "short_answer": "The name of the house in the background is not visible.",
+    "reasoned_answer": "The house in the background is obscured by the crowd of people, making it difficult to read any signage or markings that might indicate its name."
+  },
+  {
+    "id": 213,
+    "img_id": "2353948.jpg",
+    "question": "How many people are visible in the image?",
+    "short_answer": "15",
+    "reasoned_answer": "There are several individuals in the background, and the main focus is on the person with the dog."
+  },
+  {
+    "id": 214,
+    "img_id": "2353948.jpg",
+    "question": "What is the boy's role in the scene?",
+    "short_answer": "The boy appears to be a spectator.",
+    "reasoned_answer": "The boy is standing on the side of the road, watching the event."
+  },
+  {
+    "id": 215,
+    "img_id": "2335089.jpg",
+    "question": "Is the road within the red rectangle busy with traffic?",
+    "short_answer": "Yes, the road within the red rectangle is busy with traffic.",
+    "reasoned_answer": "There are multiple cars visible on the road within the red rectangle, indicating a busy traffic situation."
+  },
+  {
+    "id": 216,
+    "img_id": "2335089.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is pink.",
+    "reasoned_answer": "The sky appears to have a warm hue, which is often associated with the color pink during sunset."
+  },
+  {
+    "id": 217,
+    "img_id": "2335089.jpg",
+    "question": "What is the purpose of the wall in the image?",
+    "short_answer": "The wall serves as a barrier or boundary.",
+    "reasoned_answer": "The wall is a physical structure that separates or encloses an area, often used for security or to define property lines."
+  },
+  {
+    "id": 218,
+    "img_id": "1592305.jpg",
+    "question": "Which car is stopped at the crosswalk?",
+    "short_answer": "The silver car in front of the other silver car.",
+    "reasoned_answer": "The car is positioned in the crosswalk and is facing forward, indicating it is stopped."
+  },
+  {
+    "id": 219,
+    "img_id": "1592305.jpg",
+    "question": "What is the make and model of the car in the foreground?",
+    "short_answer": "The car in the foreground is a Mercedes-Benz C-Class.",
+    "reasoned_answer": "The car has a distinctive front grille and logo that identifies it as a Mercedes-Benz, and the specific model can be identified by the design of the headlights and the shape of the front bumper."
+  },
+  {
+    "id": 220,
+    "img_id": "1592305.jpg",
+    "question": "What is the make and model of the car within the red rectangle?",
+    "short_answer": "The car within the red rectangle is a Honda Civic.",
+    "reasoned_answer": "The car within the red rectangle has a distinctive design with a Honda logo on the front grille and the body shape is consistent with the Honda Civic."
+  },
+  {
+    "id": 221,
+    "img_id": "2385401.jpg",
+    "question": "What is the crop being grown in the field?",
+    "short_answer": "Corn",
+    "reasoned_answer": "The field is filled with tall green plants that are typical of corn, and the ears of corn are visible."
+  },
+  {
+    "id": 222,
+    "img_id": "2385401.jpg",
+    "question": "What is the color of the grass in the field?",
+    "short_answer": "The grass in the field is green.",
+    "reasoned_answer": "The grass appears to be lush and green, which is typical for healthy grass in a well-maintained field."
+  },
+  {
+    "id": 223,
+    "img_id": "2385401.jpg",
+    "question": "Is the path visible in the image?",
+    "short_answer": "Yes, the path is visible in the image.",
+    "reasoned_answer": "The path is clearly marked by the dirt and grass surrounding it, making it stand out against the rest of the field."
+  },
+  {
+    "id": 224,
+    "img_id": "2354998.jpg",
+    "question": "Where is the boy's head located?",
+    "short_answer": "Outside in the snow.",
+    "reasoned_answer": "The boy is wearing a heavy jacket and there is snow on the ground."
+  },
+  {
+    "id": 225,
+    "img_id": "2354998.jpg",
+    "question": "Where is the tree located in relation to the person?",
+    "short_answer": "The tree is located behind the person.",
+    "reasoned_answer": "The tree is visible in the background behind the person, indicating that it is positioned behind them."
+  },
+  {
+    "id": 226,
+    "img_id": "2354998.jpg",
+    "question": "How many pockets does the jacket have?",
+    "short_answer": "2",
+    "reasoned_answer": "The jacket has two pockets, one on the left chest and another on the right chest."
+  },
+  {
+    "id": 227,
+    "img_id": "2387420.jpg",
+    "question": "Is the chair made of wood?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The chair has a wooden backrest and seat."
+  },
+  {
+    "id": 228,
+    "img_id": "2387420.jpg",
+    "question": "How many layers does the cake have?",
+    "short_answer": "3",
+    "reasoned_answer": "The cake has three distinct layers of red velvet cake with white frosting in between."
+  },
+  {
+    "id": 229,
+    "img_id": "2387420.jpg",
+    "question": "What is the plate made of?",
+    "short_answer": "Glass",
+    "reasoned_answer": "The plate is transparent and has a reflective surface, which are characteristics of glass."
+  },
+  {
+    "id": 230,
+    "img_id": "2383227.jpg",
+    "question": "What is the color of the tree in the image?",
+    "short_answer": "The tree in the image is green.",
+    "reasoned_answer": "The tree has green leaves, which indicates that it is alive and healthy."
+  },
+  {
+    "id": 231,
+    "img_id": "2383227.jpg",
+    "question": "What is the name of the mountain range visible in the background of the image?",
+    "short_answer": "The Rocky Mountains",
+    "reasoned_answer": "The Rocky Mountains are a prominent mountain range in North America, known for their rugged terrain and snow-capped peaks."
+  },
+  {
+    "id": 232,
+    "img_id": "2383227.jpg",
+    "question": "Where is the fence located in the image?",
+    "short_answer": "The fence is located behind the dog.",
+    "reasoned_answer": "The fence is visible in the background, behind the dog as it is playing with the frisbee."
+  },
+  {
+    "id": 233,
+    "img_id": "2355470.jpg",
+    "question": "Is the water calm or rough?",
+    "short_answer": "Rough",
+    "reasoned_answer": "The water appears to be in motion with waves and ripples, indicating rough conditions."
+  },
+  {
+    "id": 234,
+    "img_id": "2355470.jpg",
+    "question": "Which bear appears to be more aggressive in its facial expression?",
+    "short_answer": "The bear on the right.",
+    "reasoned_answer": "The bear on the right has its mouth wide open with its teeth exposed, which is a common sign of aggression in bears."
+  },
+  {
+    "id": 235,
+    "img_id": "2355470.jpg",
+    "question": "How many rocks are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one rock visible in the image."
+  },
+  {
+    "id": 236,
+    "img_id": "2385962.jpg",
+    "question": "What is the man doing in the image?",
+    "short_answer": "The man is surfing on a wave.",
+    "reasoned_answer": "The man is lying on a surfboard and appears to be riding a wave."
+  },
+  {
+    "id": 237,
+    "img_id": "2385962.jpg",
+    "question": "What is the rope attached to?",
+    "short_answer": "Surfboard",
+    "reasoned_answer": "The rope is attached to the surfboard, which is used to help the surfer stay on the board while riding the waves."
+  },
+  {
+    "id": 238,
+    "img_id": "2385962.jpg",
+    "question": "What is the water doing?",
+    "short_answer": "It is crashing.",
+    "reasoned_answer": "The water is forming a wave and appears to be breaking, which is characteristic of crashing waves."
+  },
+  {
+    "id": 239,
+    "img_id": "2357633.jpg",
+    "question": "What is the name of the vegetable that is commonly used in Mediterranean cuisine?",
+    "short_answer": "Eggplant",
+    "reasoned_answer": "Eggplant is a type of fruit that is commonly used in Mediterranean cuisine to make dishes such as baba ghanoush and melanzane."
+  },
+  {
+    "id": 240,
+    "img_id": "2357633.jpg",
+    "question": "Is the broccoli in the image cooked?",
+    "short_answer": "Yes, the broccoli appears to be cooked.",
+    "reasoned_answer": "The broccoli has a vibrant green color and a slightly browned edge, which indicates it has been cooked."
+  },
+  {
+    "id": 241,
+    "img_id": "2357633.jpg",
+    "question": "What is the color of the broccoli in the image?",
+    "short_answer": "The color of the broccoli in the image is green.",
+    "reasoned_answer": "The broccoli in the image is a vibrant green color, which is typical for this vegetable."
+  },
+  {
+    "id": 242,
+    "img_id": "2325709.jpg",
+    "question": "What is the color of the frosting on the cake?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The frosting on the cake appears to be brown in color."
+  },
+  {
+    "id": 243,
+    "img_id": "2325709.jpg",
+    "question": "Is the table made of wood?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The table appears to be made of wood, as indicated by the grain pattern and the natural color."
+  },
+  {
+    "id": 244,
+    "img_id": "2325709.jpg",
+    "question": "Is the cake within the red rectangle a chocolate cake?",
+    "short_answer": "Yes, the cake within the red rectangle is a chocolate cake.",
+    "reasoned_answer": "The cake within the red rectangle has a rich brown color and a glossy finish, which are typical characteristics of chocolate cake."
+  },
+  {
+    "id": 245,
+    "img_id": "2372106.jpg",
+    "question": "Which building has a clock tower?",
+    "short_answer": "The building with the clock tower is the one in the background.",
+    "reasoned_answer": "The building with the clock tower is the one that stands out the most in the background, and it's the only one with a clock tower visible."
+  },
+  {
+    "id": 246,
+    "img_id": "2372106.jpg",
+    "question": "How many people are in the boat within the red rectangle?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four people visible in the boat within the red rectangle."
+  },
+  {
+    "id": 247,
+    "img_id": "2372106.jpg",
+    "question": "What is the color of the water in the canal?",
+    "short_answer": "The water in the canal is blue.",
+    "reasoned_answer": "The water appears to be a deep blue color, which is typical for canals in Venice."
+  },
+  {
+    "id": 248,
+    "img_id": "2402571.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "The fence is likely there to provide a boundary or to protect an area.",
+    "reasoned_answer": "Fences are often used to mark boundaries or to protect areas from unauthorized access."
+  },
+  {
+    "id": 249,
+    "img_id": "2402571.jpg",
+    "question": "What is the color of the hair on the woman's head?",
+    "short_answer": "Gray",
+    "reasoned_answer": "The hair on the woman's head is predominantly gray with some white strands."
+  },
+  {
+    "id": 250,
+    "img_id": "2402571.jpg",
+    "question": "How many trees are visible in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one tree visible in the image, located in the top right corner."
+  },
+  {
+    "id": 251,
+    "img_id": "2358661.jpg",
+    "question": "What is the name of the marina in the image?",
+    "short_answer": "The marina in the image is called Portofino.",
+    "reasoned_answer": "The name of the marina is visible on the sign in the image."
+  },
+  {
+    "id": 252,
+    "img_id": "2358661.jpg",
+    "question": "Is the hillside covered with trees?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The hillside is covered with a dense forest of trees."
+  },
+  {
+    "id": 253,
+    "img_id": "2358661.jpg",
+    "question": "What is the name of the boat in the image?",
+    "short_answer": "The name of the boat in the image is \"St. Spyridon.\"",
+    "reasoned_answer": "The name of the boat is visible on the side of the boat in the image."
+  },
+  {
+    "id": 254,
+    "img_id": "2332474.jpg",
+    "question": "Is the island in the middle of the road?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The island is located in the middle of the road, dividing the lanes."
+  },
+  {
+    "id": 255,
+    "img_id": "2332474.jpg",
+    "question": "How many lanes are on the roadway?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two lanes going in opposite directions on the roadway."
+  },
+  {
+    "id": 256,
+    "img_id": "2332474.jpg",
+    "question": "What is the purpose of the window on the bus?",
+    "short_answer": "The window allows passengers to see outside and allows natural light to enter the bus.",
+    "reasoned_answer": "Windows are typically used on vehicles to provide visibility and to create a more comfortable environment for passengers."
+  },
+  {
+    "id": 257,
+    "img_id": "2353025.jpg",
+    "question": "What is the name of the building in the background of the image?",
+    "short_answer": "The building in the background is a school.",
+    "reasoned_answer": "The building has a distinctive architectural style that is common in educational institutions, and there are students on the lawn in front of it."
+  },
+  {
+    "id": 258,
+    "img_id": "2353025.jpg",
+    "question": "How many bushes are there in the image?",
+    "short_answer": "There are several bushes in the image.",
+    "reasoned_answer": "The image shows a group of green bushes, indicating a number of them."
+  },
+  {
+    "id": 259,
+    "img_id": "2353025.jpg",
+    "question": "How many poles are there in the image?",
+    "short_answer": "There are two poles in the image.",
+    "reasoned_answer": "The image shows two poles, one on the left side and another on the right side, both of which are vertical and appear to be made of a solid material."
+  },
+  {
+    "id": 260,
+    "img_id": "1592308.jpg",
+    "question": "What is the purpose of the bowl in the image?",
+    "short_answer": "The bowl is likely used for mixing or holding ingredients.",
+    "reasoned_answer": "The bowl is placed on a counter in a kitchen setting, which suggests it is used for food preparation."
+  },
+  {
+    "id": 261,
+    "img_id": "1592308.jpg",
+    "question": "Is the man wearing a chef's coat?",
+    "short_answer": "Yes, the man is wearing a chef's coat.",
+    "reasoned_answer": "The man is wearing a white coat with a collar and buttons, which is typical attire for a chef."
+  },
+  {
+    "id": 262,
+    "img_id": "1592308.jpg",
+    "question": "How many people are visible in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three people reflected in the glass window, including the man in the red shirt and the man in the white shirt."
+  },
+  {
+    "id": 263,
+    "img_id": "2375001.jpg",
+    "question": "Is the sheep looking directly at the camera?",
+    "short_answer": "No, the sheep is not looking directly at the camera.",
+    "reasoned_answer": "The sheep's head is turned slightly to the side, and its gaze is directed towards the side rather than directly at the camera."
+  },
+  {
+    "id": 264,
+    "img_id": "2375001.jpg",
+    "question": "How many sheep are visible in the image?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four sheep visible in the image, including the head of one sheep in the foreground and the bodies of three sheep in the background."
+  },
+  {
+    "id": 265,
+    "img_id": "2375001.jpg",
+    "question": "What is the color of the sheep's fur?",
+    "short_answer": "The sheep's fur is white.",
+    "reasoned_answer": "The sheep's fur appears to be a uniform white color, which is typical for sheep's wool."
+  },
+  {
+    "id": 266,
+    "img_id": "2325014.jpg",
+    "question": "Which jar is on the table?",
+    "short_answer": "The jar on the right.",
+    "reasoned_answer": "The jar on the right is the only one that is fully visible and it has a label that says 'Vinegar' on it."
+  },
+  {
+    "id": 267,
+    "img_id": "2325014.jpg",
+    "question": "What is the purpose of the paint on the skateboard?",
+    "short_answer": "The paint on the skateboard is for decoration and personalization.",
+    "reasoned_answer": "Skateboarders often customize their boards with unique designs and colors to express their individuality and style."
+  },
+  {
+    "id": 268,
+    "img_id": "2325014.jpg",
+    "question": "Which jar is on the table?",
+    "short_answer": "The jar on the table is a pickle jar.",
+    "reasoned_answer": "The jar has a label that says 'Pickles' and it's a common condiment that comes in a jar."
+  },
+  {
+    "id": 269,
+    "img_id": "2367942.jpg",
+    "question": "What is the cloud's altitude in relation to the airplane?",
+    "short_answer": "The cloud is below the airplane.",
+    "reasoned_answer": "The airplane is flying above the cloud, as indicated by the airplane's position in the sky and the cloud's position below it."
+  },
+  {
+    "id": 270,
+    "img_id": "2367942.jpg",
+    "question": "What is the weather like in the image?",
+    "short_answer": "The weather appears to be clear with some clouds.",
+    "reasoned_answer": "The sky is blue with some white clouds, indicating fair weather."
+  },
+  {
+    "id": 271,
+    "img_id": "2367942.jpg",
+    "question": "What is the cloud's altitude in relation to the airplane?",
+    "short_answer": "The cloud is below the airplane.",
+    "reasoned_answer": "The airplane is flying above the cloud, as indicated by its position in the sky."
+  },
+  {
+    "id": 272,
+    "img_id": "2376574.jpg",
+    "question": "What is the color of the floor?",
+    "short_answer": "The floor is blue.",
+    "reasoned_answer": "The floor appears to be a solid blue color, which is typical for certain types of flooring materials."
+  },
+  {
+    "id": 273,
+    "img_id": "2376574.jpg",
+    "question": "How many colors are on the t-shirt?",
+    "short_answer": "2",
+    "reasoned_answer": "The t-shirt has a yellow graphic and a grey background."
+  },
+  {
+    "id": 274,
+    "img_id": "2376574.jpg",
+    "question": "How many sheets are on the table?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two sheets on the table, one is partially obscured by the laptop and the other is partially obscured by the person's arm."
+  },
+  {
+    "id": 275,
+    "img_id": "2414742.jpg",
+    "question": "How many strings are there on the tennis racket?",
+    "short_answer": "18",
+    "reasoned_answer": "The tennis racket has a standard number of 18 strings for optimal performance."
+  },
+  {
+    "id": 276,
+    "img_id": "2414742.jpg",
+    "question": "How many words are on the t-shirt?",
+    "short_answer": "12",
+    "reasoned_answer": "The t-shirt has the number 12 on it along with other text."
+  },
+  {
+    "id": 277,
+    "img_id": "2414742.jpg",
+    "question": "Where is the man's hair parted?",
+    "short_answer": "To the side.",
+    "reasoned_answer": "The man's hair is parted to the side, which is a common hairstyle for men."
+  },
+  {
+    "id": 278,
+    "img_id": "2363769.jpg",
+    "question": "What is the color of the teddy bear's ears?",
+    "short_answer": "Black.",
+    "reasoned_answer": "The teddy bear's ears are black in color."
+  },
+  {
+    "id": 279,
+    "img_id": "2363769.jpg",
+    "question": "What is the color of the seat?",
+    "short_answer": "The seat is white.",
+    "reasoned_answer": "The seat appears to be white in color."
+  },
+  {
+    "id": 280,
+    "img_id": "2363769.jpg",
+    "question": "Which arm of the panda bear is visible in the image?",
+    "short_answer": "The left arm of the panda bear is visible in the image.",
+    "reasoned_answer": "The left arm of the panda bear is extended outward, while the right arm is positioned closer to the body, making the left arm more prominent in the image."
+  },
+  {
+    "id": 281,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of the hats hanging on the wall?",
+    "short_answer": "Decoration or storage",
+    "reasoned_answer": "The hats are hung neatly on the wall, which suggests they are meant for decorative purposes or to keep them organized and easily accessible."
+  },
+  {
+    "id": 282,
+    "img_id": "713457.jpg",
+    "question": "What is the purpose of hanging ties on a rack?",
+    "short_answer": "To organize and display them for easy access.",
+    "reasoned_answer": "Hanging ties on a rack allows for efficient use of space and makes it easier to see and choose a tie."
+  },
+  {
+    "id": 283,
+    "img_id": "713457.jpg",
+    "question": "Which cap is hanging on the wall?",
+    "short_answer": "The cap with the word 'Navy' on it.",
+    "reasoned_answer": "The cap with the word 'Navy' is hanging on the wall among other ties."
+  },
+  {
+    "id": 284,
+    "img_id": "3046.jpg",
+    "question": "How many windows are on the building?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four windows visible on the building."
+  },
+  {
+    "id": 285,
+    "img_id": "3046.jpg",
+    "question": "What is the color of the wall?",
+    "short_answer": "The wall is brown.",
+    "reasoned_answer": "The wall appears to be made of bricks, which are commonly brown in color."
+  },
+  {
+    "id": 286,
+    "img_id": "3046.jpg",
+    "question": "What is the purpose of the sign on the building?",
+    "short_answer": "The sign is advertising a pub.",
+    "reasoned_answer": "The sign is designed to attract customers to the pub by displaying its name and a logo, which is a common practice for businesses to increase foot traffic."
+  },
+  {
+    "id": 287,
+    "img_id": "2356613.jpg",
+    "question": "How many facial features can be seen on the man's face?",
+    "short_answer": "4",
+    "reasoned_answer": "The man's face has eyes, nose, mouth, and ears as facial features."
+  },
+  {
+    "id": 288,
+    "img_id": "2356613.jpg",
+    "question": "How many strands of hair does the man have?",
+    "short_answer": "The man has a lot of hair.",
+    "reasoned_answer": "The man has a full head of hair that appears to be thick and unkempt."
+  },
+  {
+    "id": 289,
+    "img_id": "2356613.jpg",
+    "question": "Is the man's hair in a ponytail?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man's hair is pulled back into a ponytail."
+  },
+  {
+    "id": 290,
+    "img_id": "2358937.jpg",
+    "question": "What is the color of the ceiling in the kitchen?",
+    "short_answer": "The ceiling in the kitchen is white.",
+    "reasoned_answer": "The ceiling appears to be a light color, which is commonly used in kitchens to make the space feel brighter and more open."
+  },
+  {
+    "id": 291,
+    "img_id": "2358937.jpg",
+    "question": "Is the shirt worn by the person in the kitchen?",
+    "short_answer": "Yes, the shirt is being worn by the person in the kitchen.",
+    "reasoned_answer": "The shirt is visible on the person's body and it is appropriate attire for being in the kitchen."
+  },
+  {
+    "id": 292,
+    "img_id": "2358937.jpg",
+    "question": "Is the stove in the kitchen?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The stove is located in the kitchen, as indicated by its placement next to the cabinets and the countertop."
+  },
+  {
+    "id": 293,
+    "img_id": "2364094.jpg",
+    "question": "How many hinges are on the toilet lid?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two hinges on the toilet lid, one on each side, which allow it to be attached to the toilet tank."
+  },
+  {
+    "id": 294,
+    "img_id": "2364094.jpg",
+    "question": "How many rolls of toilet paper are there in the image?",
+    "short_answer": "There are two rolls of toilet paper in the image.",
+    "reasoned_answer": "The image shows a toilet with two rolls of toilet paper placed on the tank."
+  },
+  {
+    "id": 295,
+    "img_id": "2364094.jpg",
+    "question": "What is the color of the toilet in the image?",
+    "short_answer": "The toilet in the image is white.",
+    "reasoned_answer": "The toilet in the image is predominantly white, with some visible blue and green stains on the tank."
+  },
+  {
+    "id": 296,
+    "img_id": "2326805.jpg",
+    "question": "What is the primary function of the appliance within the red rectangle?",
+    "short_answer": "The primary function of the appliance within the red rectangle is to wash clothes.",
+    "reasoned_answer": "The appliance within the red rectangle is a washing machine, which is designed to clean clothes by agitating them in water with detergent."
+  },
+  {
+    "id": 297,
+    "img_id": "2326805.jpg",
+    "question": "What is the color of the wall in the bathroom?",
+    "short_answer": "The wall in the bathroom is green.",
+    "reasoned_answer": "The wall in the bathroom is tiled and has a green color."
+  },
+  {
+    "id": 298,
+    "img_id": "2326805.jpg",
+    "question": "What is the color of the floor in the image?",
+    "short_answer": "The floor in the image is white.",
+    "reasoned_answer": "The floor appears to be tiled and has a light color, which is commonly associated with white tiles."
+  },
+  {
+    "id": 299,
+    "img_id": "2363482.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "The train in the image is orange.",
+    "reasoned_answer": "The train has a predominantly orange body with some yellow and blue accents."
+  },
+  {
+    "id": 300,
+    "img_id": "2363482.jpg",
+    "question": "Which tree is located to the right of the train?",
+    "short_answer": "The tree located to the right of the train is a green tree.",
+    "reasoned_answer": "The tree is green and appears to be a deciduous tree, which is common in the area where the train is traveling."
+  },
+  {
+    "id": 301,
+    "img_id": "2363482.jpg",
+    "question": "What is the purpose of the sign on the train?",
+    "short_answer": "The sign on the train is for identification and information.",
+    "reasoned_answer": "The sign typically displays the train's number, destination, and sometimes additional information such as the train's route or the name of the railway company."
+  },
+  {
+    "id": 302,
+    "img_id": "2346925.jpg",
+    "question": "What is the purpose of the glass within red rectangle?",
+    "short_answer": "The glass within red rectangle is used for drinking.",
+    "reasoned_answer": "The glass within red rectangle is a common container for holding liquids that are consumed."
+  },
+  {
+    "id": 303,
+    "img_id": "2346925.jpg",
+    "question": "Is the counter cluttered with various items?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The counter has multiple bottles, glasses, and food items, indicating a busy and cluttered environment."
+  },
+  {
+    "id": 304,
+    "img_id": "2346925.jpg",
+    "question": "How many strands of hair does the man have?",
+    "short_answer": "100",
+    "reasoned_answer": "The man has a full head of hair, which typically contains around 100,000 strands."
+  },
+  {
+    "id": 305,
+    "img_id": "2414333.jpg",
+    "question": "Where is the soap dispenser located in the bathroom?",
+    "short_answer": "It is on the sink.",
+    "reasoned_answer": "The soap dispenser is typically placed on the sink for convenience and accessibility."
+  },
+  {
+    "id": 306,
+    "img_id": "2414333.jpg",
+    "question": "How many bags are in the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one bag visible in the image."
+  },
+  {
+    "id": 307,
+    "img_id": "2414333.jpg",
+    "question": "What is the color of the tiles on the wall?",
+    "short_answer": "White",
+    "reasoned_answer": "The tiles on the wall are white, which is a common color for bathroom tiles to make the space feel clean and bright."
+  },
+  {
+    "id": 308,
+    "img_id": "2367754.jpg",
+    "question": "Is the walkway made of concrete?",
+    "short_answer": "Yes, the walkway is made of concrete.",
+    "reasoned_answer": "The walkway appears to be a solid, flat surface that is typical of concrete construction."
+  },
+  {
+    "id": 309,
+    "img_id": "2367754.jpg",
+    "question": "What is the purpose of the bush in the image?",
+    "short_answer": "The bush serves as a decorative element in the landscape.",
+    "reasoned_answer": "Bushes are often used in landscaping to add aesthetic value to an area, and this bush is situated in a residential setting where such decorative elements are common."
+  },
+  {
+    "id": 310,
+    "img_id": "2367754.jpg",
+    "question": "What is the name of the road in the image?",
+    "short_answer": "The name of the road in the image is not visible.",
+    "reasoned_answer": "The road is not labeled with a name in the image."
+  },
+  {
+    "id": 311,
+    "img_id": "2410168.jpg",
+    "question": "What is the man flying in the sky?",
+    "short_answer": "A kite.",
+    "reasoned_answer": "The man is holding onto a string that is attached to a kite, which is flying in the sky."
+  },
+  {
+    "id": 312,
+    "img_id": "2410168.jpg",
+    "question": "What is the air made of?",
+    "short_answer": "The air is made of gases.",
+    "reasoned_answer": "The air is a mixture of gases such as nitrogen, oxygen, carbon dioxide, and other trace gases."
+  },
+  {
+    "id": 313,
+    "img_id": "2410168.jpg",
+    "question": "How many strings does the kite have?",
+    "short_answer": "2",
+    "reasoned_answer": "The kite has two strings attached to it, which are being held by the person."
+  },
+  {
+    "id": 314,
+    "img_id": "2336615.jpg",
+    "question": "What is the surfboard made of?",
+    "short_answer": "Fiberglass",
+    "reasoned_answer": "Fiberglass is a common material used in surfboard construction due to its lightweight and durable properties."
+  },
+  {
+    "id": 315,
+    "img_id": "2336615.jpg",
+    "question": "How many waves are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two distinct waves in the image, one is breaking and the other is further out in the water."
+  },
+  {
+    "id": 316,
+    "img_id": "2336615.jpg",
+    "question": "What color is the shirt the surfer is wearing?",
+    "short_answer": "The shirt is red.",
+    "reasoned_answer": "The shirt is predominantly red with some black and white details."
+  },
+  {
+    "id": 317,
+    "img_id": "2403185.jpg",
+    "question": "What is the color of the wristband on the man's wrist?",
+    "short_answer": "The wristband is black.",
+    "reasoned_answer": "The wristband appears to be a standard black color, which is commonly used for wristbands."
+  },
+  {
+    "id": 318,
+    "img_id": "2403185.jpg",
+    "question": "How many trees are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two trees that are clearly visible in the image."
+  },
+  {
+    "id": 319,
+    "img_id": "2403185.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and cloudless, which is typical for a blue sky."
+  },
+  {
+    "id": 320,
+    "img_id": "2340412.jpg",
+    "question": "What is the rock that the bear is resting its head on?",
+    "short_answer": "It is a concrete block.",
+    "reasoned_answer": "The rock is a solid, man-made structure that is typically used for construction purposes."
+  },
+  {
+    "id": 321,
+    "img_id": "2340412.jpg",
+    "question": "What is the bear's natural habitat?",
+    "short_answer": "The bear's natural habitat is forests and mountains.",
+    "reasoned_answer": "Bears are typically found in forested areas and are well-adapted to living in such environments."
+  },
+  {
+    "id": 322,
+    "img_id": "2340412.jpg",
+    "question": "How many trees are visible in the background of the image?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one tree with visible leaves in the background of the image."
+  },
+  {
+    "id": 323,
+    "img_id": "2370561.jpg",
+    "question": "How many colors are there in the tie?",
+    "short_answer": "2",
+    "reasoned_answer": "The tie has two distinct colors, which are red and black."
+  },
+  {
+    "id": 324,
+    "img_id": "2370561.jpg",
+    "question": "What is the man wearing?",
+    "short_answer": "A suit and tie.",
+    "reasoned_answer": "The man is dressed in a suit and tie, which is formal attire typically worn for business or formal events."
+  },
+  {
+    "id": 325,
+    "img_id": "2370561.jpg",
+    "question": "What is the color of the shirt the man is wearing?",
+    "short_answer": "The shirt is white.",
+    "reasoned_answer": "The shirt appears to be white, which is a common color for formal wear."
+  },
+  {
+    "id": 326,
+    "img_id": "2318936.jpg",
+    "question": "What is the approximate number of people present at the beach?",
+    "short_answer": "There are dozens of people at the beach.",
+    "reasoned_answer": "The image shows a large crowd of people gathered on the beach, indicating a popular and busy location."
+  },
+  {
+    "id": 327,
+    "img_id": "2318936.jpg",
+    "question": "Is the umbrella providing shade for the people sitting under it?",
+    "short_answer": "Yes, the umbrella is providing shade for the people sitting under it.",
+    "reasoned_answer": "The umbrella is open and positioned above the people, which is typical for providing shade from the sun."
+  },
+  {
+    "id": 328,
+    "img_id": "2318936.jpg",
+    "question": "Which umbrellas are providing shade to the people on the beach?",
+    "short_answer": "The yellow umbrellas are providing shade.",
+    "reasoned_answer": "The yellow umbrellas are positioned above the people and are open, indicating they are being used for shade."
+  },
+  {
+    "id": 329,
+    "img_id": "713640.jpg",
+    "question": "Which person is wearing a blue shirt and a purple hat?",
+    "short_answer": "The person in the middle of the group.",
+    "reasoned_answer": "The person is wearing a blue shirt and a purple hat, which is visible in the center of the group."
+  },
+  {
+    "id": 330,
+    "img_id": "713640.jpg",
+    "question": "How many people are wearing paper crowns in the image?",
+    "short_answer": "12",
+    "reasoned_answer": "There are 12 people in the image, and all of them are wearing paper crowns."
+  },
+  {
+    "id": 331,
+    "img_id": "713640.jpg",
+    "question": "What is the occasion being celebrated by the group of people in the image?",
+    "short_answer": "It appears to be a festive gathering, possibly a holiday celebration.",
+    "reasoned_answer": "The individuals are wearing paper crowns and are seated around a table with food and drinks, which suggests a communal meal in a celebratory context."
+  },
+  {
+    "id": 332,
+    "img_id": "2365717.jpg",
+    "question": "Is there a window in the room?",
+    "short_answer": "Yes",
+    "reasoned_answer": "There is a window in the room, which provides natural light and a view of the outside."
+  },
+  {
+    "id": 333,
+    "img_id": "2365717.jpg",
+    "question": "What is the color of the walls in the image?",
+    "short_answer": "The walls in the image are white.",
+    "reasoned_answer": "The walls in the image have a uniform color that appears to be white."
+  },
+  {
+    "id": 334,
+    "img_id": "2365717.jpg",
+    "question": "What is the name of the company that the man in the black shirt is representing?",
+    "short_answer": "The man is representing a company called \"Starbucks\".",
+    "reasoned_answer": "The man is wearing a black shirt with the Starbucks logo on it."
+  },
+  {
+    "id": 335,
+    "img_id": "2398013.jpg",
+    "question": "Where is the tail of the airplane located?",
+    "short_answer": "The tail of the airplane is located at the rear of the aircraft.",
+    "reasoned_answer": "The tail of an airplane is typically located at the rear of the fuselage and is used for stability and control during flight."
+  },
+  {
+    "id": 336,
+    "img_id": "2398013.jpg",
+    "question": "What is the weather like in the image?",
+    "short_answer": "It appears to be a clear day with no visible clouds.",
+    "reasoned_answer": "The sky is blue and there are no visible clouds, which suggests fair weather."
+  },
+  {
+    "id": 337,
+    "img_id": "2398013.jpg",
+    "question": "How many engines does the airplane have?",
+    "short_answer": "2",
+    "reasoned_answer": "The airplane has two engines, one on each wing."
+  },
+  {
+    "id": 338,
+    "img_id": "2403281.jpg",
+    "question": "What is the ground covered with?",
+    "short_answer": "Leaves",
+    "reasoned_answer": "The ground is covered with a layer of dry leaves, which suggests that it might be autumn or the leaves have fallen from the trees."
+  },
+  {
+    "id": 339,
+    "img_id": "2403281.jpg",
+    "question": "What is the purpose of the branches in the image?",
+    "short_answer": "The branches provide support and structure to the tree.",
+    "reasoned_answer": "Branches are essential for the growth and stability of trees, allowing them to support leaves, fruits, and other parts of the tree."
+  },
+  {
+    "id": 340,
+    "img_id": "2403281.jpg",
+    "question": "What is the snow covering the ground?",
+    "short_answer": "It is a layer of snow that has accumulated on the ground.",
+    "reasoned_answer": "Snow can accumulate on the ground when the temperature drops below freezing, and it is a common sight in colder regions during winter."
+  },
+  {
+    "id": 341,
+    "img_id": "2406636.jpg",
+    "question": "What is the cloud formation in the sky?",
+    "short_answer": "It is a cumulus cloud.",
+    "reasoned_answer": "Cumulus clouds are fluffy and white, and they often appear in the sky during sunset."
+  },
+  {
+    "id": 342,
+    "img_id": "2406636.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue with some clouds.",
+    "reasoned_answer": "The sky appears to be clear with some clouds scattered across it, giving it a blue hue."
+  },
+  {
+    "id": 343,
+    "img_id": "2323604.jpg",
+    "question": "What is the purpose of the wire in the image?",
+    "short_answer": "The wire is used to support the electrical infrastructure.",
+    "reasoned_answer": "The wire is part of the electrical grid, which is essential for the distribution of electricity to homes and businesses."
+  },
+  {
+    "id": 344,
+    "img_id": "2323604.jpg",
+    "question": "How many clouds are visible in the sky?",
+    "short_answer": "0",
+    "reasoned_answer": "The sky is clear and blue with no visible clouds."
+  },
+  {
+    "id": 345,
+    "img_id": "2323604.jpg",
+    "question": "How many windows are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two windows visible in the image, one on the left side and one on the right side."
+  },
+  {
+    "id": 346,
+    "img_id": "2320240.jpg",
+    "question": "Is the television displaying a video game?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The television is showing a video game with a scoreboard and instructions for the game."
+  },
+  {
+    "id": 347,
+    "img_id": "2320240.jpg",
+    "question": "What is the man's occupation?",
+    "short_answer": "He is a video game player.",
+    "reasoned_answer": "He is holding a video game controller and appears to be playing a video game."
+  },
+  {
+    "id": 348,
+    "img_id": "2320240.jpg",
+    "question": "Is the wii controller being used to play a video game?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The person is holding the wii controller in front of a screen which suggests they are playing a video game."
+  },
+  {
+    "id": 349,
+    "img_id": "2401661.jpg",
+    "question": "What is the color of the ground in the image?",
+    "short_answer": "The ground in the image is white.",
+    "reasoned_answer": "The ground appears to be a white tiled floor, which is commonly used in public spaces for easy cleaning and maintenance."
+  },
+  {
+    "id": 350,
+    "img_id": "2401661.jpg",
+    "question": "Is the man wearing jeans?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is wearing a pair of blue jeans."
+  },
+  {
+    "id": 351,
+    "img_id": "2401661.jpg",
+    "question": "Which type of luggage does the man in the image have with him?",
+    "short_answer": "The man has a backpack and a suitcase with him.",
+    "reasoned_answer": "The man is holding onto a backpack handle and there is a suitcase next to him on the ground."
+  },
+  {
+    "id": 352,
+    "img_id": "2347187.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "The building is situated on a bridge over the water, which suggests that it is close to the water."
+  },
+  {
+    "id": 353,
+    "img_id": "2347187.jpg",
+    "question": "Is the building located near a body of water?",
+    "short_answer": "Yes, the building is located near a body of water.",
+    "reasoned_answer": "The street is made of cobblestones, which is a common material for streets in some cities."
+  },
+  {
+    "id": 354,
+    "img_id": "2344979.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four individuals in the image, including a woman and a child."
+  },
+  {
+    "id": 355,
+    "img_id": "2344979.jpg",
+    "question": "What is the woman's destination?",
+    "short_answer": "She is going on a trip.",
+    "reasoned_answer": "She is at an airport with luggage."
+  },
+  {
+    "id": 356,
+    "img_id": "2344979.jpg",
+    "question": "Which child is holding a pink bag?",
+    "short_answer": "The child in the foreground.",
+    "reasoned_answer": "The child is standing in front of the other child and is holding a pink bag."
+  },
+  {
+    "id": 357,
+    "img_id": "2327548.jpg",
+    "question": "Which giraffe has its head raised the highest?",
+    "short_answer": "The giraffe in the back.",
+    "reasoned_answer": "The giraffe in the back has its head raised higher than the other giraffe."
+  },
+  {
+    "id": 358,
+    "img_id": "2327548.jpg",
+    "question": "Are the giraffes in a zoo enclosure?",
+    "short_answer": "Yes, they are in a zoo enclosure.",
+    "reasoned_answer": "The giraffes are in a confined space with a metal fence and a brick wall, which is typical of a zoo enclosure."
+  },
+  {
+    "id": 359,
+    "img_id": "2347871.jpg",
+    "question": "How many elephants are in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two elephants in the image, one is standing next to a waterfall and the other is in the background."
+  },
+  {
+    "id": 360,
+    "img_id": "2347871.jpg",
+    "question": "Short Answer:",
+    "short_answer": "Reason:",
+    "reasoned_answer": "There are two elephants visible in the image, one is the main focus and the other is in the background."
+  },
+  {
+    "id": 361,
+    "img_id": "2388774.jpg",
+    "question": "How many feathers does the bird have?",
+    "short_answer": "Many",
+    "reasoned_answer": "The bird has a lot of feathers, which is typical for birds to have."
+  },
+  {
+    "id": 362,
+    "img_id": "2388774.jpg",
+    "question": "What is the color of the parrot's feathers?",
+    "short_answer": "The parrot has green feathers.",
+    "reasoned_answer": "The parrot's feathers are a vibrant green color, which is typical for this species."
+  },
+  {
+    "id": 363,
+    "img_id": "2388774.jpg",
+    "question": "What is the color of the sky in the image?",
+    "short_answer": "The sky in the image is blue.",
+    "reasoned_answer": "The sky appears to be clear and bright, which is typical for a sunny day, and the color blue is often associated with clear skies."
+  },
+  {
+    "id": 364,
+    "img_id": "2339632.jpg",
+    "question": "What is the color of the paws of the dog?",
+    "short_answer": "The paws of the dog are brown.",
+    "reasoned_answer": "The paws of the dog have a light brown fur which is typical for dogs with a golden coat."
+  },
+  {
+    "id": 365,
+    "img_id": "2339632.jpg",
+    "question": "Is the sprinkle donut on the floor?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The sprinkle donut is on the floor, not on a table or counter."
+  },
+  {
+    "id": 366,
+    "img_id": "2339632.jpg",
+    "question": "Is the fur of the dog shaggy?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The fur of the dog is long and thick, which is characteristic of a shaggy coat."
+  },
+  {
+    "id": 367,
+    "img_id": "2327224.jpg",
+    "question": "Is the stop sign visible in the image?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The stop sign is clearly visible on the right side of the image."
+  },
+  {
+    "id": 368,
+    "img_id": "2327224.jpg",
+    "question": "Where is the bus located?",
+    "short_answer": "Woodley Park",
+    "reasoned_answer": "The bus is covered in snow and has the destination of Woodley Park displayed on the front."
+  },
+  {
+    "id": 369,
+    "img_id": "2327224.jpg",
+    "question": "Is the ground covered in snow?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The ground is covered in a thick layer of snow, indicating recent snowfall or cold weather."
+  },
+  {
+    "id": 370,
+    "img_id": "2329679.jpg",
+    "question": "What is the wetsuit made of?",
+    "short_answer": "Neoprene",
+    "reasoned_answer": "Neoprene is a synthetic rubber that provides insulation and buoyancy, making it ideal for wetsuits."
+  },
+  {
+    "id": 371,
+    "img_id": "2329679.jpg",
+    "question": "Is the surfboard within red rectangle being used by the person in the water?",
+    "short_answer": "Yes, the surfboard within red rectangle is being used by the person in the water.",
+    "reasoned_answer": "The person is standing on the surfboard within red rectangle and appears to be riding a wave."
+  },
+  {
+    "id": 372,
+    "img_id": "2329679.jpg",
+    "question": "How many surfers are in the water?",
+    "short_answer": "1",
+    "reasoned_answer": "There is only one person in the water who is wearing a wetsuit and appears to be surfing."
+  },
+  {
+    "id": 373,
+    "img_id": "2317271.jpg",
+    "question": "What is the location of the person holding the cell phone?",
+    "short_answer": "The person is indoors.",
+    "reasoned_answer": "The background appears to be a dimly lit room with a greenish tint, which suggests an indoor setting."
+  },
+  {
+    "id": 374,
+    "img_id": "2317271.jpg",
+    "question": "What is the hand holding?",
+    "short_answer": "A cell phone",
+    "reasoned_answer": "The hand is holding an object that is typically used for communication and has a screen displaying text and images."
+  },
+  {
+    "id": 375,
+    "img_id": "2317271.jpg",
+    "question": "How many pixels are in the image?",
+    "short_answer": "1000 x 500",
+    "reasoned_answer": "The image is a 1000 x 500 resolution, which is typical for a smartphone screen."
+  },
+  {
+    "id": 376,
+    "img_id": "2378076.jpg",
+    "question": "What is the purpose of the mirror in the bathroom?",
+    "short_answer": "The mirror is used for personal grooming and to make the bathroom appear larger.",
+    "reasoned_answer": "Mirrors are commonly used in bathrooms for personal grooming tasks such as brushing teeth, shaving, and applying makeup. They also reflect light, making the bathroom appear brighter and more spacious."
+  },
+  {
+    "id": 377,
+    "img_id": "2378076.jpg",
+    "question": "What is the color of the floor tiles?",
+    "short_answer": "The floor tiles are white.",
+    "reasoned_answer": "The tiles have a white color which is typical for bathroom floors."
+  },
+  {
+    "id": 378,
+    "img_id": "2378076.jpg",
+    "question": "How many panes are there in the window?",
+    "short_answer": "12",
+    "reasoned_answer": "The window has a grid-like structure with 12 panes, each pane is rectangular and made of glass."
+  },
+  {
+    "id": 379,
+    "img_id": "2405033.jpg",
+    "question": "What is the color of the grass in the background?",
+    "short_answer": "The grass in the background is brown.",
+    "reasoned_answer": "The grass appears to be dry and has a brownish hue, which is typical for grass that is not lush and green."
+  },
+  {
+    "id": 380,
+    "img_id": "2405033.jpg",
+    "question": "How many nostrils does the cow have?",
+    "short_answer": "1",
+    "reasoned_answer": "The cow has a single nostril on its nose."
+  },
+  {
+    "id": 381,
+    "img_id": "2405033.jpg",
+    "question": "What is the condition of the cow's face?",
+    "short_answer": "The cow's face is covered in dirt and debris.",
+    "reasoned_answer": "The cow's face is black and has visible patches of dirt and debris on it, indicating that it may have been rolling in the mud or has not been cleaned recently."
+  },
+  {
+    "id": 382,
+    "img_id": "2343941.jpg",
+    "question": "How many feet are visible in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two feet visible in the image, one belonging to the doll and the other belonging to the teddy bear."
+  },
+  {
+    "id": 383,
+    "img_id": "2343941.jpg",
+    "question": "Which arm is visible in the image?",
+    "short_answer": "The left arm of the teddy bear is visible.",
+    "reasoned_answer": "The arm is positioned in a way that it is clearly part of the teddy bear and not the doll."
+  },
+  {
+    "id": 384,
+    "img_id": "2343941.jpg",
+    "question": "What is the doll's outfit?",
+    "short_answer": "The doll is wearing a dress.",
+    "reasoned_answer": "The doll is dressed in a flowing dress with a ribbon around its neck."
+  },
+  {
+    "id": 385,
+    "img_id": "1591896.jpg",
+    "question": "Where are the plates of french fries located?",
+    "short_answer": "On a countertop.",
+    "reasoned_answer": "The plates are sitting on a flat surface which is typical for a countertop."
+  },
+  {
+    "id": 386,
+    "img_id": "1591896.jpg",
+    "question": "What is the purpose of the counter in this context?",
+    "short_answer": "To hold plates of food.",
+    "reasoned_answer": "The counter is being used to hold plates of food that are ready to be served."
+  },
+  {
+    "id": 387,
+    "img_id": "1591896.jpg",
+    "question": "What is being cooked in the oven?",
+    "short_answer": "Chicken",
+    "reasoned_answer": "The oven is filled with chicken, which is a common ingredient in many dishes."
+  },
+  {
+    "id": 388,
+    "img_id": "2393916.jpg",
+    "question": "Which leg of the person in the green shirt is visible in the image?",
+    "short_answer": "The left leg.",
+    "reasoned_answer": "The person is standing with their legs crossed, and the left leg is the one that is visible in the image."
+  },
+  {
+    "id": 389,
+    "img_id": "2393916.jpg",
+    "question": "How many arms does the person in the green shirt have?",
+    "short_answer": "2",
+    "reasoned_answer": "The person in the green shirt has two arms, which is the standard number of arms for a human."
+  },
+  {
+    "id": 390,
+    "img_id": "2393916.jpg",
+    "question": "Where is the yellow bag located in the room?",
+    "short_answer": "The yellow bag is on the floor.",
+    "reasoned_answer": "The yellow bag is placed on the floor, which is a common location for bags when they are not being used."
+  },
+  {
+    "id": 391,
+    "img_id": "2355236.jpg",
+    "question": "Is the chair in the corner of the room?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The chair is positioned in the corner of the room, which is a common placement for furniture to maximize space and create a cozy seating area."
+  },
+  {
+    "id": 392,
+    "img_id": "2355236.jpg",
+    "question": "How many square feet of flooring is in the room?",
+    "short_answer": "100",
+    "reasoned_answer": "The room is approximately 12 feet by 12 feet, which is equal to 144 square feet."
+  },
+  {
+    "id": 393,
+    "img_id": "2355236.jpg",
+    "question": "What is the purpose of the post in the image?",
+    "short_answer": "The post is used to support the bed frame.",
+    "reasoned_answer": "The post is a structural component of the bed frame, providing stability and support to the bed."
+  },
+  {
+    "id": 394,
+    "img_id": "2409236.jpg",
+    "question": "Is the elephant within red rectangle in the water?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The elephant within red rectangle is partially submerged in the water."
+  },
+  {
+    "id": 395,
+    "img_id": "2409236.jpg",
+    "question": "Is the person standing on the elephant's back?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The person is standing on the elephant's back, which is a common practice in some cultures for transportation or tourism."
+  },
+  {
+    "id": 396,
+    "img_id": "2409236.jpg",
+    "question": "What is the behavior of the elephant in the water?",
+    "short_answer": "The elephant is spraying water with its trunk.",
+    "reasoned_answer": "Elephants use their trunks to spray water on themselves as a form of cooling and to clean themselves."
+  },
+  {
+    "id": 397,
+    "img_id": "2364933.jpg",
+    "question": "Is the bench made of metal?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bench is made of metal as indicated by its shiny surface and the metal bars that make up the backrest."
+  },
+  {
+    "id": 398,
+    "img_id": "2364933.jpg",
+    "question": "What is the material of the fence?",
+    "short_answer": "Metal",
+    "reasoned_answer": "The fence is made of metal, as indicated by its shiny appearance and the way it reflects light."
+  },
+  {
+    "id": 399,
+    "img_id": "2364933.jpg",
+    "question": "What is the color of the building in the background?",
+    "short_answer": "The building in the background is yellow.",
+    "reasoned_answer": "The building has a bright yellow color that stands out against the gray sky."
+  },
+  {
+    "id": 400,
+    "img_id": "2316548.jpg",
+    "question": "Where is the train located?",
+    "short_answer": "The train is located on the tracks.",
+    "reasoned_answer": "The train is positioned on the railroad tracks, which is where trains typically travel."
+  },
+  {
+    "id": 401,
+    "img_id": "2316548.jpg",
+    "question": "What is the purpose of the roof over the train tracks?",
+    "short_answer": "The roof is likely to protect the train tracks from weather elements.",
+    "reasoned_answer": "The roof is designed to cover the train tracks, which are exposed to various weather conditions like rain, snow, and sunlight. By providing shelter, the roof can help maintain the integrity of the tracks and prevent damage or wear."
+  },
+  {
+    "id": 402,
+    "img_id": "2316548.jpg",
+    "question": "What is the purpose of the windshield on the train?",
+    "short_answer": "The windshield provides visibility for the train operator.",
+    "reasoned_answer": "The windshield is a crucial component for the safe operation of a train, as it allows the operator to see the tracks ahead and any potential obstacles or hazards."
+  },
+  {
+    "id": 403,
+    "img_id": "2404507.jpg",
+    "question": "What is the purpose of the bush in the savanna ecosystem?",
+    "short_answer": "The bush provides food and shelter for various animals.",
+    "reasoned_answer": "The bush is a source of food for herbivores like zebras and antelopes, and it also provides shade and cover for predators to hide and ambush prey."
+  },
+  {
+    "id": 404,
+    "img_id": "2404507.jpg",
+    "question": "How many bushes are there in the image?",
+    "short_answer": "There are several bushes in the image.",
+    "reasoned_answer": "The image shows a savanna with a variety of trees and bushes scattered throughout the landscape."
+  },
+  {
+    "id": 405,
+    "img_id": "2404507.jpg",
+    "question": "Is the giraffe in the foreground looking towards the camera?",
+    "short_answer": "No, the giraffe is looking away from the camera.",
+    "reasoned_answer": "The giraffe's head is turned to the side, and its gaze is directed towards the trees."
+  },
+  {
+    "id": 406,
+    "img_id": "2353257.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "7",
+    "reasoned_answer": "There are 7 people visible in the image, including the woman within the red rectangle."
+  },
+  {
+    "id": 407,
+    "img_id": "2353257.jpg",
+    "question": "Is the sidewalk crowded with people?",
+    "short_answer": "Yes",
+    "reasoned_answer": "There are several people walking on the sidewalk, indicating it is crowded."
+  },
+  {
+    "id": 408,
+    "img_id": "2353257.jpg",
+    "question": "How many people are waiting to cross the street?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four people standing on the sidewalk waiting to cross the street."
+  },
+  {
+    "id": 409,
+    "img_id": "2410409.jpg",
+    "question": "What is the color of the grass in the image?",
+    "short_answer": "The grass in the image is green.",
+    "reasoned_answer": "The grass appears to be healthy and green, which is the typical color for grass when it is well-maintained."
+  },
+  {
+    "id": 410,
+    "img_id": "2410409.jpg",
+    "question": "What is the name of the store in the image?",
+    "short_answer": "The store in the image is a CVS Pharmacy.",
+    "reasoned_answer": "The store has a large sign on the front that reads 'CVS/PHARMACY' in red and white letters."
+  },
+  {
+    "id": 411,
+    "img_id": "2410409.jpg",
+    "question": "How many clouds are visible in the sky?",
+    "short_answer": "0",
+    "reasoned_answer": "The sky is clear and cloudless."
+  },
+  {
+    "id": 412,
+    "img_id": "2376721.jpg",
+    "question": "What color is the sweater the woman is wearing?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The sweater appears to be a shade of brown, which is a common color for this type of garment."
+  },
+  {
+    "id": 413,
+    "img_id": "2376721.jpg",
+    "question": "What type of grass is in the park?",
+    "short_answer": "It appears to be a green lawn grass.",
+    "reasoned_answer": "The grass is green and well-maintained, which suggests it is a common lawn grass species."
+  },
+  {
+    "id": 414,
+    "img_id": "2376721.jpg",
+    "question": "Is the bench made of wood?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The bench appears to be made of wood, which is a common material for outdoor furniture."
+  },
+  {
+    "id": 415,
+    "img_id": "2409731.jpg",
+    "question": "What is the name of the beach in the image?",
+    "short_answer": "It is not possible to determine the name of the beach from the image alone.",
+    "reasoned_answer": "The image only shows a section of the beach, and there are no visible signs or markings that would indicate the name of the beach."
+  },
+  {
+    "id": 416,
+    "img_id": "2409731.jpg",
+    "question": "What is the material of the shore?",
+    "short_answer": "Concrete",
+    "reasoned_answer": "The shore is made of concrete, which is a common material for such structures due to its durability and low maintenance requirements."
+  },
+  {
+    "id": 417,
+    "img_id": "2409731.jpg",
+    "question": "How many people are sitting on the fence?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two people sitting on the fence, one on the left side and one on the right side."
+  },
+  {
+    "id": 418,
+    "img_id": "2399686.jpg",
+    "question": "Is the door made of wood?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The door appears to be made of wood, as indicated by its grain and texture."
+  },
+  {
+    "id": 419,
+    "img_id": "2399686.jpg",
+    "question": "What is the color of the couch?",
+    "short_answer": "The couch is white.",
+    "reasoned_answer": "The couch has a white fabric with a floral pattern."
+  },
+  {
+    "id": 420,
+    "img_id": "2399686.jpg",
+    "question": "What is the color of the dog's ears?",
+    "short_answer": "Brown",
+    "reasoned_answer": "The dog's ears are brown in color, which is a common color for dog ears."
+  },
+  {
+    "id": 421,
+    "img_id": "2396478.jpg",
+    "question": "Is the mane of the zebra visible in the image?",
+    "short_answer": "Yes, the mane of the zebra is visible in the image.",
+    "reasoned_answer": "The mane of the zebra is a distinctive feature that can be seen in the image, especially when the zebra is in motion or in a certain position."
+  },
+  {
+    "id": 422,
+    "img_id": "2396478.jpg",
+    "question": "What is the function of a zebra's leg?",
+    "short_answer": "To support the body and enable movement.",
+    "reasoned_answer": "Zebra legs are strong and flexible, allowing them to run and evade predators."
+  },
+  {
+    "id": 423,
+    "img_id": "2396478.jpg",
+    "question": "What is the zebra's primary food source?",
+    "short_answer": "Grass",
+    "reasoned_answer": "Zebras are herbivores and primarily graze on grasses."
+  },
+  {
+    "id": 424,
+    "img_id": "2404942.jpg",
+    "question": "What is the person doing in the image?",
+    "short_answer": "The person is windsurfing, which involves riding on a board while holding onto a sail.",
+    "reasoned_answer": "The person is holding onto a sail attached to a board, which is a common activity in windsurfing."
+  },
+  {
+    "id": 425,
+    "img_id": "2404942.jpg",
+    "question": "How many clouds are visible in the sky?",
+    "short_answer": "0",
+    "reasoned_answer": "The sky is clear and blue with no visible clouds."
+  },
+  {
+    "id": 426,
+    "img_id": "2404942.jpg",
+    "question": "What is the purpose of the sail in the image?",
+    "short_answer": "The sail is used to catch the wind and propel the sailboard through the water.",
+    "reasoned_answer": "The sail is designed to catch the wind and create lift, which is then used to move the sailboard across the water."
+  },
+  {
+    "id": 427,
+    "img_id": "2332309.jpg",
+    "question": "How many sheep are in the enclosure?",
+    "short_answer": "6",
+    "reasoned_answer": "There are six sheep visible in the enclosure."
+  },
+  {
+    "id": 428,
+    "img_id": "2332309.jpg",
+    "question": "Is the trunk of the tree visible in the image?",
+    "short_answer": "Yes, the trunk of the tree is visible in the image.",
+    "reasoned_answer": "The trunk of the tree is clearly visible in the foreground of the image, with the tree branches extending above it."
+  },
+  {
+    "id": 429,
+    "img_id": "2332309.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "The fence is used to contain the sheep.",
+    "reasoned_answer": "The fence is a barrier that helps to keep the sheep within a designated area, likely for grazing or protection."
+  },
+  {
+    "id": 430,
+    "img_id": "2374189.jpg",
+    "question": "Is the table made of wood?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The table appears to be made of wood, which is a common material for furniture."
+  },
+  {
+    "id": 431,
+    "img_id": "2374189.jpg",
+    "question": "How many people are in the image?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four people visible in the image, including the woman eating a burger and the three other individuals in the background."
+  },
+  {
+    "id": 432,
+    "img_id": "2374189.jpg",
+    "question": "Is the woman enjoying her meal?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The woman has a smile on her face and is taking a big bite of her burger, which suggests she is enjoying her meal."
+  },
+  {
+    "id": 433,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the tower in the background?",
+    "short_answer": "It appears to be a staircase leading to a higher level.",
+    "reasoned_answer": "The structure is designed to provide access to an upper floor or platform."
+  },
+  {
+    "id": 434,
+    "img_id": "2409362.jpg",
+    "question": "What is the purpose of the container on the train tracks?",
+    "short_answer": "The container is likely used for transporting goods or materials.",
+    "reasoned_answer": "The container is designed to be attached to a train and is typically used for the transportation of various types of cargo."
+  },
+  {
+    "id": 435,
+    "img_id": "2409362.jpg",
+    "question": "Where is the gravel located?",
+    "short_answer": "On the ground.",
+    "reasoned_answer": "The gravel is on the ground, which is a common place for it to be found."
+  },
+  {
+    "id": 436,
+    "img_id": "2363311.jpg",
+    "question": "Where is the wheel located on the vehicle?",
+    "short_answer": "The wheel is located on the back of the vehicle.",
+    "reasoned_answer": "The wheel is positioned at the rear of the vehicle, which is typical for the back wheels of a truck."
+  },
+  {
+    "id": 437,
+    "img_id": "2363311.jpg",
+    "question": "Is the building a commercial establishment?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The building has a sign on the side that indicates it is a food truck, which is a commercial establishment."
+  },
+  {
+    "id": 438,
+    "img_id": "2363311.jpg",
+    "question": "How many wheels does the truck have?",
+    "short_answer": "3",
+    "reasoned_answer": "The truck has three wheels, which is typical for a vehicle of its size."
+  },
+  {
+    "id": 439,
+    "img_id": "2322440.jpg",
+    "question": "What is the color of the chair in the image?",
+    "short_answer": "The chair in the image is brown.",
+    "reasoned_answer": "The chair appears to have a brown upholstery which is a common color for this type of furniture."
+  },
+  {
+    "id": 440,
+    "img_id": "2322440.jpg",
+    "question": "What is the dish in the image?",
+    "short_answer": "The dish appears to be a dessert plate with various sweet items.",
+    "reasoned_answer": "The plate contains a variety of sweet treats such as a pastry, a small bowl of butter, and what looks like a small cake or muffin."
+  },
+  {
+    "id": 441,
+    "img_id": "2397397.jpg",
+    "question": "Is the sky clear?",
+    "short_answer": "Yes",
+    "reasoned_answer": "There are no visible clouds in the sky."
+  },
+  {
+    "id": 442,
+    "img_id": "2397397.jpg",
+    "question": "Where is the man standing in the image?",
+    "short_answer": "The man is standing on a street.",
+    "reasoned_answer": "The man is standing on a paved surface with buildings and people in the background, indicating an urban street setting."
+  },
+  {
+    "id": 443,
+    "img_id": "2397397.jpg",
+    "question": "How many women are performing in the image?",
+    "short_answer": "4",
+    "reasoned_answer": "There are four women in the image who are dressed in traditional Asian clothing and are holding umbrellas, which suggests they are performing a dance or a cultural event."
+  },
+  {
+    "id": 444,
+    "img_id": "2401597.jpg",
+    "question": "What is the purpose of the bench in the image?",
+    "short_answer": "The bench is meant for people to sit and enjoy the view.",
+    "reasoned_answer": "The bench is placed in a scenic location overlooking the water, which suggests it is intended for relaxation and appreciation of the natural surroundings."
+  },
+  {
+    "id": 445,
+    "img_id": "2401597.jpg",
+    "question": "How many trees are there in the image?",
+    "short_answer": "There are several trees in the image.",
+    "reasoned_answer": "The image shows a group of trees, indicating that there are multiple trees present."
+  },
+  {
+    "id": 446,
+    "img_id": "2401597.jpg",
+    "question": "How many branches are visible in the image?",
+    "short_answer": "10",
+    "reasoned_answer": "There are several branches in the image, including the main one that is quite large and extends across the frame, as well as smaller branches that are visible in the background."
+  },
+  {
+    "id": 447,
+    "img_id": "2391045.jpg",
+    "question": "What is the purpose of the fence in the image?",
+    "short_answer": "The fence is likely there to mark the boundary of the tennis court.",
+    "reasoned_answer": "Fences are often used to define the playing area in sports like tennis to keep the ball within the court and to prevent it from going into neighboring areas."
+  },
+  {
+    "id": 448,
+    "img_id": "2391045.jpg",
+    "question": "What is the location of the woman's head in the image?",
+    "short_answer": "The woman's head is located behind the tennis racket.",
+    "reasoned_answer": "The tennis racket is in front of the woman's head, partially obscuring it from view."
+  },
+  {
+    "id": 449,
+    "img_id": "2391045.jpg",
+    "question": "How many blonde hairs are there in the image?",
+    "short_answer": "2",
+    "reasoned_answer": "There are two blonde hairs in the image, one on the left side and the other on the right side."
+  },
+  {
+    "id": 450,
+    "img_id": "2399259.jpg",
+    "question": "Is the tower visible from the sheep's perspective?",
+    "short_answer": "No, the tower is not visible from the sheep's perspective.",
+    "reasoned_answer": "The tower is located behind the sheep, so it would not be visible from the sheep's point of view."
+  },
+  {
+    "id": 451,
+    "img_id": "2399259.jpg",
+    "question": "Which rock is taller?",
+    "short_answer": "The one on the right.",
+    "reasoned_answer": "The rock on the right is taller because it is standing upright and the one on the left is laying down."
+  },
+  {
+    "id": 452,
+    "img_id": "2399259.jpg",
+    "question": "What kind of animal is depicted in the image?",
+    "short_answer": "A sheep",
+    "reasoned_answer": "The animal is depicted with a woolly coat and has a distinctive face shape that is characteristic of sheep."
+  },
+  {
+    "id": 453,
+    "img_id": "2355189.jpg",
+    "question": "Is the man holding a tennis racket?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is holding a tennis racket in his right hand."
+  },
+  {
+    "id": 454,
+    "img_id": "2355189.jpg",
+    "question": "Is the man holding a tennis racket?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The man is holding a tennis racket in his right hand."
+  },
+  {
+    "id": 455,
+    "img_id": "2355189.jpg",
+    "question": "Where are the spectators seated in the image?",
+    "short_answer": "They are seated in the stands.",
+    "reasoned_answer": "The stands are elevated and have chairs for spectators to sit and watch the tennis match."
+  },
+  {
+    "id": 456,
+    "img_id": "2413063.jpg",
+    "question": "How many sides does a toilet seat have?",
+    "short_answer": "1",
+    "reasoned_answer": "A toilet seat typically has one side, which is the part that the user sits on."
+  },
+  {
+    "id": 457,
+    "img_id": "2413063.jpg",
+    "question": "What is the color of the toilet tank?",
+    "short_answer": "White",
+    "reasoned_answer": "The toilet tank is predominantly white with some black accents."
+  },
+  {
+    "id": 458,
+    "img_id": "2413063.jpg",
+    "question": "How many tiles are on the floor?",
+    "short_answer": "16",
+    "reasoned_answer": "The floor is covered with 16 black and white tiles."
+  },
+  {
+    "id": 459,
+    "img_id": "2380622.jpg",
+    "question": "What is the color of the car in the image?",
+    "short_answer": "The car in the image is white.",
+    "reasoned_answer": "The car has a predominantly white body with some yellow license plates and details."
+  },
+  {
+    "id": 460,
+    "img_id": "2380622.jpg",
+    "question": "What is the primary function of the wing of a bird?",
+    "short_answer": "The primary function of the wing of a bird is to provide lift and enable flight.",
+    "reasoned_answer": "The wing of a bird is a crucial structure that allows the bird to fly. The wing is made up of feathers and bones, and it is used to generate lift by creating a difference in air pressure above and below the wing. This lift force is what enables the bird to fly."
+  },
+  {
+    "id": 461,
+    "img_id": "2380622.jpg",
+    "question": "What is the behavior of the seagull in the image?",
+    "short_answer": "The seagull appears to be standing still on the grass.",
+    "reasoned_answer": "The seagull is not engaging in any active behaviors such as flying or foraging, and is instead stationary on the ground."
+  },
+  {
+    "id": 462,
+    "img_id": "2388036.jpg",
+    "question": "What is the color of the wall?",
+    "short_answer": "The wall is brown.",
+    "reasoned_answer": "The wall appears to have a reddish-brown hue, which is commonly associated with the color brown."
+  },
+  {
+    "id": 463,
+    "img_id": "2388036.jpg",
+    "question": "What is the hand of the person doing?",
+    "short_answer": "The hand of the person is holding a phone.",
+    "reasoned_answer": "The hand is grasping the phone and the person is talking on it."
+  },
+  {
+    "id": 464,
+    "img_id": "2388036.jpg",
+    "question": "Is the pocket on the man's uniform visible?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The pocket is open and the contents are visible."
+  },
+  {
+    "id": 465,
+    "img_id": "2336508.jpg",
+    "question": "What is the ceiling made of?",
+    "short_answer": "Glass",
+    "reasoned_answer": "The ceiling is made of large glass panels that allow natural light to enter the building."
+  },
+  {
+    "id": 466,
+    "img_id": "2336508.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "The train in the image is yellow.",
+    "reasoned_answer": "The train has a predominantly yellow front with some black and grey accents."
+  },
+  {
+    "id": 467,
+    "img_id": "2336508.jpg",
+    "question": "What is the purpose of the pole in the image?",
+    "short_answer": "The pole is used to support the structure of the building.",
+    "reasoned_answer": "The pole is part of the building's framework, which is essential for the building's stability and integrity."
+  },
+  {
+    "id": 468,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the ground in the image?",
+    "short_answer": "The ground in the image is brown.",
+    "reasoned_answer": "The ground appears to be covered with a layer of dirt or soil, which is commonly brown in color."
+  },
+  {
+    "id": 469,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the train tracks?",
+    "short_answer": "The train tracks are brown.",
+    "reasoned_answer": "The train tracks are made of steel and have a rusty brown color due to exposure to the elements."
+  },
+  {
+    "id": 470,
+    "img_id": "2361640.jpg",
+    "question": "What is the color of the train in the image?",
+    "short_answer": "The train in the image is red.",
+    "reasoned_answer": "The train has a predominantly red color with some white and black accents."
+  },
+  {
+    "id": 471,
+    "img_id": "2375728.jpg",
+    "question": "What is the purpose of the cucumber on the cake?",
+    "short_answer": "Decoration",
+    "reasoned_answer": "The cucumber is sliced and arranged on the cake to add a fresh and colorful garnish."
+  },
+  {
+    "id": 472,
+    "img_id": "2375728.jpg",
+    "question": "Which cucumber is on the left side of the plate?",
+    "short_answer": "The one that is on the bottom left.",
+    "reasoned_answer": "The cucumber is laying flat on the plate and is positioned to the left of the other cucumber."
+  },
+  {
+    "id": 473,
+    "img_id": "2375728.jpg",
+    "question": "Where are the tomatoes located on the cake?",
+    "short_answer": "The tomatoes are located in the middle of the cake.",
+    "reasoned_answer": "The tomatoes are placed in the center of the cake, surrounded by other ingredients."
+  },
+  {
+    "id": 474,
+    "img_id": "2588.jpg",
+    "question": "Where is the tree located in relation to the building?",
+    "short_answer": "The tree is located in front of the building.",
+    "reasoned_answer": "The tree is positioned in front of the building, which suggests that it is in front of the building in terms of spatial orientation."
+  },
+  {
+    "id": 475,
+    "img_id": "2588.jpg",
+    "question": "How many windows does the building have?",
+    "short_answer": "0",
+    "reasoned_answer": "The building has no windows visible in the image."
+  },
+  {
+    "id": 476,
+    "img_id": "2588.jpg",
+    "question": "What breed of dog is walking down the street?",
+    "short_answer": "Labrador Retriever",
+    "reasoned_answer": "The dog has a short coat, a broad head, and a friendly expression, which are characteristic of Labrador Retrievers."
+  },
+  {
+    "id": 477,
+    "img_id": "2398747.jpg",
+    "question": "How many eyes does the teddy bear have?",
+    "short_answer": "2",
+    "reasoned_answer": "The teddy bear has two eyes, which is a common characteristic for stuffed animals."
+  },
+  {
+    "id": 478,
+    "img_id": "2398747.jpg",
+    "question": "What is the package made of?",
+    "short_answer": "Metal",
+    "reasoned_answer": "The package has a metallic appearance and is designed to be durable."
+  },
+  {
+    "id": 479,
+    "img_id": "2398747.jpg",
+    "question": "What is the material of the floor?",
+    "short_answer": "The floor is made of brick.",
+    "reasoned_answer": "The texture and color of the floor suggest it is made of bricks, which is a common material for flooring."
+  },
+  {
+    "id": 480,
+    "img_id": "2364071.jpg",
+    "question": "Is this a baseball game being broadcasted on television?",
+    "short_answer": "Yes",
+    "reasoned_answer": "The image shows a baseball player holding a bat, a catcher, and an umpire, which are all elements of a baseball game. The presence of a television screen and the text 'Pick Up!' in the top right corner suggests that this is a broadcast."
+  },
+  {
+    "id": 481,
+    "img_id": "2364071.jpg",
+    "question": "Is the player in the image ready to swing the bat?",
+    "short_answer": "Yes, the player is in a batting stance and appears to be ready to swing.",
+    "reasoned_answer": "The player is holding the bat with both hands and has his weight shifted towards his back foot, indicating he is prepared to hit the ball."
+  },
+  {
+    "id": 482,
+    "img_id": "2364071.jpg",
+    "question": "How many players are visible in the image?",
+    "short_answer": "3",
+    "reasoned_answer": "There are three players in the image: a batter, a catcher, and an umpire."
+  },
+  {
+    "id": 483,
+    "img_id": "2361865.jpg",
+    "question": "What is the letter 'C' on the hat?",
+    "short_answer": "Cardinals",
+    "reasoned_answer": "The letter 'C' on the hat represents the team name 'Cardinals'."
+  },
+  {
+    "id": 484,
+    "img_id": "2361865.jpg",
+    "question": "What are the pants made of?",
+    "short_answer": "The pants are made of a stretchy fabric, likely polyester or a polyester blend.",
+    "reasoned_answer": "The pants are designed to fit snugly and allow for a wide range of motion, which is typical for athletic wear."
+  },
+  {
+    "id": 485,
+    "img_id": "2361865.jpg",
+    "question": "Which glove is being held by the player on the left?",
+    "short_answer": "The glove being held by the player on the left is a catcher's mitt.",
+    "reasoned_answer": "The glove has a large pocket and is designed to catch fast pitches."
+  }
+]

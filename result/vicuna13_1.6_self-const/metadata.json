@@ -1,1 +1,0 @@
-{"test_name": "vicuna13_1.6_self-const", "dataset_name": "GQA", "total_data": 200, "total_gen": 200, "total_sec": 2660.4769463539124, "model_name": "llava-hf/llava-v1.6-vicuna-13b-hf", "model_family": "llava-1.6", "prompt_primary": "ensemble", "prompt_inter": "ensemble"}

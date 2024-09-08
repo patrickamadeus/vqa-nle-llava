@@ -1,0 +1,5 @@
+,accuracy,logic,clarity,detail,relevancy,gen_rate,gwet_ac2
+1,seq-ensemble-p - (2.9),seq-ensemble-p - (2.81),naive-viz-p - (2.92),seq-ensemble-p - (2.77),naive-p-small - (2.49),naive-p-medium - (1.0),naive-p-small - (1.0)
+2,naive-p-medium - (2.78),naive-p-small - (2.51),naive-p-medium - (2.88),naive-viz-p - (2.55),naive-viz-p - (2.65),naive-p-small - (0.98),naive-p-medium - (1.0)
+3,naive-p-small - (2.69),naive-viz-p - (2.49),seq-ensemble-p - (2.88),naive-p-small - (2.47),seq-ensemble-p - (2.88),naive-viz-p - (0.98),seq-ensemble-p - (1.0)
+4,naive-viz-p - (2.55),naive-p-medium - (2.4),naive-p-small - (2.57),naive-p-medium - (2.28),naive-p-medium - (2.88),seq-ensemble-p - (0.96),naive-viz-p - (1.0)
