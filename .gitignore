@@ -1,14 +1,6 @@
-dataset/buffer
-dataset/image_bulk
-experimental/
+dataset/
 experiment/
-.ipynb_checkpoints
 __pycache__/
-model/
 */ckpts/
-.ipynb
-.ruff_cache
-.DS_Store
-*/.DS_Store
-*/.ipynb_checkpoints
+.ipynb_checkpoints
 .env
