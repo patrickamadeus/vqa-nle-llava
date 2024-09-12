@@ -1,7 +1,5 @@
 from src.helper.base import load_config, unpack_json
 
-# Load from YAML
-# Load from dictionary
 eval_cfg = load_config("./eval.yml")
 
 SEED = eval_cfg["seed"]
