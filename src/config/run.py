@@ -2,7 +2,7 @@ from yaml import safe_load
 
 
 class RunConfig:
-    def __init__(self, config_path="./run.yml"):
+    def __init__(self, config_path="./main.yml"):
         with open(config_path) as file_path:
             self.config = safe_load(file_path)
 

@@ -1,0 +1,23 @@
+test_name: sample_run
+seed: 42
+dataset:
+    name: GQA
+    image_count: 2
+    use_scene_graph: 0
+
+model:
+    name: llava-hf/llava-1.5-7b-hf
+    path: llava-hf/llava-1.5-7b-hf
+    family: llava
+    params:
+        use_8_bit: 0
+        device: "cuda"
+        low_cpu: 1
+        
+prompt: naive-optim
+
+run_params:
+    num_per_inference: 3
+    use_img_ext: 1
+    q_prefix: ["what", "is/are (pick one that fits the most)", "which", "how many", "where"]
+    q_prefix_prop: [3,2,1,1,1]
