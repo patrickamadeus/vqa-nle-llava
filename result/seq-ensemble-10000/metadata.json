@@ -1,8 +1,0 @@
-{
-  "test_name": "seq-ensemble-10000",
-  "model_name": "llava-hf/llava-1.5-13b-hf",
-  "prompt": "self_consistency",
-  "expected_data_count": 20000,
-  "generated_data_count": 20000,
-  "total_sec": 171412.35174655914
-}

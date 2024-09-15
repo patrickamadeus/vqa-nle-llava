@@ -1,12 +1,11 @@
 import gc
+import urllib3
 
 import torch
 from transformers import (
-    AutoProcessor,
     LlavaForConditionalGeneration,
     VipLlavaForConditionalGeneration,
-    LlavaNextProcessor, 
-    LlavaNextForConditionalGeneration
+    LlavaNextProcessor,
 )
 
 runner = [
@@ -23,7 +22,7 @@ models = [
 
 for i in range(len(runner)):
     retry_limit = 10
-    
+
     while retry_limit:
         try:
             model = (
@@ -36,12 +35,11 @@ for i in range(len(runner)):
                 .to(0)
             )
             processor = LlavaNextProcessor.from_pretrained(models[i])
-            break  # Exit the loop if no exception occurred
+            break
         except urllib3.exceptions.ProtocolError:
             retry_limit -= 1
             print("ProtocolError occurred. Retrying...")
-    
-    # Free CUDA memory
+
     del model
     del processor
     gc.collect()

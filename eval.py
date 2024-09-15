@@ -9,13 +9,10 @@ from src.config.eval import (
 from src.helper.eval_helper import (
     export_eval,
     gen_question_prefix,
-    gen_size_hist,
     gwet_AC2,
     gen_subjective_xlsx,
     gen_quant_subj_df,
     gen_subj_rank,
-    merge_histogram,
-    merge_prefix,
     gen_quant_subj_chart,
     gen_rate_chart,
     gen_dist_analysis,
@@ -61,13 +58,11 @@ logging.info("Starting Multi Evaluation...")
 logging.info(f"[] - Inference started...")
 for name, func, mode in tqdm(multi_eval_pipeline):
     try:
-        # For PoC 
         if "remove" in name:
             res = func(test_names = TEST_GROUP, mode = "remove")
         else:
             res = func(test_names = TEST_GROUP)
 
-        # export for non-img files    
         if not name.startswith("merge"):
             export_eval(name, res, mode=mode)
         logging.info(f"[{name}] Inference Successful...")

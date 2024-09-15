@@ -1,19 +1,19 @@
-test_name: sample_run
+test_name: seq-ensemble-p
 seed: 42
 dataset:
-    image_count: 2
+    image_count: 167
     use_scene_graph: 0
 
 model:
-    name: llava-hf/llava-1.5-7b-hf
-    path: llava-hf/llava-1.5-7b-hf
+    name: llava-hf/llava-1.5-13b-hf
+    path: llava-hf/llava-1.5-13b-hf
     family: llava
     params:
         use_8_bit: 0
         device: "cuda"
         low_cpu: 1
         
-prompt: naive-optim
+prompt: self_consistency
 
 run_params:
     num_per_inference: 3

@@ -4,3 +4,4 @@ __pycache__/
 */ckpts/
 .ipynb_checkpoints
 .env
+.DS_Store

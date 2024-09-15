@@ -6,9 +6,6 @@ from src.helper.parser import export_result
 
 from time import time
 
-import pprint
-
-
 if __name__ == "__main__":
     t_start = time()
 

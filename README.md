@@ -1,47 +1,80 @@
-# VQA Synthetic Data Generation with Large Multimodal Models
+# Synthetic VQA with NLE Data Generation via LVLM
 
 ## Introduction
-This project focuses on the creation of synthetic data tailored for Visual Question Answering (VQA) reasoning. Leveraging the capabilities of multiple Large Vision Language Models (LVLMs), the aim is to generate diverse and comprehensive datasets that can enhance the training and evaluation of VQA systems. By integrating both visual and textual modalities, this research thesis endeavors to advance the state-of-the-art in VQA through innovative data synthesis techniques.
+This project focuses on creating synthetic VQA (Visual Question Answering) with Explanation data. By leveraging the capabilities of LLaVA model, the aim is to generate diverse and comprehensive data samples that are able mimic the data created by humans.
 
 ## Setup
----
-### LLaVa Environment
-To ensure reproducibility and ease of setup, an environment management approach using Conda is adopted. The environment specifications are captured in `environment.yml`, facilitating the recreation of the working environment. Key steps include:
+```bash
+$ cd src/scripts
+$ source setup.sh
+```
+**NB: Any confirmation prompt(s) may be present (e.g. `[Y/n]` confirmation)**
 
-- Exporting the environment:
-    ```
-    conda env export > environment.yml
-    ```
+## Hyperparameters Configuration
 
-- Creating a new environment:
-    ```
-    conda create --name my_env python=x.xx
-    ```
+This `.yml` file defines the key parameters for controlling experiment setups, including dataset details, model configurations, and inference behaviors. The results for each experiment will be saved under `/result/{test_name}`.
 
-- Creating the environment from the file:
-    ```
-    conda env create -f environment.yml -n llava_env
-    ```
+## General Parameters
 
-- Installing IPython kernel for Jupyter notebook:
-    ```
-    conda install ipykernel # or pip install ipykernel
-    python -m ipykernel install --user --name llava_env --display-name "Patrick (LLaVa)"
-    ```
+- **`test_name`** (string):  
+  The name of the dataset being used. Results will be stored in the `/result/{test_name}` directory.
+  
+- **`seed`** (int):  
+  The random seed for the experiment, used for reproducibility.
 
-### Model Sources
-Utilizing pre-trained LVLMs is integral to this project. The following models are employed:
+## Dataset Configuration
 
-- [LLaVa-7B](https://huggingface.co/liuhaotian/llava-v1.5-7b)
-- [LLaVa-7B-hf](https://huggingface.co/llava-hf/llava-1.5-7b-hf)
-- [bakLLaVa-v1-hf](https://huggingface.co/llava-hf/bakLlava-v1-hf)
-- [Mixtral](https://huggingface.co/cloudyu/Mixtral_7Bx4_MOE_24B)
+- **`image_count`** (int, must be > 0):  
+  Defines the number of images to generate during the experiment.
+  
+- **`use_scene_graph`** (bool: `0/1`):  
+  Flag for whether to incorporate scene graph annotations.
 
-## MiniGPT4
-_(TO BE CONTINUED)_
+## Model Configuration
 
-## BLIP
-_(TO BE CONTINUED)_
+- **`name`** (string):  
+  The name of the Large Vision-Language Model (LVLM), following [Huggingface](https://huggingface.co/) tag format.
 
-## Conclusion
-This readme provides an overview of the project's objectives, setup, and key components. By harnessing the capabilities of LVLMs and innovative data generation techniques, the aim is to contribute to the advancement of VQA systems through the creation of high-quality synthetic datasets.
+- **`path`** (string):  
+  The path to the LVLM being used.
+
+- **`family`** (string, choices: `llava` or `vip_llava`):  
+  Specifies the LVLM family. The default is `llava`. Use `vip_llava` if the ViP-LLaVA series is required.
+
+- **`params`**:  
+  - **`use_8_bit`** (bool: `0/1`):  
+    Enables or disables 8-bit quantization to reduce memory usage.
+    
+  - **`device`** (string, default: `cuda`):  
+    Defines the computation device, such as `cuda` or `cpu`.
+    
+  - **`low_cpu`** (bool: `0/1`):  
+    Enables the low CPU usage mode.
+
+## Prompt Configuration
+
+- **`prompt`** (string):  
+  Specifies the instruction prompt to be used, formatted as `<dirname>-<filename>`.  
+  Example: If using `/prompt/naive/optim.txt`, the value should be `naive-optim`.
+
+## Inference Run Parameters
+
+- **`num_per_inference`** (int):  
+  The number of data points generated per image.
+
+- **`use_img_ext`** (bool: `0/1`):  
+  Flag to indicate whether to include image extensions in `img_id` during data processing.
+
+- **`q_prefix`** (list of strings):  
+  List of question prefixes for question generation.
+
+- **`q_prefix_prop`** (list of ints):  
+  The proportion corresponding to each question prefix in `q_prefix`.
+
+Configurations discussed in the accompanying paper, used to construct the sample datasets, can be found in `/config/sample`. Each sample provides an illustrative example of how to structure datasets and experiments according to the guidelines above.
+
+## LVLM Sources
+
+- [LLaVA-1.5-7B](https://huggingface.co/llava-hf/llava-1.5-7b-hf)
+- [LLaVA-1.5-13B](https://huggingface.co/llava-hf/llava-1.5-13b-hf)
+- [ViP-LLaVA-13B](https://huggingface.co/llava-hf/vip-llava-13b-hf)

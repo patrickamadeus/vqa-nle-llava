@@ -1,7 +1,7 @@
-test_name: sample_run
+test_name: naive-p-small
 seed: 42
 dataset:
-    image_count: 2
+    image_count: 167
     use_scene_graph: 0
 
 model:

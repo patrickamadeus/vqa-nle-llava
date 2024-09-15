@@ -1,5 +1,0 @@
-,accuracy,logical,clarity,detail,irrelevancy,amount,gen_rate,gwet_ac2
-1,13b_nonvis - (2.53),13b_nonvis - (2.45),13b_naive - (2.91),13b_self-const - (2.77),13b_nonvis - (1.23),7b_naive - (75.0),13b_naive - (1.0),7b_naive - (1.0)
-2,13b_naive - (2.52),13b_self-const - (2.41),13b_nonvis - (2.89),13b_nonvis - (2.69),13b_naive - (1.37),13b_naive - (75.0),13b_nonvis - (0.97),13b_naive - (1.0)
-3,13b_self-const - (2.52),13b_naive - (2.33),13b_self-const - (2.73),13b_naive - (2.6),13b_self-const - (1.56),13b_self-const - (75.0),13b_self-const - (0.92),13b_self-const - (1.0)
-4,7b_naive - (2.28),7b_naive - (2.24),7b_naive - (2.6),7b_naive - (2.28),7b_naive - (1.6),13b_nonvis - (75.0),7b_naive - (0.85),13b_nonvis - (1.0)

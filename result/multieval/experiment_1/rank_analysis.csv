@@ -1,5 +1,0 @@
-,accuracy,logical,clarity,detail,irrelevancy,amount,gen_rate,gwet_ac2
-1,13b_nonvis - (2.58),13b_nonvis - (2.4),13b_nonvis - (2.9),13b_qg-story - (2.72),13b_nonvis - (1.2),13b_naive - (55.0),13b_naive - (1.0),7b_naive - (1.0)
-2,13b_naive - (2.49),7b_naive - (2.3),13b_naive - (2.87),13b_nonvis - (2.66),13b_naive - (1.4),7b_naive - (50.0),13b_qg-story - (1.0),13b_naive - (1.0)
-3,13b_qg-story - (2.38),13b_naive - (2.27),13b_qg-story - (2.86),13b_naive - (2.56),7b_naive - (1.54),13b_qg-story - (50.0),13b_nonvis - (0.98),13b_qg-story - (1.0)
-4,7b_naive - (2.26),13b_qg-story - (2.16),7b_naive - (2.6),7b_naive - (2.32),13b_qg-story - (1.84),13b_nonvis - (50.0),7b_naive - (0.84),13b_nonvis - (1.0)
