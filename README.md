@@ -30,7 +30,7 @@ This `.yml` file defines the key parameters for controlling experiment setups, i
 - **`use_scene_graph`** (bool: `0/1`):  
   Flag for whether to incorporate scene graph annotations.
 
-## Model Parameters
+### Model Parameters
 
 - **`name`** (string):  
   The name of the Large Vision-Language Model (LVLM), following [Huggingface](https://huggingface.co/) tag format.
@@ -51,13 +51,13 @@ This `.yml` file defines the key parameters for controlling experiment setups, i
   - **`low_cpu`** (bool: `0/1`):  
     Enables the low CPU usage mode.
 
-## Prompt Parameters
+### Prompt Parameters
 
 - **`prompt`** (string):  
   Specifies the instruction prompt to be used, formatted as `<dirname>-<filename>`.  
   Example: If using `/prompt/naive/optim.txt`, the value should be `naive-optim`.
 
-## Inference Run Parameters
+### Inference Run Parameters
 
 - **`num_per_inference`** (int):  
   The number of data points generated per image.
