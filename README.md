@@ -14,7 +14,7 @@ $ source setup.sh
 
 This `.yml` file defines the key parameters for controlling experiment setups, including dataset details, model configurations, and inference behaviors. The results for each experiment will be saved under `/result/{test_name}`.
 
-## General Parameters
+### General Parameters
 
 - **`test_name`** (string):  
   The name of the dataset being used. Results will be stored in the `/result/{test_name}` directory.
@@ -22,7 +22,7 @@ This `.yml` file defines the key parameters for controlling experiment setups, i
 - **`seed`** (int):  
   The random seed for the experiment, used for reproducibility.
 
-## Dataset Configuration
+### Dataset Parameters
 
 - **`image_count`** (int, must be > 0):  
   Defines the number of images to generate during the experiment.
@@ -30,7 +30,7 @@ This `.yml` file defines the key parameters for controlling experiment setups, i
 - **`use_scene_graph`** (bool: `0/1`):  
   Flag for whether to incorporate scene graph annotations.
 
-## Model Configuration
+## Model Parameters
 
 - **`name`** (string):  
   The name of the Large Vision-Language Model (LVLM), following [Huggingface](https://huggingface.co/) tag format.
@@ -51,7 +51,7 @@ This `.yml` file defines the key parameters for controlling experiment setups, i
   - **`low_cpu`** (bool: `0/1`):  
     Enables the low CPU usage mode.
 
-## Prompt Configuration
+## Prompt Parameters
 
 - **`prompt`** (string):  
   Specifies the instruction prompt to be used, formatted as `<dirname>-<filename>`.  
