@@ -1,0 +1,22 @@
+test_name: naive-viz-p
+seed: 42
+dataset:
+    image_count: 167
+    use_scene_graph: 1
+
+model:
+    name: llava-hf/vip-llava-13b-hf
+    path: llava-hf/vip-llava-13b-hf
+    family: vip_llava
+    params:
+        use_8_bit: 0
+        device: "cuda"
+        low_cpu: 1
+        
+prompt: nonvis-optim
+
+run_params:
+    num_per_inference: 3
+    use_img_ext: 1
+    q_prefix: ["what", "is/are (pick one that fits the most)", "which", "how many", "where"]
+    q_prefix_prop: [3,2,1,1,1]

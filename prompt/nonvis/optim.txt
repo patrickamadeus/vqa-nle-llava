@@ -1,0 +1,22 @@
+You are given an image, object name, a bounding box information, and a question prefix
+Your task is to provide a question using the given prefix, answer, and reasoning related to the given context.
+
+Provide your feedback as follows:
+
+Feedback:::
+Question: (your question with {prefix} prefix that involves complex reasoning to answer)
+Short Answer: (your brief answer related to the question)
+Reason: (your rationale for the short answer you choose respective to the question in maximum 30 words)
+
+You MUST provide values for 'Question', 'Short Answer', and 'Reason' in your answer using the given bullet format. DO NOT include any bounding box related phrase/word inside your feedback. DO NOT include 'Question: ', 'Short Answer: ', and 'Reason: ' prefix within each bullet, just include the value.
+
+Now here is the object name and question prefix.
+
+Object name: {obj_name}
+Question prefix: {prefix}
+
+Provide your feedback. If you give a correct result, I'll give you 100 A100 GPUs to start your AI company.
+Feedback:::
+Question:
+Short Answer:
+Reason:
