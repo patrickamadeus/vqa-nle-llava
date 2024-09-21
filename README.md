@@ -1,4 +1,4 @@
-# Synthetic VQA with NLE Data Generation via LVLM
+# Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
 
 ## Introduction
 This project focuses on creating synthetic VQA (Visual Question Answering) with Explanation data. By leveraging the capabilities of LLaVA model, the aim is to generate diverse and comprehensive data samples that are able mimic the data created by humans.

@@ -1,0 +1,8 @@
+{
+  "test_name": "single-step-ViP",
+  "model_name": "llava-hf/vip-llava-13b-hf",
+  "prompt": "nonvis-optim",
+  "expected_data_count": 20000,
+  "generated_data_count": 18008,
+  "total_sec": 67370.35476398468
+}

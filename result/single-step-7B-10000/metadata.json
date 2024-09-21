@@ -1,0 +1,8 @@
+{
+  "test_name": "single-step-7B",
+  "model_name": "llava-hf/llava-1.5-7b-hf",
+  "prompt": "naive-optim",
+  "expected_data_count": 20000,
+  "generated_data_count": 18833,
+  "total_sec": 71630.27513313293
+}
