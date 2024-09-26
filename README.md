@@ -1,5 +1,7 @@
 # Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
 
+[Paper](https://arxiv.org/abs/2409.14785) &nbsp; [🤗 Datasets](https://huggingface.co/datasets/patrickamadeus/vqa-nle-llava)
+
 ## Setup
 ```bash
 $ cd src/scripts
