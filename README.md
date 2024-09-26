@@ -6,9 +6,9 @@ $ cd src/scripts
 $ yes | source setup.sh
 ```
 
-## IMPORTANT NOTES :warning:
+## IMPORTANT NOTES :warning: :warning:
 
-Under `/dataset/img/`, we only provide some image samples. Please refer to our [dataset hub](https://huggingface.co/datasets/patrickamadeus/vqa-nle-llava) or [GQA](https://cs.stanford.edu/people/dorarad/gqa/download.html) for complete image data.
+We only provide some image samples in `/dataset/img/`. Please refer to our [dataset hub](https://huggingface.co/datasets/patrickamadeus/vqa-nle-llava) for complete data.
 
 
 ## Hyperparameters Configuration
@@ -46,7 +46,7 @@ inference_run:
   q_prefix_prop:      # list of ints: The proportion corresponding to each question prefix in q_prefix.
 ```
 
-The configs that were used to generate huggingface datasets can be found in `/config/sample`.
+The configs that were used to generate huggingface datasets can be found in `/src/config/sample`.
 
 ## LVLM Sources
 
