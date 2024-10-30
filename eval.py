@@ -2,10 +2,7 @@ import logging
 import warnings
 
 from src.helper.base import init_logging
-from src.config.eval import (
-    TEST_GROUP,
-    TEST_NAME,
-)
+from src.config.eval import TEST_GROUP
 from src.helper.eval_helper import (
     export_eval,
     gen_question_prefix,

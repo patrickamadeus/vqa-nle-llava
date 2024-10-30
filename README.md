@@ -1,4 +1,4 @@
-# Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
+# 👁️ ⛏️ Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
 
 [Paper](https://arxiv.org/abs/2409.14785) &nbsp; [🤗 Datasets](https://huggingface.co/datasets/patrickamadeus/vqa-nle-llava)
 
@@ -19,9 +19,8 @@ We only provide some image samples in `/dataset/img/`. Please refer to our [data
 # This .yml file defines the key parameters for controlling experiment setups, including dataset details,
 # model configurations, and inference behaviors. The results for each experiment will be saved under /result/{test_name}.
 
-general:
-  test_name:  # string: The name of the dataset being used. Results will be stored in the /result/{test_name} directory.
-  seed:       # int: The random seed for the experiment, used for reproducibility.
+test_name:  # string: The name of the dataset being used. Results will be stored in the /result/{test_name} directory.
+seed:       # int: The random seed for the experiment, used for reproducibility.
 
 dataset:
   image_count:      # int, must be > 0: Defines the number of images to generate during the experiment.
@@ -37,11 +36,10 @@ model:
     device:         # string, default: 'cuda': Defines the computation device, such as 'cuda' or 'cpu'.
     low_cpu:        # bool (0/1): Enables the low CPU usage mode.
 
-prompt:
-  prompt:           # string: Specifies the instruction prompt to be used, formatted as '<dirname>-<filename>'.
-                    # Example: If using '/prompt/naive/optim.txt', the value should be 'naive-optim'.
+prompt:           # string: Specifies the instruction prompt to be used, formatted as '<dirname>-<filename>'.
+                  # Example: If using '/prompt/naive/optim.txt', the value should be 'naive-optim'.
 
-inference_run:
+run_params:
   num_per_inference:  # int: The number of data points generated per image.
   use_img_ext:        # bool (0/1): Flag to indicate whether to include image extensions in img_id during data processing.
   q_prefix:           # list of strings: List of question prefixes for question generation.
@@ -57,14 +55,11 @@ The configs that were used to generate huggingface datasets can be found in `/sr
 - [ViP-LLaVA-13B](https://huggingface.co/llava-hf/vip-llava-13b-hf)
 
 ## Citation
-```
-@misc{irawan2024efficientrobustvqanledata,
-      title={Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models}, 
-      author={Patrick Amadeus Irawan and Genta Indra Winata and Samuel Cahyawijaya and Ayu Purwarianti},
-      year={2024},
-      eprint={2409.14785},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.14785}, 
+```bib
+@article{irawan2024towards,
+  title={Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models},
+  author={Irawan, Patrick Amadeus and Winata, Genta Indra and Cahyawijaya, Samuel and Purwarianti, Ayu},
+  journal={arXiv preprint arXiv:2409.14785},
+  year={2024}
 }
 ```
